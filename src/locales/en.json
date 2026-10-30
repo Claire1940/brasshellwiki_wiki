@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -53,696 +53,383 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "BRASS HELL Gameplay",
+    "description": "Operate the ammunition press, pack crates, and deliver shipments inside a snowbound ammunition factory in this Roblox incremental simulator."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "BRASS HELL",
+    "titleHighlight": "Resource Hub",
+    "subtitle": "Eight sections covering the full factory loop - pick where to start",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "BRASS HELL Beginner Guide",
+        "description": "First shift walkthrough: press work, crates, and your first payout"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Ticket",
+        "title": "BRASS HELL Codes",
+        "description": "Redemption status and every new code the day it drops"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Factory",
+        "title": "BRASS HELL Best Upgrades",
+        "description": "S, A, and B tier priorities for the workshop"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "BRASS HELL Calibers & Bullets",
+        "description": "Every round type, unlock stage, and shipment value"
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "title": "BRASS HELL Crafting & Shipments",
+        "description": "The full production loop from press to dispatch"
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "BRASS HELL Rank & Mastery",
+        "description": "Mastery XP, Rank Progress, and multiplier passes"
       },
       {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "icon": "FileSearch",
+        "title": "BRASS HELL Documents & Secrets",
+        "description": "Hidden files, locations, and the factory story"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Megaphone",
+        "title": "BRASS HELL Updates & Events",
+        "description": "Patch notes, seasonal events, and what comes next"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "brassHellBeginnerGuide": {
+      "title": "BRASS HELL Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "BRASS HELL is built around a repeatable factory workflow. Clock in, operate the ammunition press, craft your first rounds, fill shipment crates, and deliver completed orders - then reinvest every payout into workshop upgrades that make the next cycle faster.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Clock In at the Factory",
+          "description": "Enter the remote ammunition factory and clock in before starting production. Use your first minutes on site to find the press, crafting stations, crate area, and shipment route."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Operate the Press",
+          "description": "Use the press to start manufacturing ammunition. Follow the station prompts and repeat the production action until you have enough rounds for your first shipment."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Craft Ammunition Rounds",
+          "description": "Convert factory materials into finished rounds. Keep the production area clear and keep crafting until a full crate quantity is ready."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Fill the Shipment Crates",
+          "description": "Carry finished rounds to the crate area and pack them into the right shipment containers. Check crate progress before leaving the production floor."
+        },
+        {
+          "title": "Deliver the Shipment",
+          "description": "Move the filled crate to the delivery point and complete the handoff. Your first delivery establishes the main earnings loop that funds every future upgrade."
+        },
+        {
+          "title": "Reinvest in Workshop Upgrades",
+          "description": "Put early payouts back into the workshop instead of stopping after one delivery. Prioritize upgrades that shorten the cycle or raise the value of future shipments."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Learn the full loop first: press, rounds, crate, delivery - it pays every single time.",
+        "Watch crate progress before leaving the production floor to avoid half-finished trips.",
+        "Early upgrades that speed up the press pay for themselves within a few shipments.",
+        "With up to four players per server, splitting jobs keeps the whole factory line moving."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+    "brassHellCodes": {
+      "title": "BRASS HELL Codes",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "BRASS HELL launched without a redemption code system, so there are no codes to redeem yet. The moment the developer adds codes or announces rewards, this page lists every active and expired code in one place.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "status": "Not Yet Added",
+          "title": "Redemption System",
+          "description": "BRASS HELL does not have an in-game code redemption feature yet - the status flips here as soon as one arrives."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "status": "None Live Yet",
+          "title": "Active Codes",
+          "description": "No codes are redeemable right now. Every new code goes live on this page the day it is announced."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "status": "None Recorded",
+          "title": "Expired Codes",
+          "description": "No codes have rotated out yet. Once codes start expiring, retired ones are archived here so you never waste time on dead codes."
         }
       ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
+      "tip": "Codes usually arrive with update announcements - check back after every patch."
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
+    "brassHellBestUpgrades": {
+      "title": "BRASS HELL Best Upgrades",
+      "displayType": "tiers",
+      "intro": "Workshop upgrades decide how quickly factory activity turns into shipment earnings. New players should buy anything that shortens the production cycle first, while developed factories can balance throughput, shipment value, and access to higher ammunition tiers.",
+      "tiers": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "tier": "S",
+          "label": "First Priority",
+          "icon": "Zap",
+          "name": "Production Speed",
+          "description": "Buy upgrades that cut press time and speed up ammunition production first - faster cycles compound over every repeated shipment.",
+          "recommendedFor": "New players building their first reliable income loop",
+          "benefit": "More production cycles in the same session"
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "tier": "S",
+          "label": "First Priority",
+          "icon": "PackageCheck",
+          "name": "Crate Throughput",
+          "description": "Invest in anything that helps you fill, move, and prepare crates faster so finished rounds never sit waiting for a shipment.",
+          "recommendedFor": "Players producing rounds faster than they can ship them",
+          "benefit": "Shorter downtime between batches and deliveries"
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "tier": "A",
+          "label": "Strong Upgrade",
+          "icon": "Coins",
+          "name": "Shipment Earnings",
+          "description": "Once your production line is consistent, buy upgrades that raise the value of every completed delivery.",
+          "recommendedFor": "Mid-game players with a steady ammunition supply",
+          "benefit": "Bigger payouts from each completed shipment"
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "tier": "A",
+          "label": "Strong Upgrade",
+          "icon": "Unlock",
+          "name": "Ammunition Unlocks",
+          "description": "Progress toward upgrades that open advanced rounds - most valuable once the basic loop already runs efficiently.",
+          "recommendedFor": "Advanced players planning long-term factory growth",
+          "benefit": "Access to higher-value rounds and progression goals"
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "tier": "B",
+          "label": "Situational",
+          "icon": "MousePointerClick",
+          "name": "Convenience Improvements",
+          "description": "Movement, handling, and workflow comforts are worth buying after the core production and shipment priorities are covered.",
+          "recommendedFor": "Players who want a smoother daily factory routine",
+          "benefit": "Less friction during repeated production runs"
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
+    "brassHellCalibersBullets": {
+      "title": "BRASS HELL Calibers & Bullets",
+      "displayType": "table",
+      "intro": "Ammunition progression follows the factory upgrade path. Start with the starter round, then climb toward advanced calibers as the workshop develops. The best caliber is the highest round your factory can produce consistently without slowing the full shipment cycle.",
+      "tableHeaders": {
+        "stage": "Unlock Stage",
+        "caliber": "Caliber",
+        "value": "Production Value",
+        "bestFor": "Best For",
+        "tip": "How to Use It"
+      },
+      "rows": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "icon": "Play",
+          "stage": "Starting production",
+          "caliber": "Starter Round",
+          "value": "Entry-level",
+          "bestFor": "Learning the press, finishing first crates, and building a reliable income loop",
+          "tip": "Use immediately while saving for workshop upgrades"
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "icon": "FastForward",
+          "stage": "Early factory progression",
+          "caliber": "Intermediate Round",
+          "value": "Improved",
+          "bestFor": "Raising shipment quality once the basic production process is consistent",
+          "tip": "Adopt as soon as the required workshop upgrade is available"
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "icon": "Rocket",
+          "stage": "Advanced factory progression",
+          "caliber": "Advanced Round",
+          "value": "Highest progression tier",
+          "bestFor": "Developed factories maximizing shipment returns and long-term progression",
+          "tip": "Make it your primary round once production speed and material flow can support it"
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+    "brassHellCraftingShipment": {
+      "title": "BRASS HELL Crafting & Shipment Guide",
       "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+      "intro": "A full production cycle runs from collecting materials through the ammunition press to packing and dispatching the finished crate. Efficient shifts prepare the next order materials before the current one ships, so the factory never sits idle.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Collect and Organize Materials",
+          "description": "Gather the materials required by the active order and keep them near the production area. Check order requirements before starting so missing components never interrupt the press.",
+          "tip": "Prepare materials for the next order while the current shipment is being packed."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Operate the Ammunition Press",
+          "description": "Load the required materials, run the production interaction, and collect finished ammunition batch by batch. Keep the machine active whenever materials are available.",
+          "tip": "Return to the press immediately after collecting a finished batch."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Restock the Production Line",
+          "description": "Replace materials consumed by the last batch before they stop the next cycle. Restocking is part of the regular factory loop, not a one-time chore.",
+          "tip": "Use a repeatable route between the material supply and the press to cut walking time."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Complete the Shipment Order",
+          "description": "Compare finished products with the active order, move everything to the packing area, and confirm every requested item is included before you leave the line.",
+          "tip": "Finish the full batch before one delivery trip so a single journey closes the order."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Pack the Crate and Dispatch",
+          "description": "Load completed products into the shipment crate, finalize the package, and send it through dispatch - then immediately review the next order.",
+          "tip": "Treat dispatch as the end of one cycle and the start of the next."
+        }
+      ]
+    },
+    "brassHellRankMastery": {
+      "title": "BRASS HELL Rank & Mastery Progression",
+      "displayType": "table",
+      "intro": "BRASS HELL splits progression into Rank Progress and Mastery XP, both earned through regular factory work, with game passes that support each system. Here is how the systems compare and where each pass fits.",
+      "tableHeaders": {
+        "system": "System",
+        "purpose": "What It Does",
+        "how": "How to Progress",
+        "pass": "Related Game Pass"
+      },
+      "systems": [
+        {
+          "icon": "Medal",
+          "name": "Mastery XP",
+          "purpose": "Advances mastery progression while you work through factory activities",
+          "how": "Keep completing production work and other activities that award Mastery XP",
+          "pass": "The Mastery XP pass is the progression option tied to Mastery XP gains"
+        },
+        {
+          "icon": "ArrowUpRight",
+          "name": "Rank Progress",
+          "purpose": "Tracks advancement through the game's rank ladder while you complete factory work",
+          "how": "Earn Rank Progress through eligible production and shipment activities",
+          "pass": "The Rank Progress pass is the progression option tied to rank advancement"
+        },
+        {
+          "icon": "Layers",
+          "name": "Bulk Multipliers",
+          "purpose": "Supports larger, more efficient production output through the Bulk benefit",
+          "how": "Run bulk-oriented production when the factory supports it and complete the corresponding work",
+          "pass": "The Bulk pass focuses on bulk production rather than replacing Rank or Mastery gains"
+        },
+        {
+          "icon": "Hammer",
+          "name": "Regular Factory Work",
+          "purpose": "The core loop that produces ammunition, completes orders, and sends shipments",
+          "how": "Operate the press, restock materials, finish orders, pack crates, and dispatch shipments",
+          "pass": "Passes supplement the loop - production and shipment work still drives all progression"
+        }
+      ]
+    },
+    "brassHellDocumentsSecrets": {
+      "title": "BRASS HELL Documents & Secrets",
+      "displayType": "cards",
+      "intro": "The factory hides more than production orders. Documents scattered across the snowbound facility reward careful exploration and piece together the story behind the plant. Search offices, storage areas, production spaces, and the routes nobody needs for a normal shift.",
+      "cards": [
+        {
+          "icon": "Cog",
+          "title": "Production-Area Documents",
+          "zone": "Production Floor",
+          "location": "Search around the ammunition press, work areas, and nearby industrial routes",
+          "clues": [
+            "Inspect the edges of production rooms instead of only the main machine",
+            "Check corners, side tables, shelves, and spaces behind the main workflow",
+            "Return to production areas after you have learned new routes through the factory"
+          ],
+          "storyRole": "These documents connect daily ammunition work with the broader circumstances around the facility"
+        },
+        {
+          "icon": "FolderOpen",
+          "title": "Administrative & Storage Documents",
+          "zone": "Offices & Storage",
+          "location": "Look through offices, storage rooms, supply spaces, and areas away from the main production line",
+          "clues": [
+            "Explore rooms that are easy to skip during normal shipment cycles",
+            "Check desks, crates, shelves, and isolated corners",
+            "Use the factory layout as a search grid and revisit passed-over areas"
+          ],
+          "storyRole": "These documents expand the story of the factory, its supplies, and the people connected to the site"
+        },
+        {
+          "icon": "Compass",
+          "title": "Hidden-Route Documents",
+          "zone": "Hidden Routes",
+          "location": "Investigate peripheral corridors, secluded rooms, and routes no ordinary crafting run requires",
+          "clues": [
+            "Follow unusual openings and paths that leave the standard production loop",
+            "Search low-traffic areas after completing the current order",
+            "Use visual landmarks to track which sections you have already examined"
+          ],
+          "storyRole": "These discoveries deepen the isolated atmosphere and tie environmental exploration to the hidden narrative"
+        },
+        {
+          "icon": "CircleHelp",
+          "title": "Unresolved Factory Mysteries",
+          "zone": "Story Threads",
+          "location": "Piece together how discovered documents, isolated rooms, and equipment relate across the layout",
+          "clues": [
+            "Compare repeated names, places, and references across documents",
+            "Separate direct statements from questions the environment raises",
+            "Follow each open thread - future updates keep adding to the story"
+          ],
+          "storyRole": "The remaining mysteries reward continued exploration as the factory's story keeps growing"
+        }
+      ]
+    },
+    "brassHellUpdatesEvents": {
+      "title": "BRASS HELL Updates & Events",
+      "displayType": "timeline",
+      "intro": "BRASS HELL's development history already includes an early release, a Halloween event, and expanding production features, with more announced as development continues. Follow every milestone here.",
+      "entries": [
+        {
+          "label": "Early Release",
+          "title": "Initial Early-Release Factory",
+          "status": "Released",
+          "summary": "The early release established the isolated factory setting and the core production loop.",
+          "details": [
+            "Operate the ammunition press to craft rounds",
+            "Manage and restock materials during production",
+            "Pack completed orders into crates and dispatch them"
+          ]
+        },
+        {
+          "label": "Halloween Update",
+          "title": "Halloween-Themed Factory Content",
+          "status": "Seasonal",
+          "summary": "A Halloween update added seasonal atmosphere and event content to the BRASS HELL factory.",
+          "details": [
+            "Seasonal presentation across the factory environment",
+            "Event content alongside the permanent production loop",
+            "Availability tied to the active event window"
+          ]
+        },
+        {
+          "label": "Production Expansion",
+          "title": "New & Expanded Production Features",
+          "status": "Released",
+          "summary": "Production-focused updates expanded the factory workflow with more ways to craft, complete orders, and prepare shipments.",
+          "details": [
+            "Production stays centered on operating factory equipment",
+            "Material management and order completion still define the loop",
+            "New features stack onto the existing restock and dispatch process"
+          ]
+        },
+        {
+          "label": "Upcoming",
+          "title": "Future Announcements",
+          "status": "Coming Soon",
+          "summary": "Further BRASS HELL content is announced through official channels as development continues.",
+          "details": [
+            "New production features and factory content in development",
+            "Seasonal events may return with new rewards",
+            "Watch the official Roblox page for the latest release notes"
+          ]
         }
       ]
     }
@@ -750,31 +437,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything players ask about BRASS HELL, answered",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is BRASS HELL?",
+        "answer": "BRASS HELL is a Roblox incremental factory simulator set in a remote, snowbound ammunition plant. You clock in, operate the press, craft rounds, pack crates, and deliver shipments while upgrading the workshop and uncovering hidden documents."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is BRASS HELL free to play?",
+        "answer": "Yes. BRASS HELL is free to play on Roblox, with optional game passes such as Mastery XP, Rank Progress, and Bulk multipliers for players who want faster progression."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How many players can play BRASS HELL together?",
+        "answer": "BRASS HELL servers hold up to four players, so you can run the factory line with friends or solo."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does BRASS HELL have codes?",
+        "answer": "BRASS HELL has not added a code redemption system yet. When the developer releases codes, our BRASS HELL Codes page lists every active and expired code in one place."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How do you make money in BRASS HELL?",
+        "answer": "Money comes from the shipment loop: craft rounds on the ammunition press, pack them into crates, and dispatch completed orders. Workshop upgrades raise production speed and shipment value."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What are hidden documents in BRASS HELL?",
+        "answer": "Hidden documents are collectible files scattered around the factory. Finding them reveals fragments of the story behind the plant - check offices, storage rooms, production areas, and hidden routes."
       }
     ]
   },

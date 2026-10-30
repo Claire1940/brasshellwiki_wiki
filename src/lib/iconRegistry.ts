@@ -38,6 +38,31 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // BRASS HELL 工厂主题图标
+  Ticket: LucideIcons.Ticket,
+  Factory: LucideIcons.Factory,
+  Crosshair: LucideIcons.Crosshair,
+  FileSearch: LucideIcons.FileSearch,
+  Megaphone: LucideIcons.Megaphone,
+  Zap: LucideIcons.Zap,
+  PackageCheck: LucideIcons.PackageCheck,
+  Coins: LucideIcons.Coins,
+  Unlock: LucideIcons.Unlock,
+  MousePointerClick: LucideIcons.MousePointerClick,
+  Play: LucideIcons.Play,
+  FastForward: LucideIcons.FastForward,
+  Rocket: LucideIcons.Rocket,
+  Medal: LucideIcons.Medal,
+  ArrowUpRight: LucideIcons.ArrowUpRight,
+  Layers: LucideIcons.Layers,
+  Cog: LucideIcons.Cog,
+  FolderOpen: LucideIcons.FolderOpen,
+  Compass: LucideIcons.Compass,
+  CircleHelp: LucideIcons.CircleHelp,
+  TicketPercent: LucideIcons.TicketPercent,
+  Archive: LucideIcons.Archive,
+  Lightbulb: LucideIcons.Lightbulb,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
