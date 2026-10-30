@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de BRASS HELL: Tutorial para principiantes, mejoras y consejos de fábrica",
+  description: "Aprende el ciclo completo de BRASS HELL: operar la prensa, fabricar munición, llenar cajas, enviar pedidos, comprar mejoras, progresar en maestría y encontrar documentos ocultos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/D78A32/15191D?text=BRASS+HELL+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL",
+  keywords: "BRASS HELL, guía, mejoras, fábrica, munición, Roblox"
+}
+
+<Callout type="info" title="Guía rápida">
+- **BRASS HELL** es un simulador incremental de fábrica de Roblox ambientado en una planta de munición cubierta por la nieve
+- **Ciclo principal**: fichar, operar la prensa, fabricar proyectiles, llenar cajas, entregar envíos y reinvertir en mejoras
+- **Los servidores admiten hasta 4 jugadores**, por lo que los turnos cooperativos permiten repartir el trabajo de producción de forma eficiente
+- **La mejor estrategia inicial**: prioriza la velocidad de producción y el rendimiento de las cajas antes que las mejoras de comodidad
+- **Los documentos ocultos** repartidos por la fábrica revelan la historia de las instalaciones aisladas
+</Callout>
+
+<Section icon={Map} title="Resumen de BRASS HELL: La fábrica de un vistazo">
+
+BRASS HELL te deja en una fábrica de munición remota, rodeada por una intensa ventisca. Creado por el desarrollador earlymoto102 y lanzado en acceso anticipado en octubre de 2026, el juego construye un ciclo de fábrica repetible basado en prensar proyectiles, empaquetar cajas y enviar pedidos. Cada pago se reinvierte en mejoras del taller que hacen que el siguiente ciclo sea más rápido y rentable.
+
+| Proyecto | Información |
+| --- | --- |
+| Nombre del juego | BRASS HELL |
+| Título en Roblox | [UPD] BRASS HELL [INCREMENTAL] |
+| Género | Simulador incremental / de fábrica |
+| Desarrollador | earlymoto102 |
+| Plataforma | Roblox |
+| Creado | 4 de octubre de 2026 |
+| Tamaño del servidor | 4 jugadores |
+| Estado actual | Lanzamiento anticipado |
+
+<Callout type="info" title="Estado del lanzamiento anticipado">
+BRASS HELL todavía se encuentra en lanzamiento anticipado. Las mecánicas, los precios de las mejoras y las listas de munición pueden cambiar entre actualizaciones, así que considera las cifras específicas como una instantánea de la versión actual y no como valores permanentes.
+</Callout>
+
+El juego recompensa a los jugadores que mantienen activa la línea de producción. Las máquinas inactivas, las cajas vacías y las rutas largas a pie son los tres mayores enemigos de tus ingresos, y casi todas las estrategias de esta guía abordan al menos uno de ellos.
+
+</Section>
+
+<Section icon={Package} title="Tutorial para principiantes: Tu primer ciclo de producción">
+
+Los trabajadores nuevos deberían centrarse en completar un ciclo entero —de la prensa al pago— antes de experimentar con atajos. El ciclo siguiente sigue la ruta para la que está diseñada la fábrica.
+
+<Steps>
+  <Step num="1" title="Fichar en la fábrica">
+    Entra en las instalaciones y ficha para activar tu turno de trabajo. Recorre la zona inicial para localizar la prensa, las estaciones de fabricación, el área de cajas y la ruta de entrega antes de producir nada.
+  </Step>
+  <Step num="2" title="Operar la prensa">
+    Usa la prensa disponible para comenzar a fabricar proyectiles. Sigue las indicaciones de la estación y repite la acción de producción hasta tener suficiente munición para completar una caja.
+  </Step>
+  <Step num="3" title="Fabricar proyectiles de munición">
+    Convierte los materiales de la fábrica en proyectiles terminados. Mantén despejada la zona de producción y continúa fabricando hasta alcanzar la cantidad necesaria para la caja.
+  </Step>
+  <Step num="4" title="Llenar las cajas del envío">
+    Lleva los proyectiles terminados al área de cajas y cárgalos en los contenedores de envío correctos. Comprueba dos veces el progreso de la caja antes de abandonar la zona.
+  </Step>
+  <Step num="5" title="Entregar el envío">
+    Lleva la caja llena al punto de entrega y completa la transferencia. Este primer pago establece el ciclo de ingresos que financiará todas las mejoras futuras.
+  </Step>
+  <Step num="6" title="Reinvertir en mejoras">
+    Gasta los primeros pagos en mejoras que acorten el ciclo de producción o aumenten el valor de los envíos en lugar de guardar el dinero. La reinversión se acumula en cada partida futura.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Hábito de eficiencia">
+Prepara los materiales del siguiente pedido mientras se empaqueta el envío actual. La prensa nunca debería quedarse inactiva entre lotes: considera el despacho como el inicio del siguiente ciclo, no como el final del anterior.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores mejoras: Orden de prioridad para trabajadores nuevos y avanzados">
+
+Las prioridades de mejora deberían reflejar el cuello de botella de tu ciclo de fábrica. Si produces más rápido de lo que puedes enviar, mejora primero el rendimiento de las cajas. Si la prensa es el cuello de botella, invierte en velocidad de producción.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Velocidad de producción">
+    - **Menor tiempo de ciclo** por lote
+    - La mejor primera compra para principiantes
+    - Más ciclos por sesión de juego
+  </Card>
+  <Card title="Nivel S: Rendimiento de las cajas">
+    - **Llena y mueve las cajas más rápido**
+    - Soluciona las esperas entre lotes y entregas
+    - Reduce el tiempo de inactividad de los envíos
+  </Card>
+  <Card title="Nivel A: Ganancias de los envíos">
+    - **Mayor pago por entrega**
+    - La mejor opción cuando la producción es estable
+    - Aumenta su valor con la constancia del juego medio
+  </Card>
+</CardGrid>
+
+| Nivel | Enfoque de la mejora | Ideal para | Beneficio principal |
+| --- | --- | --- | --- |
+| S | Velocidad de producción | Principiantes | Ciclos de prensa más rápidos |
+| S | Rendimiento de las cajas | Jugadores que producen más rápido que sus envíos | Menores intervalos entre entregas |
+| A | Ganancias de los envíos | Trabajadores de la fase media | Mayores ganancias por pedido |
+| A | Desbloqueos de munición | Planificadores avanzados | Acceso a proyectiles más potentes |
+| B | Mejoras de comodidad | Jugadores que priorizan la comodidad | Rutina diaria más fluida |
+
+<Callout type="warning" title="Evita este error">
+No compres mejoras de comodidad —como velocidad de movimiento o funciones prácticas para el manejo— antes de cubrir tus prioridades de producción y envíos. La comodidad no aumenta los ingresos por hora; el rendimiento sí.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progresión de munición: Cómo elegir el mejor calibre">
+
+La munición de BRASS HELL sigue la ruta de mejoras del taller. El mejor calibre es el proyectil de mayor nivel que tu fábrica pueda producir de forma constante sin detener el ciclo completo de envíos.
+
+| Etapa de desbloqueo | Nivel de calibre | Valor de producción | Uso práctico |
+| --- | --- | --- | --- |
+| Producción inicial | Proyectil básico | Nivel inicial | Aprender a usar la prensa, llenar las primeras cajas y generar ingresos |
+| Progresión temprana | Proyectil intermedio | Mejorado | Aumentar la calidad de los envíos cuando los fundamentos sean estables |
+| Progresión avanzada | Proyectil avanzado | Nivel más alto | Maximizar las ganancias en fábricas desarrolladas |
+
+<Callout type="tip" title="Regla general del calibre">
+Un proyectil de alto valor que no puedes suministrar de forma constante genera menos ganancias que uno de nivel inferior producido sin interrupciones. Elige el calibre según el flujo de materiales, no solo por el valor indicado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maestría, rangos y cómo ganar dinero rápido">
+
+BRASS HELL separa el progreso de rango de la EXP de maestría, y sus pases de juego de pago ofrecen mejoras de progresión distintas. Trata la EXP de maestría, el progreso de rango y los multiplicadores de producción en masa como beneficios separados; no asumas que se acumulan multiplicativamente a menos que la descripción del juego lo indique.
+
+| Sistema | Propósito | Cómo progresar |
+| --- | --- | --- |
+| EXP de maestría | Avanza la progresión relacionada con la maestría | Sigue completando actividades de producción que otorguen EXP |
+| Progreso de rango | Registra el avance de rango | Obtén progreso mediante trabajos de producción y envíos válidos |
+| Multiplicadores de producción en masa | Apoyan una mayor producción | Usa la producción en masa cuando esté disponible |
+| Trabajo habitual en la fábrica | Ciclo de juego principal | Opera la prensa, repón materiales, empaqueta y despacha envíos |
+
+<Checklist
+  id="money-goals"
+  title="Lista para ganar dinero rápido:"
+  items={[
+    "Completa un ciclo de producción entero antes de explorar",
+    "Compra velocidad de producción como tu primera mejora",
+    "Mantén los materiales preparados cerca de la prensa",
+    "Termina los lotes completos antes de hacer viajes de entrega",
+    "Prepara los materiales del siguiente pedido inmediatamente después del despacho"
+  ]}
+/>
+
+<Callout type="success" title="Ventaja cooperativa">
+Con hasta cuatro jugadores por servidor, asigna funciones: un trabajador en la prensa, otro reponiendo materiales, otro empaquetando y otro encargado de las rutas de entrega. Dividir el ciclo entre un equipo completo reduce drásticamente el tiempo de cada ciclo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Documentos ocultos y secretos de la fábrica">
+
+La fábrica esconde documentos dispersos que recompensan la exploración y ayudan a reconstruir la historia de las instalaciones aisladas. Busca en oficinas, almacenes y pasillos laterales que la ruta normal de los envíos nunca requiere visitar.
+
+<CardGrid cols={3}>
+  <Card title="Hallazgos del área de producción">
+    - Revisa las esquinas y estantes cerca de la prensa
+    - Inspecciona los bordes de las salas de trabajo
+    - Regresa después de aprender nuevas rutas
+  </Card>
+  <Card title="Hallazgos en oficinas y almacenes">
+    - Escritorios, cajas y estantes
+    - Habitaciones fáciles de pasar por alto durante el turno
+    - Busca lejos de la línea principal
+  </Card>
+  <Card title="Hallazgos en rutas ocultas">
+    - Sigue aberturas poco habituales
+    - Explora los pasillos con poco tránsito
+    - Marca las secciones revisadas usando puntos de referencia
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Estado de los códigos y canje">
+A fecha de octubre de 2026, BRASS HELL no cuenta con un sistema de canje de códigos confirmado oficialmente. No hay códigos activos ni caducados verificados. Evita las listas de códigos no oficiales y consulta la página oficial del juego en Roblox para conocer futuros anuncios de canje.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué es BRASS HELL en Roblox?",
+    answer: "BRASS HELL es un simulador incremental de fábrica creado por earlymoto102. Los jugadores trabajan por turnos en una fábrica de munición cubierta por la nieve, operan prensas, fabrican proyectiles, empaquetan cajas, entregan envíos y mejoran el taller mientras buscan documentos ocultos."
+  },
+  {
+    question: "¿Puedes jugar BRASS HELL con amigos?",
+    answer: "Sí. Los servidores admiten hasta cuatro jugadores, por lo que el juego es ideal para turnos cooperativos en los que los compañeros se reparten el trabajo de la prensa, la reposición de materiales, el empaquetado y las rutas de entrega."
+  },
+  {
+    question: "¿Qué debería mejorar primero en BRASS HELL?",
+    answer: "Prioriza primero la velocidad de producción y el rendimiento de las cajas. Estas mejoras acortan el ciclo principal y aumentan las ganancias en cada sesión. Pasa al valor de los envíos y a los desbloqueos de munición cuando tu ciclo sea constante."
+  },
+  {
+    question: "¿BRASS HELL tiene códigos?",
+    answer: "A fecha de octubre de 2026, no se ha confirmado ningún sistema oficial de canje de códigos. Cualquier sitio que publique códigos activos de BRASS HELL está difundiendo información no verificada. Consulta la página oficial del juego en Roblox para conocer los anuncios."
+  }
+]} />
+
+</Section>

@@ -90,11 +90,11 @@ export default function TermsOfService() {
               and resources related to the Roblox game "BRASS HELL". Our services include, but are not limited to:
             </p>
             <ul>
-              <li>Game guides and survival strategies</li>
-              <li>Crafting and Apotheosis fusion guides</li>
-              <li>Biome and world region information</li>
-              <li>Creature and enemy guides</li>
-              <li>Achievement walkthroughs</li>
+              <li>Game guides and progression strategies</li>
+              <li>Bullet crafting and production guides</li>
+              <li>Upgrade order and money-making strategies</li>
+              <li>Box rewards and event coverage</li>
+              <li>Working redeem code tracking</li>
               <li>Community discussion and content</li>
             </ul>
             <p>

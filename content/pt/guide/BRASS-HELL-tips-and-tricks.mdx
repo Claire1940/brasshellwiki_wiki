@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dicas e Truques de BRASS HELL: Guia de Eficiência da Fábrica",
+  description: "Dicas e truques essenciais de BRASS HELL: domine a prensa, acelere as caixas, priorize melhorias, suba de rank mais rápido e encontre documentos escondidos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/D78A32/fff?text=BRASS+HELL+Tips+and+Tricks",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As **dicas e truques de BRASS HELL** começam com uma regra: mantenha a prensa funcionando e nunca fique parado entre os ciclos.
+- **Prioridade das melhorias**: a velocidade de produção e o fluxo das caixas vêm antes das melhorias de conveniência.
+- **Ciclo de eficiência**: prepare os materiais do próximo pedido enquanto a caixa atual está sendo embalada.
+- **Progressão**: trate XP de Maestria, Progresso de Rank e multiplicadores de Volume como sistemas separados.
+- **Exploração**: documentos escondidos recompensam os jogadores que procuram em escritórios, depósitos e corredores laterais.
+</Callout>
+
+<Section icon={Map} title="Dicas Essenciais de BRASS HELL para Novos Trabalhadores">
+
+BRASS HELL coloca você em uma fábrica de munição remota e coberta de neve, onde todo o ciclo de ganhos depende de quão bem você encadeia as etapas de produção. Os jogadores que ganham mais não são os que se movem mais rápido, mas os que desperdiçam menos tempo entre a prensa, a área das caixas e o ponto de entrega.
+
+A fábrica suporta até **4 jogadores por servidor**, então a coordenação é tão importante quanto a velocidade individual. Ao jogar em equipe, divida as funções entre operar a prensa, transportar materiais e entregar caixas.
+
+| Dica | Por que é importante | Dificuldade |
+|---|---|---|
+| Mantenha a prensa ativa | O tempo de máquina parada representa renda perdida a cada ciclo | Fácil |
+| Memorize as rotas dos materiais | Caminhadas mais curtas significam mais lotes por turno | Fácil |
+| Reúna tudo antes de entregar | Uma viagem por pedido reduz bastante o tempo de deslocamento | Fácil |
+| Divida as funções no cooperativo | O trabalho paralelo é melhor do que todos fazerem tudo | Médio |
+| Reinvista cada pagamento | As melhorias iniciais se acumulam em todas as entregas posteriores | Fácil |
+
+<Callout type="tip" title="A Regra de Ouro">
+Trate a expedição como o início do próximo ciclo, não como o fim do turno. Comece imediatamente a preparar os materiais do próximo pedido assim que uma caixa sair do chão da fábrica.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Truques para Priorizar Melhorias">
+
+As melhorias da oficina determinam a rapidez com que o trabalho da fábrica se transforma em ganhos com as entregas. Iniciantes conseguem resultados consistentemente melhores ao seguir uma ordem rigorosa de melhorias em vez de comprar qualquer coisa que esteja ao alcance.
+
+<CardGrid cols={3}>
+  <Card title="Nível S: Velocidade de Produção">
+  - **Primeira prioridade** para todo novo trabalhador
+  - Mais ciclos por sessão
+  - Melhor retorno sobre os pagamentos iniciais
+  </Card>
+  <Card title="Nível S: Fluxo das Caixas">
+  - Encha e mova as caixas mais rapidamente
+  - Evita gargalos nas entregas
+  - Ideal depois de melhorar a velocidade da prensa
+  </Card>
+  <Card title="Nível A: Ganhos e Desbloqueios">
+  - Aumenta o valor das entregas
+  - Acesso a munições avançadas
+  - Melhor depois que o ciclo estiver estável
+  </Card>
+</CardGrid>
+
+As melhorias voltadas para conveniência, como velocidade de movimento e manuseio, pertencem ao **nível B**: são úteis, mas apenas depois que o ciclo de produção já estiver eficiente. Comprá-las cedo reduz os ganhos a longo prazo.
+
+| Nível | Tipo de melhoria | Quando comprar | Benefício |
+|---|---|---|---|
+| S | Velocidade de produção | Imediatamente | **Mais ciclos por sessão** |
+| S | Fluxo das caixas | Depois da primeira melhoria de velocidade | Menos tempo parado entre os lotes |
+| A | Ganhos das entregas | Meio do jogo, com produção estável | Maior pagamento por entrega |
+| A | Desbloqueios de munição | Planejamento do fim do jogo | Acesso a projéteis avançados |
+| B | Conveniência | Depois de cobrir o ciclo principal | Rotina diária mais fluida |
+
+<Callout type="warning" title="Evite Este Erro">
+Não gaste os pagamentos iniciais em melhorias de conveniência. Uma velocidade de caminhada maior não ajuda se a prensa ainda estiver lenta e as caixas continuarem demorando demais para encher.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Passo a Passo do Ciclo de Produção Eficiente">
+
+O ciclo principal é simples de aprender e difícil de otimizar. Estes truques de BRASS HELL transformam um primeiro turno desorganizado em uma rotina repetível e com pouco tempo parado.
+
+<Steps>
+  <Step num="1" title="Colete e Organize os Materiais">
+    Verifique os requisitos do pedido ativo antes de tocar na prensa. Mova todos os materiais necessários para perto da área de produção, para que nada interrompa o ciclo no meio.
+  </Step>
+  <Step num="2" title="Opere a Prensa Continuamente">
+    Carregue os materiais, execute a interação de produção e colete os projéteis prontos. Volte imediatamente à prensa depois de coletá-los; uma máquina sem uso representa renda desperdiçada.
+  </Step>
+  <Step num="3" title="Reabasteça Enquanto Trabalha">
+    Substitua os insumos consumidos como parte do ciclo, não como uma tarefa emergencial. Use uma rota fixa e repetível entre a área de suprimentos e a prensa para reduzir a distância percorrida.
+  </Step>
+  <Step num="4" title="Verifique e Conclua o Pedido">
+    Compare os produtos finalizados com o pedido antes de mover qualquer coisa. Termine o lote completo primeiro, para que uma única viagem conclua toda a entrega.
+  </Step>
+  <Step num="5" title="Embale, Envie e Reinicie">
+    Carregue a caixa, finalize a entrega, envie-a e comece imediatamente a preparar os materiais do próximo pedido. A expedição é o início do próximo ciclo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Referência de Eficiência">
+Se a sua prensa ficar parada enquanto você caminha, reorganize sua rota. Os trabalhadores mais eficientes sobrepõem a preparação de materiais à embalagem e à entrega.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Truques de Progressão de Rank, Maestria e Munição">
+
+BRASS HELL separa o **Progresso de Rank** do **XP de Maestria**, e os passes de jogo listados (XP de Maestria, Progresso de Rank e multiplicadores de Volume) apoiam sistemas diferentes. Não presuma que eles se acumulam em um único multiplicador, a menos que uma descrição dentro do jogo diga isso.
+
+| Sistema | Como avança | Truque de progressão |
+|---|---|---|
+| XP de Maestria | Obtido por meio da atividade contínua na fábrica | Continue concluindo trabalhos de produção de forma consistente |
+| Progresso de Rank | Obtido por meio de produções e entregas elegíveis | Priorize pedidos completos em vez de execuções parciais |
+| Multiplicadores de Volume | Ajudam a aumentar a produção | Use a produção voltada para grandes volumes quando estiver disponível |
+| Trabalho na fábrica | Ciclo principal: prensar, reabastecer, embalar e enviar | Os passes de jogo complementam, mas nunca substituem o ciclo |
+
+Para munições, o melhor calibre geralmente é o **projétil de maior nível desbloqueado que sua fábrica consegue produzir de forma consistente** sem atrasar o ciclo completo de entrega. Avançar para um projétil avançado antes que a velocidade da prensa e o fluxo de materiais consigam sustentá-lo costuma reduzir os ganhos totais.
+
+| Estágio | Tipo de projétil | Uso recomendado |
+|---|---|---|
+| Produção inicial | Projétil inicial | Aprenda a usar a prensa e crie o primeiro ciclo de ganhos |
+| Progressão inicial | Projétil intermediário | Adote quando a progressão da oficina permitir |
+| Progressão avançada | Projétil avançado | Principal opção quando a velocidade e os materiais derem suporte |
+
+<Callout type="info" title="Compra de Passes">
+Avalie cada passe de progressão pelo efeito listado individualmente. Considere a descrição dentro do jogo como a autoridade, em vez de presumir regras de acúmulo de multiplicadores.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Caça a Documentos e Segredos Escondidos">
+
+A fábrica é mais do que um espaço de produção. Documentos espalhados recompensam a exploração cuidadosa e ajudam a montar a história por trás da instalação isolada. Procure durante breves períodos de inatividade, em vez de interromper os ciclos de produção ativos.
+
+- **Áreas de produção**: inspecione cantos, mesas laterais e prateleiras ao redor da prensa, não apenas a máquina principal.
+- **Escritórios e depósitos**: verifique escrivaninhas, caixas e salas isoladas que as rotas normais de entrega não percorrem.
+- **Rotas escondidas**: siga aberturas incomuns que levem para longe do ciclo padrão.
+- **Acompanhe sua busca**: use pontos de referência da fábrica para marcar quais áreas você já vasculhou.
+
+<Callout type="tip" title="Dica de História">
+Compare nomes e locais repetidos nos documentos. Separe afirmações diretas de pistas ambientais e trate questões não resolvidas como tópicos em aberto, não como elementos confirmados da história.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Checklist do Turno">
+
+<Checklist
+  id="shift-goals"
+  title="Em Todo Turno, Procure:"
+  items={[
+    "Manter a prensa ativa durante toda a sessão",
+    "Concluir pelo menos um ciclo completo de entrega",
+    "Preparar os materiais do próximo pedido antes da expedição",
+    "Reinvestir os pagamentos em velocidade de produção ou melhorias das caixas",
+    "Procurar documentos escondidos em uma sala ainda não explorada"
+  ]}
+/>
+
+<Callout type="success" title="Hábito de Longo Prazo">
+Os jogadores que reinvestem cada pagamento e mantêm o tempo parado próximo de zero sobem de rank visivelmente mais rápido do que aqueles que guardam os ganhos sem investir em melhorias.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a mais importante de todas as dicas e truques de BRASS HELL?",
+    answer: "Mantenha o ciclo de produção em movimento, sem interrupções. Uma prensa parada, uma fila de caixas vazia ou um próximo pedido despreparado se traduzem diretamente em renda perdida. Sobreponha a preparação de materiais à embalagem e à entrega para minimizar o tempo parado."
+  },
+  {
+    question: "Qual melhoria devo comprar primeiro?",
+    answer: "Priorize primeiro as melhorias de velocidade de produção, seguidas pelo fluxo das caixas. Ambas reduzem diretamente a duração do ciclo principal de produção. Os ganhos das entregas e os desbloqueios de munição se tornam mais valiosos quando o ciclo básico está estável, e as melhorias de conveniência devem ficar por último."
+  },
+  {
+    question: "Os passes de XP de Maestria, Progresso de Rank e Volume se acumulam?",
+    answer: "Trate-os como benefícios separados. Cada passe apoia um sistema de progressão distinto, e não há uma regra confirmada de que seus multiplicadores se combinem. Consulte a descrição dentro do jogo de cada passe individual."
+  },
+  {
+    question: "Qual calibre devo produzir?",
+    answer: "Use o projétil de maior nível desbloqueado que sua fábrica consiga produzir consistentemente sem desacelerar o ciclo completo de entrega. Passar para um projétil avançado antes que a velocidade da prensa e o fluxo de materiais consigam sustentá-lo costuma reduzir os ganhos totais."
+  },
+  {
+    question: "Quando devo procurar documentos escondidos?",
+    answer: "Procure durante períodos naturais de inatividade, como enquanto uma caixa está sendo finalizada ou entre pedidos. Concentre-se em escritórios, depósitos, corredores laterais e nas extremidades das áreas de produção que as rotas normais de entrega não percorrem."
+  }
+]} />
+
+</Section>

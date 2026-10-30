@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fabrication de munitions dans BRASS HELL : progression des calibres et guide des améliorations",
+  description: "Maîtrisez la fabrication de munitions dans BRASS HELL : ordre de déverrouillage des calibres, améliorations de la presse, multiplicateurs de poudre, automatisation et meilleure stratégie pour gagner de l'argent.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Bullet+Crafting+Guide",
+  date: "2026-10-31",
+  author: "Équipe du wiki BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **La fabrication de munitions dans BRASS HELL** repose sur une boucle de presse manuelle : déposer le laiton, ajouter la poudre, puis sertir le projectile.
+- **La progression des calibres** va du .22 jusqu'au 30 mm et aux cartouches de fusil de chasse, chaque calibre ayant une valeur supérieure.
+- **Les améliorations de poudre** sont votre meilleur investissement en début de partie, augmentant la valeur des cartouches jusqu'à **sept fois**.
+- **L'automatisation** (poudre automatique, presse automatique, banc d'emballage) vous réduit finalement à une simple pression sur un bouton.
+- **Produisez en gros, vendez en gros** : des stocks de cartouches et des caisses de sortie plus grands font exploser les revenus en fin de partie.
+</Callout>
+
+<Section icon={Wrench} title="Comment fonctionne la fabrication de munitions">
+
+La fabrication de munitions dans BRASS HELL est au cœur de la boucle de production de l'usine. Chaque cartouche suit la même séquence physique : actionner la machine, déposer une douille dans le plateau, faire glisser la poudre, y verser la quantité correcte, puis sertir le projectile. Au début, vous fabriquez une seule cartouche par cycle, ce qui semble lent — c'est intentionnel. Toute la progression consiste à transformer cette boucle manuelle fastidieuse en une chaîne de production automatisée qui recrache des caisses scellées valant des millions.
+
+**Points forts de la vidéo :**
+- Démonstration complète de la boucle de fabrication manuelle : déposer, faire glisser, verser la poudre, sertir le projectile
+- Production initiale de .22 améliorée à deux cartouches par cycle
+- Les multiplicateurs de poudre font passer la valeur des cartouches de gains modestes à quatre fois plus, voire davantage
+- L'automatisation en fin de partie réduit l'intervention du joueur à une simple pression sur le levier
+- Aperçu direct de la mystérieuse boucle narrative de l'usine à 4 h 17 du matin
+
+<YouTubeEmbed videoId="sOucCOzK52Q" title="Gérer une usine de munitions, c'est plutôt... nul (Brass Hell - Roblox)" />
+
+<Callout type="tip" title="La précision est payante">
+Vous ne pouvez pas doser la poudre à l'œil. Le jeu exige un versement précis pour chaque cartouche : apprenez donc la distance de glissement correspondant à votre calibre actuel — un dosage approximatif vous fera perdre du temps avec des versements ratés.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ordre de progression des calibres">
+
+Les calibres se débloquent dans un ordre précis, et chacun augmente à la fois le coût des matériaux et le paiement par caisse. Passer à un nouveau calibre dès qu'il est débloqué est presque toujours le bon choix, car les anciennes cartouches deviennent rapidement insignifiantes en comparaison.
+
+| Calibre | Cartouches par cycle | Notes |
+|---|---|---|
+| .22 LR | 1 → 2 | Cartouche de départ, utile pour répondre à la demande, marges très faibles |
+| 9 mm | 3 | Calibre populaire, revenus corrects en début et milieu de partie |
+| .45 ACP | 5 | Cartouche agréable à fabriquer, valeur des lots nettement supérieure |
+| .357 | ~10+ | Le début de l'ère des gros lots, environ 890 $ par livraison |
+| 5.56 | 25 | Important bond de valeur, les caisses se vendent environ 1 000 $ |
+| 7.62 | ~50 | Calibre incontournable de fin de partie, plusieurs milliers de dollars par lot |
+| .308 | 50+ | Calibre de transition avant les cartouches lourdes |
+| .50 BMG | 100 | Douille gigantesque, environ 500 000 $ par livraison |
+| 20 mm | 100 | Dernier calibre de fusil, jusqu'à 16 millions de dollars par lot |
+| 30 mm | 100 | Classe aéronautique/antiaérienne, production de fusil haut de gamme |
+| Cartouches de fusil de chasse | — | Ligne séparée à partir du calibre 10 ; nécessite un redémarrage de la machine |
+
+<Callout type="warning" title="Coût de réinitialisation de la machine">
+Lorsque vous terminez le 30 mm et passez aux cartouches de fusil de chasse, la direction réinitialise votre machine — la plupart des pièces ne sont pas transférées à la production de cartouches de chasse. Considérez le 30 mm comme le point final naturel de votre production de fusils.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Priorité des améliorations : que faut-il acheter en premier ?">
+
+Toutes les améliorations ne se valent pas. La qualité de la poudre multiplie la valeur de chaque cartouche produite, ce qui en fait le meilleur achat en début de partie, tandis que les améliorations de stockage permettent de constituer les énormes lots qui définissent les revenus de fin de partie.
+
+<CardGrid cols={3}>
+  <Card title="Améliorations de poudre">
+    - **Meilleur rapport qualité-prix**
+    - Multiplicateurs : ~1,5x → 2,5x → 4x → 7x
+    - Achetez-les dès qu'elles sont abordables
+  </Card>
+  <Card title="Automatisation">
+    - Poudre automatique, presse automatique, banc d'emballage
+    - Supprime presque toutes les étapes manuelles
+    - Il ne vous reste plus qu'à appuyer sur le levier
+  </Card>
+  <Card title="Stockage et production par lots">
+    - Stockage de cartouches plus grand, caisse de sortie plus grande
+    - Permet de stocker plus de 1 500 matériaux
+    - Indispensable pour les lots valant des millions
+  </Card>
+</CardGrid>
+
+| Niveau d'amélioration | Fourchette de coût approximative | Multiplicateur de valeur | Priorité |
+|---|---|---|---|
+| Poudre basique | ~4 $ | ~1,5x | ★★★★★ |
+| Poudre intermédiaire | ~22 $ | ~2,5x | ★★★★★ |
+| Poudre supérieure | Fin de partie | 4x | ★★★★★ |
+| Poudre premium | Coûteuse | **7x** | ★★★★★ |
+| Poudre automatique | Milieu de partie | Gain de temps | ★★★★ |
+| Presse automatique + emballage | Fin de partie | Gain de temps | ★★★★★ |
+| Distributeur de laiton / plateau | Milieu de partie | Confort | ★★★ |
+
+<Callout type="success" title="L'effet cumulatif">
+Un joueur qui gagne cinq centimes par cartouche de .22 au début peut atteindre **16 millions de dollars par lot scellé** avec le 20 mm. Les multiplicateurs de poudre se cumulent avec la taille des lots — ne gardez jamais votre argent de côté lorsqu'un niveau de poudre est disponible.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Étape par étape : vos 1 000 premières cartouches">
+
+<Steps>
+  <Step num="1" title="Maîtrisez la boucle manuelle">
+    Fabriquez des cartouches de .22 une par une jusqu'à ce que le rythme déposer-faire glisser-verser-presser devienne automatique. Vendez chaque caisse immédiatement pour financer vos premières améliorations.
+  </Step>
+  <Step num="2" title="Achetez d'abord les cartouches par cycle">
+    Passez à deux cartouches par cycle, puis à trois trajets par cycle. Produisez par lots dès que possible — même les petites productions en volume sont plus rentables que les livraisons unitaires.
+  </Step>
+  <Step num="3" title="Investissez rapidement dans la poudre">
+    Achetez chaque niveau de poudre dès qu'il devient abordable. Le gain de 1,5x se remarque immédiatement dans le montant reçu par livraison.
+  </Step>
+  <Step num="4" title="Montez rapidement en calibre">
+    Passez au 9 mm, au .45 ACP, puis au .357 dès que chacun est débloqué. Les anciens calibres cessent rapidement de justifier le temps passé sur la presse.
+  </Step>
+  <Step num="5" title="Automatisez et développez la production">
+    Achetez la poudre automatique, la presse automatique, le banc d'emballage et un assistant. Améliorez le stockage jusqu'à 1 500 matériaux et scellez d'énormes lots de 7.62 et de calibres supérieurs.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Vente en gros">
+Les lots scellés sont livrés en une seule transaction. Un stock scellé de 12 000 cartouches de 20 mm a rapporté environ 16 millions de dollars en une seule vente — remplissez toujours votre caisse de sortie avant de vous rendre au comptoir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="La boucle de 4 h 17 et les habitudes financières">
+
+BRASS HELL dissimule une étrange histoire sous le travail répétitif de l'usine : chaque journal radio, reçu et registre de transmission porte la mention **4 h 17**, et aucune équipe de relève ne se connecte jamais. Les événements de l'histoire vous font aller des réserves de poudre au service d'expédition, mais le travail ne s'arrête jamais — pas plus que les paiements. Acceptez-le : même si vous êtes condamné à rester bloqué à 4 h 17 pour toujours, autant en profiter pour gagner de l'argent.
+
+Il existe également un stand de tir où vous pouvez utiliser vos propres munitions pour gagner de l'argent, mais sachez que charger les armes consomme des cartouches que vous pourriez vendre — deux chargeurs pleins peuvent rapidement épuiser un gros lot.
+
+<Callout type="warning" title="Les munitions, c'est de l'argent">
+Chaque cartouche tirée au stand est une cartouche que vous n'avez pas vendue. Testez les armes pour vous amuser, mais gardez la majeure partie de votre production scellée pour la livraison.
+</Callout>
+
+<Checklist
+  id="crafting-milestones"
+  title="Étapes importantes de l'usine :"
+  items={[
+    "Débloquer et produire en masse des cartouches de .357",
+    "Acheter le multiplicateur de poudre 4x",
+    "Automatiser la gestion de la poudre et de la presse",
+    "Sceller un lot d'une valeur de 100 000 $ ou plus",
+    "Atteindre la production de 20 mm avec 100 cartouches par cycle",
+    "Livrer un lot de 30 mm avant la réinitialisation de la ligne de cartouches de chasse"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quelle est la meilleure première amélioration pour la fabrication de munitions dans BRASS HELL ?",
+    answer: "Le nombre de cartouches par cycle est le meilleur achat en début de partie : passer d'une à deux cartouches par pression double instantanément la production. Ensuite, donnez la priorité aux améliorations de poudre, car elles multiplient la valeur de chaque cartouche fabriquée."
+  },
+  {
+    question: "Quel calibre rapporte le plus d'argent ?",
+    answer: "Le 20 mm et le 30 mm sont les plus rentables de la ligne des fusils, avec des lots scellés pouvant rapporter jusqu'à 16 millions de dollars. Notez que le 30 mm est la dernière cartouche de classe fusil avant la réinitialisation de la machine pour la production de cartouches de chasse."
+  },
+  {
+    question: "Les améliorations sont-elles conservées pour les cartouches de fusil de chasse ?",
+    answer: "Non. Lorsque vous passez du 30 mm aux cartouches de fusil de chasse, la direction réinitialise votre machine, car la plupart des pièces ne sont pas transférées. Planifiez vos dépenses en conséquence."
+  },
+  {
+    question: "Le stand de tir vaut-il la peine d'être utilisé ?",
+    answer: "Le stand vous permet de tirer les munitions que vous fabriquez pour gagner de l'argent, mais il consomme des cartouches que vous pourriez vendre scellées. Considérez-le comme un divertissement ou un bonus, pas comme votre principale source de revenus."
+  }
+]} />
+
+</Section>

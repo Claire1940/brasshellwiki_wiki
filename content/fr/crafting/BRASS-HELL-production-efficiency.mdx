@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Factory, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Efficacité de production de BRASS HELL : agencement d'usine et conseils de rendement",
+  description: "Améliorez l'efficacité de production de BRASS HELL grâce à des plans d'agencement, un ordre de priorité des machines, des ratios de ressources et des solutions aux goulots d'étranglement dans ce guide pratique.",
+  category: "guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Production+Efficiency",
+  date: "2026-10-31",
+  author: "Équipe du Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **L'efficacité de production de BRASS HELL** dépend de la densité de l'agencement, du temps de fonctionnement des machines et de ratios équilibrés
+- Les **goulots d'étranglement** causent la plupart des pertes de rendement — corrigez d'abord l'étape de production la plus lente
+- Les **agencements modulaires compacts** sont plus performants que les longues chaînes de convoyeurs en ligne droite
+- L'**allocation d'énergie** doit donner la priorité à la fusion et à l'assemblage avant les raffineries
+- L'**automatisation précoce** des lingots de laiton double le débit en milieu de partie
+</Callout>
+
+<Section icon={Factory} title="Comprendre l'efficacité de production de BRASS HELL">
+
+L'efficacité de production dans BRASS HELL mesure la capacité de votre usine à convertir le minerai brut en composants finis en laiton à chaque cycle. Chaque machine de votre chaîne de production consomme de l'énergie, de l'espace et du temps, et le moindre maillon faible réduit le rendement total. Une installation bien gérée maintient chaque machine en activité, minimise les distances de transport et adapte les taux d'approvisionnement à la demande.
+
+Les trois piliers de l'efficacité sont :
+
+- **Temps de fonctionnement** — les machines ne doivent jamais rester inactives en attendant des ressources
+- **Équilibre** — les étapes en amont doivent produire légèrement plus que celles en aval
+- **Densité** — des convoyeurs plus courts signifient moins de retards et moins de pertes de ressources
+
+| Indicateur | Ce qu'il mesure | Valeur cible |
+|---|---|---|
+| Temps de fonctionnement des machines | % du temps de cycle consacré au travail actif | **90 % et plus** |
+| Réserve d'entrée | Stock de matières premières conservé à chaque étape | 1 à 2 cycles de demande |
+| Ratio de transport | Longueur des convoyeurs par rapport au nombre de machines | Moins de 6 cases par machine |
+| Excédent d'énergie | Capacité inutilisée du réseau | 10 à 15 % de marge |
+| Taux de défauts | Production mise au rebut par lot | Moins de 2 % |
+
+<Callout type="warning" title="Surveillez votre premier goulot d'étranglement">
+La plupart des pertes d'efficacité dans BRASS HELL remontent à une seule machine sous-alimentée. Analysez votre chaîne, de l'entrée du minerai à l'assemblage final, avant d'ajouter de nouvelles lignes de production — agrandir une usine limitée par un goulot d'étranglement ne fait que gaspiller des ressources.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Les meilleurs agencements pour un rendement élevé">
+
+Le choix de l'agencement compte davantage que le simple nombre de machines. Trois modèles éprouvés couvrent la plupart des situations dans BRASS HELL.
+
+<CardGrid cols={3}>
+  <Card title="Cellule compacte">
+  - **Idéale pour :** début et milieu de partie
+  - 4 à 6 machines par cellule
+  - Trajets de convoyeurs les plus courts
+  - Facile à dupliquer et à agrandir
+  - Consommation d'énergie modérée
+  </Card>
+  <Card title="Agencement en colonne vertébrale">
+  - **Idéal pour :** la montée en puissance en milieu de partie
+  - Une colonne vertébrale centrale de convoyeurs alimente les branches
+  - Facile à analyser pour repérer les goulots d'étranglement
+  - Débit équilibré entre les lignes
+  </Card>
+  <Card title="Empilement en couches">
+  - **Idéal pour :** les mégaf usines de fin de partie
+  - L'empilement vertical multiplie la densité
+  - Nécessite une infrastructure énergétique solide
+  - Demande une planification rigoureuse des réserves
+  </Card>
+</CardGrid>
+
+Lorsque vous comparez les agencements, mettez en balance le coût de l'agrandissement et vos besoins actuels en rendement. La cellule compacte l'emporte en flexibilité, tandis que l'empilement en couches offre le potentiel maximal — mais uniquement si votre réseau électrique peut le soutenir.
+
+| Agencement | Espace nécessaire | Charge énergétique | Facilité d'agrandissement | Rendement maximal |
+|---|---|---|---|---|
+| Cellule compacte | Faible | Faible | ★★★★★ | Moyen |
+| Colonne vertébrale | Moyen | Moyenne | ★★★★ | Élevé |
+| Empilement en couches | Faible au sol, élevé en hauteur | **Élevée** | ★★★ | Très élevé |
+
+<Callout type="tip" title="Règle d'espacement">
+Laissez une case praticable entre les cellules de production. Cela ne coûte presque rien en efficacité, mais accélère considérablement les réparations, les améliorations et le réacheminement pendant les phases d'expansion.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Réorganisation de l'efficacité étape par étape">
+
+<Steps>
+  <Step num="1" title="Analysez votre chaîne actuelle">
+    Suivez votre production depuis l'entrée du minerai jusqu'aux produits finis. Notez chaque machine qui reste inactive ou qui fonctionne avec une file d'attente pleine. Les machines inactives indiquent une surproduction en aval ; les réserves qui débordent signalent un goulot d'étranglement en amont.
+  </Step>
+  <Step num="2" title="Identifiez l'étape qui constitue le goulot d'étranglement">
+    L'étape qui possède la plus longue file d'entrées non traitées constitue votre véritable limite de rendement. Aucune amélioration ailleurs n'augmentera la production finale tant que cette étape ne sera pas agrandie ou accélérée.
+  </Step>
+  <Step num="3" title="Rééquilibrez les ratios de machines">
+    Ajoutez des machines à l'étape qui constitue le goulot d'étranglement jusqu'à stabiliser sa file d'attente, puis vérifiez à nouveau l'étape suivante en aval. Répétez l'opération jusqu'à ce que toutes les files avancent régulièrement.
+  </Step>
+  <Step num="4" title="Améliorez l'énergie et le transport">
+    Une fois les ratios équilibrés, vérifiez que votre réseau dispose d'une marge de 10 à 15 % et raccourcissez les plus longs trajets de convoyeurs. Les baisses de tension ralentissent discrètement la vitesse des machines.
+  </Step>
+  <Step num="5" title="Ajoutez des réserves et surveillez">
+    Placez de petites réserves d'entrée à chaque étape afin que les brèves interruptions en amont ne se propagent pas à toute la chaîne. Vérifiez à nouveau votre tableau d'indicateurs après chaque agrandissement.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Vérifiez la correction">
+Après le rééquilibrage, vos machines d'assemblage final devraient produire presque en continu. Si les produits finis arrivent encore par à-coups, un goulot d'étranglement caché subsiste — reprenez l'analyse à partir de l'étape 1.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Erreurs courantes qui réduisent l'efficacité">
+
+- **Agrandir avant d'analyser** — de nouvelles lignes alimentées par une chaîne limitée par un goulot d'étranglement ne font qu'ajouter des machines inactives
+- **Donner trop de priorité aux raffineries** — les raffineries consomment beaucoup d'énergie ; la fusion du laiton et l'assemblage principal doivent être prioritaires
+- **Utiliser une seule longue ligne de convoyeurs** — les longs trajets ajoutent des délais de transport et des points uniques de défaillance
+- **Ignorer la marge énergétique** — faire fonctionner le réseau à 100 % provoque des baisses de tension qui ralentissent toutes les machines
+- **Négliger les réserves** — sans réserves d'entrée, le moindre incident bloque toute la chaîne
+
+| Erreur | Symptôme | Solution |
+|---|---|---|
+| Ratios déséquilibrés | Les files s'accumulent à une étape | Ajouter des machines au goulot d'étranglement |
+| Manque d'énergie | Cycles ralentis aléatoirement | Prévoir une marge de 10 à 15 % sur le réseau |
+| Longs trajets de transport | Rendement irrégulier | Utiliser un agencement compact ou des réserves |
+| Absence de réserves | Blocages de toute la chaîne | Prévoir un petit stock d'entrée à chaque étape |
+| Raffineries surdimensionnées | Forte consommation d'énergie, faible gain | Donner la priorité à la fusion et à l'assemblage |
+
+<Callout type="warning" title="Ne recherchez pas uniquement la vitesse brute">
+Des machines plus rapides alimentées par une ligne sous-approvisionnée ne produisent rien. Équilibrez d'abord l'approvisionnement, puis investissez dans des améliorations de vitesse aux endroits où les files d'attente restent constamment pleines.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de contrôle des objectifs d'efficacité">
+
+<Checklist
+  id="efficiency-milestones"
+  title="Objectifs d'efficacité de production :"
+  items={[
+    "Analyser toute la chaîne de production et localiser le goulot d'étranglement",
+    "Atteindre un temps de fonctionnement de 90 % ou plus pour toutes les machines d'assemblage",
+    "Maintenir une marge de 10 à 15 % sur le réseau électrique",
+    "Automatiser l'alimentation en lingots de laiton de toutes les lignes d'assemblage",
+    "Ajouter des réserves d'entrée à chaque étape de production",
+    "Dupliquer une cellule compacte éprouvée pour augmenter le rendement"
+  ]}
+/>
+
+<Callout type="tip" title="Agrandissez par duplication">
+Dès qu'une cellule de production atteint vos objectifs de temps de fonctionnement, copiez-la plutôt que de concevoir de nouveaux agencements. Les modules éprouvés évoluent plus rapidement et sont plus faciles à dépanner que les ajouts conçus sur mesure.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quel est le facteur le plus important de l'efficacité de production dans BRASS HELL ?",
+    answer: "La gestion des goulots d'étranglement. Le rendement de votre usine est égal au débit de son étape la plus lente. Localiser et agrandir cette étape — qu'il s'agisse de l'entrée du minerai, de la fusion ou de l'assemblage — apporte davantage de gains que n'importe quelle autre modification."
+  },
+  {
+    question: "Quelle marge énergétique dois-je conserver ?",
+    answer: "Visez une capacité excédentaire de 10 à 15 % sur votre réseau. Les systèmes électriques fonctionnant à pleine charge risquent de subir des baisses de tension qui ralentissent les cycles des machines dans toute l'usine, réduisant discrètement la production."
+  },
+  {
+    question: "Quel agencement un nouveau joueur devrait-il utiliser ?",
+    answer: "Commencez par une cellule compacte. Elle utilise 4 à 6 machines avec de courts trajets de convoyeurs, est facile à analyser pour repérer les problèmes et peut être dupliquée à mesure que vos ressources augmentent, avant de passer à un agencement en colonne vertébrale ou en couches."
+  },
+  {
+    question: "Vaut-il mieux améliorer les machines existantes ou en construire davantage ?",
+    answer: "Améliorez les machines uniquement aux étapes où les files d'entrée restent constamment pleines — cela indique que les machines elles-mêmes constituent la limite. Si les files sont vides, le problème vient de l'approvisionnement et des machines supplémentaires ou plus rapides resteront simplement inactives."
+  }
+]} />
+
+</Section>

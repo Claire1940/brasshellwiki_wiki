@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "BRASS HELL Upgrade Order: Best Workshop Priority Guide",
+  description: "Learn the best BRASS HELL upgrade order: which workshop upgrades to buy first, tier priorities, and how to scale production and shipment earnings fast.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/D78A32/fff?text=Upgrade+Order+Guide",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL upgrade order** centers on production speed and crate throughput before anything else.
+- **Early earnings** should be reinvested immediately instead of stockpiling after your first shipments.
+- **Shipment value upgrades** become worthwhile once your basic production loop runs consistently.
+- **Convenience upgrades** rank last — buy them only after core production priorities are covered.
+- **Ammunition unlocks** open higher-value rounds once press speed and material flow can support them.
+</Callout>
+
+<Section icon={Wrench} title="Why Upgrade Order Matters in BRASS HELL">
+
+In BRASS HELL, every payout you earn from delivering crates is a choice: spend it on upgrades that compound, or hold it and fall behind. Because the game is an incremental factory simulator built around a repeatable loop — operate the press, craft rounds, fill crates, deliver — the upgrades that shorten that loop generate more earnings per session than upgrades that only add comfort. A wrong early purchase slows every cycle that follows; a correct one makes each later upgrade cheaper in relative terms.
+
+The core principle is simple: **buy whatever removes your current bottleneck first**. If the press is idle while you gather materials, speed upgrades matter less than material handling. If crates fill faster than you can deliver them, throughput upgrades take priority.
+
+| Bottleneck Symptom | What Is Slowing You Down | Upgrade Priority |
+|---|---|---|
+| Press sits idle between batches | Material collection and restocking | Handling / logistics upgrades |
+| Crates fill faster than you deliver | Delivery and crate handling | Crate throughput upgrades |
+| Long press cycles, fast shipping | Production speed | Press speed upgrades |
+| Steady loop, low payout per crate | Order value | Shipment earnings upgrades |
+
+<Callout type="tip" title="Editor's Rule of Thumb">
+Watch one full production-to-delivery cycle before spending. Whatever step you spend the most real time waiting on is the upgrade category you should buy next.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Recommended Upgrade Order: Tier Rankings">
+
+The upgrade order below follows the S/A/B priority structure used throughout this wiki. It reflects how the factory loop actually scales: speed and throughput first, value second, convenience last.
+
+| Tier | Upgrade Category | Priority | Best For | Key Benefit |
+|---|---|---|---|---|
+| S | Production Speed | First priority | Beginners building their first income loop | More production cycles per session |
+| S | Crate Throughput | First priority | Players who produce faster than they ship | Shorter downtime between batches |
+| A | Shipment Earnings | Strong upgrade | Mid-game players with stable output | Greater returns per completed delivery |
+| A | Ammunition Unlocks | Strong upgrade | Long-term factory progression | Access to advanced rounds and goals |
+| B | Convenience Improvements | Situational | Players with a smooth routine already | Less friction during repeated runs |
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Speed First">
+    - **Production Speed**: cuts press cycle time
+    - Directly multiplies shipments per hour
+    - Buy before anything else early on
+  </Card>
+  <Card title="A-Tier: Value Scaling">
+    - **Shipment Earnings**: boosts payout per crate
+    - Strongest once the loop is consistent
+    - Pairs well with ammunition unlocks
+  </Card>
+  <Card title="B-Tier: Quality of Life">
+    - **Convenience upgrades**: movement, handling
+    - Nice but never bottleneck-breaking
+    - Purchase after core priorities are covered
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Common Mistake">
+Do not sink early payouts into convenience or cosmetic-adjacent upgrades. They feel good but do not shorten the factory loop, so your income curve stays flat while costs rise.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Upgrade Path">
+
+Follow this sequence to take a fresh workshop from its first shipment to a self-sustaining factory. Each phase assumes the previous one is producing consistently.
+
+<Steps>
+  <Step num="1" title="Establish the Loop">
+    Complete several production cycles without upgrading. Learn the press, crate area, and delivery route so you can identify your true bottleneck rather than guessing.
+  </Step>
+  <Step num="2" title="Buy Your First Speed Upgrade">
+    Spend the first meaningful payout on production speed. Faster press cycles mean more completed crates per session, which accelerates every later purchase.
+  </Step>
+  <Step num="3" title="Fix Crate and Delivery Throughput">
+    Once the press outpaces your packing and delivery, invest in crate throughput. The goal is zero idle time between a finished batch and a dispatched shipment.
+  </Step>
+  <Step num="4" title="Scale Shipment Value">
+    With a consistent loop, shift spending toward shipment earnings upgrades. Each delivery now pays more without requiring more of your time.
+  </Step>
+  <Step num="5" title="Unlock Advanced Ammunition">
+    Use your improved income to progress toward ammunition unlocks. Higher-tier rounds raise the ceiling on both payout and long-term progression goals.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Milestone Check">
+If you can complete a full gather-press-pack-deliver cycle without waiting on any single step, your upgrade order is working — move to value scaling.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Upgrade Order by Play Style">
+
+Different players hit different bottlenecks. Use this comparison to adjust the standard order to your situation.
+
+| Play Style | First Purchase | Second Purchase | Skip Until Late | Notes |
+|---|---|---|---|---|
+| Solo beginner | Press speed | Crate throughput | Ammunition unlocks | Build a reliable loop before expanding |
+| Co-op group (up to 4) | Crate throughput | Shipment earnings | Convenience | Roles split naturally; shipping is the choke point |
+| Efficiency grinder | Press speed | Shipment earnings | Convenience | Maximizes payout per cycle time |
+| Explorer / lore hunter | Convenience (movement) | Press speed | Value upgrades | Faster movement helps document hunting between orders |
+
+<Callout type="info" title="Co-op Note">
+With up to four players per server, one player on the press while others handle packing and delivery changes the bottleneck math — throughput and delivery value rise in priority compared to solo play.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Upgrade Checklist and Progression Tie-In">
+
+Your upgrade order also feeds progression systems. Production and shipment activity advances **Rank Progress** and **Mastery XP**, so a faster loop means faster progression too. Use the checklist to stay on track.
+
+<Checklist
+  id="upgrade-order-goals"
+  title="Upgrade Order Milestones:"
+  items={[
+    "Complete 5 unupgraded cycles to identify your bottleneck",
+    "Purchase first production speed upgrade",
+    "Eliminate idle time between pressing and delivery",
+    "Buy first shipment earnings upgrade",
+    "Unlock a higher-tier ammunition round",
+    "Maintain full production during an entire session"
+  ]}
+/>
+
+| Progression System | How Upgrade Order Helps | Caution |
+|---|---|---|
+| Mastery XP | Faster cycles mean more XP-awarding activity per session | Mastery passes do not replace factory work |
+| Rank Progress | More completed shipments advance rank faster | Evaluate rank passes separately from mastery passes |
+| Bulk multipliers | Bulk output pairs with high press speed | Do not assume multipliers stack without in-game confirmation |
+
+<Callout type="warning" title="Game Pass Reality Check">
+Paid game passes supplement the loop but never replace it. No pass removes the need to press, pack, and deliver — a free player with a better upgrade order will out-earn a pass holder with a poor one.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the best BRASS HELL upgrade order for beginners?",
+    answer: "Start with production speed, then crate throughput, then shipment earnings. This order shortens the core factory loop first, which multiplies your income per session and makes every later upgrade easier to afford."
+  },
+  {
+    question: "Should I buy shipment earnings upgrades before speed upgrades?",
+    answer: "Generally no. Earnings upgrades increase payout per delivery, but speed upgrades increase how many deliveries you can make. Early on, more cycles beats bigger cycles. Once your loop is consistent, shift toward value."
+  },
+  {
+    question: "When should I unlock advanced ammunition in my upgrade order?",
+    answer: "Treat ammunition unlocks as an A-tier purchase for after your production loop is stable. Advanced rounds are only worth producing when press speed and material flow can supply them without stalling the shipment cycle."
+  },
+  {
+    question: "Do convenience upgrades ever belong early in the BRASS HELL upgrade order?",
+    answer: "Only for explorers hunting hidden documents between orders, where movement speed has extra value. For pure production, convenience upgrades are B-tier and should wait until core speed, throughput, and value priorities are covered."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Caixas de BRASS HELL: Tipos, Probabilidades e Melhores Aberturas",
+  description: "Um guia prático de caixas de BRASS HELL que aborda os tipos de caixa, requisitos de desbloqueio, estratégias de abertura e como gastar sua moeda com eficiência.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=BRASS+HELL+Box+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de caixas de BRASS HELL**: Abrange todos os tipos de caixa e o que esperar de cada nível de abertura.
+- **Moeda em primeiro lugar**: Sempre acumule moeda antes de abrir caixas de nível mais alto.
+- **Melhor custo-benefício**: As caixas de nível intermediário geralmente oferecem as melhores recompensas por custo no início do jogo.
+- **Evite armadilhas**: Não gaste moeda premium em caixas de nível baixo depois de avançar além do início do jogo.
+- **Acompanhe os resultados**: Registre suas aberturas para entender sua sorte pessoal ao longo do tempo.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Sistema de Caixas em BRASS HELL">
+
+As caixas são o principal sistema de distribuição de saque em BRASS HELL. Cada caixa contém um conjunto aleatório de recompensas — normalmente armas, equipamentos cosméticos, impulsionadores e variantes raras de soqueiras e outros equipamentos de combate corpo a corpo. Como as recompensas são retiradas de conjuntos organizados por níveis, entender qual caixa abrir em cada estágio da sua progressão é uma das decisões mais importantes para otimizar seu desempenho no jogo.
+
+O sistema funciona com base em um princípio simples: caixas de nível mais alto custam mais moeda, mas utilizam um conjunto de recompensas com resultados mínimos melhores. Uma caixa de nível baixo ainda pode surpreender você com um item poderoso, mas, ao longo de muitas aberturas, o valor esperado das caixas premium é significativamente maior.
+
+| Nível da Caixa | Custo Típico | Conjunto de Recompensas | Ideal Para |
+| --- | --- | --- | --- |
+| Caixa Básica | Baixo | Equipamentos comuns, pequenos impulsionadores | Novos jogadores, equipamento inicial |
+| Caixa Padrão | Médio | Equipamentos incomuns, impulsionadores moderados | Farm no meio do jogo |
+| Caixa Premium | Alto | Equipamentos raros, variantes cosméticas | Otimização no fim do jogo |
+| Caixa de Evento | Moeda de evento | Itens por tempo limitado | Colecionadores, mudanças no meta |
+
+<Callout type="tip" title="Comece Pequeno">
+Novos jogadores devem abrir várias Caixas Básicas primeiro. Montar cedo um equipamento inicial funcional é melhor do que buscar itens raros antes de poder usá-los de verdade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparação dos Tipos de Caixa: Qual Combina com sua Build">
+
+Seu estilo de jogo deve orientar sua escolha de caixa. Uma build de lutador que depende de dano bruto obtém mais valor de conjuntos focados em armas, enquanto uma build defensiva se beneficia de caixas com mais armaduras e impulsionadores. Compare os pontos fortes de cada abordagem antes de comprometer sua moeda.
+
+<CardGrid cols={3}>
+  <Card title="Aberturas Agressivas">
+    - **Foco em conjuntos de dano**
+    - Priorize caixas do tipo arma
+    - Ideais para confrontos rápidos
+    - Aceite um risco maior em troca de velocidade
+  </Card>
+  <Card title="Aberturas Equilibradas">
+    - **Conjuntos de recompensas variados**
+    - Curva de melhoria constante
+    - Flexíveis contra diferentes oponentes
+    - Recomendadas para a maioria dos jogadores
+  </Card>
+  <Card title="Aberturas Defensivas">
+    - **Foco em armadura e sustentação**
+    - Mais lentas, porém consistentes
+    - Ótimas para lutas prolongadas
+    - Combinam bem com o acúmulo de impulsionadores
+  </Card>
+</CardGrid>
+
+| Estratégia | Caixas para Abrir | Resultado Esperado | Nível de Risco |
+| --- | --- | --- | --- |
+| Investida de dano | Níveis focados em armas | Alto potencial de eliminação, baixa defesa | Alto |
+| Híbrida | Níveis intermediários variados | Equipamento confiável e versátil | Médio |
+| Sustentação de tanque | Níveis focados em defesa | Sobrevivência prolongada, vitórias mais lentas | Baixo |
+
+<Callout type="warning" title="Fique de Olho no seu Saldo Mínimo">
+Nunca gaste tudo até chegar a zero. Mantenha uma reserva de moeda para poder aproveitar caixas de evento por tempo limitado, que geralmente contêm recompensas exclusivas que não retornam aos conjuntos padrão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo: Rotina Eficiente para Abrir Caixas">
+
+Siga esta rotina para maximizar o valor de cada sessão de abertura. A ordem é importante — preparar-se antes de gastar evita desperdiçar moeda em caixas que você já superou.
+
+<Steps>
+  <Step num="1" title="Avalie seu Equipamento">
+    Identifique o espaço de equipamento mais fraco. Abra caixas que tenham como alvo o conjunto de recompensas desse espaço em vez de fazer aberturas aleatórias.
+  </Step>
+  <Step num="2" title="Defina um Orçamento">
+    Decida quanto de moeda você gastará nesta sessão e respeite esse limite. Isso evita gastar por impulso após aberturas azaradas.
+  </Step>
+  <Step num="3" title="Abra em Lotes">
+    Abra caixas em pequenos lotes de 3 a 5. Isso cria pontos naturais para avaliar os resultados e parar caso você consiga o item desejado.
+  </Step>
+  <Step num="4" title="Avalie e Ajuste">
+    Depois de cada lote, verifique se o seu espaço mais fraco melhorou. Caso contrário, troque o tipo de caixa em vez de insistir na mesma opção.
+  </Step>
+  <Step num="5" title="Guarde o Restante">
+    Deposite a moeda restante na sua reserva para caixas de evento e futuros desbloqueios de níveis.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Disciplina nos Lotes">
+Jogadores que abrem caixas em lotes controlados relatam consistentemente uma satisfação maior a longo prazo do que aqueles que gastam tudo em uma única sessão — a condição de parada protege seus recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos e Checklist para Abertura de Caixas">
+
+Acompanhe sua progressão nas caixas com marcos claros. Cada objetivo abaixo leva você em direção a um equipamento totalmente otimizado sem gastar demais em aberturas redundantes.
+
+<Checklist
+  id="box-goals"
+  title="Marcos da Progressão nas Caixas:"
+  items={[
+    "Montar um equipamento inicial completo com Caixas Básicas",
+    "Melhorar seu espaço mais fraco para pelo menos uma qualidade incomum",
+    "Economizar o orçamento completo para uma caixa premium antes do fim do jogo",
+    "Completar um conjunto de caixas de evento enquanto ele estiver disponível",
+    "Substituir todos os equipamentos comuns por itens adequados ao nível"
+  ]}
+/>
+
+| Marco | Moeda Necessária (Aprox.) | Prioridade |
+| --- | --- | --- |
+| Equipamento inicial | Baixa | ★★★★★ |
+| Melhoria do espaço mais fraco | Baixa a média | ★★★★ |
+| Orçamento para caixa premium | Alta | ★★★ |
+| Conjunto de caixas de evento | Específica do evento | ★★★★★ enquanto estiver ativo |
+
+<Callout type="info" title="Prioridade dos Eventos">
+Caixas por tempo limitado devem subir para o topo da sua lista de prioridades quando aparecerem. As caixas padrão estão sempre disponíveis; as recompensas de evento, muitas vezes, não.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Erros Comuns com Caixas e Como Evitá-los">
+
+A maior parte da moeda desperdiçada em BRASS HELL vem de alguns erros recorrentes. Aprenda a reconhecê-los agora e você evitará uma curva de aprendizado cara.
+
+| Erro | Por que Prejudica | Abordagem Correta |
+| --- | --- | --- |
+| Abrir caixas de nível baixo no fim do jogo | As recompensas ficam obsoletas | Aumente o orçamento conforme avança |
+| Ignorar lacunas nos espaços | As melhorias vão para espaços já fortes | Priorize primeiro seu equipamento mais fraco |
+| Não ter reserva antes dos eventos | Você perde recompensas exclusivas | Mantenha uma reserva permanente de moeda |
+| Perseguir um único item específico | A variação desperdiça moeda | Aceite a média do conjunto e pare quando estiver satisfeito |
+
+<Callout type="warning" title="A Armadilha de Insistir">
+Defina sua condição de parada antes de abrir qualquer caixa. Se o item desejado aparecer, pare. Se o orçamento acabar, pare. Perseguir um único item raro além do seu orçamento é a maneira mais rápida de esgotar seus recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor caixa para novos jogadores abrirem em BRASS HELL?",
+    answer: "As Caixas Básicas são o melhor ponto de partida neste guia de caixas. Elas permitem montar um equipamento inicial funcional de forma barata, ajudando você a aprender o sistema de combate antes de comprometer quantidades maiores de moeda com conjuntos premium."
+  },
+  {
+    question: "Devo guardar moeda para caixas de evento?",
+    answer: "Sim, se você quiser itens exclusivos ou por tempo limitado. As caixas padrão permanecem disponíveis indefinidamente, enquanto as recompensas das caixas de evento podem não retornar ao conjunto de recompensas. Mantenha uma reserva específica para essas oportunidades."
+  },
+  {
+    question: "Quantas caixas devo abrir por sessão?",
+    answer: "Abra em pequenos lotes de 3 a 5 e avalie os resultados após cada lote. Isso oferece pontos naturais para parar e evita gastos excessivos após aberturas azaradas."
+  },
+  {
+    question: "As caixas de nível baixo ainda podem oferecer boas recompensas?",
+    answer: "Os conjuntos de nível baixo podem incluir itens surpreendentes, mas, ao longo de muitas aberturas, seu valor esperado é inferior ao das caixas premium. Trate as recompensas raras de nível baixo como bônus, não como estratégia."
+  }
+]} />
+
+</Section>

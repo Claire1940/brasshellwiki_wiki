@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mejores mejoras de BRASS HELL: Clasificación de prioridades y consejos de builds",
+  description: "Descubre qué mejoras de BRASS HELL comprar primero, cómo priorizar las estadísticas y qué estrategias de build te ayudarán a superar los encuentros más difíciles.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Best+Upgrades+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- Las **mejores mejoras de BRASS HELL** empiezan por la supervivencia, después el daño y, por último, la utilidad.
+- **Prioridad al principio de la partida**: las mejoras de salud y defensa mantienen las partidas con vida durante más tiempo.
+- **Cambio a mitad de la partida**: escalar el daño convierte las eliminaciones lentas en ciclos rápidos de farmeo.
+- **Evita las elecciones trampa**: las mejoras de utilidad llamativas suelen rendir peor que las estadísticas básicas.
+- **Reespecializa con cuidado**: prueba siempre una mejora a la vez antes de comprometerte con más opciones.
+</Callout>
+
+<Section icon={Sparkles} title="Descripción general del sistema de mejoras">
+
+BRASS HELL recompensa a los jugadores que entienden su economía de mejoras. Cada partida presenta elecciones de mejoras ramificadas, y la diferencia entre una build sólida y una partida fallida suele depender de las mejoras que elijas durante los primeros minutos. Las mejoras de BRASS HELL generalmente se dividen en cuatro categorías: **ofensiva**, **defensiva**, **movilidad** y **economía**.
+
+<Callout type="tip" title="Principio fundamental">
+Las mejoras de supervivencia tienen el mayor valor al principio porque morir reinicia tu progreso. Cuando puedas sobrevivir a los encuentros de forma constante, las mejoras de daño se convierten en la mejor inversión.
+</Callout>
+
+| Categoría | Qué incluye | Mejor momento | Nivel de riesgo |
+| --- | --- | --- | --- |
+| **Ofensiva** | Daño, velocidad de ataque, crítico | Mitad y final de la partida | Medio |
+| **Defensiva** | PS, armadura, reducción de daño | Principio de la partida | Bajo |
+| **Movilidad** | Velocidad de movimiento, enfriamiento de la embestida | En cualquier momento | Bajo |
+| **Economía** | Obtención de moneda, repeticiones de mejoras | Principio de la partida | Medio |
+
+</Section>
+
+<Section icon={Swords} title="Mejores mejoras clasificadas por prioridad">
+
+Usa esta clasificación como plantilla predeterminada. Ajústala según tu build, pero estas elecciones rinden de forma consistente en la mayoría de las partidas de BRASS HELL.
+
+<CardGrid cols={3}>
+  <Card title="Nivel 1 - Imprescindibles">
+    - **Aumentos de PS máximos**
+    - Reducción de daño
+    - Daño del arma principal
+    - Velocidad de ataque al principio
+  </Card>
+  <Card title="Nivel 2 - Opciones potentes">
+    - Acumulación de probabilidad de crítico
+    - Reducción del enfriamiento de la embestida
+    - Ampliación del área de efecto
+    - Multiplicadores de moneda
+  </Card>
+  <Card title="Nivel 3 - Situacionales">
+    - Efectos elementales
+    - Robo de vida con pocos PS
+    - Cargas de repetición
+    - Elecciones de sinergia específicas
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Mejoras trampa">
+Evita acumular varias mejoras de utilidad de poco impacto al principio. Una sola mejora potente de estadísticas suele superar a dos elecciones de sinergia débiles hasta que tu build empiece a funcionar.
+</Callout>
+
+| Mejora | Valor inicial | Valor final | Notas de sinergia |
+| --- | --- | --- | --- |
+| PS máximos | ★★★★★ | ★★★☆☆ | Combina con el robo de vida más adelante |
+| Reducción de daño | ★★★★★ | ★★★★☆ | La mejor opción de defensa plana |
+| Daño del arma | ★★★★☆ | ★★★★★ | Escala todo el conjunto de habilidades |
+| Velocidad de ataque | ★★★★☆ | ★★★★☆ | Multiplica los efectos al impactar |
+| Probabilidad de crítico | ★★☆☆☆ | ★★★★★ | Necesita inversión para dar resultados |
+| Velocidad de movimiento | ★★★☆☆ | ★★★☆☆ | Siempre útil, pero nunca excepcional |
+| Obtención de moneda | ★★★★☆ | ★★☆☆☆ | Priorízala al principio para conseguir más repeticiones |
+
+</Section>
+
+<Section icon={Target} title="Ruta de mejoras paso a paso">
+
+Sigue esta secuencia al comenzar una partida nueva. Equilibra la seguridad con el daño para que nunca te quedes atrás en ninguna de las dos progresiones.
+
+<Steps>
+  <Step num="1" title="Asegura la defensa primero">
+    Elige la primera mejora de salud o reducción de daño que aparezca. Esto te protege contra el daño explosivo inicial y te permite jugar de forma agresiva para conseguir recursos.
+  </Step>
+  <Step num="2" title="Consigue economía pronto">
+    Si aparece una mejora de moneda o de repetición entre las primeras opciones, elígela. La economía adicional se acumula durante toda la partida.
+  </Step>
+  <Step num="3" title="Comprométete con un núcleo de daño">
+    Elige un tipo de daño y acumúlalo. Dividirte entre el escalado físico y elemental debilita ambos y retrasa tu pico de poder.
+  </Step>
+  <Step num="4" title="Añade velocidad de ataque">
+    Cuando el daño base sea sólido, la velocidad de ataque multiplicará todos los efectos por impacto que hayas acumulado hasta ese momento.
+  </Step>
+  <Step num="5" title="Completa las sinergias">
+    Las elecciones finales deberían completar las sinergias: crítico después de acumular daño, robo de vida después de los PS máximos y área de efecto después de la velocidad de ataque.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Regla de comprobación">
+Después de cada mejora importante, realiza un combate de prueba. Si tu tiempo de eliminación empeora o recibes daño inesperado, anota qué elección lo causó y evita opciones similares en la siguiente partida.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Arquetipos de build y combinaciones de mejoras">
+
+Cada estilo de juego requiere un orden de mejoras diferente. Identifica tu arquetipo antes de comprometer recursos.
+
+| Arquetipo | Mejoras principales | Opciones de apoyo | Debilidad |
+| --- | --- | --- | --- |
+| **Luchador** | PS máximos, reducción de daño, daño del arma | Robo de vida, armadura | Eliminaciones lentas |
+| **Cañón de cristal** | Daño del arma, crítico, velocidad de ataque | Velocidad de movimiento, embestida | Frágil contra ataques explosivos |
+| **Corredor de velocidad** | Velocidad de movimiento, enfriamiento de la embestida, velocidad de ataque | Opciones de daño ligero | Bajo límite de daño explosivo |
+| **Granjero** | Obtención de moneda, repeticiones, área de efecto | Estadísticas equilibradas | Derrota lenta de los jefes |
+
+<Callout type="info" title="Consejo para builds híbridas">
+Si no estás seguro de qué arquetipo se adapta a ti, empieza con la plantilla de **Luchador**. Perdona los errores y se transforma fácilmente en una build de daño cuando aprendes los patrones de los encuentros.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de objetivos de la partida">
+
+Registra estos hitos en cada partida para medir si tu ruta de mejoras está funcionando.
+
+<Checklist
+  id="upgrade-goals"
+  title="Hitos por partida:"
+  items={[
+    "Conseguir una mejora defensiva antes del primer jefe",
+    "Establecer un núcleo de daño a mitad de la partida",
+    "Alcanzar un flujo de moneda positivo antes del final de la partida",
+    "Completar al menos una sinergia completa (crítico o robo de vida)",
+    "Derrotar el encuentro final sin bajar del 30% de PS"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las mejores mejoras de BRASS HELL para principiantes?",
+    answer: "Los principiantes deberían priorizar primero los PS máximos y la reducción de daño, y después el daño del arma. Las mejoras de supervivencia mantienen las partidas con vida el tiempo suficiente para aprender los patrones de los enemigos, algo más importante que el daño puro mientras todavía estás dominando el juego."
+  },
+  {
+    question: "¿Debería elegir primero mejoras de daño o de defensa?",
+    answer: "Elige defensa primero en casi todos los casos. Morir termina la partida por completo, mientras que eliminar enemigos un poco más despacio solo cuesta tiempo. Cuando sobrevivas cómodamente, cambia por completo al escalado de daño."
+  },
+  {
+    question: "¿Merecen la pena las mejoras de economía?",
+    answer: "Sí, si aparecen pronto. Las mejoras de moneda y de repetición se acumulan durante toda la partida, lo que te permite ver más opciones y elegir sinergias más potentes. Las opciones económicas del final son mucho más débiles porque queda menos partida para aprovecharlas."
+  },
+  {
+    question: "¿Puedo reasignar o cambiar mejoras a mitad de la partida?",
+    answer: "Las elecciones de mejoras dentro de una partida generalmente quedan bloqueadas una vez seleccionadas, por eso es importante probar una opción cada vez. Trata cada partida como una iteración de aprendizaje y ajusta tus elecciones iniciales en el siguiente intento."
+  }
+]} />
+
+</Section>

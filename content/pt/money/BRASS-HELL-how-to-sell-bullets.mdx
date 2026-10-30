@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Coins, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL Como Vender Munição: Guia de Comércio Passo a Passo",
+  description: "Aprenda como vender munição em BRASS HELL: melhores vendedores, dicas de preços, organização da munição e estratégias de lucro para obter o máximo de sucata.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=How+to+Sell+Bullets",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Como vender munição em BRASS HELL** começa em qualquer vendedor que aceite munição como categoria de item para venda
+- **Organize antes de vender**: separar a munição por calibre e tipo proporciona preços unitários melhores de forma consistente
+- **Melhor margem**: munição excedente e nova de fábrica é a que alcança os preços mais altos; estojos usados valem muito menos
+- **Evite vender tudo**: mantenha uma reserva do calibre principal usado em combate para garantir sua sobrevivência
+- **A reputação com o vendedor importa**: negociar repetidamente desbloqueia taxas melhores com o tempo
+</Callout>
+
+<Section icon={Package} title="Vendendo Munição: O Básico">
+
+Entender **como vender munição em BRASS HELL** se resume a três pilares: saber quais vendedores compram munição, entender como o jogo precifica diferentes categorias de munição e saber quando é mais inteligente manter o estoque em vez de liquidá-lo. A munição é uma das classes de itens mais negociáveis do jogo, o que a torna uma fonte confiável de renda no início da campanha e uma moeda de troca flexível no final.
+
+| Categoria de Munição | Comprador Típico | Valor Relativo | Dificuldade de Venda |
+| --- | --- | --- | --- |
+| Munição nova de fábrica | Armeiros, comerciantes gerais | Alto | Fácil |
+| Munição militar excedente | Intendentes de facção | Médio-Alto | Moderada |
+| Munição recarregada | Apenas armeiros | Médio | Requer reputação |
+| Estojos de latão usados | Comerciantes de sucata | Baixo | Fácil, apenas em grandes quantidades |
+| Munição danificada/degradada | Apenas comerciantes de sucata | Muito baixo | Fácil |
+
+<Callout type="warning" title="Não Venda Tudo">
+Jogadores iniciantes frequentemente vendem todo o estoque de munição para conseguir dinheiro rápido e acabam morrendo no próximo confronto com a arma vazia. Sempre mantenha pelo menos duas recargas completas do seu calibre principal antes de confirmar qualquer venda em grandes quantidades.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processo de Venda Passo a Passo">
+
+Siga esta sequência sempre que planejar vender munição. Ela maximiza os créditos recebidos e minimiza o risco de ficar sem munição.
+
+<Steps>
+  <Step num="1" title="Auditoria do Inventário">
+    Abra o inventário e organize os itens por munição. Verifique o calibre, a condição e a quantidade. Separe sua reserva — a munição necessária para o equipamento atual — antes de qualquer outra coisa.
+  </Step>
+  <Step num="2" title="Organize e Empilhe">
+    Agrupe calibres idênticos e níveis de condição iguais em pilhas. Os vendedores de BRASS HELL pagam o preço integral anunciado por pilhas limpas e uniformes, mas aplicam descontos a lotes misturados e desorganizados.
+  </Step>
+  <Step num="3" title="Verifique os Preços dos Vendedores">
+    Visite pelo menos dois vendedores antes de vender. Os preços do mesmo calibre podem variar bastante entre comerciantes e mudar conforme as condições de oferta do jogo. Compare os preços unitários de pilhas idênticas.
+  </Step>
+  <Step num="4" title="Venda pela Melhor Oferta">
+    Confirme a venda com o vendedor que pagar mais. Venda primeiro as pilhas limpas e depois decida se vale a pena aceitar o desconto pelos restos misturados ou se é melhor guardá-los para uma viagem posterior.
+  </Step>
+  <Step num="5" title="Reinvista com Inteligência">
+    Converta parte dos seus ganhos em suprimentos, reparos ou armas melhores antes de deixar o centro comercial. Dinheiro parado não rende nada em BRASS HELL.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Organizar as Pilhas Compensa">
+Pilhas uniformes e organizadas alcançam preços unitários melhores de forma consistente do que um inventário solto e misturado. Dedicar dois minutos à organização antes de uma venda é uma das ações de maior valor por minuto no ciclo econômico do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Onde Vender: Comparação de Vendedores">
+
+Nem todos os compradores são iguais. Os diferentes tipos de vendedores em BRASS HELL atribuem valores diferentes à munição, e escolher o comprador certo é o maior fator individual para sua margem de lucro.
+
+<CardGrid cols={3}>
+  <Card title="Armeiros">
+    - **Melhores preços** para munição utilizável
+    - Compram munição recarregada
+    - Pagam um valor premium por calibres raros
+    - Estoque e taxas condicionados à reputação
+  </Card>
+  <Card title="Comerciantes Gerais">
+    - Aceitam quase todos os tipos de munição
+    - Preços moderados e grande conveniência
+    - Ideais para descarregar grandes quantidades em uma única parada
+    - Encontrados na maioria dos assentamentos
+  </Card>
+  <Card title="Comerciantes de Sucata">
+    - Únicos compradores de munição danificada
+    - Aceitam estojos usados em grandes quantidades
+    - Menores preços unitários
+    - Bons para se livrar de peso inútil
+  </Card>
+</CardGrid>
+
+| Tipo de Vendedor | Compra Munição Nova | Compra Estojos | Compra Danificados | Tendência de Preço |
+| --- | --- | --- | --- | --- |
+| Armeiro | Sim | Às vezes | Não | Mais alto |
+| Comerciante Geral | Sim | Às vezes | Raramente | Médio |
+| Intendente de Facção | Sim | Não | Não | Médio-Alto |
+| Comerciante de Sucata | Sim (baixo) | Sim | Sim | Mais baixo |
+
+<Callout type="info" title="A Reputação Desbloqueia Taxas Melhores">
+Vendedores com quem você negocia repetidamente tendem a oferecer taxas melhores e listas de compra mais amplas com o tempo. Concentrar suas vendas em um ou dois vendedores de confiança geralmente é mais vantajoso do que espalhar cada transação pelo mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fatores de Preço: O Que Altera o Valor da Munição">
+
+Vários atributos determinam quantos créditos uma pilha de munição pode render. Conhecê-los permite prever qual saque vale a pena levar para casa.
+
+| Fator | Alto Valor | Baixo Valor |
+| --- | --- | --- |
+| Condição | Nova de fábrica, sem uso | Corroída, danificada |
+| Raridade | Calibres raros ou avançados | Munição comum de pistola/fuzil |
+| Quantidade | Pilhas grandes e uniformes | Pilhas parciais espalhadas |
+| Demanda | Calibres usados por armas poderosas | Calibres obsoletos |
+| Embalagem | Lotes organizados e identificados | Sacos misturados |
+
+<Callout type="warning" title="Cuidado com a Contaminação por Munição Viva">
+Assim como recicladores de latão do mundo real recusam munição viva misturada a estojos usados, os vendedores de BRASS HELL aplicam grandes descontos — ou rejeitam completamente — lotes que contenham munição inutilizável ou perigosa misturada. Revise suas pilhas antes de se aproximar do balcão.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estratégias de Lucro e Checklist do Vendedor">
+
+Além do ciclo básico de venda, alguns hábitos diferenciam os vendedores ocasionais dos jogadores que transformam munição em uma fonte de renda confiável.
+
+<Checklist
+  id="bullet-selling-goals"
+  title="Antes de Cada Venda:"
+  items={[
+    "Separe uma reserva de combate equivalente a duas recargas do seu calibre principal",
+    "Organize toda a munição em pilhas uniformes por calibre e condição",
+    "Compare os preços de dois vendedores antes de fechar negócio",
+    "Venda munição danificada e estojos separadamente aos comerciantes de sucata",
+    "Reinvista os ganhos em equipamentos, reparos ou suprimentos"
+  ]}
+/>
+
+<Callout type="success" title="Especialize-se para Obter Lucros Consistentes">
+Jogadores que se concentram em negociar um pequeno número de calibres muito procurados constroem reputação com os vendedores mais rapidamente, aprendem melhor os padrões de preço e gastam menos tempo com logística do que aqueles que transportam tudo. Escolha seu nicho e trabalhe com ele.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como vendo munição em BRASS HELL?",
+    answer: "Organize sua munição em pilhas uniformes, visite um vendedor que compre munição — os armeiros pagam mais pelas munições utilizáveis — compare os preços de dois vendedores e confirme a venda mantendo uma reserva de combate do seu calibre principal."
+  },
+  {
+    question: "Quem paga mais pela munição?",
+    answer: "Os armeiros geralmente oferecem os melhores preços unitários, especialmente para calibres novos de fábrica e raros, e costumam ser os únicos vendedores que compram munição recarregada. Os comerciantes de sucata pagam menos, mas aceitam munição danificada e estojos usados."
+  },
+  {
+    question: "Vale a pena vender estojos de latão usados?",
+    answer: "Sim, mas apenas em grandes quantidades. Estojos individuais quase não valem nada, então acumule uma grande quantidade e venda tudo como um único lote limpo a um comerciante de sucata para que a viagem valha a pena."
+  },
+  {
+    question: "Devo guardar munição em vez de vendê-la?",
+    answer: "Sempre. Mantenha no mínimo duas recargas completas do calibre da sua arma principal e considere guardar calibres raros se houver uma melhoria de arma que os utilize ao seu alcance — o valor que eles têm para você pode superar o preço de venda."
+  }
+]} />
+
+</Section>

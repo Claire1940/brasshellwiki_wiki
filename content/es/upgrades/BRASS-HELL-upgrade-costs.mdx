@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Costes de mejora de BRASS HELL: guía para gastar inteligentemente y orden de prioridades",
+  description: "Descubre cómo aumentan los costes de mejora de BRASS HELL, qué mejoras debes priorizar primero y cómo evitar desperdiciar la moneda que tanto cuesta conseguir en inversiones de poco valor.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Upgrade+Costs+Guide",
+  date: "2026-10-31",
+  author: "Equipo de BRASS HELL Wiki"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **costes de mejora de BRASS HELL** aumentan considerablemente en los niveles superiores, así que el orden de gasto importa más que la velocidad de gasto
+- **Mejoras principales primero**: maximiza siempre tu línea principal de daño o defensa antes de invertir en mejoras secundarias
+- **La eficiencia de farmeo supera al esfuerzo de repetir misiones**: mejora los sistemas que acortan tus ciclos de obtención de recursos
+- **Evita invertir demasiado pronto** en cosméticos y estadísticas de poco impacto que luego serán reemplazadas
+- **Controla la relación entre coste y poder** antes de cada compra para evitar configuraciones sin salida
+</Callout>
+
+<Section icon={Map} title="Cómo funcionan los costes de mejora de BRASS HELL">
+
+Las mejoras son la base de la progresión en BRASS HELL, pero la curva de costes castiga a quienes gastan sin un plan. Cada nivel de mejora cuesta más que el anterior, y los niveles avanzados exigen monedas difíciles de conseguir. El resultado es sencillo: un jugador que reparte sus recursos entre cinco mejoras a medias siempre se quedará atrás frente a otro que complete dos líneas por completo.
+
+Comprender tres principios te ayudará a mantener tu cuenta en buen estado:
+
+- **Costes crecientes**: cada nivel suele costar bastante más que el anterior, mientras que la ganancia de estadísticas por nivel se mantiene plana o disminuye, por lo que los primeros niveles ofrecen la mejor relación entre valor y recursos gastados.
+- **Las monedas tienen distinta escasez**: los materiales comunes limitan las mejoras iniciales, mientras que los objetos raros y las monedas limitadas por jefes bloquean los niveles superiores. Gasta las monedas raras solo cuando hayas definido por completo la dirección de tu configuración.
+- **Rendimientos decrecientes**: cuando una línea de mejora deje de cambiar de forma significativa tu velocidad de victoria o tu capacidad de supervivencia, redirige los recursos a otra parte.
+
+<Callout type="tip" title="Regla de coste y poder">
+Antes de comprar cualquier mejora, hazte una pregunta: ¿esta mejora acortará mis próximas diez partidas o me mantendrá con vida en el contenido que realmente estoy intentando superar? Si la respuesta es no, conserva tus monedas.
+</Callout>
+
+La siguiente tabla resume la curva general de valor que puedes esperar a lo largo de la vida útil de una mejora:
+
+| Rango de niveles | Coste relativo | Valor por recurso | Recomendación |
+| --- | --- | --- | --- |
+| Niveles iniciales | Bajo | Excelente | Maximízalos de inmediato |
+| Niveles intermedios | Moderado | Bueno | Prioriza las líneas principales |
+| Niveles avanzados | Alto | Aceptable | Solo cuando la configuración esté definida |
+| Niveles finales | Muy alto | Situacional | Búscalos solo para impulsar el contenido final |
+
+</Section>
+
+<Section icon={Swords} title="Prioridad de mejoras: qué comprar primero">
+
+El orden de prioridades es donde la mayoría de los jugadores aceleran su progreso o se estancan. La idea principal es invertir en aquello que multiplica el resto de tu progreso: daño para superar combates más rápido, defensa para intentar fases más difíciles y mejoras de economía que alimenten todas tus compras futuras.
+
+<CardGrid cols={3}>
+  <Card title="Líneas de daño">
+    - **La mejor inversión inicial**
+    - Las victorias más rápidas significan un farmeo más rápido
+    - Escalan con cada fase que desbloqueas
+  </Card>
+  <Card title="Supervivencia">
+    - Permite intentar dificultades superiores
+    - Los niveles baratos ofrecen un gran valor
+    - Evita perder partidas por morir
+  </Card>
+  <Card title="Economía y farmeo">
+    - Aumenta los ingresos futuros
+    - Se acumula durante las sesiones largas
+    - Es mejor comprarla cuando la velocidad de victoria sea estable
+  </Card>
+</CardGrid>
+
+Una escala de prioridades práctica para una cuenta nueva o de nivel intermedio:
+
+| Prioridad | Categoría de mejora | Por qué va primero |
+| --- | --- | --- |
+| 1 | Daño principal | Acorta directamente cada combate y ciclo de farmeo |
+| 2 | Vida / defensa básica | Permite intentar contenido más difícil sin reinicios |
+| 3 | Mejoras de velocidad de farmeo | Financia todos los costes de mejora futuros |
+| 4 | Utilidad y estadísticas secundarias | Buenas ganancias, pero poca urgencia |
+| 5 | Sistemas cosméticos o especializados | Lo último, cuando la progresión sea cómoda |
+
+<Callout type="warning" title="Error común">
+No repartas recursos entre muchas líneas de mejora a la vez. Un personaje a medio maximizar con cinco sistemas desbloqueados pierde frente a un personaje enfocado con dos líneas principales completas, incluso con el mismo gasto total.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Planificación de mejoras paso a paso">
+
+Sigue esta secuencia cada vez que te dispongas a gastar recursos. Solo te llevará dos minutos y evitará los errores más costosos de BRASS HELL.
+
+<Steps>
+  <Step num="1" title="Audita tus recursos">
+    Haz una lista de las monedas y materiales que tienes actualmente, y anota cuáles están limitados por un máximo o por tiempo. Las monedas limitadas por tiempo siempre deben gastarse antes de alcanzar el límite.
+  </Step>
+  <Step num="2" title="Identifica tu cuello de botella">
+    Determina si estás muriendo, superando las fases demasiado lentamente o si no puedes permitirte el siguiente nivel. Cada cuello de botella apunta a una prioridad de mejora diferente.
+  </Step>
+  <Step num="3" title="Compara coste y poder">
+    Comprueba el coste del siguiente nivel de cada mejora candidata y calcula su impacto. Prefiere los niveles baratos con ganancias significativas frente a los niveles caros con beneficios marginales.
+  </Step>
+  <Step num="4" title="Comprométete y completa las líneas">
+    Invierte en la línea elegida hasta alcanzar un punto de ruptura natural y detente entonces. Completar una línea es mejor que empezar parcialmente tres.
+  </Step>
+  <Step num="5" title="Reevalúa después de cada hito">
+    Después de superar una nueva fase o dificultad, repite la auditoría. Los cuellos de botella cambian a medida que el contenido se vuelve más difícil, y la prioridad de ayer puede dejar de ser relevante.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hábito de revisión">
+Revisa tu plan de mejoras una vez por sesión, no durante una partida. Las decisiones tomadas entre partidas son racionales; las decisiones tomadas durante una partida son impulsivas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dónde conseguir materiales de mejora">
+
+Los costes de mejora son solo la mitad de la ecuación; la otra mitad son los ingresos. Elige tu lugar de farmeo según el material que necesites en lugar de repetir una sola fase sin parar.
+
+| Tipo de material | Mejor fuente | Notas de eficiencia |
+| --- | --- | --- |
+| Materiales comunes | Fases estándar repetibles | Rápidos, ilimitados y de poco valor por partida |
+| Objetos raros | Jefes y encuentros de élite | Intentos limitados, gran valor |
+| Moneda limitada por tiempo | Contenido diario y semanal | Gástala siempre antes de alcanzar el límite |
+| Materiales de evento | Modos de evento por tiempo limitado | Dales prioridad mientras el evento esté activo |
+
+Principios clave de farmeo:
+
+- **Juega la fase más difícil que puedas superar de forma constante**, no la más difícil que puedas superar ocasionalmente. Perder partidas desperdicia tiempo y no produce nada.
+- **Nunca dejes que una moneda limitada por capacidad alcance el máximo**. Los ingresos desperdiciados por superar el límite se pierden efectivamente.
+- **Los modos de evento suelen superar al farmeo permanente** para conseguir materiales de mejora mientras están activos, así que adapta tu horario en torno a ellos.
+
+<Callout type="tip" title="Multiplicador de eficiencia">
+Cualquier mejora que aumente la tasa de obtención o la velocidad de victoria reduce efectivamente todos los costes de mejora futuros. Cómpralas pronto y el resto del juego será más barato.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de hitos de mejora">
+
+Usa esta lista para mantener tu cuenta encaminada. Cada hito representa un punto natural de pausa en el que debes reevaluar la situación antes de seguir gastando.
+
+<Checklist
+  id="upgrade-milestones"
+  title="Hitos de mejora principales:"
+  items={[
+    "Maximiza los niveles iniciales de tu línea principal de daño",
+    "Establece una base de supervivencia para la dificultad actual",
+    "Invierte en al menos una mejora de velocidad de farmeo",
+    "Completa todo el contenido limitado por tiempo antes de alcanzar los límites de monedas",
+    "Define la dirección de tu configuración antes de gastar materiales raros"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Los costes de mejora de BRASS HELL se vuelven más baratos en algún momento?",
+    answer: "Los niveles individuales nunca se vuelven más baratos, pero tus ingresos aumentan a medida que desbloqueas contenido más difícil y mejoras de farmeo. En la práctica, el juego se vuelve más barato en relación con tu capacidad de obtener recursos, siempre que sigas mejorando de forma eficiente."
+  },
+  {
+    question: "¿Debería mejorar varios sistemas de forma equilibrada o centrarme en uno?",
+    answer: "Céntrate en uno. Como los costes de mejora aumentan con cada nivel, concentrar los recursos en una o dos líneas principales proporciona mucho más poder por moneda gastada que repartir la misma cantidad entre muchas líneas a medio completar."
+  },
+  {
+    question: "¿Qué mejoras ofrecen el mejor valor al principio?",
+    answer: "Los primeros niveles de daño y supervivencia casi siempre ofrecen el mejor valor, porque son baratos, mejoran cada partida que juegas y desbloquean lugares de farmeo más difíciles que aumentan tus ingresos para todo lo demás."
+  },
+  {
+    question: "¿Cómo evito desperdiciar materiales de mejora raros?",
+    answer: "No gastes monedas raras hasta haber decidido la dirección de tu configuración. Audita tu cuello de botella, confirma qué estadística lo resuelve realmente y comprométete solo después de comparar la relación entre coste y poder de tus opciones."
+  }
+]} />
+
+</Section>

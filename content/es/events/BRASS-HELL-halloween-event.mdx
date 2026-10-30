@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Evento de Halloween de BRASS HELL: recompensas, consejos y guía del evento",
+  description: "Todo lo confirmado hasta ahora sobre el evento de Halloween de BRASS HELL: recompensas de temporada, prioridades de farmeo y una lista de verificación paso a paso.",
+  category: "guía",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Halloween+Event",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Evento de Halloween de BRASS HELL**: Evento de temporada vinculado al ciclo de octubre de 2026, con contenido disponible por tiempo limitado.
+- **No hay códigos verificados para el evento**: Hasta el 31 de octubre de 2026, no se han publicado códigos oficiales de Halloween para BRASS HELL.
+- **Mejor estrategia**: Prioriza primero las recompensas por tiempo limitado y después farmea recursos recurrentes.
+- **Consejo fundamental**: El contenido de eventos de BRASS HELL suele estar limitado por tiempo, así que inicia sesión a diario.
+- **Canales oficiales**: Sigue los espacios oficiales de la comunidad de BRASS HELL para enterarte de los anuncios del evento.
+</Callout>
+
+<Section icon={Map} title="Descripción general del evento de Halloween de BRASS HELL">
+
+El evento de Halloween de BRASS HELL es la celebración de temporada del juego, activa hasta finales de octubre de 2026. Como la mayoría de los eventos por tiempo limitado en los juegos activos, se centra en recompensas cosméticas exclusivas, oportunidades de farmeo mejoradas y desafíos temáticos que desaparecen cuando termina el periodo del evento. Como el contenido de temporada no regresa de la misma forma, la regla general para cualquier evento de BRASS HELL se aplica especialmente aquí: juega durante el periodo disponible o perderás las recompensas.
+
+<Callout type="warning" title="Verifica antes de farmear">
+Los detalles de los eventos de BRASS HELL se comunican mediante anuncios oficiales. Trata con escepticismo cualquier afirmación sobre "códigos del evento" o "recompensas secretas" publicada por terceros, a menos que proceda de los canales oficiales. Esta wiki no incluye códigos no verificados.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Prioridades de las recompensas del evento">
+
+Cuando comienza un evento de temporada, no todas las recompensas merecen el mismo tiempo de farmeo. Utiliza este sistema de prioridades para decidir dónde invertir tus horas.
+
+| Prioridad | Tipo de recompensa | Por qué es importante | Riesgo si la omites |
+|---|---|---|---|
+| 1 | Cosméticos por tiempo limitado | Normalmente nunca regresan en la misma forma | Pérdida permanente |
+| 2 | Exclusivos de la moneda del evento | La moneda caduca cuando termina el evento | Moneda obtenida desperdiciada |
+| 3 | Materiales con obtención mejorada | Tasas más altas que durante el juego normal | Farmeo más lento después |
+| 4 | Recursos genéricos | Se pueden obtener durante todo el año | Bajo |
+
+<CardGrid cols={3}>
+  <Card title="Enfoque centrado en los cosméticos">
+    - **Ve inmediatamente a por los exclusivos**
+    - Ideal para quienes buscan completar todo
+    - Mayor riesgo de arrepentimiento si los pierdes
+  </Card>
+  <Card title="Enfoque equilibrado">
+    - Reparte el tiempo entre cosméticos y farmeo
+    - Funciona para la mayoría de los jugadores
+    - Requiere una cantidad moderada de tiempo diario
+  </Card>
+  <Card title="Enfoque centrado en el farmeo">
+    - Prioriza las tasas mejoradas de obtención de materiales
+    - Ideal para progresar en poder a largo plazo
+    - Acepta perder algunos cosméticos
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo profesional">
+Farmea los objetos exclusivos que requieren moneda del evento al principio del periodo disponible. Dejar todo el farmeo para los últimos días es la forma más común de que los jugadores pierdan recompensas de temporada cuando surgen imprevistos en la vida real.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia del evento paso a paso">
+
+<Steps>
+  <Step num="1" title="Lee el anuncio oficial">
+    Consulta los canales oficiales de BRASS HELL para conocer las fechas de inicio y finalización del evento, la lista de recompensas y cualquier calendario de bonificaciones por inicio de sesión. Todo lo demás depende de esas fechas.
+  </Step>
+  <Step num="2" title="Planifica la ruta de recompensas">
+    Haz una lista de todas las recompensas del evento y de su coste en moneda del evento o en completaciones de desafíos. Marca cuáles son exclusivas por tiempo limitado y cuáles son objetos recurrentes.
+  </Step>
+  <Step num="3" title="Calcula tu presupuesto diario">
+    Divide la cantidad total de moneda que necesitas entre el número de días restantes del evento. Añade un margen de uno o dos días para compensar las sesiones perdidas.
+  </Step>
+  <Step num="4" title="Farmea primero las actividades de mayor valor">
+    Cada día, completa antes que nada las actividades con la mejor proporción de moneda por minuto, especialmente el contenido bloqueado por la actividad diaria.
+  </Step>
+  <Step num="5" title="Gasta la moneda antes de la fecha límite">
+    Canjea toda la moneda del evento que te quede durante los últimos días. La mayoría de los eventos anula la moneda no gastada cuando termina.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Regla del margen">
+Planear terminar dos días antes te protege frente a problemas del servidor, interrupciones del servicio o conflictos de horarios durante las últimas horas del evento, que históricamente son las más concurridas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de preparación para el evento">
+
+<Checklist
+  id="halloween-event-goals"
+  title="Objetivos del evento de Halloween:"
+  items={[
+    "Confirmar las fechas oficiales de inicio y finalización del evento",
+    "Hacer una lista de todas las recompensas exclusivas por tiempo limitado",
+    "Establecer un objetivo diario de farmeo con días de margen",
+    "Completar cada día las actividades del evento bloqueadas diariamente",
+    "Gastar toda la moneda del evento antes de la fecha límite"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Errores comunes del evento que debes evitar">
+
+Los eventos de temporada repiten los mismos errores de los jugadores cada año. Evítalos y superarás a la mayoría de la comunidad con menos esfuerzo.
+
+| Error | Consecuencia | Prevención |
+|---|---|---|
+| Ignorar el contenido bloqueado diariamente | Moneda perdida e irrecuperable | Inicia sesión a diario, aunque sea brevemente |
+| Acumular la moneda del evento | Se anula al terminar el evento | Gástala durante la última semana |
+| Confiar en códigos no oficiales | Tiempo perdido y posibles estafas | Utiliza solo los canales oficiales |
+| Saltarse el anuncio | Mecánicas y bonificaciones perdidas | Lee las notas del parche completas |
+| Farmear solo al inicio del evento | Agotamiento y pérdida de incorporaciones tardías | Mantén un ritmo durante todo el periodo |
+
+<Callout type="warning" title="Alerta sobre estafas">
+Durante las temporadas de Halloween aumenta la cantidad de sitios web con falsos "códigos del evento" y enlaces de phishing dirigidos a los jugadores de juegos populares. Nunca introduzcas tus credenciales en sitios de terceros que afirmen generar recompensas de BRASS HELL.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Hay códigos oficiales del evento de Halloween de BRASS HELL en este momento?",
+    answer: "Hasta el 31 de octubre de 2026, nuestras fuentes no han publicado códigos oficiales verificados del evento de Halloween de BRASS HELL. Vigila los canales oficiales de la comunidad para conocer cualquier anuncio y considera poco fiables las listas de códigos de terceros."
+  },
+  {
+    question: "¿Cuánto dura el evento de Halloween de BRASS HELL?",
+    answer: "La duración de los eventos se establece en el anuncio oficial de cada temporada. La mayoría de los eventos de temporada de juegos similares duran entre dos y cuatro semanas alrededor de finales de octubre, así que planifica tu farmeo suponiendo que el periodo será corto y no largo."
+  },
+  {
+    question: "¿Volverán las recompensas del evento de Halloween más adelante?",
+    answer: "Los cosméticos por tiempo limitado normalmente no regresan de forma idéntica, aunque algunos juegos vuelven a lanzar variantes en años posteriores. Si una recompensa te importa, considera el periodo del evento como tu única oportunidad garantizada."
+  },
+  {
+    question: "¿Cuál es la mejor forma de farmear la moneda del evento?",
+    answer: "Prioriza primero las actividades bloqueadas diariamente, ya que no se pueden recuperar más adelante. Después, farmea el contenido repetible con la mejor proporción de moneda por minuto. Reparte la cantidad total de moneda que necesitas entre los días restantes y deja un margen."
+  }
+]} />
+
+</Section>

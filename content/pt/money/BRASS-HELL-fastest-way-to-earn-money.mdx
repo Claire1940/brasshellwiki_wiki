@@ -1,0 +1,195 @@
+import { Map, Coins, Trophy, Target, Zap, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "A Maneira Mais Rápida de Ganhar Dinheiro em BRASS HELL: Guia de Farming Passo a Passo",
+  description: "Aprenda a maneira mais rápida de ganhar dinheiro em BRASS HELL: domine a prensa, embale caixas mais rápido, escolha as melhores melhorias e mantenha ciclos de envio eficientes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/D78A32/fff?text=Money+Farming+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Maneira mais rápida de ganhar dinheiro**: minimize o tempo ocioso entre os ciclos da prensa e os despachos de envios.
+- **Ciclo principal**: colete materiais, produza munição na prensa, encha as caixas, despache e recomece imediatamente.
+- **Prioridade das melhorias**: velocidade de produção primeiro, capacidade de processamento das caixas em segundo e bônus de ganhos em terceiro.
+- **Regra do melhor calibre**: sempre envie o projétil de maior nível que você consiga produzir sem causar interrupções.
+- **Evite esta armadilha**: nunca deixe a prensa sem uso enquanto você caminha ou reabastece.
+</Callout>
+
+<Section icon={Coins} title="Como Funciona o Ganho de Dinheiro em BRASS HELL">
+
+BRASS HELL paga você pelos envios concluídos, não pelo trabalho pela metade. Todo o dinheiro que você ganha passa por um único ciclo: reunir materiais, operar a prensa de munição, produzir os projéteis acabados, embalá-los em caixas e despachar o envio. A maneira mais rápida de ganhar dinheiro não é encontrar um local secreto ou um bônus oculto — é tornar esse ciclo tão eficiente que sua fábrica quase nunca fique parada.
+
+Como o jogo funciona com um sistema incremental, pequenos ganhos de eficiência se acumulam. Cada segundo economizado em um ciclo se converte diretamente em mais envios por sessão, o que financia melhorias e acelera os ciclos futuros. Jogadores que tratam o despacho como o *início* do próximo pedido, e não como o fim do anterior, ganham consistentemente mais do que aqueles que fazem uma pausa após cada pagamento.
+
+| Etapa da Renda | Ação | Impacto nos Ganhos | Avaliação de Eficiência |
+| --- | --- | --- | --- |
+| Preparação de materiais | Colete os insumos perto da prensa | Evita interrupções | ★★★★☆ |
+| Produção | Opere a prensa continuamente | Principal fonte de renda | ★★★★★ |
+| Embalagem | Encha as caixas em uma única viagem | Reduz o tempo de deslocamento | ★★★★☆ |
+| Despacho | Envie o carregamento concluído | Aciona o pagamento | ★★★★★ |
+| Reinvestimento | Compre melhorias de velocidade | Multiplica os ganhos | ★★★★★ |
+
+<Callout type="tip" title="Mude sua Mentalidade">
+Pense no despacho como um ponto de verificação, não como uma linha de chegada. No momento em que uma caixa sair, os materiais do próximo pedido já devem estar a caminho da prensa.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="O Ciclo do Dinheiro: Ciclo de Produção Passo a Passo">
+
+Este é o ciclo exato que os jogadores eficientes executam dentro da fábrica coberta de neve. Siga a ordem e repita até que isso se torne automático.
+
+<Steps>
+  <Step num="1" title="Verifique o Pedido Ativo">
+    Confira exatamente o que o pedido atual exige antes de tocar em qualquer coisa. Saber a quantidade e o produto-alvo evita surpresas no meio do ciclo e viagens desperdiçadas.
+  </Step>
+  <Step num="2" title="Posicione os Materiais Perto da Prensa">
+    Mova todos os insumos necessários para perto o suficiente da prensa. Use uma rota fixa e repetível entre a área de suprimentos e a máquina para eliminar deslocamentos desnecessários.
+  </Step>
+  <Step num="3" title="Opere a Prensa sem Intervalos">
+    Carregue os materiais, execute a interação de produção, recolha os projéteis acabados e recarregue imediatamente. A prensa só deve ficar parada quando você não puder abastecê-la fisicamente.
+  </Step>
+  <Step num="4" title="Conclua o Lote Inteiro antes de se Mover">
+    Termine primeiro toda a quantidade do pedido e depois leve tudo para a área das caixas em uma única viagem. Dividir as entregas dobra seu tempo de caminhada sem render nenhum pagamento extra.
+  </Step>
+  <Step num="5" title="Embale, Despache e Reinicie Imediatamente">
+    Carregue a caixa, finalize o envio, despache-o e comece a posicionar os materiais do próximo pedido antes que a animação do pagamento termine.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="O Maior Inimigo dos Ganhos">
+O erro mais comum é descansar depois de um despacho. O tempo ocioso entre os envios é a maior fonte isolada de perda de renda em BRASS HELL — trate cada segundo em que a prensa fica vazia como tempo não remunerado.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Melhores Melhorias para Ganhar Dinheiro Rápido">
+
+Nem todas as melhorias da oficina geram o mesmo retorno. Seus primeiros pagamentos devem ser usados em qualquer melhoria que reduza o ciclo de produção ou o intervalo entre os lotes. Melhorias de conveniência ficam por último.
+
+<CardGrid cols={3}>
+  <Card title="Velocidade de Produção (Nível S)">
+    - **Reduz o tempo do ciclo da prensa**
+    - Mais lotes por sessão
+    - Compre primeiro, sempre
+    - Beneficia todos os envios futuros
+  </Card>
+  <Card title="Processamento de Caixas (Nível S)">
+    - **Enchimento e manuseio mais rápidos**
+    - Elimina o tempo ocioso entre os lotes
+    - Essencial quando sua produção supera sua velocidade de embalagem
+  </Card>
+  <Card title="Ganhos por Envio (Nível A)">
+    - **Maior pagamento por entrega**
+    - Compre quando a produção estiver estável
+    - Multiplica um ciclo que já é rápido
+  </Card>
+  <Card title="Desbloqueios de Munição (Nível A)">
+    - **Acesso a projéteis avançados**
+    - Valor para a progressão de longo prazo
+    - Melhor depois de cobrir a velocidade
+  </Card>
+  <Card title="Conveniência (Nível B)">
+    - **Vantagens de movimentação e manuseio**
+    - Melhorias úteis para a qualidade de vida
+    - Compre apenas depois das melhorias principais
+  </Card>
+</CardGrid>
+
+| Nível da Melhoria | Categoria | Quando Comprar | Retorno Esperado |
+| --- | --- | --- | --- |
+| S | Velocidade de produção | Primeiros pagamentos | Imediato e cumulativo |
+| S | Processamento de caixas | Quando a embalagem ficar atrás da produção | Remove o gargalo |
+| A | Ganhos por envio | Depois de estabelecer um ciclo estável | Aumenta a renda existente |
+| A | Desbloqueios de munição | Planejamento do meio do jogo | Libera projéteis de maior valor |
+| B | Conveniência | Por último | Retorno mais suave, porém mais lento |
+
+<Callout type="success" title="Regra Prática para Melhorias">
+Corrija primeiro a etapa mais lenta do seu ciclo. Se a prensa for mais rápida que sua embalagem, compre melhorias para as caixas; se a embalagem ficar esperando a prensa, compre velocidade. Melhorar a etapa errada desperdiça dinheiro.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Escolha do Calibre e Valor dos Envios">
+
+A progressão da munição acompanha o desenvolvimento da sua fábrica, e o melhor calibre é simplesmente o projétil de maior valor que você consegue produzir *consistentemente*. Um projétil premium que paralisa sua linha de produção rende menos do que um projétil mais barato que percorre um ciclo ininterrupto.
+
+| Etapa da Progressão | Tipo de Projétil | Nível de Valor | Melhor Uso |
+| --- | --- | --- | --- |
+| Produção inicial | Projétil inicial | Básico | Aprender o ciclo e financiar as primeiras melhorias |
+| Progressão inicial | Projétil intermediário | Aprimorado | Adotar quando a produção básica estiver consistente |
+| Progressão avançada | Projétil avançado | Nível máximo | Opção principal quando a velocidade e os materiais permitirem |
+
+Troque de calibre apenas quando o fluxo de materiais e a velocidade da prensa conseguirem manter o ciclo completo de envio funcionando sem pausas. Se melhorar seu projétil causar interrupções, você está trocando capacidade de produção por um título — volte para um calibre inferior até que sua oficina consiga acompanhar.
+
+<Callout type="info" title="Consistência Supera o Valor Máximo">
+Um fluxo constante de envios de nível intermediário normalmente rende mais do que envios esporádicos de nível alto, porque a frequência dos despachos — não o valor de um único pedido — impulsiona a renda em uma fábrica incremental.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Eficiência e Erros Comuns">
+
+Passe por este checklist em cada sessão. Cada item não marcado provavelmente está fazendo você perder dinheiro.
+
+<Checklist
+  id="money-goals"
+  title="Checklist da Sessão para Ganhar Dinheiro Rápido:"
+  items={[
+    "Verificar os requisitos do pedido antes de iniciar a produção",
+    "Posicionar todos os materiais ao alcance da prensa",
+    "Manter a prensa ativa sem nenhum intervalo ocioso",
+    "Concluir o lote inteiro antes de qualquer viagem de entrega",
+    "Despachar e começar imediatamente o próximo pedido",
+    "Reinvestir os pagamentos em melhorias de velocidade ou processamento"
+  ]}
+/>
+
+| Erro | Por que Custa Dinheiro | Solução |
+| --- | --- | --- |
+| Descansar depois do despacho | Prensa parada = renda zero | Comece imediatamente a preparar o próximo pedido |
+| Entregas divididas | Dobra o tempo de deslocamento | Termine o lote e faça uma única entrega |
+| Comprar conveniência cedo demais | Baixo retorno antes das melhorias principais | Priorize velocidade e capacidade de processamento |
+| Buscar os calibres mais altos rápido demais | Interrompe o ciclo | Envie o que flui de forma consistente |
+| Ignorar o reabastecimento | Para o ciclo no meio | Reabasteça durante as janelas de embalagem |
+
+<Callout type="tip" title="Disciplina da Sessão">
+Defina uma meta simples antes de cada turno: fazer mais despachos do que na sua última sessão. Contar os envios mantém seu foco na capacidade de processamento, que é o que realmente gera dinheiro.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais rápida de ganhar dinheiro em BRASS HELL?",
+    answer: "Aperte o ciclo principal: mantenha a prensa de munição funcionando sem intervalos ociosos, conclua os lotes inteiros antes de entregar, embale as caixas em uma única viagem e faça o despacho imediatamente antes de iniciar o próximo pedido. Reinvista os pagamentos em melhorias de velocidade de produção e processamento de caixas para que cada ciclo fique mais rápido."
+  },
+  {
+    question: "Quais melhorias devo comprar primeiro para ganhar dinheiro?",
+    answer: "Priorize a velocidade de produção e o processamento de caixas. Essas melhorias reduzem o ciclo de produção e removem os gargalos entre os lotes. Os ganhos por envio e os desbloqueios de munição se tornam mais valiosos quando seu ciclo básico já estiver rápido e estável."
+  },
+  {
+    question: "Devo sempre produzir o calibre mais alto que desbloqueei?",
+    answer: "Não necessariamente. O melhor calibre é o projétil de maior nível que você consegue produzir de forma consistente sem interromper o ciclo de envios. Se um projétil premium causar falta de materiais ou lotes lentos, um projétil mais barato fluindo em um ciclo ininterrupto frequentemente renderá mais por sessão."
+  },
+  {
+    question: "Jogar com outros jogadores aumenta os ganhos?",
+    answer: "BRASS HELL permite até quatro jogadores por servidor, e a cooperação pode ajudar a dividir tarefas de produção, como manuseio de materiais, operação da prensa e embalagem. Uma divisão de trabalho mais rápida pode reduzir a duração dos ciclos, embora sua renda ainda dependa de manter o ciclo completo, da produção ao despacho, em andamento."
+  }
+]} />
+
+<Callout type="success" title="Considerações Finais">
+Ganhar dinheiro rápido em BRASS HELL é um hábito, não um truque. Domine o ciclo, melhore o gargalo e nunca deixe a prensa esfriar — a curva de pagamentos cuidará do resto.
+</Callout>
+
+</Section>

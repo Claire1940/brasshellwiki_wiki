@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL Crafting Guide: Materials, Recipes & Best Builds",
+  description: "Master BRASS HELL crafting: material farming routes, recipe priorities, workstation upgrades, and the best gear builds for early and late game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Crafting+Guide",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL crafting** revolves around scavenged brass, steel scrap, and rare alloys
+- **Prioritize workstations**: recipe tiers unlock only at upgraded benches
+- **Best early build**: reinforced brass plating for cheap damage resistance
+- **Late-game target**: alloy-forged weapons with elemental modifiers
+- **Never waste rare alloys** on low-tier recipes you will outlevel quickly
+</Callout>
+
+<Section icon={Map} title="Crafting System Overview">
+
+The crafting system in BRASS HELL is your primary path to endgame power. Enemies scale faster than world drops, so players who invest in workstations and material stockpiles consistently outperform those relying on random loot. Every crafted item can be further modified at upgraded benches, making crafting a two-stage process: forge the base item, then refine it.
+
+**Core crafting pillars:**
+
+- **Materials**: gathered from nodes, enemy drops, and salvage
+- **Recipes**: unlocked through progression and exploration
+- **Workstations**: benches that gate recipe tiers
+- **Refinement**: post-craft upgrades that add modifiers
+
+<CardGrid cols={3}>
+  <Card title="Forge Bench">
+    - **Weapon crafting**
+    - Tiers 1-3 recipes
+    - First priority upgrade
+  </Card>
+  <Card title="Salvage Station">
+    - **Breaks down gear**
+    - Returns partial materials
+    - Funds rare recipes
+  </Card>
+  <Card title="Alloy Furnace">
+    - **Late-game recipes**
+    - Combines rare alloys
+    - Unlocks elemental modifiers
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Editor's Tip">
+Salvage every dropped item you will not equip. The returned scrap compounds quickly and becomes the backbone of your mid-game recipe stockpile.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Material Farming Priority">
+
+Not all materials are equal. Your farming time should follow the rarity and consumption rate of each resource tier. The table below ranks the most valuable materials by effort-to-reward ratio.
+
+| Material | Rarity | Primary Source | Used For | Priority |
+|---|---|---|---|---|
+| Brass Scraps | Common | Junk piles, basic enemies | Plating, low-tier weapons | ★★★ |
+| Steel Chunks | Uncommon | Mine nodes, elite drops | Mid-tier weapons and armor | ★★★★ |
+| Hellforged Alloy | Rare | Boss drops, deep-zone nodes | Endgame gear | ★★★★★ |
+| Ember Dust | Uncommon | Salvaging enchanted items | Elemental modifiers | ★★★★ |
+| Binding Resin | Uncommon | Plant nodes, traders | Attaching modifiers | ★★★ |
+
+<Callout type="warning" title="Common Mistake">
+Do not sell surplus Steel Chunks early in a run. Mid-tier recipes consume them in bulk, and buying them back from traders costs significantly more than the sale price.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Crafting Progression">
+
+Follow this sequence to build a crafting economy that carries you from the opening zones into the endgame without wasted resources.
+
+<Steps>
+  <Step num="1" title="Establish the Forge Bench">
+    Complete the early workshop quest to unlock your first bench. Craft a basic brass weapon immediately so combat farming becomes faster.
+  </Step>
+  <Step num="2" title="Build the Salvage Station">
+    Set up salvage before your inventory fills with unusable drops. Feed every spare item into it and stockpile Brass Scraps and Steel Chunks.
+  </Step>
+  <Step num="3" title="Craft Reinforced Brass Plating">
+    This chest piece offers the best defense-per-material ratio in the early game and stays viable through the first two zones.
+  </Step>
+  <Step num="4" title="Upgrade to Tier 2 Recipes">
+    Invest Steel Chunks into a mid-tier weapon. Damage scaling matters more than armor once enemy health pools grow.
+  </Step>
+  <Step num="5" title="Unlock the Alloy Furnace">
+    Concentrate Hellforged Alloy runs in deep zones, then craft your first endgame weapon and add an elemental modifier with Ember Dust.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Checkpoint">
+By the end of Step 5 you should have a Tier 3 weapon, a full mid-tier armor set, and a growing modifier stockpile — the standard benchmark for endgame readiness.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Best Crafted Gear Builds">
+
+Three builds dominate crafted loadouts, each suited to a different playstyle. Compare their strengths before committing rare alloys.
+
+| Build | Core Crafted Items | Strengths | Weaknesses |
+|---|---|---|---|
+| Bulwark | Full brass/steel plate set | **High survivability**, cheap materials | Low mobility, slow clears |
+| Skirmisher | Light steel armor, fast blade | **High speed**, strong single-target | Fragile against bosses |
+| Artificer | Alloy weapon + Ember modifiers | **Elemental damage**, versatile | Material-hungry, slow start |
+
+<CardGrid cols={3}>
+  <Card title="Bulwark">
+    - Best for new players
+    - Cheapest material costs
+    - Excellent in long fights
+  </Card>
+  <Card title="Skirmisher">
+    - Fastest farming speed
+    - Strong vs. elite enemies
+    - Requires dodge timing
+  </Card>
+  <Card title="Artificer">
+    - Highest damage ceiling
+    - Elemental coverage
+    - Late-game payoff build
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Refinement Advice">
+Apply Ember Dust modifiers only to Tier 3 items. Modifier costs do not transfer between items, so refining low-tier gear wastes the resource permanently.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Crafting Goals Checklist">
+
+Track your progression with this milestone list before pushing into the final zones.
+
+<Checklist
+  id="crafting-goals"
+  title="Essential Crafting Milestones:"
+  items={[
+    "Unlock the Forge Bench and craft first weapon",
+    "Build the Salvage Station and stockpile 100+ Brass Scraps",
+    "Craft full reinforced brass armor set",
+    "Upgrade workstations to Tier 2",
+    "Unlock the Alloy Furnace and craft a Tier 3 weapon",
+    "Apply first elemental modifier with Ember Dust"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is crafting better than farming drops in BRASS HELL?",
+    answer: "For consistent progression, yes. Crafted gear scales predictably with your workstation tier, while world drops are random. Most efficient runs combine both: farm materials from enemies, then craft the exact gear your build needs."
+  },
+  {
+    question: "What is the most important material in the crafting guide?",
+    answer: "Steel Chunks. They bridge early and mid game, appear in nearly every Tier 2 recipe, and are consumed in bulk. Hoarding them early prevents costly trader purchases later."
+  },
+  {
+    question: "Can I refund materials from a crafted item?",
+    answer: "Partially. Salvaging a crafted item returns a fraction of its materials, but rare alloys and modifier costs such as Ember Dust are lost. This is why you should only apply modifiers to Tier 3 gear."
+  },
+  {
+    question: "Which build should a new player craft first?",
+    answer: "The Bulwark build. Reinforced brass plating is cheap, forgiving, and keeps you alive while you learn enemy patterns. Transition to Skirmisher or Artificer once you have a stable Steel Chunk income."
+  }
+]} />
+
+</Section>

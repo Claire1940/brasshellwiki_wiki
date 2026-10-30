@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Factory } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "BRASS HELL : comment fabriquer des munitions — guide de l'usine étape par étape",
+  description: "Apprenez à fabriquer des munitions dans BRASS HELL : pressage manuel, déblocage des calibres, améliorations de poudre et conseils d'automatisation pour gagner un maximum d'argent.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=How+to+Make+Bullets",
+  date: "2026-10-31",
+  author: "Équipe du Wiki BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Comment fabriquer des munitions dans BRASS HELL** : pressez, déposez la douille, ajoutez la poudre, placez le projectile, puis pressez à nouveau pour terminer la munition.
+- **Progression des calibres** : commencez avec le .22 LR, puis débloquez des munitions jusqu'au 20 mm et au 30 mm en gagnant et en réinvestissant votre argent.
+- Les **améliorations de poudre** multiplient la valeur des munitions — certaines améliorations avancées atteignent **7 fois leur valeur**.
+- L'**automatisation** (presse automatique, poudre automatique, emballage automatique) transforme l'usine en source de revenus presque passive.
+- **Produisez par lots dès que possible** : les lots importants et les caisses de sortie plus grandes font considérablement augmenter les revenus.
+</Callout>
+
+<Section icon={Factory} title="Bases de la fabrication : comment fabriquer des munitions dans BRASS HELL">
+
+Fabriquer des munitions dans BRASS HELL repose sur une chaîne d'assemblage manuelle. Chaque munition commence par une douille en vrac, reçoit de la poudre et un projectile, puis est terminée à la presse avant d'être scellée dans des caisses pour la livraison. Au début, vous effectuez chaque étape à la main ; plus tard, les améliorations automatisent la majeure partie du processus.
+
+**Points forts de la vidéo :**
+- Démonstration complète de la fabrication manuelle, du .22 LR au 20 mm
+- Progression des améliorations de poudre avec les multiplicateurs de valeur réels
+- Améliorations d'automatisation : poudre automatique, presse automatique, emballage automatique
+- Passage d'une production de 1 munition par cycle à 100
+
+<YouTubeEmbed videoId="sOucCOzK52Q" title="Faire tourner une usine de munitions, c'est plutôt... nul (Brass Hell - Roblox)" />
+
+<Callout type="tip" title="Commencez petit">
+La modeste munition **.22 LR** ne rapporte que quelques centimes par projectile, mais elle vous apprend le rythme exact de l'assemblage. Maîtrisez la chaîne manuelle avant de dépenser pour des améliorations — vos automatismes vous serviront pendant toute la partie.
+</Callout>
+
+Le cycle manuel de base fonctionne ainsi : actionnez la presse 10, déposez la douille dans le plateau, allez à la station de poudre, faites glisser la quantité correcte de poudre, placez le projectile, puis actionnez la presse pour terminer. La précision est essentielle : vous ne pouvez pas simplement prendre de la poudre et la verser, alors surveillez bien la jauge.
+
+</Section>
+
+<Section icon={Target} title="Tableau de progression des calibres">
+
+Chaque calibre de BRASS HELL se débloque avec de l'argent et produit une valeur plus élevée par munition. Voici le parcours général de progression basé sur les déblocages en jeu :
+
+| Calibre | Stade de déblocage approximatif | Munitions par cycle | Notes |
+|---|---|---|---|
+| .22 LR | Calibre de départ | 1 (2 après amélioration) | Idéal pour répondre à la demande, faible valeur |
+| 9 mm | Début de partie | 3 par cycle | Munition de pistolet courante, ventes régulières |
+| .45 ACP | Début-milieu de partie | 5 par cycle | Munition agréable à produire, bénéfices modérés |
+| .357 | Milieu de partie | ~10 par cycle | Premier grand bond de production (~890 $ par livraison) |
+| 5.56 | Milieu de partie | 25 par cycle | Coûteuse par munition, revenus importants |
+| 7.62 / .308 | Milieu-fin de partie | En vrac | Munitions de fusil à forte valeur |
+| 12 ga - 10 ga | Fin de partie | En vrac | Cartouches de fusil à pompe, ligne de production séparée |
+| .50 BMG | Fin de partie | En vrac | Douilles gigantesques, livraisons d'environ 500 000 $ |
+| 20 mm / 30 mm | Fin de partie | 100 par cycle | Une caisse complète par cycle, livraisons d'environ 16 M$ |
+
+<Callout type="warning" title="Les numéros de calibre vont à l'envers">
+Pour les calibres de fusil à pompe, le **numéro est d'autant plus grand que le calibre est petit** : le calibre 10 est plus grand que le calibre 12. Ne dépensez pas trop en pensant qu'un numéro plus élevé correspond à une amélioration.
+</Callout>
+
+<Callout type="info" title="Consommation des matériaux">
+Améliorer le nombre de munitions par cycle ne **crée pas des munitions à partir de rien**. Produire cinq munitions par cycle consomme jusqu'à cinq douilles ou unités de cuivre par cycle ; veillez donc à maintenir vos réserves de matériaux au maximum.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Priorité des améliorations : que faut-il acheter en premier ?">
+
+Toutes les améliorations ne se valent pas. Suivez cet ordre de priorité pour augmenter vos revenus aussi rapidement que possible :
+
+| Amélioration | Effet | Priorité |
+|---|---|---|
+| Améliorations de poudre | Multiplient la valeur des munitions (jusqu'à **7 fois**) | ★★★★★ |
+| Lot en vrac | Plus de munitions par cycle de production | ★★★★★ |
+| Caisse de sortie / stockage de douilles plus grand | Permet de gérer de gros lots | ★★★★ |
+| Poudre automatique | Supprime l'étape de dosage précis | ★★★★ |
+| Presse automatique | La presse termine automatiquement les munitions | ★★★★ |
+| Assistant | Alimente les munitions à chaque cycle | ★★★ |
+| Emballage automatique | Scelle les munitions terminées sans intervention | ★★★ |
+| Distributeur de douilles | Les douilles neuves sont déposées automatiquement | ★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Début de partie">
+  - Achetez d'abord les **améliorations de poudre**
+  - Passez à 2 munitions par cycle
+  - Vendez chaque caisse immédiatement
+  - Réinvestissez tous vos bénéfices
+  </Card>
+  <Card title="Milieu de partie">
+  - Débloquez les **.357 et 5.56**
+  - Agrandissez le stockage et la caisse de sortie
+  - Engagez un assistant pour l'alimentation
+  - Regroupez les livraisons pour de gros paiements
+  </Card>
+  <Card title="Fin de partie">
+  - Mettez en place une **chaîne d'automatisation complète**
+  - Produisez du .50 BMG et du 20 mm
+  - Fabriquez 100 munitions par cycle
+  - Effectuez des livraisons à plusieurs millions
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Règle du réinvestissement">
+Chaque livraison importante devrait financer votre prochaine amélioration. Ignorer les améliorations pour accumuler de l'argent ralentit la croissance composée — une augmentation de 50 % de la valeur de la poudre est rentabilisée en quelques lots seulement.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Processus de production étape par étape">
+
+Suivez cette boucle à chaque session pour maintenir l'usine à son efficacité maximale :
+
+<Steps>
+  <Step num="1" title="Stockez les matériaux">
+  Achetez des douilles, du cuivre et de la poudre dans les magasins. Adressez-vous à Ilya au magasin de poudre lorsque vous réapprovisionnez vos stocks. Une capacité de matériaux plus importante (jusqu'à 1 500) signifie moins d'allers-retours.
+  </Step>
+  <Step num="2" title="Préparez votre lot">
+  Chargez le plateau avec des douilles. Choisissez le calibre débloqué qui a la plus grande valeur afin de maximiser vos revenus par cycle.
+  </Step>
+  <Step num="3" title="Ajoutez la poudre avec précision">
+  Faites glisser la poudre jusqu'à atteindre exactement le niveau indiqué par la jauge — un dosage imprécis gaspille des matériaux. Une fois la poudre automatique achetée, cette étape disparaît.
+  </Step>
+  <Step num="4" title="Placez le projectile et pressez">
+  Déposez le projectile dans le plateau, puis actionnez le levier de la presse. Avec la presse automatique installée, le levier termine les munitions à votre place.
+  </Step>
+  <Step num="5" title="Scellez et livrez">
+  Avec l'emballage automatique, les munitions terminées sont chargées automatiquement dans les caisses. Scellez les caisses pleines, livrez-les à l'acheteur et réinvestissez le paiement dans votre prochaine amélioration.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Vendez en gros">
+Attendez d'avoir de **gros lots scellés** avant de les livrer. Une seule livraison scellée de 1 600 munitions peut rapporter environ 100 000 $ — bien plus efficacement que de faire constamment de petits trajets.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste des objectifs de production">
+
+<Checklist
+  id="bullet-production-goals"
+  title="Jalons de l'usine :"
+  items={[
+    "Fabriquer manuellement votre première munition .22 LR",
+    "Acheter la première amélioration de valeur de la poudre",
+    "Atteindre 5 munitions par cycle avec le .45 ACP",
+    "Terminer une livraison de lot de .357 d'une valeur de plus de 1 000 $",
+    "Débloquer le 5.56 et atteindre 25 munitions par cycle",
+    "Installer l'automatisation complète (poudre, presse, emballage)",
+    "Produire du .50 BMG et réussir une livraison de 500 000 $",
+    "Atteindre la production de 20 mm en fin de partie à 100 munitions par cycle"
+  ]}
+/>
+
+<Callout type="warning" title="Le service de 4:17">
+Au fil de votre progression, certains éléments de l'histoire révèlent que l'usine pourrait être coincée dans une boucle — les journaux radio, les comptes rendus de passation et les reçus indiquent tous **4:17**. Gardez les documents que vous trouvez : ils font partie de la narration, ce n'est pas un bug.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Comment fabriquer des munitions dans BRASS HELL pour la première fois ?",
+    answer: "Commencez avec le .22 LR : déposez la douille dans le plateau, faites glisser la poudre jusqu'au niveau exact de la jauge, placez le projectile, puis actionnez la presse pour terminer la munition. Livrez les caisses terminées à l'acheteur afin d'obtenir l'argent nécessaire à vos premières améliorations."
+  },
+  {
+    question: "Quelle est la meilleure amélioration à acheter en premier ?",
+    answer: "Les améliorations de poudre sont le meilleur achat en début de partie, car elles multiplient la valeur de chaque munition produite. Une augmentation de 50 % de la valeur se remarque immédiatement et est rentabilisée en quelques lots."
+  },
+  {
+    question: "Les améliorations du nombre de munitions par cycle créent-elles des matériaux gratuits ?",
+    answer: "Non. Produire cinq munitions par cycle consomme jusqu'à cinq douilles ou unités de cuivre par cycle. Les améliorations du stockage des matériaux et le réapprovisionnement régulier deviennent essentiels dès que vous augmentez la taille de vos lots."
+  },
+  {
+    question: "Est-il possible d'automatiser entièrement la production de munitions ?",
+    answer: "Oui. Avec la poudre automatique, la presse automatique, un assistant et l'emballage automatique, votre rôle se limite à stocker les matériaux et à appuyer sur le bouton final. Les installations de fin de partie produisent une caisse complète de munitions à chaque cycle avec très peu d'intervention."
+  },
+  {
+    question: "Quel est le plus gros calibre que je puisse fabriquer ?",
+    answer: "La ligne de fusils va jusqu'aux munitions de 20 mm et de 30 mm, à raison de 100 munitions par cycle. Les cartouches de fusil à pompe sont disponibles jusqu'au calibre 10 sur une ligne de production séparée, qui nécessite de reconfigurer partiellement votre installation."
+  }
+]} />
+
+</Section>

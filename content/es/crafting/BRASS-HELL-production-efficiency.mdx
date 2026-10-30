@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Factory, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Eficiencia de producción en BRASS HELL: distribución de fábrica y consejos de rendimiento",
+  description: "Mejora la eficiencia de producción en BRASS HELL con planos de distribución, orden de prioridad de máquinas, proporciones de recursos y soluciones para cuellos de botella en esta guía práctica.",
+  category: "guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Production+Efficiency",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **eficiencia de producción en BRASS HELL** depende de la densidad de la distribución, el tiempo de actividad de las máquinas y unas proporciones equilibradas
+- Los **cuellos de botella** causan la mayoría de las pérdidas de rendimiento: corrige primero la etapa de producción más lenta
+- Las **distribuciones modulares compactas** superan a los diseños de cintas transportadoras largos y lineales
+- La **asignación de energía** debe priorizar la fundición y el ensamblaje antes que las refinerías
+- La **automatización temprana** de los lingotes de latón duplica el rendimiento durante la fase intermedia del juego
+</Callout>
+
+<Section icon={Factory} title="Cómo entender la eficiencia de producción en BRASS HELL">
+
+La eficiencia de producción en BRASS HELL mide la eficacia con la que tu fábrica convierte el mineral en bruto en componentes de latón terminados por ciclo. Cada máquina de tu cadena de producción consume energía, espacio y tiempo, y cualquier eslabón débil reduce el rendimiento total. Una instalación bien gestionada mantiene todas las máquinas ocupadas, minimiza la distancia de transporte y adapta las tasas de suministro a la demanda.
+
+Los tres pilares de la eficiencia son:
+
+- **Tiempo de actividad**: las máquinas nunca deberían quedarse inactivas esperando insumos
+- **Equilibrio**: las etapas iniciales deberían producir ligeramente más que las etapas posteriores
+- **Densidad**: las cintas transportadoras más cortas implican menos retrasos y menos pérdidas de recursos
+
+| Métrica | Qué mide | Valor objetivo |
+|---|---|---|
+| Tiempo de actividad de las máquinas | % del tiempo de ciclo trabajando activamente | **90%+** |
+| Reserva de entrada | Existencias de materia prima en cada etapa | 1-2 ciclos de demanda |
+| Proporción de transporte | Longitud de las cintas frente al número de máquinas | Menos de 6 casillas por máquina |
+| Excedente de energía | Capacidad no utilizada de la red | 10-15% de margen |
+| Tasa de defectos | Producción descartada por lote | Inferior al 2% |
+
+<Callout type="warning" title="Vigila tu primer cuello de botella">
+La mayoría de las pérdidas de eficiencia en BRASS HELL se deben a una sola máquina con suministro insuficiente. Audita tu cadena desde la entrada de mineral hasta el ensamblaje final antes de añadir nuevas líneas de producción: ampliar una fábrica con cuellos de botella solo desperdicia recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mejores diseños de distribución para un alto rendimiento">
+
+La elección de la distribución importa más que la cantidad bruta de máquinas. Tres diseños probados cubren la mayoría de las situaciones en BRASS HELL.
+
+<CardGrid cols={3}>
+  <Card title="Celda compacta">
+  - **Ideal para:** inicio y fase intermedia
+  - 4-6 máquinas por celda
+  - Recorridos de cinta más cortos
+  - Fácil de duplicar y ampliar
+  - Consumo de energía moderado
+  </Card>
+  <Card title="Distribución en columna vertebral">
+  - **Ideal para:** ampliar durante la fase intermedia
+  - Una columna central de cintas alimenta las ramificaciones
+  - Fácil de auditar para detectar cuellos de botella
+  - Rendimiento equilibrado entre las líneas
+  </Card>
+  <Card title="Estructura apilada">
+  - **Ideal para:** megafábricas del final del juego
+  - El apilamiento vertical multiplica la densidad
+  - Requiere una infraestructura energética sólida
+  - Exige una planificación cuidadosa de las reservas
+  </Card>
+</CardGrid>
+
+Al comparar distribuciones, sopesa el coste de ampliación frente a las necesidades actuales de producción. La celda compacta destaca por su flexibilidad, mientras que la estructura apilada ofrece un techo de producción mayor, pero solo si tu red eléctrica puede soportarla.
+
+| Distribución | Espacio necesario | Carga energética | Facilidad de ampliación | Techo de producción |
+|---|---|---|---|---|
+| Celda compacta | Bajo | Baja | ★★★★★ | Medio |
+| Columna vertebral | Medio | Media | ★★★★ | Alto |
+| Estructura apilada | Superficie reducida, gran altura | **Alta** | ★★★ | Muy alto |
+
+<Callout type="tip" title="Regla de espaciado">
+Deja una casilla de espacio transitable entre las celdas de producción. Apenas afecta a la eficiencia, pero hace que las reparaciones, las mejoras y los cambios de ruta sean mucho más rápidos durante las fases de expansión.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Revisión de eficiencia paso a paso">
+
+<Steps>
+  <Step num="1" title="Audita tu cadena actual">
+    Sigue tu producción desde la entrada de mineral hasta los productos terminados. Anota cada máquina que permanece inactiva o funciona con acumulaciones. Las máquinas inactivas indican un exceso de suministro en las etapas posteriores; las reservas saturadas indican un cuello de botella más adelante.
+  </Step>
+  <Step num="2" title="Identifica la etapa con el cuello de botella">
+    La etapa con la cola más larga de insumos sin procesar es tu verdadero límite de producción. Ninguna mejora en otra parte aumentará el rendimiento final hasta que esta etapa se amplíe o se acelere.
+  </Step>
+  <Step num="3" title="Reequilibra las proporciones de máquinas">
+    Añade máquinas a la etapa con el cuello de botella hasta que su cola se estabilice y, después, vuelve a comprobar la siguiente etapa de la cadena. Repite el proceso hasta que todas las colas avancen de forma constante.
+  </Step>
+  <Step num="4" title="Mejora la energía y el transporte">
+    Con las proporciones equilibradas, confirma que tu red tiene un margen del 10-15% y acorta los recorridos de cinta más largos. Las caídas de tensión reducen silenciosamente la velocidad de las máquinas.
+  </Step>
+  <Step num="5" title="Añade reservas y supervisa">
+    Coloca pequeñas reservas de entrada en cada etapa para que las interrupciones breves de las etapas anteriores no se propaguen. Vuelve a revisar la tabla de métricas después de cada ampliación.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verifica la solución">
+Después de reequilibrar la cadena, tus máquinas de ensamblaje final deberían producir de forma casi continua. Si los productos terminados siguen llegando a intervalos, todavía queda un cuello de botella oculto: repite la auditoría desde el paso 1.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Errores comunes que destruyen la eficiencia">
+
+- **Ampliar antes de auditar**: las nuevas líneas alimentadas por una cadena de suministro limitada por un cuello de botella solo añaden máquinas inactivas
+- **Dar demasiada prioridad a las refinerías**: las refinerías consumen mucha energía; la fundición de latón y el ensamblaje principal deben recibir energía primero
+- **Usar una sola línea larga de cintas**: los recorridos largos añaden retrasos de transporte y puntos únicos de fallo
+- **Ignorar el margen energético**: operar la red al 100% provoca caídas de tensión que ralentizan todas las máquinas
+- **Prescindir de las reservas**: sin reservas de entrada, un pequeño contratiempo detiene toda la cadena
+
+| Error | Síntoma | Solución |
+|---|---|---|
+| Proporciones desequilibradas | Las colas se acumulan en una etapa | Añade máquinas a la etapa con el cuello de botella |
+| Falta de energía | Ciclos lentos aleatorios | Mantén un margen del 10-15% en la red |
+| Recorridos de transporte largos | Producción a intervalos | Usa una distribución compacta o añade reservas |
+| Sin reservas | Paradas en toda la cadena | Mantén pequeñas existencias en cada etapa |
+| Refinerías sobredimensionadas | Consumo de energía con poca ganancia | Prioriza la fundición y el ensamblaje |
+
+<Callout type="warning" title="No persigas solo la velocidad">
+Las máquinas más rápidas alimentadas por una línea con suministro insuficiente no producen nada. Equilibra primero el suministro y después invierte en mejoras de velocidad donde las colas estén llenas de forma constante.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de objetivos de eficiencia">
+
+<Checklist
+  id="efficiency-milestones"
+  title="Objetivos de eficiencia de producción:"
+  items={[
+    "Auditar toda la cadena de producción y localizar el cuello de botella",
+    "Alcanzar un tiempo de actividad del 90% o más en todas las máquinas de ensamblaje",
+    "Mantener un margen del 10-15% en la red eléctrica",
+    "Automatizar el suministro de lingotes de latón para todas las líneas de ensamblaje",
+    "Añadir reservas de entrada en cada etapa de producción",
+    "Duplicar una celda compacta probada para ampliar el rendimiento"
+  ]}
+/>
+
+<Callout type="tip" title="Amplía mediante duplicación">
+Cuando una celda de producción alcance tus objetivos de tiempo de actividad, cópiala en lugar de diseñar nuevas distribuciones. Los módulos probados escalan más rápido y son más fáciles de solucionar que las ampliaciones diseñadas desde cero.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el factor individual más importante para la eficiencia de producción en BRASS HELL?",
+    answer: "La gestión de los cuellos de botella. El rendimiento de tu fábrica equivale al flujo de su etapa más lenta. Localizar y ampliar esa etapa, ya sea la entrada de mineral, la fundición o el ensamblaje, ofrece más beneficios que cualquier otro cambio."
+  },
+  {
+    question: "¿Cuánto margen energético debería mantener?",
+    answer: "Procura mantener entre un 10% y un 15% de capacidad excedente en tu red. Los sistemas eléctricos funcionando a plena carga corren el riesgo de sufrir caídas de tensión que reducen la velocidad de los ciclos de las máquinas en toda la fábrica y disminuyen la producción sin que lo notes."
+  },
+  {
+    question: "¿Qué distribución debería usar un jugador nuevo?",
+    answer: "Empieza con el diseño de celda compacta. Utiliza 4-6 máquinas con recorridos cortos de cinta, es fácil de auditar para detectar problemas y puede duplicarse a medida que crece tu suministro de recursos, antes de comprometerte con distribuciones más grandes en columna vertebral o apiladas."
+  },
+  {
+    question: "¿Es mejor mejorar las máquinas existentes o construir más?",
+    answer: "Mejora las máquinas solo en las etapas cuyas colas de entrada permanezcan llenas de forma constante; eso indica que las propias máquinas son el límite. Si las colas están vacías, el problema está en el suministro y las máquinas adicionales o más rápidas simplemente permanecerán inactivas."
+  }
+]} />
+
+</Section>

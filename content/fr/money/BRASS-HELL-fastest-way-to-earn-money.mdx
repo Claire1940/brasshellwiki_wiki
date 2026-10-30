@@ -1,0 +1,195 @@
+import { Map, Coins, Trophy, Target, Zap, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Le moyen le plus rapide de gagner de l'argent dans BRASS HELL : guide de farming étape par étape",
+  description: "Découvrez le moyen le plus rapide de gagner de l'argent dans BRASS HELL : maîtrisez la presse, remplissez les caisses plus vite, choisissez les meilleures améliorations et optimisez vos cycles d'expédition.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/D78A32/fff?text=Money+Farming+Guide",
+  date: "2026-10-31",
+  author: "Équipe du Wiki BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Le moyen le plus rapide de gagner de l'argent** : réduisez au minimum les temps d'inactivité entre les cycles de la presse et l'envoi des expéditions.
+- **Boucle principale** : récupérer les matériaux, fabriquer les munitions, remplir les caisses, expédier, puis recommencer immédiatement.
+- **Priorité des améliorations** : vitesse de production en premier, débit de remplissage des caisses en deuxième, bonus de revenus en troisième.
+- **Règle du meilleur calibre** : expédiez toujours la munition de plus haut niveau que vous pouvez produire sans provoquer de blocage.
+- **Évitez le piège** : ne laissez jamais la presse inutilisée pendant que vous vous déplacez ou vous réapprovisionnez.
+</Callout>
+
+<Section icon={Coins} title="Comment fonctionne la génération de revenus dans BRASS HELL">
+
+BRASS HELL vous rémunère pour les expéditions terminées, pas pour le travail à moitié accompli. Chaque dollar gagné passe par une seule boucle : récupérer les matériaux, utiliser la presse à munitions, fabriquer les cartouches finies, les emballer dans des caisses, puis expédier la commande. Le moyen le plus rapide de gagner de l'argent n'est pas de trouver un lieu secret ou un bonus caché : il consiste à resserrer cette boucle jusqu'à ce que votre usine soit presque toujours active.
+
+Comme le jeu repose sur un système incrémental, les petits gains d'efficacité s'accumulent. Chaque seconde économisée sur un cycle se transforme directement en expéditions supplémentaires par session, ce qui finance les améliorations et accélère les cycles suivants. Les joueurs qui considèrent l'expédition comme le *début* de la commande suivante plutôt que comme la fin de la précédente gagnent régulièrement plus que ceux qui font une pause après chaque paiement.
+
+| Étape des revenus | Action | Impact sur les gains | Niveau d'efficacité |
+| --- | --- | --- | --- |
+| Préparation des matériaux | Récupérer les composants près de la presse | Évite les blocages | ★★★★☆ |
+| Production | Utiliser la presse en continu | Source principale de revenus | ★★★★★ |
+| Emballage | Remplir les caisses en un seul trajet | Réduit le temps de déplacement | ★★★★☆ |
+| Expédition | Envoyer la commande terminée | Déclenche le paiement | ★★★★★ |
+| Réinvestissement | Acheter des améliorations de vitesse | Accroît les revenus | ★★★★★ |
+
+<Callout type="tip" title="Adoptez le bon état d'esprit">
+Considérez l'expédition comme un point de contrôle, pas comme une ligne d'arrivée. Dès qu'une caisse est envoyée, les matériaux de votre prochaine commande devraient déjà être en route vers la presse.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="La boucle de revenus : cycle de production étape par étape">
+
+Voici le cycle exact que les joueurs efficaces suivent dans l'usine enneigée. Respectez l'ordre et répétez-le jusqu'à ce qu'il devienne automatique.
+
+<Steps>
+  <Step num="1" title="Examinez la commande active">
+    Vérifiez exactement ce que la commande actuelle exige avant de toucher à quoi que ce soit. Connaître la quantité et le produit requis évite les surprises en cours de cycle et les trajets inutiles.
+  </Step>
+  <Step num="2" title="Placez les matériaux près de la presse">
+    Déplacez chaque composant nécessaire à portée de main de la presse. Utilisez un itinéraire fixe et répétable entre la zone d'approvisionnement et la machine afin d'éviter les détours.
+  </Step>
+  <Step num="3" title="Faites fonctionner la presse sans interruption">
+    Chargez les matériaux, lancez l'interaction de production, récupérez les cartouches terminées, puis rechargez immédiatement. La presse ne devrait être inactive que lorsque vous ne pouvez physiquement plus l'alimenter.
+  </Step>
+  <Step num="4" title="Terminez tout le lot avant de vous déplacer">
+    Terminez d'abord la quantité totale de la commande, puis transportez tout vers la zone des caisses en un seul trajet. Les livraisons fractionnées doublent votre temps de déplacement sans apporter de rémunération supplémentaire.
+  </Step>
+  <Step num="5" title="Emballez, expédiez et recommencez immédiatement">
+    Chargez la caisse, finalisez l'expédition, envoyez-la, puis commencez à préparer les matériaux de la commande suivante avant même la fin de l'animation de paiement.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Le plus grand facteur de perte de revenus">
+L'erreur la plus courante consiste à se reposer après une expédition. Le temps d'inactivité entre les expéditions est la principale source de revenus perdus dans BRASS HELL : considérez chaque seconde pendant laquelle la presse reste vide comme du temps non rémunéré.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Les meilleures améliorations pour gagner de l'argent rapidement">
+
+Toutes les améliorations de l'atelier ne rapportent pas autant. Vos premiers paiements devraient servir à tout ce qui réduit la durée de production ou l'intervalle entre les lots. Les améliorations de confort viennent en dernier.
+
+<CardGrid cols={3}>
+  <Card title="Vitesse de production (rang S)">
+    - **Réduit la durée des cycles de la presse**
+    - Plus de lots par session
+    - À acheter en premier, toujours
+    - Profite à toutes les expéditions futures
+  </Card>
+  <Card title="Débit des caisses (rang S)">
+    - **Remplissage et manipulation plus rapides**
+    - Supprime les temps morts entre les lots
+    - Essentiel lorsque votre production dépasse votre vitesse d'emballage
+  </Card>
+  <Card title="Revenus des expéditions (rang A)">
+    - **Paiement plus élevé par livraison**
+    - À acheter une fois la production stabilisée
+    - Multiplie les gains d'une boucle déjà rapide
+  </Card>
+  <Card title="Déblocages de munitions (rang A)">
+    - **Accès à des cartouches avancées**
+    - Valeur importante pour la progression à long terme
+    - À privilégier une fois la vitesse améliorée
+  </Card>
+  <Card title="Confort (rang B)">
+    - **Avantages de déplacement et de manipulation**
+    - Améliorations agréables pour la qualité de vie
+    - À acheter uniquement après les améliorations principales
+  </Card>
+</CardGrid>
+
+| Rang de l'amélioration | Catégorie | Quand l'acheter | Rendement attendu |
+| --- | --- | --- | --- |
+| S | Vitesse de production | Premiers paiements | Immédiat et cumulatif |
+| S | Débit des caisses | Lorsque l'emballage ralentit la production | Supprime le goulot d'étranglement |
+| A | Revenus des expéditions | Une fois la boucle stabilisée | Augmente les revenus existants |
+| A | Déblocages de munitions | Planification de milieu de partie | Débloque des cartouches plus rentables |
+| B | Confort | En dernier | Gain de fluidité, mais retour plus lent |
+
+<Callout type="success" title="Règle générale pour les améliorations">
+Corrigez d'abord l'étape la plus lente de votre boucle. Si la presse est plus rapide que votre emballage, achetez des améliorations de caisses ; si l'emballage attend la presse, augmentez la vitesse. Améliorer la mauvaise étape vous fait gaspiller votre argent.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Choix du calibre et valeur des expéditions">
+
+La progression des munitions suit le développement de votre usine, et le meilleur calibre est simplement la cartouche de plus grande valeur que vous pouvez produire *régulièrement*. Une cartouche premium qui bloque votre chaîne de production rapporte moins qu'une cartouche moins chère produite sans interruption.
+
+| Étape de progression | Type de cartouche | Niveau de valeur | Meilleure utilisation |
+| --- | --- | --- | --- |
+| Début de production | Cartouche de départ | Niveau initial | Apprendre la boucle et financer les premières améliorations |
+| Début de progression | Cartouche intermédiaire | Amélioré | À adopter lorsque la production de base est régulière |
+| Progression avancée | Cartouche avancée | Niveau le plus élevé | Option principale lorsque la vitesse et les matériaux le permettent |
+
+Ne changez de calibre que lorsque votre approvisionnement en matériaux et la vitesse de la presse permettent de maintenir le cycle complet d'expédition sans pause. Si l'amélioration de votre cartouche provoque des blocages, vous échangez le débit contre une simple étiquette : revenez au calibre inférieur jusqu'à ce que votre atelier rattrape son retard.
+
+<Callout type="info" title="La régularité l'emporte sur la valeur maximale">
+Un flux régulier d'expéditions de niveau intermédiaire rapporte généralement plus que des expéditions sporadiques de haut niveau, car c'est la fréquence des envois, et non la valeur d'une seule commande, qui détermine les revenus dans une usine incrémentale.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist d'efficacité et erreurs courantes">
+
+Parcourez cette checklist à chaque session. Chaque élément non vérifié vous fait probablement perdre de l'argent.
+
+<Checklist
+  id="money-goals"
+  title="Checklist d'une session de gains rapides :"
+  items={[
+    "Vérifier les exigences de la commande avant de commencer la production",
+    "Placer tous les matériaux à portée de la presse",
+    "Maintenir la presse active sans aucun temps mort",
+    "Terminer le lot complet avant tout trajet de livraison",
+    "Expédier la commande et commencer immédiatement la suivante",
+    "Réinvestir les paiements dans des améliorations de vitesse ou de débit"
+  ]}
+/>
+
+| Erreur | Pourquoi cela coûte de l'argent | Solution |
+| --- | --- | --- |
+| Se reposer après une expédition | Presse inactive = aucun revenu | Commencer immédiatement la préparation de la commande suivante |
+| Livraisons fractionnées | Double le temps de déplacement | Terminer le lot et livrer en une seule fois |
+| Acheter le confort trop tôt | Faible rendement avant les améliorations principales | Donner la priorité à la vitesse et au débit |
+| Se précipiter vers les meilleurs calibres | Bloque la boucle | Expédier ce qui circule régulièrement |
+| Négliger le réapprovisionnement | Arrêts en cours de cycle | Se réapprovisionner pendant les phases d'emballage |
+
+<Callout type="tip" title="Discipline pendant la session">
+Fixez-vous un objectif simple avant chaque session : effectuer plus d'expéditions que lors de la précédente. Compter les expéditions vous permet de rester concentré sur le débit, qui est ce qui rapporte réellement de l'argent.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Questions fréquemment posées">
+
+<FAQ items={[
+  {
+    question: "Quel est le moyen le plus rapide de gagner de l'argent dans BRASS HELL ?",
+    answer: "Resserrez la boucle principale : faites fonctionner la presse à munitions sans temps mort, terminez les lots complets avant de les livrer, remplissez les caisses en un seul trajet et expédiez immédiatement avant de commencer la commande suivante. Réinvestissez les paiements dans des améliorations de vitesse de production et de débit des caisses afin d'accélérer chaque cycle."
+  },
+  {
+    question: "Quelles améliorations dois-je acheter en premier pour gagner de l'argent ?",
+    answer: "Donnez la priorité à la vitesse de production et au débit des caisses. Elles réduisent la durée du cycle de production et suppriment les goulots d'étranglement entre les lots. Les revenus des expéditions et les déblocages de munitions deviennent plus intéressants une fois votre boucle de base rapide et stable."
+  },
+  {
+    question: "Dois-je toujours produire le calibre le plus élevé que j'ai débloqué ?",
+    answer: "Pas nécessairement. Le meilleur calibre est la cartouche la plus avancée que vous pouvez produire régulièrement sans ralentir le cycle d'expédition. Si une cartouche premium provoque des pénuries de matériaux ou des lots plus lents, une cartouche moins chère produite sans interruption rapporte souvent davantage par session."
+  },
+  {
+    question: "Jouer avec d'autres joueurs augmente-t-il les revenus ?",
+    answer: "BRASS HELL prend en charge jusqu'à quatre joueurs par serveur, et la coopération peut aider à répartir les tâches de production comme la manutention des matériaux, l'utilisation de la presse et l'emballage. Une répartition plus rapide du travail peut réduire la durée des cycles, mais vos revenus dépendent toujours du bon fonctionnement de toute la boucle, de la production à l'expédition."
+  }
+]} />
+
+<Callout type="success" title="Pour conclure">
+Gagner de l'argent rapidement dans BRASS HELL est une habitude, pas une astuce. Maîtrisez la boucle, améliorez le goulot d'étranglement et ne laissez jamais la presse refroidir : la courbe des paiements fera le reste.
+</Callout>
+
+</Section>

@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de cajas de BRASS HELL: tipos, probabilidades y mejores aperturas",
+  description: "Una guía práctica de cajas de BRASS HELL que cubre los tipos de cajas, los requisitos de desbloqueo, la estrategia de apertura y cómo gastar la moneda de forma eficiente.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=BRASS+HELL+Box+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de cajas de BRASS HELL**: Incluye todos los tipos de cajas y qué puedes esperar de cada nivel de apertura.
+- **La moneda es lo primero**: Acumula siempre moneda antes de abrir cajas de niveles superiores.
+- **Mejor valor**: Las cajas de nivel intermedio suelen ofrecer la mejor relación entre recompensas y coste al principio.
+- **Evita las trampas**: No gastes moneda premium en cajas de nivel bajo una vez que hayas superado la fase inicial del juego.
+- **Registra los resultados**: Anota tus aperturas para entender tu suerte personal con el tiempo.
+</Callout>
+
+<Section icon={Map} title="Cómo funciona el sistema de cajas en BRASS HELL">
+
+Las cajas son el sistema principal de distribución de botín en BRASS HELL. Cada caja contiene un conjunto aleatorio de recompensas, normalmente armas, equipo cosmético, potenciadores y variantes raras de nudillos de latón y otros equipos de combate cuerpo a cuerpo. Como las recompensas proceden de grupos organizados por niveles, entender qué caja abrir en cada etapa de tu progreso es una de las decisiones de eficiencia más importantes del juego.
+
+El sistema funciona según un principio sencillo: las cajas de nivel superior cuestan más moneda, pero utilizan un grupo de recompensas con mejores resultados mínimos. Una caja de nivel bajo todavía puede sorprenderte con un objeto potente, pero después de muchas aperturas, el valor esperado de las cajas premium es considerablemente mayor.
+
+| Nivel de caja | Coste habitual | Grupo de recompensas | Ideal para |
+| --- | --- | --- | --- |
+| Caja básica | Bajo | Equipo común, potenciadores pequeños | Jugadores nuevos, equipamiento inicial |
+| Caja estándar | Medio | Equipo poco común, potenciadores moderados | Farmeo de mitad de partida |
+| Caja premium | Alto | Equipo raro, variantes cosméticas | Optimización del final del juego |
+| Caja de evento | Moneda del evento | Objetos por tiempo limitado | Coleccionistas, cambios del metajuego |
+
+<Callout type="tip" title="Empieza poco a poco">
+Los jugadores nuevos deberían abrir primero varias Cajas básicas. Crear pronto un equipamiento inicial funcional es mejor que perseguir objetos raros antes de poder utilizarlos realmente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación de tipos de cajas: cuál se adapta a tu configuración">
+
+Tu estilo de juego debería determinar qué caja eliges. Una configuración de luchador basada en el daño bruto obtiene más valor de los grupos centrados en armas, mientras que una configuración defensiva se beneficia de cajas con más armadura y potenciadores. Compara las ventajas de cada enfoque antes de comprometer tu moneda.
+
+<CardGrid cols={3}>
+  <Card title="Aperturas agresivas">
+    - **Enfócate en los grupos de daño**
+    - Prioriza las cajas de armas
+    - Ideales para enfrentamientos rápidos
+    - Acepta un mayor riesgo a cambio de velocidad
+  </Card>
+  <Card title="Aperturas equilibradas">
+    - **Grupos de recompensas mixtos**
+    - Progresión de mejoras constante
+    - Flexibles contra distintos oponentes
+    - Recomendadas para la mayoría de los jugadores
+  </Card>
+  <Card title="Aperturas defensivas">
+    - **Enfoque en armadura y resistencia**
+    - Más lentas, pero consistentes
+    - Excelentes para combates prolongados
+    - Combinan bien con la acumulación de potenciadores
+  </Card>
+</CardGrid>
+
+| Estrategia | Cajas que abrir | Resultado esperado | Nivel de riesgo |
+| --- | --- | --- | --- |
+| Daño rápido | Niveles centrados en armas | Alto potencial de eliminación, poca defensa | Alto |
+| Híbrida | Cajas mixtas de nivel intermedio | Equipo fiable y equilibrado | Medio |
+| Resistencia de tanque | Niveles centrados en defensa | Supervivencia prolongada, victorias más lentas | Bajo |
+
+<Callout type="warning" title="Vigila tu reserva de moneda">
+Nunca gastes hasta quedarte en cero. Mantén una reserva de moneda para poder responder a las cajas de evento por tiempo limitado, que a menudo contienen recompensas exclusivas que no regresan a los grupos estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a paso: rutina eficiente para abrir cajas">
+
+Sigue esta rutina para maximizar el valor de cada sesión de aperturas. El orden importa: prepararte antes de gastar evita desperdiciar moneda en cajas que ya has dejado atrás.
+
+<Steps>
+  <Step num="1" title="Evalúa tu equipamiento">
+    Identifica el espacio de equipo más débil. Abre cajas que se dirijan al grupo de recompensas de ese espacio en lugar de abrirlas al azar.
+  </Step>
+  <Step num="2" title="Establece un presupuesto">
+    Decide cuánta moneda gastarás en esta sesión y respétalo. Esto evita gastar por frustración después de obtener aperturas desafortunadas.
+  </Step>
+  <Step num="3" title="Abre en tandas">
+    Abre cajas en tandas pequeñas de 3 a 5. Esto te proporciona puntos naturales para evaluar los resultados y detenerte si consigues el objeto que buscas.
+  </Step>
+  <Step num="4" title="Evalúa y ajusta">
+    Después de cada tanda, comprueba si ha mejorado tu espacio más débil. Si no es así, cambia de tipo de caja en lugar de insistir.
+  </Step>
+  <Step num="5" title="Guarda el resto">
+    Deposita la moneda sobrante en tu reserva para las cajas de evento y futuros desbloqueos de nivel.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Disciplina con las tandas">
+Los jugadores que abren cajas en tandas controladas suelen informar de una mayor satisfacción a largo plazo que quienes lo gastan todo en una sola sesión; la condición de parada protege tus recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos y lista de comprobación para abrir cajas">
+
+Sigue tu progreso con las cajas mediante hitos claros. Cada objetivo te acerca a un equipamiento completamente optimizado sin gastar de más en aperturas redundantes.
+
+<Checklist
+  id="box-goals"
+  title="Hitos de progresión de las cajas:"
+  items={[
+    "Construir un equipamiento inicial completo a partir de Cajas básicas",
+    "Mejorar tu espacio más débil hasta alcanzar al menos una calidad poco común",
+    "Ahorrar un presupuesto completo para una caja premium antes del final del juego",
+    "Completar un conjunto de cajas de evento mientras esté disponible",
+    "Reemplazar todo el equipo común por equipo adecuado a tu nivel"
+  ]}
+/>
+
+| Hito | Moneda necesaria (aprox.) | Prioridad |
+| --- | --- | --- |
+| Equipamiento inicial | Baja | ★★★★★ |
+| Mejora del espacio más débil | Baja a media | ★★★★ |
+| Presupuesto para una caja premium | Alta | ★★★ |
+| Conjunto de cajas de evento | Específica del evento | ★★★★★ mientras esté activo |
+
+<Callout type="info" title="Prioridad de los eventos">
+Las cajas por tiempo limitado deberían ocupar el primer puesto de tu lista de prioridades cuando aparezcan. Las cajas estándar siempre están disponibles; las recompensas de evento, a menudo no.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Errores comunes al abrir cajas y cómo evitarlos">
+
+La mayor parte de la moneda desperdiciada en BRASS HELL procede de unos pocos errores repetitivos. Apréndelos ahora y evitarás una costosa curva de aprendizaje.
+
+| Error | Por qué perjudica | Enfoque correcto |
+| --- | --- | --- |
+| Abrir cajas de nivel bajo en fases avanzadas | Las recompensas se vuelven obsoletas | Aumenta el presupuesto de nivel a medida que progresas |
+| Ignorar los huecos del equipamiento | Las mejoras caen en espacios ya fuertes | Prioriza primero tu equipo más débil |
+| No tener reserva antes de los eventos | Pierdes recompensas exclusivas | Mantén una reserva fija de moneda |
+| Perseguir un objeto específico | La variabilidad desperdicia moneda | Acepta el promedio del grupo y detente cuando estés satisfecho |
+
+<Callout type="warning" title="La trampa de perseguir objetos">
+Decide tu condición de parada antes de abrir nada. Si aparece el objeto que buscas, detente. Si se acaba tu presupuesto, detente. Perseguir un único objeto raro más allá de tu presupuesto es la forma más rápida de agotar tus recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor caja para abrir en BRASS HELL si soy un jugador nuevo?",
+    answer: "Las Cajas básicas son el mejor punto de partida en esta guía de cajas. Te permiten construir un equipamiento inicial funcional y barato, para que aprendas el sistema de combate antes de invertir grandes cantidades de moneda en grupos premium."
+  },
+  {
+    question: "¿Debería ahorrar moneda para las cajas de evento?",
+    answer: "Sí, si quieres objetos exclusivos o por tiempo limitado. Las cajas estándar permanecen disponibles indefinidamente, mientras que las recompensas de las cajas de evento podrían no regresar al grupo de recompensas. Mantén una reserva específica para estas aperturas."
+  },
+  {
+    question: "¿Cuántas cajas debería abrir por sesión?",
+    answer: "Abre tandas pequeñas de 3 a 5 y evalúa los resultados después de cada tanda. Esto te proporciona puntos naturales para detenerte y evita que gastes de más después de aperturas desafortunadas."
+  },
+  {
+    question: "¿Las cajas de nivel bajo todavía pueden dar buenas recompensas?",
+    answer: "Los grupos de nivel bajo pueden incluir objetos sorprendentes, pero después de muchas aperturas su valor esperado es inferior al de las cajas premium. Considera las recompensas raras de nivel bajo como bonificaciones, no como una estrategia."
+  }
+]} />
+
+</Section>

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { Hammer, TrendingUp, Coins, Sparkles, Package, Globe } from 'lucide-react'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { type Locale } from '@/i18n/routing'
 
@@ -14,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: 'About BRASS HELL Wiki - Your Ultimate Roblox Game Resource',
-    description: 'Learn about BRASS HELL Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the BRASS HELL Roblox game.',
+    description: 'Learn about BRASS HELL Wiki, a community-driven resource hub providing comprehensive guides, bullet crafting tips, upgrade strategies, and code tracking for the BRASS HELL Roblox game.',
     robots: {
       index: false,
       follow: true,
@@ -75,10 +76,10 @@ export default function About() {
             <p>
               BRASS HELL Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
               master the Roblox game "BRASS HELL". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              bullet crafting tips, upgrade strategies, money-making advice, and strategic insights to enhance your gaming experience.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
+              Whether you're a new player just starting your first production line or a seasoned veteran optimizing your factory,
               BRASS HELL Wiki is here to support you every step of the way.
             </p>
           </div>
@@ -105,7 +106,7 @@ export default function About() {
             <p>
               We envision BRASS HELL Wiki as the <strong>go-to destination</strong> for every BRASS HELL player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              bullet crafting guides, want to optimize their factory upgrades, or are looking for the fastest money strategies.
             </p>
           </div>
         </div>
@@ -118,61 +119,61 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <Hammer className="w-7 h-7 mb-3 text-[hsl(var(--nav-theme))]" />
+              <h3 className="text-xl font-semibold text-white mb-2">Bullet Crafting Guides</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                Step-by-step crafting guides covering every bullet type, workstation, and production line.
+                Master the art of ammo manufacturing!
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <TrendingUp className="w-7 h-7 mb-3 text-[hsl(var(--nav-theme))]" />
+              <h3 className="text-xl font-semibold text-white mb-2">Factory Upgrades</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Ranked upgrade orders with costs and priorities so you always know what to buy next.
+                Grow your factory from a single workbench to full automation.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <Coins className="w-7 h-7 mb-3 text-[hsl(var(--nav-theme))]" />
+              <h3 className="text-xl font-semibold text-white mb-2">Money Strategies</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                The fastest ways to sell bullets and grow your cash per hour.
+                Learn when to sell, how pricing works, and which upgrades pay back fastest.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <Sparkles className="w-7 h-7 mb-3 text-[hsl(var(--nav-theme))]" />
+              <h3 className="text-xl font-semibold text-white mb-2">Events & Updates</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Coverage of every limited-time event, from Halloween rewards to balance changes.
+                Never miss exclusive content or fall behind on the latest update.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <Package className="w-7 h-7 mb-3 text-[hsl(var(--nav-theme))]" />
+              <h3 className="text-xl font-semibold text-white mb-2">Boxes & Rewards</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                Every box type explained: how to get them, what's inside, and which ones are worth it.
+                Open with confidence instead of guessing.
               </p>
             </div>
 
             {/* Feature Card 6 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
+              <Globe className="w-7 h-7 mb-3 text-[hsl(var(--nav-theme))]" />
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages including English, Portuguese,
+                Spanish, and French.
               </p>
             </div>
           </div>
@@ -195,7 +196,7 @@ export default function About() {
               <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
+              <strong>Want to contribute?</strong> Whether you've discovered a new bullet recipe, found a hidden production trick,
               or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
             </p>
           </div>
@@ -222,7 +223,7 @@ export default function About() {
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
             </ul>
             <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
+              Project Codename: "Brassworks" – Crafting success together.
             </p>
           </div>
         </div>

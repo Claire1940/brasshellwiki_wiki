@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Coins, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL : comment vendre des balles — guide du commerce étape par étape",
+  description: "Apprenez à vendre des balles dans BRASS HELL : meilleurs vendeurs, conseils sur les prix, tri des munitions et stratégies de profit pour maximiser vos retours en ferraille.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=How+to+Sell+Bullets",
+  date: "2026-10-31",
+  author: "Équipe du wiki BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Vendre des balles dans BRASS HELL** commence auprès de n'importe quel marchand qui accepte les munitions comme catégorie d'objets à vendre
+- **Triez avant de vendre** : séparer les munitions par calibre et par type permet généralement d'obtenir de meilleurs prix à l'unité
+- **Meilleure marge** : les munitions neuves d'usine et les surplus inutilisés se vendent le plus cher ; les douilles tirées valent bien moins
+- **Évitez de tout vendre** : gardez une réserve de votre calibre de combat principal pour survivre
+- **La réputation auprès des vendeurs compte** : des échanges répétés débloquent de meilleurs taux avec le temps
+</Callout>
+
+<Section icon={Package} title="Vendre des balles : les bases">
+
+Comprendre **comment vendre des balles dans BRASS HELL** repose sur trois piliers : savoir quels vendeurs achètent des munitions, comprendre comment le jeu évalue les différentes catégories de munitions et savoir quand il est plus judicieux de conserver son stock plutôt que de le liquider. Les munitions font partie des catégories d'objets les plus régulièrement échangeables du jeu, ce qui en fait une source de revenus fiable en début de partie et un atout de négociation flexible en fin de partie.
+
+| Catégorie de munitions | Acheteur habituel | Valeur relative | Difficulté de vente |
+| --- | --- | --- | --- |
+| Cartouches neuves d'usine | Armuriers, marchands généralistes | Élevée | Facile |
+| Munitions militaires de surplus | Intendants de faction | Moyenne à élevée | Modérée |
+| Munitions rechargées | Armuriers uniquement | Moyenne | Réputation requise |
+| Douilles en laiton tirées | Ferrailleurs | Faible | Facile, uniquement en gros |
+| Munitions endommagées ou dégradées | Ferrailleurs uniquement | Très faible | Facile |
+
+<Callout type="warning" title="Ne vendez pas tout">
+Les nouveaux joueurs vendent souvent tout leur inventaire de munitions pour obtenir rapidement de l'argent, puis meurent lors du combat suivant avec une arme vide. Gardez toujours au moins deux chargeurs complets de votre calibre principal avant de confirmer une vente en gros.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Processus de vente étape par étape">
+
+Suivez cette séquence chaque fois que vous prévoyez de vendre des balles. Elle maximise les crédits reçus tout en réduisant le risque de vous retrouver sans munitions.
+
+<Steps>
+  <Step num="1" title="Audit de l'inventaire">
+    Ouvrez votre inventaire et triez-le par munitions. Vérifiez le calibre, l'état et la quantité. Mettez votre réserve de côté — les munitions nécessaires à votre équipement actuel — avant toute autre chose.
+  </Step>
+  <Step num="2" title="Trier et regrouper">
+    Regroupez les calibres identiques et les mêmes niveaux d'état en piles. Dans BRASS HELL, les vendeurs paient le prix affiché complet pour les piles propres et homogènes, mais appliquent une remise aux lots mélangés et non triés.
+  </Step>
+  <Step num="3" title="Vérifier les prix des vendeurs">
+    Consultez au moins deux vendeurs avant de vendre. Le prix d'un même calibre peut varier sensiblement d'un marchand à l'autre et évoluer selon les conditions d'approvisionnement du jeu. Comparez les prix unitaires de piles identiques.
+  </Step>
+  <Step num="4" title="Vendre au meilleur prix">
+    Confirmez la vente auprès du vendeur qui paie le mieux. Vendez d'abord les piles propres, puis décidez si les restes mélangés valent la remise appliquée ou s'il vaut mieux les conserver pour un prochain passage.
+  </Step>
+  <Step num="5" title="Réinvestir intelligemment">
+    Convertissez une partie de vos gains en fournitures, réparations ou meilleures armes avant de quitter le centre commercial. Dans BRASS HELL, l'argent qui dort ne rapporte rien.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="La rigueur dans le tri est payante">
+Les piles homogènes et triées obtiennent systématiquement de meilleurs prix unitaires qu'un inventaire disparate et mélangé. Consacrer deux minutes au tri avant une vente est l'une des actions les plus rentables par minute dans la boucle économique du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Où vendre : comparaison des vendeurs">
+
+Tous les acheteurs ne se valent pas. Les différents types de vendeurs de BRASS HELL accordent des valeurs différentes aux munitions, et choisir le bon acheteur est le facteur le plus important de votre marge bénéficiaire.
+
+<CardGrid cols={3}>
+  <Card title="Armuriers">
+    - **Meilleurs prix** pour les munitions utilisables
+    - Achètent les cartouches rechargées
+    - Paient un supplément pour les calibres rares
+    - Stocks et tarifs soumis à la réputation
+  </Card>
+  <Card title="Marchands généralistes">
+    - Acceptent presque tous les types de munitions
+    - Prix modérés, grande commodité
+    - Idéaux pour vider rapidement un stock important
+    - Présents dans la plupart des colonies
+  </Card>
+  <Card title="Ferrailleurs">
+    - Seuls acheteurs des munitions endommagées
+    - Prennent les douilles tirées en gros
+    - Prix unitaires les plus bas
+    - Pratiques pour se débarrasser du poids inutile
+  </Card>
+</CardGrid>
+
+| Type de vendeur | Achète les munitions neuves | Achète les douilles | Achète les munitions endommagées | Tendance des prix |
+| --- | --- | --- | --- | --- |
+| Armurier | Oui | Parfois | Non | La plus élevée |
+| Marchand généraliste | Oui | Parfois | Rarement | Moyenne |
+| Intendant de faction | Oui | Non | Non | Moyenne à élevée |
+| Ferrailleur | Oui (à bas prix) | Oui | Oui | La plus basse |
+
+<Callout type="info" title="La réputation débloque de meilleurs tarifs">
+Les vendeurs avec lesquels vous échangez régulièrement ont tendance à proposer de meilleurs tarifs et une liste d'achats plus étendue au fil du temps. Concentrer vos ventes auprès d'un ou deux vendeurs de confiance surpasse généralement le fait de répartir chaque transaction sur toute la carte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Facteurs de prix : ce qui modifie la valeur des munitions">
+
+Plusieurs caractéristiques déterminent le nombre de crédits rapportés par une pile de balles. Les connaître vous permet de prévoir quel butin mérite d'être rapporté.
+
+| Facteur | Valeur élevée | Valeur faible |
+| --- | --- | --- |
+| État | Neuf d'usine, inutilisé | Corrodé, endommagé |
+| Rareté | Calibres rares ou avancés | Cartouches courantes de pistolet ou de fusil |
+| Quantité | Grandes piles homogènes | Petites piles dispersées |
+| Demande | Calibres utilisés par des armes puissantes | Calibres obsolètes |
+| Conditionnement | Lots triés et étiquetés | Sacs de munitions mélangées |
+
+<Callout type="warning" title="Attention à la contamination par des cartouches réelles">
+Tout comme les recycleurs de laiton du monde réel refusent les cartouches réelles mélangées à des douilles tirées, les vendeurs de BRASS HELL appliquent une forte remise aux lots contenant des munitions inutilisables ou dangereuses mélangées — voire les refusent complètement. Vérifiez vos piles avant de vous présenter au comptoir.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Stratégies de profit et checklist du vendeur">
+
+Au-delà de la boucle de vente de base, quelques habitudes distinguent les vendeurs occasionnels des joueurs qui transforment les munitions en source de revenus fiable.
+
+<Checklist
+  id="bullet-selling-goals"
+  title="Avant chaque tournée de vente :"
+  items={[
+    "Mettre de côté une réserve de combat équivalant à deux rechargements pour votre calibre principal",
+    "Trier toutes les munitions en piles homogènes par calibre et par état",
+    "Comparer les prix auprès de deux vendeurs avant de vous décider",
+    "Vendre séparément les munitions endommagées et les douilles aux ferrailleurs",
+    "Réinvestir les gains dans l'équipement, les réparations ou les fournitures"
+  ]}
+/>
+
+<Callout type="success" title="Spécialisez-vous pour des profits réguliers">
+Les joueurs qui se concentrent sur le commerce d'un petit nombre de calibres très demandés améliorent plus rapidement leur réputation auprès des vendeurs, apprennent mieux les fluctuations des prix et consacrent moins de temps à la logistique que ceux qui transportent tout. Choisissez votre spécialité et exploitez-la.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Comment vendre des balles dans BRASS HELL ?",
+    answer: "Triez vos munitions en piles homogènes, rendez-vous chez un vendeur qui achète les munitions — les armuriers paient le plus pour les cartouches utilisables — comparez les prix auprès de deux vendeurs, puis confirmez la vente tout en conservant une réserve de combat pour votre calibre principal."
+  },
+  {
+    question: "Qui paie le plus pour les munitions ?",
+    answer: "Les armuriers proposent généralement les meilleurs prix unitaires, en particulier pour les munitions neuves d'usine et les calibres rares. Ce sont aussi habituellement les seuls vendeurs à acheter les munitions rechargées. Les ferrailleurs paient le moins, mais acceptent les munitions endommagées et les douilles tirées."
+  },
+  {
+    question: "Vaut-il la peine de vendre les douilles en laiton tirées ?",
+    answer: "Oui, mais uniquement en gros. Les douilles individuelles ne valent presque rien ; accumulez-en donc une grande quantité et vendez-les en un seul lot propre à un ferrailleur pour que le déplacement en vaille la peine."
+  },
+  {
+    question: "Devrais-je parfois conserver mes munitions au lieu de les vendre ?",
+    answer: "Toujours. Gardez au minimum deux rechargements complets du calibre de votre arme principale et envisagez de conserver les calibres rares si une amélioration d'arme qui les utilise est à votre portée — leur valeur pour vous peut dépasser leur prix de vente."
+  }
+]} />
+
+</Section>

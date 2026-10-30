@@ -1,0 +1,243 @@
+import { Factory, Hammer, Target, Shield, Wrench, ClipboardCheck } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL production upgrades: Step-by-Step Guide",
+  description: "Plan BRASS HELL production upgrades with a clear priority system, testing routine, upgrade checklist, and practical troubleshooting advice.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Production+Upgrades",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team",
+  slug: "/brass-hell-production-upgrades"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL production upgrades** work best when each change has a clear purpose.
+- **Start with bottlenecks** before investing in secondary improvements.
+- **Test one upgrade** at a time so performance changes remain easy to evaluate.
+- **Protect reliability** by checking heat, fit, clearance, and maintenance demands.
+- **Record results** after every adjustment to build a repeatable upgrade path.
+</Callout>
+
+<Section icon={Factory} title="BRASS HELL Production Upgrades: Core Priorities">
+
+A strong **BRASS HELL production upgrades** plan should improve output without creating new bottlenecks. Whether the production system involves crafting, base management, resource processing, or equipment preparation, the same rule applies: upgrade the part of the workflow that limits the entire chain.
+
+Do not begin with the most expensive option simply because it appears stronger. First identify where time, materials, storage, power, workforce, or transport capacity is being lost. An upgrade that increases output but leaves the final storage full may provide less value than a smaller improvement to logistics.
+
+<CardGrid cols={4}>
+  <Card title="Throughput">
+    - Increase how much the system produces
+    - Reduce idle production time
+    - Prioritize the slowest stage
+  </Card>
+  <Card title="Efficiency">
+    - Lower material waste
+    - Improve fuel or power use
+    - Avoid unnecessary processing steps
+  </Card>
+  <Card title="Reliability">
+    - Reduce stoppages and failures
+    - Keep maintenance manageable
+    - Check compatibility before installation
+  </Card>
+  <Card title="Flexibility">
+    - Support more than one recipe or use
+    - Preserve room for future upgrades
+    - Avoid upgrades that lock the layout
+  </Card>
+</CardGrid>
+
+| Priority | Main Question | Recommended Action | Upgrade Value |
+| --- | --- | --- | --- |
+| 1 | What limits production now? | Fix the slowest or most restrictive stage | Highest |
+| 2 | Where are resources being lost? | Improve input quality, storage, or routing | High |
+| 3 | What causes downtime? | Add reliability or maintenance improvements | Medium to high |
+| 4 | What creates future constraints? | Preserve space, capacity, and compatibility | Medium |
+| 5 | What only improves convenience? | Add cosmetic or comfort upgrades later | Situational |
+
+<Callout type="tip" title="Editor’s Tip">
+Treat every production improvement as part of a chain. A faster machine is valuable only when inputs, outputs, storage, and transport can support its new pace.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Choose the Right Upgrade Path">
+
+Production systems usually have several possible paths. One route may maximize raw output, another may reduce resource consumption, and a third may create a more stable setup. The best choice depends on your current objective rather than a universal ranking.
+
+Use the following comparison before spending rare materials or committing to a layout change.
+
+| Upgrade Path | Best For | Strength | Trade-Off |
+| --- | --- | --- | --- |
+| Output-focused | Meeting a large production target | More items or materials over time | Can increase input and storage pressure |
+| Efficiency-focused | Limited resources or expensive inputs | Better value from each material | May not solve a time bottleneck |
+| Reliability-focused | Frequent interruptions or failures | Smoother long-term operation | Immediate output may increase slowly |
+| Expansion-focused | Long-term progression | More room for future systems | Requires planning and available space |
+
+### Output-Focused Upgrades
+
+Choose an output-focused path when the system is consistently supplied but cannot produce quickly enough. Confirm that the next stage can accept the increased volume. Otherwise, the extra capacity may simply move the bottleneck to storage, transport, or processing.
+
+### Efficiency-Focused Upgrades
+
+Efficiency is more important when inputs are difficult to replace or when production requires several intermediate materials. These improvements can also make a smaller setup viable for longer, reducing the need for an early rebuild.
+
+### Reliability-Focused Upgrades
+
+Reliability upgrades are often undervalued because they do not always create a visible increase in production speed. However, a system that operates consistently can outperform a faster system that frequently requires repairs, resets, or manual intervention.
+
+### Expansion-Focused Upgrades
+
+Expansion is appropriate when the current layout has no safe room for additional equipment. Plan power, access routes, storage, and maintenance space before placing permanent structures.
+
+<Callout type="warning" title="Avoid Premature Scaling">
+Increasing capacity before confirming demand can consume valuable resources and create an oversized system that is difficult to maintain. Expand after the current workflow has been tested under normal operating conditions.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Step-by-Step Production Upgrade Setup">
+
+Follow this process whenever you are evaluating a new production improvement. The sequence is designed to reduce wasted materials and make the result easier to compare.
+
+<Steps>
+  <Step num="1" title="Map the Current Workflow">
+    Write down every stage from input to finished output. Include storage, transport, power, crafting time, maintenance, and any manual actions. Mark the stage that most often waits for another part of the system.
+  </Step>
+  <Step num="2" title="Identify the Active Bottleneck">
+    Watch the workflow during normal operation rather than during an unusually favorable run. The active bottleneck may change when storage fills, inputs become scarce, or a downstream station reaches its limit.
+  </Step>
+  <Step num="3" title="Select One Upgrade">
+    Choose the smallest upgrade that directly addresses the bottleneck. Avoid changing several systems at once because the final result will be difficult to attribute to a single improvement.
+  </Step>
+  <Step num="4" title="Test Under Normal Conditions">
+    Run the updated system with ordinary inputs and expected demand. Check output, downtime, resource use, storage pressure, and maintenance requirements.
+  </Step>
+  <Step num="5" title="Record the Result">
+    Keep a short before-and-after note. If the bottleneck moved to another stage, update the workflow map and choose the next improvement rather than replacing the entire setup.
+  </Step>
+</Steps>
+
+| Test Area | Before Upgrade | After Upgrade | What to Watch |
+| --- | --- | --- | --- |
+| Input supply | Stable, limited, or irregular | Same or changed | Shortages and unused capacity |
+| Production time | Slowest stage identified | New limiting stage | Idle periods and queue buildup |
+| Storage | Comfortable or near capacity | More or less pressure | Overflow and blocked outputs |
+| Maintenance | Occasional or frequent | Easier or harder | Repair time and access |
+| Final output | Current baseline | New result | Useful output, not just activity |
+
+<Callout type="info" title="Testing Rule">
+A production upgrade is not proven by one successful cycle. Test enough normal cycles to reveal supply problems, storage limits, and maintenance demands.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Compatibility, Layout, and Maintenance">
+
+A production upgrade can fail even when its headline benefit looks attractive. Compatibility problems often appear at connection points, shared spaces, input routes, output routes, or maintenance access. Before finalizing a change, inspect the entire surrounding layout rather than only the upgraded component.
+
+Keep access paths clear. A system that produces more but cannot be repaired without dismantling nearby equipment may create more work than it saves. Likewise, a new output device can become a liability if containers, conveyors, inventory slots, or transport routes cannot handle the additional volume.
+
+### Practical Layout Rules
+
+- Leave enough access for routine maintenance and inspection.
+- Keep input and output routes separate when congestion is likely.
+- Place storage close enough to reduce unnecessary handling.
+- Avoid blocking future expansion points.
+- Group systems that share the same materials or support requirements.
+- Label or document connections so later changes remain understandable.
+
+| Layout Concern | Warning Sign | Safer Response |
+| --- | --- | --- |
+| Input access | Materials frequently run out | Improve supply or add buffer storage |
+| Output access | Finished goods remain queued | Increase storage or downstream capacity |
+| Maintenance access | Repairs require dismantling | Reposition the unit or preserve a service path |
+| Shared resources | Multiple systems compete constantly | Increase support capacity or stagger production |
+| Expansion space | New equipment has no clear location | Reserve a dedicated growth area |
+
+### Maintenance as Part of the Upgrade
+
+Maintenance should be included in the total cost of an upgrade. A system that saves production time but adds repeated repair work may not be an improvement for routine play. Compare the time saved against the attention required to keep the system active.
+
+A simple maintenance schedule can include input checks, output checks, connection checks, and a full inspection after major layout changes. Keep these checks brief and repeatable.
+
+<Checklist
+  id="production-upgrade-review"
+  title="Production Upgrade Review:"
+  items={[
+    "Confirm the upgrade addresses the active bottleneck",
+    "Check input, output, storage, and transport capacity",
+    "Preserve access for inspection and maintenance",
+    "Test the system under normal operating conditions",
+    "Record the result before making another major change"
+  ]}
+/>
+
+<Callout type="success" title="Reliable Progress">
+The best production setup is not always the largest one. A smaller system with clear access, stable inputs, and predictable maintenance can support progression more effectively.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Production Problems">
+
+When an upgrade does not deliver the expected result, avoid removing everything immediately. First identify whether the problem is related to supply, processing, storage, routing, compatibility, or maintenance. Correct diagnosis is usually faster than repeated rebuilding.
+
+| Symptom | Likely Cause | First Check | Practical Fix |
+| --- | --- | --- | --- |
+| Equipment sits idle | Inputs are insufficient | Inspect resource flow | Improve supply or add a buffer |
+| Inputs pile up | Processing is too slow | Compare stage times | Upgrade the slow stage |
+| Outputs block the system | Storage is too small | Check final containers | Expand storage or downstream use |
+| Production stops often | Reliability or maintenance issue | Review failure points | Improve access and maintenance |
+| New upgrade changes little | Bottleneck moved elsewhere | Remap the workflow | Address the new limiting stage |
+| Layout becomes difficult to use | Expansion was rushed | Inspect access routes | Reposition equipment or simplify links |
+
+### A Simple Diagnostic Order
+
+1. Check whether the system has enough inputs.
+2. Confirm that the production stage is active.
+3. Inspect output capacity and storage.
+4. Look for blocked routes or incompatible connections.
+5. Review maintenance and access requirements.
+6. Compare the result with the original baseline.
+
+Do not judge an upgrade only by its maximum theoretical output. A practical setup should also be understandable, serviceable, and stable during ordinary use. If the improvement requires constant supervision, its real value may be lower than its listed capability suggests.
+
+<Callout type="warning" title="Do Not Stack Unknown Changes">
+Adding several untested upgrades at once makes troubleshooting much harder. Restore the last known stable version when possible, then test each change separately.
+</Callout>
+
+</Section>
+
+<Section icon={ClipboardCheck} title="BRASS HELL Production Upgrade FAQ">
+
+<FAQ items={[
+  {
+    question: "What should I upgrade first in BRASS HELL production upgrades?",
+    answer: "Start with the active bottleneck. Check whether production is limited by inputs, processing speed, storage, transport, or maintenance before choosing a specific improvement."
+  },
+  {
+    question: "Is higher output always the best production upgrade?",
+    answer: "No. Higher output can create input shortages, storage congestion, or additional maintenance. Efficiency, reliability, or layout improvements may provide better practical value."
+  },
+  {
+    question: "How many production changes should I test at once?",
+    answer: "Test one major change at a time whenever possible. This makes it easier to identify what improved the workflow and what introduced a new problem."
+  },
+  {
+    question: "How can I tell whether an upgrade was successful?",
+    answer: "Compare normal operating cycles before and after the change. Review useful output, downtime, resource consumption, storage pressure, and maintenance effort rather than looking at output alone."
+  }
+]} />
+
+<Callout type="tip" title="Final Recommendation">
+Build production systems around measurable problems, not attractive upgrade descriptions. A clear baseline, one controlled change, and a short performance record will produce better results than rushed expansion.
+</Callout>
+
+</Section>

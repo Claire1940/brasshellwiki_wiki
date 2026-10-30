@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL Box Guide: Loot Box Types, Odds & Best Openings",
+  description: "A practical BRASS HELL box guide covering box types, unlock requirements, opening strategy, and how to spend currency efficiently.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=BRASS+HELL+Box+Guide",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL box guide**: Covers every box type and what to expect from each opening tier.
+- **Currency first**: Always stockpile currency before pulling from higher-tier boxes.
+- **Best value**: Mid-tier boxes usually offer the strongest rewards-per-cost ratio early on.
+- **Avoid traps**: Don't spend premium currency on low-tier boxes once you progress past early game.
+- **Track results**: Log your openings to understand your personal luck over time.
+</Callout>
+
+<Section icon={Map} title="Understanding the Box System in BRASS HELL">
+
+Boxes are the primary loot distribution system in BRASS HELL. Each box contains a randomized pool of rewards — typically weapons, cosmetic gear, boosters, and rare variants of brass knuckles and other close-combat equipment. Because rewards are drawn from tiered pools, understanding which box to open at which stage of your progression is one of the most important efficiency decisions in the game.
+
+The system works on a simple principle: higher-tier boxes cost more currency but pull from a reward pool with better floors. A low-tier box can still surprise you with a strong item, but over many openings, the expected value of premium boxes is significantly higher.
+
+| Box Tier | Typical Cost | Reward Pool | Best For |
+| --- | --- | --- | --- |
+| Basic Box | Low | Common gear, small boosters | New players, early loadout |
+| Standard Box | Medium | Uncommon gear, moderate boosters | Mid-game farming |
+| Premium Box | High | Rare gear, cosmetic variants | Late-game optimization |
+| Event Box | Event currency | Limited-time items | Collectors, meta shifts |
+
+<Callout type="tip" title="Start Small">
+New players should run several Basic Box openings first. Building a functional baseline loadout early beats chasing rare drops before you can actually use them.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Box Types Compared: Which One Fits Your Build">
+
+Your playstyle should drive your box choice. A brawler build that relies on raw damage gets more value from weapon-heavy pools, while a defensive build benefits from armor and booster-heavy boxes. Compare the strengths of each approach before committing currency.
+
+<CardGrid cols={3}>
+  <Card title="Aggressive Openers">
+    - **Focus on damage pools**
+    - Prioritize weapon-type boxes
+    - Best for fast-paced matchups
+    - Accept higher risk for speed
+  </Card>
+  <Card title="Balanced Openers">
+    - **Mixed reward pools**
+    - Steady upgrade curve
+    - Flexible across opponents
+    - Recommended for most players
+  </Card>
+  <Card title="Defensive Openers">
+    - **Armor and sustain focus**
+    - Slower but consistent
+    - Great for long fights
+    - Pairs well with booster stacking
+  </Card>
+</CardGrid>
+
+| Strategy | Boxes to Open | Expected Outcome | Risk Level |
+| --- | --- | --- | --- |
+| Rush damage | Weapon-heavy tiers | Fast kill potential, low defense | High |
+| Hybrid | Mid-tier mixed | Reliable all-around gear | Medium |
+| Tank sustain | Defense-heavy tiers | Long survival, slower wins | Low |
+
+<Callout type="warning" title="Watch Your Currency Floor">
+Never spend down to zero. Keep a reserve of currency so you can respond to limited-time event boxes, which often contain exclusive rewards that do not return to standard pools.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: Efficient Box Opening Routine">
+
+Follow this routine to maximize the value of every opening session. The order matters — preparing before you spend prevents wasted currency on boxes you have outgrown.
+
+<Steps>
+  <Step num="1" title="Assess Your Loadout">
+    Identify your weakest equipment slot. Open boxes that target that slot's reward pool rather than pulling randomly.
+  </Step>
+  <Step num="2" title="Set a Budget">
+    Decide how much currency you will spend this session and stick to it. This prevents tilt-spending after unlucky pulls.
+  </Step>
+  <Step num="3" title="Open in Batches">
+    Open boxes in small batches of 3 to 5. This gives you natural checkpoints to evaluate results and stop if you hit your target item.
+  </Step>
+  <Step num="4" title="Evaluate and Adjust">
+    After each batch, check whether your weakest slot improved. If not, switch box types instead of doubling down.
+  </Step>
+  <Step num="5" title="Bank the Rest">
+    Deposit leftover currency into your reserve for event boxes and future tier unlocks.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Batch Discipline">
+Players who open in controlled batches consistently report better long-term satisfaction than those who spend everything in one session — the stop condition protects your resources.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Box Opening Goals and Checklist">
+
+Track your box progression with clear milestones. Each goal below moves you toward a fully optimized loadout without overspending on redundant pulls.
+
+<Checklist
+  id="box-goals"
+  title="Box Progression Milestones:"
+  items={[
+    "Build a complete baseline loadout from Basic Boxes",
+    "Upgrade your weakest slot to at least uncommon quality",
+    "Save a full premium box budget before late game",
+    "Complete one event box set while it is available",
+    "Replace all common gear with tier-appropriate equipment"
+  ]}
+/>
+
+| Milestone | Currency Needed (Approx.) | Priority |
+| --- | --- | --- |
+| Baseline loadout | Low | ★★★★★ |
+| Weakest slot upgrade | Low to medium | ★★★★ |
+| Premium box budget | High | ★★★ |
+| Event box set | Event-specific | ★★★★★ when live |
+
+<Callout type="info" title="Event Priority">
+Limited-time boxes should jump to the top of your priority list when they appear. Standard boxes are always available; event rewards often are not.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Common Box Mistakes and How to Avoid Them">
+
+Most wasted currency in BRASS HELL comes from a handful of repeatable mistakes. Learn them now and you will skip the expensive learning curve.
+
+| Mistake | Why It Hurts | Correct Approach |
+| --- | --- | --- |
+| Pulling low-tier boxes late | Rewards become obsolete | Shift budget upward as you progress |
+| Ignoring slot gaps | Upgrades land on strong slots | Target your weakest equipment first |
+| Zero reserve before events | Miss exclusive rewards | Keep a standing currency reserve |
+| Chasing one specific drop | Variance wastes currency | Accept the pool average, stop when satisfied |
+
+<Callout type="warning" title="The Chasing Trap">
+Decide your stopping condition before you open anything. If your goal item drops, stop. If your budget runs out, stop. Chasing a single rare item past your budget is the fastest way to drain resources.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the best box to open in BRASS HELL for new players?",
+    answer: "Basic Boxes are the best starting point in this box guide. They build a functional baseline loadout cheaply, letting you learn the combat system before committing larger currency amounts to premium pools."
+  },
+  {
+    question: "Should I save currency for event boxes?",
+    answer: "Yes, if you want exclusive or limited-time items. Standard boxes remain available indefinitely, while event box rewards may not return to the reward pool. Keep a reserve specifically for these drops."
+  },
+  {
+    question: "How many boxes should I open per session?",
+    answer: "Open in small batches of 3 to 5 and evaluate after each batch. This gives you natural stop points and prevents overspending after unlucky pulls."
+  },
+  {
+    question: "Can low-tier boxes still give good rewards?",
+    answer: "Low-tier pools can include surprise items, but over many openings their expected value is lower than premium boxes. Treat rare low-tier drops as bonuses, not as a strategy."
+  }
+]} />
+
+</Section>

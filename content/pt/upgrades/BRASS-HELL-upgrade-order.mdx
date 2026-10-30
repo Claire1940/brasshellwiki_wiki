@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ordem de Melhorias do BRASS HELL: Guia da Melhor Prioridade para a Oficina",
+  description: "Aprenda a melhor ordem de melhorias do BRASS HELL: quais melhorias da oficina comprar primeiro, as prioridades de cada nível e como aumentar rapidamente os ganhos de produção e envio.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/D78A32/fff?text=Upgrade+Order+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki do BRASS HELL"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **ordem de melhorias do BRASS HELL** deve priorizar a velocidade de produção e o fluxo de caixotes antes de qualquer outra coisa.
+- Os **ganhos iniciais** devem ser reinvestidos imediatamente, em vez de acumulados após os primeiros envios.
+- As **melhorias no valor dos envios** tornam-se vantajosas quando o ciclo básico de produção funciona de forma consistente.
+- As **melhorias de conveniência** ficam por último — compre-as apenas depois de cobrir as prioridades essenciais de produção.
+- Os **desbloqueios de munição** liberam projéteis de maior valor quando a velocidade da prensa e o fluxo de materiais conseguem sustentá-los.
+</Callout>
+
+<Section icon={Wrench} title="Por que a Ordem de Melhorias é Importante no BRASS HELL">
+
+No BRASS HELL, cada pagamento que você recebe ao entregar caixotes representa uma escolha: gastá-lo em melhorias que se acumulam ou guardá-lo e ficar para trás. Como o jogo é um simulador incremental de fábrica baseado em um ciclo repetível — operar a prensa, fabricar projéteis, encher caixotes e entregar — as melhorias que encurtam esse ciclo geram mais ganhos por sessão do que aquelas que apenas acrescentam conforto. Uma compra inicial errada desacelera todos os ciclos seguintes; uma compra correta torna cada melhoria posterior relativamente mais barata.
+
+O princípio central é simples: **compre primeiro o que eliminar o seu gargalo atual**. Se a prensa fica parada enquanto você coleta materiais, as melhorias de velocidade são menos importantes do que o manuseio de materiais. Se os caixotes enchem mais rápido do que você consegue entregá-los, as melhorias de fluxo têm prioridade.
+
+| Sintoma do Gargalo | O que está deixando você mais lento | Prioridade da Melhoria |
+|---|---|---|
+| A prensa fica parada entre os lotes | Coleta e reposição de materiais | Melhorias de manuseio / logística |
+| Os caixotes enchem mais rápido do que você os entrega | Entrega e manuseio de caixotes | Melhorias no fluxo de caixotes |
+| Ciclos longos na prensa, envio rápido | Velocidade de produção | Melhorias na velocidade da prensa |
+| Ciclo estável, baixo pagamento por caixote | Valor do pedido | Melhorias nos ganhos dos envios |
+
+<Callout type="tip" title="Regra Prática do Editor">
+Observe um ciclo completo, da produção à entrega, antes de gastar. A etapa em que você passa mais tempo esperando é a categoria de melhoria que deve comprar em seguida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ordem de Melhorias Recomendada: Classificação por Nível">
+
+A ordem de melhorias abaixo segue a estrutura de prioridades S/A/B usada em toda esta wiki. Ela reflete como o ciclo da fábrica realmente escala: velocidade e fluxo primeiro, valor em segundo e conveniência por último.
+
+| Nível | Categoria da Melhoria | Prioridade | Melhor Para | Principal Benefício |
+|---|---|---|---|---|
+| S | Velocidade de Produção | Primeira prioridade | Iniciantes construindo seu primeiro ciclo de renda | Mais ciclos de produção por sessão |
+| S | Fluxo de Caixotes | Primeira prioridade | Jogadores que produzem mais rápido do que enviam | Menos tempo ocioso entre os lotes |
+| A | Ganhos dos Envios | Melhoria forte | Jogadores no meio do jogo com produção estável | Maiores retornos por entrega concluída |
+| A | Desbloqueios de Munição | Melhoria forte | Progressão de fábrica a longo prazo | Acesso a projéteis e objetivos avançados |
+| B | Melhorias de Conveniência | Situacional | Jogadores que já têm uma rotina fluida | Menos atrito durante as sessões repetidas |
+
+<CardGrid cols={3}>
+  <Card title="Nível S: Velocidade Primeiro">
+    - **Velocidade de Produção**: reduz o tempo do ciclo da prensa
+    - Multiplica diretamente os envios por hora
+    - Compre antes de qualquer outra coisa no início
+  </Card>
+  <Card title="Nível A: Escala de Valor">
+    - **Ganhos dos Envios**: aumenta o pagamento por caixote
+    - É mais forte quando o ciclo está consistente
+    - Combina bem com os desbloqueios de munição
+  </Card>
+  <Card title="Nível B: Qualidade de Vida">
+    - **Melhorias de conveniência**: movimentação e manuseio
+    - São úteis, mas nunca eliminam gargalos
+    - Compre depois de cobrir as prioridades essenciais
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Erro Comum">
+Não gaste seus pagamentos iniciais em melhorias de conveniência ou melhorias relacionadas a cosméticos. Elas parecem boas, mas não encurtam o ciclo da fábrica; assim, sua curva de renda permanece estável enquanto os custos aumentam.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Caminho de Melhorias Passo a Passo">
+
+Siga esta sequência para transformar uma oficina recém-inaugurada, desde o primeiro envio, em uma fábrica autossustentável. Cada fase pressupõe que a anterior esteja produzindo de forma consistente.
+
+<Steps>
+  <Step num="1" title="Estabeleça o Ciclo">
+    Complete vários ciclos de produção sem comprar melhorias. Aprenda a usar a prensa, a área dos caixotes e a rota de entrega para identificar seu verdadeiro gargalo em vez de apenas adivinhar.
+  </Step>
+  <Step num="2" title="Compre sua Primeira Melhoria de Velocidade">
+    Gaste o primeiro pagamento significativo em velocidade de produção. Ciclos mais rápidos na prensa significam mais caixotes concluídos por sessão, acelerando cada compra posterior.
+  </Step>
+  <Step num="3" title="Corrija o Fluxo de Caixotes e Entregas">
+    Quando a prensa superar sua capacidade de embalar e entregar, invista no fluxo de caixotes. O objetivo é não ter tempo ocioso entre um lote concluído e um envio despachado.
+  </Step>
+  <Step num="4" title="Aumente o Valor dos Envios">
+    Com um ciclo consistente, direcione seus gastos para melhorias nos ganhos dos envios. Cada entrega agora paga mais sem exigir mais tempo seu.
+  </Step>
+  <Step num="5" title="Desbloqueie Munições Avançadas">
+    Use sua renda aprimorada para avançar em direção aos desbloqueios de munição. Projéteis de nível superior aumentam o limite tanto dos pagamentos quanto dos objetivos de progressão a longo prazo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verificação do Marco">
+Se você consegue completar um ciclo inteiro de coletar, prensar, embalar e entregar sem esperar por nenhuma etapa específica, sua ordem de melhorias está funcionando — passe a priorizar o aumento de valor.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ordem de Melhorias por Estilo de Jogo">
+
+Jogadores diferentes encontram gargalos diferentes. Use esta comparação para adaptar a ordem padrão à sua situação.
+
+| Estilo de Jogo | Primeira Compra | Segunda Compra | Deixe para o Final | Observações |
+|---|---|---|---|---|
+| Iniciante solo | Velocidade da prensa | Fluxo de caixotes | Desbloqueios de munição | Construa um ciclo confiável antes de expandir |
+| Grupo cooperativo (até 4) | Fluxo de caixotes | Ganhos dos envios | Conveniência | As funções se dividem naturalmente; o envio é o ponto de estrangulamento |
+| Jogador focado em eficiência | Velocidade da prensa | Ganhos dos envios | Conveniência | Maximiza o pagamento por tempo de ciclo |
+| Explorador / caçador de história | Conveniência (movimentação) | Velocidade da prensa | Melhorias de valor | Movimentação mais rápida ajuda a procurar documentos entre os pedidos |
+
+<Callout type="info" title="Observação sobre o Cooperativo">
+Com até quatro jogadores por servidor, deixar um jogador na prensa enquanto os outros cuidam da embalagem e da entrega muda os gargalos — o fluxo e o valor das entregas ganham prioridade em comparação ao jogo solo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Melhorias e Relação com a Progressão">
+
+Sua ordem de melhorias também contribui para os sistemas de progressão. As atividades de produção e envio avançam o **Progresso de Rank** e o **XP de Maestria**, então um ciclo mais rápido também significa uma progressão mais veloz. Use o checklist para manter o foco.
+
+<Checklist
+  id="upgrade-order-goals"
+  title="Marcos da Ordem de Melhorias:"
+  items={[
+    "Complete 5 ciclos sem melhorias para identificar seu gargalo",
+    "Compre a primeira melhoria de velocidade de produção",
+    "Elimine o tempo ocioso entre prensar e entregar",
+    "Compre a primeira melhoria nos ganhos dos envios",
+    "Desbloqueie um projétil de munição de nível superior",
+    "Mantenha a produção completa durante uma sessão inteira"
+  ]}
+/>
+
+| Sistema de Progressão | Como a Ordem de Melhorias Ajuda | Atenção |
+|---|---|---|
+| XP de Maestria | Ciclos mais rápidos significam mais atividades que concedem XP por sessão | Passes de maestria não substituem o trabalho na fábrica |
+| Progresso de Rank | Mais envios concluídos avançam o rank mais rapidamente | Avalie os passes de rank separadamente dos passes de maestria |
+| Multiplicadores de produção em massa | A produção em massa combina com uma velocidade alta da prensa | Não presuma que os multiplicadores se acumulam sem confirmação dentro do jogo |
+
+<Callout type="warning" title="Verificação da Realidade dos Passes">
+Os passes pagos complementam o ciclo, mas nunca o substituem. Nenhum passe elimina a necessidade de prensar, embalar e entregar — um jogador gratuito com uma ordem de melhorias melhor ganhará mais do que um dono de passe com uma ordem ruim.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor ordem de melhorias do BRASS HELL para iniciantes?",
+    answer: "Comece pela velocidade de produção, depois pelo fluxo de caixotes e, em seguida, pelos ganhos dos envios. Essa ordem encurta primeiro o ciclo central da fábrica, multiplicando sua renda por sessão e tornando cada melhoria posterior mais fácil de comprar."
+  },
+  {
+    question: "Devo comprar melhorias nos ganhos dos envios antes das melhorias de velocidade?",
+    answer: "Geralmente, não. As melhorias de ganhos aumentam o pagamento por entrega, mas as melhorias de velocidade aumentam a quantidade de entregas que você pode fazer. No início, mais ciclos são melhores do que ciclos maiores. Quando seu ciclo estiver consistente, passe a priorizar o valor."
+  },
+  {
+    question: "Quando devo desbloquear munição avançada na minha ordem de melhorias?",
+    answer: "Trate os desbloqueios de munição como uma compra de nível A, feita depois que seu ciclo de produção estiver estável. Projéteis avançados só valem a pena quando a velocidade da prensa e o fluxo de materiais conseguem abastecê-los sem interromper o ciclo de envios."
+  },
+  {
+    question: "As melhorias de conveniência podem fazer parte da ordem de melhorias inicial do BRASS HELL?",
+    answer: "Apenas para exploradores que procuram documentos escondidos entre os pedidos, situação em que a velocidade de movimentação tem valor adicional. Para produção pura, as melhorias de conveniência são de nível B e devem esperar até que as prioridades de velocidade, fluxo e valor estejam cobertas."
+  }
+]} />
+
+</Section>

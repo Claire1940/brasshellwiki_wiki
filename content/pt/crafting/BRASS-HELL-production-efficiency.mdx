@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Factory, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Eficiência de Produção em BRASS HELL: Layout da Fábrica e Dicas de Produção",
+  description: "Aumente a eficiência de produção em BRASS HELL com projetos de layout, ordem de prioridade das máquinas, proporções de recursos e soluções para gargalos neste guia prático.",
+  category: "guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Production+Efficiency",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **eficiência de produção em BRASS HELL** depende da densidade do layout, do tempo de atividade das máquinas e de proporções equilibradas
+- **Gargalos** causam a maior parte das perdas de produção — corrija primeiro a etapa de produção mais lenta
+- **Layouts modulares compactos** têm desempenho superior ao de projetos com esteiras longas em linha única
+- A **distribuição de energia** deve priorizar fundição e montagem antes das refinarias
+- A **automação antecipada** de lingotes de latão dobra a produção no meio do jogo
+</Callout>
+
+<Section icon={Factory} title="Entendendo a Eficiência de Produção em BRASS HELL">
+
+A eficiência de produção em BRASS HELL mede a eficácia com que sua fábrica converte minério bruto em componentes de latão acabados por ciclo. Cada máquina da sua cadeia de produção consome energia, espaço e tempo, e qualquer elo fraco reduz a produção total. Uma instalação bem administrada mantém todas as máquinas ocupadas, minimiza a distância de transporte e combina as taxas de fornecimento com a demanda.
+
+Os três pilares da eficiência são:
+
+- **Tempo de atividade** — as máquinas nunca devem ficar paradas esperando insumos
+- **Equilíbrio** — as etapas iniciais devem produzir ligeiramente mais do que as etapas seguintes
+- **Densidade** — esteiras mais curtas significam menos atrasos e menos perdas de recursos
+
+| Métrica | O que mede | Valor-alvo |
+|---|---|---|
+| Tempo de atividade das máquinas | % do tempo de ciclo trabalhando ativamente | **90%+** |
+| Reserva de entrada | Estoque bruto mantido em cada etapa | 1-2 ciclos de demanda |
+| Proporção de transporte | Comprimento da esteira vs. quantidade de máquinas | Menos de 6 blocos por máquina |
+| Excedente de energia | Capacidade não utilizada da rede | 10-15% de margem |
+| Taxa de defeitos | Produção descartada por lote | Abaixo de 2% |
+
+<Callout type="warning" title="Fique de Olho no Primeiro Gargalo">
+A maioria das perdas de eficiência em BRASS HELL remonta a uma única máquina com fornecimento insuficiente. Audite sua cadeia desde a entrada de minério até a montagem final antes de adicionar novas linhas de produção — expandir uma fábrica com gargalos apenas desperdiça recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Melhores Projetos de Layout para Alta Produção">
+
+A escolha do layout é mais importante do que a quantidade bruta de máquinas. Três projetos comprovados atendem à maioria das situações em BRASS HELL.
+
+<CardGrid cols={3}>
+  <Card title="Célula Compacta">
+  - **Ideal para:** início e meio do jogo
+  - 4-6 máquinas por célula
+  - Esteiras mais curtas
+  - Fácil de duplicar e expandir
+  - Consumo de energia moderado
+  </Card>
+  <Card title="Layout em Espinha">
+  - **Ideal para:** expansão no meio do jogo
+  - Espinha central de esteiras alimenta ramificações
+  - Fácil de auditar em busca de gargalos
+  - Produção equilibrada entre as linhas
+  </Card>
+  <Card title="Estrutura em Camadas">
+  - **Ideal para:** megafábricas no final do jogo
+  - O empilhamento vertical multiplica a densidade
+  - Exige uma infraestrutura de energia robusta
+  - Requer planejamento cuidadoso das reservas
+  </Card>
+</CardGrid>
+
+Ao comparar layouts, avalie o custo de expansão em relação às necessidades atuais de produção. A célula compacta vence em flexibilidade, enquanto a estrutura em camadas vence em potencial máximo — mas apenas se sua rede elétrica for capaz de sustentá-la.
+
+| Layout | Espaço necessário | Carga de energia | Facilidade de expansão | Teto de produção |
+|---|---|---|---|---|
+| Célula Compacta | Baixo | Baixa | ★★★★★ | Médio |
+| Espinha | Médio | Média | ★★★★ | Alto |
+| Estrutura em Camadas | Área reduzida, estrutura alta | **Alta** | ★★★ | Muito alto |
+
+<Callout type="tip" title="Regra de Espaçamento">
+Deixe um bloco de espaço livre para circulação entre as células de produção. Isso quase não custa em eficiência, mas torna reparos, melhorias e redirecionamentos muito mais rápidos durante as fases de expansão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Reestruturação da Eficiência Passo a Passo">
+
+<Steps>
+  <Step num="1" title="Audite sua Cadeia Atual">
+    Acompanhe sua produção desde a entrada do minério até os produtos acabados. Observe todas as máquinas que ficam paradas ou trabalham com filas acumuladas. Máquinas paradas indicam excesso de fornecimento nas etapas seguintes; reservas acumuladas indicam um gargalo à frente.
+  </Step>
+  <Step num="2" title="Identifique a Etapa do Gargalo">
+    A etapa com a fila mais longa de insumos não processados é o seu verdadeiro limite de produção. Nenhuma melhoria em outro ponto aumentará a produção final até que essa etapa seja expandida ou acelerada.
+  </Step>
+  <Step num="3" title="Reequilibre as Proporções das Máquinas">
+    Adicione máquinas à etapa do gargalo até que sua fila se estabilize e, então, verifique novamente a próxima etapa da cadeia. Repita o processo até que todas as filas avancem de forma constante.
+  </Step>
+  <Step num="4" title="Melhore a Energia e o Transporte">
+    Com as proporções equilibradas, confirme que sua rede tem uma margem de 10-15% e encurte os trechos mais longos de esteira. Quedas de energia reduzem silenciosamente a velocidade das máquinas.
+  </Step>
+  <Step num="5" title="Crie Reservas e Monitore">
+    Coloque pequenas reservas de entrada em cada etapa para que breves interrupções no fornecimento não se propaguem. Verifique novamente sua tabela de métricas após cada expansão.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verifique a Correção">
+Após o reequilíbrio, suas máquinas de montagem final devem operar com produção quase contínua. Se os produtos acabados ainda chegarem em ondas, há um gargalo oculto — repita a auditoria a partir do Passo 1.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Erros Comuns que Destroem a Eficiência">
+
+- **Expandir antes de auditar** — novas linhas alimentadas por uma cadeia de fornecimento com gargalos apenas adicionam máquinas paradas
+- **Priorizar demais as refinarias** — refinarias consomem muita energia; a fundição de latão e a montagem principal devem receber energia primeiro
+- **Linhas únicas de esteira muito longas** — trechos longos aumentam o atraso de transporte e criam pontos únicos de falha
+- **Ignorar a margem de energia** — operar a rede a 100% aumenta o risco de quedas de energia que reduzem a velocidade de todas as máquinas
+- **Pular as reservas** — sem reservas de entrada, um único problema interrompe toda a cadeia
+
+| Erro | Sintoma | Correção |
+|---|---|---|
+| Proporções desequilibradas | Filas se acumulam em uma etapa | Adicione máquinas ao gargalo |
+| Falta de energia | Ciclos lentos aleatórios | Crie uma margem de 10-15% na rede |
+| Trechos longos de transporte | Produção irregular | Use um layout compacto ou reservas |
+| Sem reservas | Paradas em toda a cadeia | Mantenha um pequeno estoque de entrada por etapa |
+| Refinarias em excesso | Dreno de energia, baixo retorno | Priorize fundição e montagem |
+
+<Callout type="warning" title="Não Busque Apenas Velocidade">
+Máquinas mais rápidas alimentadas por uma linha com fornecimento insuficiente não produzem nada. Equilibre primeiro o fornecimento e, depois, invista em melhorias de velocidade nas etapas cujas filas permanecem consistentemente cheias.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Marcos de Eficiência">
+
+<Checklist
+  id="efficiency-milestones"
+  title="Metas de Eficiência de Produção:"
+  items={[
+    "Auditar toda a cadeia de produção e localizar o gargalo",
+    "Alcançar 90%+ de tempo de atividade em todas as máquinas de montagem",
+    "Manter uma margem de 10-15% na rede elétrica",
+    "Automatizar o fornecimento de lingotes de latão para todas as linhas de montagem",
+    "Adicionar reservas de entrada em todas as etapas de produção",
+    "Duplicar uma célula compacta comprovada para aumentar a produção"
+  ]}
+/>
+
+<Callout type="tip" title="Expanda por Duplicação">
+Quando uma célula de produção atingir suas metas de tempo de atividade, copie-a em vez de criar novos layouts. Módulos comprovados escalam mais rápido e são mais fáceis de solucionar do que adições personalizadas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o fator mais importante para a eficiência de produção em BRASS HELL?",
+    answer: "Gerenciamento de gargalos. A produção da sua fábrica é igual à capacidade da etapa mais lenta. Localizar e expandir essa etapa — seja a entrada de minério, a fundição ou a montagem — oferece mais ganhos do que qualquer outra mudança."
+  },
+  {
+    question: "Quanta margem de energia devo manter?",
+    answer: "Procure manter uma capacidade excedente de 10-15% na sua rede. Sistemas de energia operando em carga máxima correm o risco de sofrer quedas que reduzem a velocidade dos ciclos das máquinas em toda a fábrica, diminuindo a produção silenciosamente."
+  },
+  {
+    question: "Qual layout um jogador iniciante deve usar?",
+    answer: "Comece com o design de célula compacta. Ele usa 4-6 máquinas com trechos curtos de esteira, é fácil de auditar em busca de problemas e pode ser duplicado conforme seu fornecimento de recursos cresce, antes de você investir em layouts maiores em espinha ou em camadas."
+  },
+  {
+    question: "É melhor melhorar as máquinas existentes ou construir mais máquinas?",
+    answer: "Melhore as máquinas apenas nas etapas em que as filas de entrada permanecem constantemente cheias — isso indica que as próprias máquinas são o limite. Se as filas estiverem vazias, o problema está no fornecimento, e máquinas adicionais ou mais rápidas ficarão paradas."
+  }
+]} />
+
+</Section>

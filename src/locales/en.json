@@ -10,7 +10,15 @@
       "twitterDescription": "Explore the BRASS HELL Wiki for beginner guides, ammo crafting, factory upgrades, shipment tips, hidden documents, game passes, codes and new Roblox updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "crafting": "Crafting",
+    "upgrades": "Upgrades",
+    "money": "Money",
+    "boxes": "Boxes",
+    "events": "Events",
+    "codes": "Codes"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -486,125 +494,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "BRASS HELL Guide",
+      "description": "Complete BRASS HELL guides from your first bullet to endgame factories. Learn the core loop, progression path, and pro strategies.",
+      "metaTitle": "BRASS HELL Guide - Beginner to Endgame Strategies",
+      "metaDescription": "Complete BRASS HELL guides covering the bullet-crafting core loop, progression path, upgrades, and pro strategies for every stage of the game.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the BRASS HELL Guide?",
+      "whatIsDescription": "Step-by-step BRASS HELL guides covering the incremental factory loop: craft bullets, sell them for cash, buy upgrades, and unlock new production tiers. Every guide walks you from first spawn to a fully automated bullet empire.",
+      "why": "Why read the guide?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Master the Core Loop",
+        "step1Description": "Understand how crafting, selling, and upgrading connect so every minute in the factory moves you forward",
+        "step2Title": "Skip Costly Mistakes",
+        "step2Description": "Avoid wasted cash on the wrong upgrades with proven progression orders from experienced players",
+        "step3Title": "Reach Endgame Faster",
+        "step3Description": "Follow a clear path from hand-crafted bullets to automated production lines and late-game content"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
+      "title": "BRASS HELL Crafting",
+      "description": "Learn how to craft bullets faster in BRASS HELL. Ammo recipes, production lines, and efficiency tips to max your output.",
+      "metaTitle": "BRASS HELL Crafting - Bullet Recipes & Production",
+      "metaDescription": "BRASS HELL crafting guide: bullet recipes, ammo production lines, and efficiency tips to craft bullets faster and keep your factory at max output.",
+      "categoryLabel": "CRAFTING",
       "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "whatIsDescription": "Crafting is the heart of BRASS HELL: turn raw materials into bullets, scale up your ammo maker, and automate production. These guides cover every bullet type, workstation, and production efficiency trick.",
+      "why": "Why optimize crafting?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Craft Bullets Faster",
+        "step1Description": "Learn the exact steps and layouts that cut crafting time and boost bullets per minute",
+        "step2Title": "Unlock Better Ammo",
+        "step2Description": "Progress from basic rounds to high-value ammo with higher payouts per sale",
+        "step3Title": "Automate Production",
+        "step3Description": "Set up production lines that keep crafting while you expand the rest of your factory"
       },
       "featured": "Featured & Essential",
       "all": "All Crafting Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "upgrades": {
+      "title": "BRASS HELL Upgrades",
+      "description": "Best BRASS HELL upgrade order, costs, and priorities. Know exactly what to buy next to speed up your bullet factory.",
+      "metaTitle": "BRASS HELL Upgrades - Best Order & Costs",
+      "metaDescription": "Best BRASS HELL upgrade order with costs and priorities. Know exactly what to buy next to craft bullets faster and grow your factory income.",
+      "categoryLabel": "UPGRADES",
+      "whatIs": "What are Upgrades?",
+      "whatIsDescription": "Upgrades turn your cash into permanent factory power: faster crafting, bigger output, and new production tiers. These guides rank every upgrade so you always buy the right one next.",
+      "why": "Why plan upgrades?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Spend Cash Wisely",
+        "step1Description": "Every upgrade competes for the same money, so buy in the order that pays back fastest",
+        "step2Title": "Multiply Production",
+        "step2Description": "Prioritize upgrades that raise bullets per minute before cosmetic or one-off purchases",
+        "step3Title": "Unlock New Tiers",
+        "step3Description": "Reach upgrade milestones that open new bullet types, rooms, and endgame systems"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Upgrade Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "money": {
+      "title": "BRASS HELL Money",
+      "description": "Fastest ways to make money in BRASS HELL. Sell bullets at the right time, price your ammo, and grow your cash per hour.",
+      "metaTitle": "BRASS HELL Money - Fastest Ways to Earn Cash",
+      "metaDescription": "Fastest ways to make money in BRASS HELL: sell bullets at the right time, price your ammo well, and grow your cash per hour with proven methods.",
+      "categoryLabel": "MONEY",
+      "whatIs": "How does Money work?",
+      "whatIsDescription": "Money in BRASS HELL comes from selling the bullets you craft. These guides cover when to sell, how pricing works, and which production upgrades raise your cash per hour the most.",
+      "why": "Why optimize money?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Sell at the Right Time",
+        "step1Description": "Learn when selling bullets pays most instead of dumping stock at low prices",
+        "step2Title": "Earn More Per Bullet",
+        "step2Description": "Pair selling with crafting and upgrade choices that raise the value of every round",
+        "step3Title": "Grow Cash Per Hour",
+        "step3Description": "Turn a trickle of sales into a steady income that funds every future upgrade"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Money Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "boxes": {
+      "title": "BRASS HELL Boxes",
+      "description": "How to get boxes in BRASS HELL and what's inside. Box rewards, drop chances, and whether each box is worth buying.",
+      "metaTitle": "BRASS HELL Boxes - Rewards & How to Get Them",
+      "metaDescription": "BRASS HELL boxes explained: how to get every box, what rewards are inside, drop chances, and which boxes are worth your cash.",
+      "categoryLabel": "BOXES",
+      "whatIs": "What are Boxes?",
+      "whatIsDescription": "Boxes are BRASS HELL's reward crates: buy or earn them, open them for cash boosts, materials, and bonus items. These guides list every box type and what you can expect from each.",
+      "why": "Why learn about boxes?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Know Every Box",
+        "step1Description": "Compare all box types, costs, and reward pools before spending your cash",
+        "step2Title": "Get Boxes Free",
+        "step2Description": "Find the events, milestones, and methods that hand out boxes without paying",
+        "step3Title": "Open for Value",
+        "step3Description": "Learn real reward chances so you open boxes when they beat plain selling"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Box Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "events": {
+      "title": "BRASS HELL Events",
+      "description": "Current BRASS HELL events and limited-time content. Halloween rewards, event guides, and what the latest update changed.",
+      "metaTitle": "BRASS HELL Events - Halloween & Latest Updates",
+      "metaDescription": "Current BRASS HELL events and limited-time content: Halloween event rewards, event guides, and everything the latest update added to the game.",
+      "categoryLabel": "EVENTS",
+      "whatIs": "What are Events?",
+      "whatIsDescription": "Events are limited-time BRASS HELL content like the Halloween update: exclusive rewards, special mechanics, and balance changes. These guides cover every active event and what the latest update changed.",
+      "why": "Why follow events?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Catch Limited Rewards",
+        "step1Description": "Event items and boosts disappear when the event ends, so grab them while they last",
+        "step2Title": "Adapt Your Factory",
+        "step2Description": "Event mechanics change crafting and payouts, and guides show the fastest adaptations",
+        "step3Title": "Track Every Update",
+        "step3Description": "Know exactly what each update added or rebalanced before you plan your next grind"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Event Guides"
+    },
+    "codes": {
+      "title": "BRASS HELL Codes",
+      "description": "Latest working BRASS HELL codes for free cash, boosts, and boxes. Updated daily with every active code and expiry list.",
+      "metaTitle": "BRASS HELL Codes - Free Cash & Boosts (Updated)",
+      "metaDescription": "All working BRASS HELL codes for free cash, boosts, and boxes. Updated daily with every active code and the full expired list.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "BRASS HELL codes are free redeem codes from the developer that grant cash, boosts, and boxes. Enter them in-game for instant rewards. This page tracks every active and expired code.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Instant Cash",
+        "step1Description": "Codes hand you money and boosts with zero grinding, perfect for a fast start",
+        "step2Title": "Skip Early Grind",
+        "step2Description": "Redeem every active code to jump straight into upgrades and production",
+        "step3Title": "Never Miss a Drop",
+        "step3Description": "New codes release with updates and events, and this list is updated daily"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
     }
   }
 }

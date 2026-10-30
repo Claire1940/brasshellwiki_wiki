@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fabricación de balas en BRASS HELL: progresión de calibres y guía de mejoras",
+  description: "Domina la fabricación de balas en BRASS HELL: orden para desbloquear calibres, mejoras de la prensa, multiplicadores de pólvora, automatización y la mejor estrategia para ganar dinero.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Bullet+Crafting+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- **La fabricación de balas en BRASS HELL** funciona mediante un ciclo de prensa manual: coloca el latón, añade la pólvora y asienta el proyectil.
+- **La progresión de calibres** va desde .22 hasta 30 mm y los cartuchos de escopeta, cada uno con un valor superior.
+- **Las mejoras de pólvora** son tu mejor inversión inicial y aumentan el valor de las balas hasta **siete veces**.
+- **La automatización** (pólvora automática, prensa automática y mesa de embalaje) acaba reduciendo todo a pulsar un solo botón.
+- **Produce lotes grandes y vende en grande**: una mayor capacidad de almacenamiento de cartuchos y cajas de salida hace que los ingresos del final del juego se disparen.
+</Callout>
+
+<Section icon={Wrench} title="Cómo funciona la fabricación de balas">
+
+La fabricación de balas en BRASS HELL es el núcleo del ciclo de la fábrica. Cada bala sigue la misma secuencia física: acciona la máquina, coloca un cartucho en la bandeja, desliza el cursor hasta la pólvora, arrastra la cantidad correcta y después asienta el proyectil. Al principio fabricas una bala por ciclo, lo que parece lento — y está diseñado así. Toda la curva de progresión consiste en convertir ese tedioso proceso manual en una línea de producción automatizada que expulsa cajas selladas valoradas en millones.
+
+**Aspectos destacados del vídeo:**
+- Demostración completa del ciclo manual de fabricación: colocar, deslizar, arrastrar la pólvora y asentar el proyectil
+- La producción inicial de .22 mejorada a dos balas por ciclo
+- Los multiplicadores de pólvora aumentan el valor de las balas desde ganancias modestas hasta cuatro veces y más
+- La automatización avanzada reduce la intervención del jugador a pulsar la palanca
+- Una mirada de primera mano al inquietante ciclo narrativo de la fábrica a las 4:17 a. m.
+
+<YouTubeEmbed videoId="sOucCOzK52Q" title="Dirigir una fábrica de balas es una especie de... fastidio (Brass Hell - Roblox)" />
+
+<Callout type="tip" title="La precisión da beneficios">
+No puedes calcular la cantidad de pólvora a ojo. El juego exige una carga precisa para cada bala, así que aprende la distancia de arrastre para tu calibre actual — recoger la pólvora de forma imprecisa hace perder tiempo al fallar las cargas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Orden de progresión de calibres">
+
+Los calibres se desbloquean en secuencia, y cada uno aumenta tanto el coste de los materiales como el pago por caja. Pasar a un nuevo calibre en cuanto se desbloquea casi siempre es lo correcto, porque los cartuchos antiguos pasan a tener un valor insignificante en comparación.
+
+| Calibre | Balas por ciclo | Notas |
+|---|---|---|
+| .22 LR | 1 → 2 | Cartucho inicial, útil para satisfacer la demanda, márgenes pequeños |
+| 9 mm | 3 | Calibre popular, ingresos sólidos al principio y en la fase intermedia |
+| .45 ACP | 5 | Cartucho divertido, valor por lote notablemente mejor |
+| .357 | ~10+ | Comienza la era de los lotes grandes, ~$890 por entrega |
+| 5.56 | 25 | Gran salto de valor, las cajas se venden por ~$1,000 |
+| 7.62 | ~50 | Estándar del final del juego, miles por lote |
+| .308 | 50+ | Calibre de transición antes de los cartuchos pesados |
+| .50 BMG | 100 | Latón gigantesco, ~$500,000 por entrega |
+| 20 mm | 100 | Último cartucho de clase fusil, hasta $16 millones por lote |
+| 30 mm | 100 | Clase aeronáutica/antiaérea, producción de fusil de primer nivel |
+| Cartuchos de escopeta | — | Línea independiente desde el calibre 10; requiere reiniciar la máquina |
+
+<Callout type="warning" title="Coste de reinicio de la máquina">
+Cuando terminas con el 30 mm y pasas a los cartuchos de escopeta, la dirección reinicia tu máquina — la mayoría de las piezas no se transfieren a la producción de cartuchos de escopeta. Considera el 30 mm como el punto final natural de tu configuración de fusiles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prioridad de mejoras: qué comprar primero">
+
+No todas las mejoras son iguales. La calidad de la pólvora multiplica el valor de cada bala que produces, lo que la convierte en la mejor compra inicial, mientras que las mejoras de almacenamiento permiten los enormes lotes que definen los ingresos del final del juego.
+
+<CardGrid cols={3}>
+  <Card title="Mejoras de pólvora">
+    - **La mejor relación calidad-precio**
+    - Multiplicadores: ~1.5x → 2.5x → 4x → 7x
+    - Cómpralas en cuanto puedas permitírtelas
+  </Card>
+  <Card title="Automatización">
+    - Pólvora automática, prensa automática y mesa de embalaje
+    - Elimina casi todos los pasos manuales
+    - Solo tienes que pulsar la palanca
+  </Card>
+  <Card title="Almacenamiento y producción por lotes">
+    - Mayor almacenamiento de cartuchos y caja de salida más grande
+    - Permite almacenar más de 1,500 materiales
+    - Esencial para los lotes de millones de dólares
+  </Card>
+</CardGrid>
+
+| Nivel de mejora | Rango de coste aprox. | Multiplicador de valor | Prioridad |
+|---|---|---|---|
+| Pólvora básica | ~$4 | ~1.5x | ★★★★★ |
+| Pólvora intermedia | ~$22 | ~2.5x | ★★★★★ |
+| Pólvora avanzada | Final del juego | 4x | ★★★★★ |
+| Pólvora prémium | Cara | **7x** | ★★★★★ |
+| Pólvora automática | Mitad del juego | Ahorro de tiempo | ★★★★ |
+| Prensa automática + embalaje | Final | Ahorro de tiempo | ★★★★★ |
+| Dispensador/bandeja de latón | Intermedio | Comodidad | ★★★ |
+
+<Callout type="success" title="El efecto acumulativo">
+Un jugador que al principio gana cinco centavos por bala de .22 puede llegar a obtener **$16 millones por lote sellado** con el calibre 20 mm. Los multiplicadores de pólvora se combinan con el tamaño del lote — nunca acumules dinero sin gastar cuando haya un nivel de pólvora disponible.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Paso a paso: tus primeras 1,000 balas">
+
+<Steps>
+  <Step num="1" title="Domina el ciclo manual">
+    Fabrica cartuchos .22 de uno en uno hasta que el ritmo de colocar-deslizar-arrastrar-prensar se vuelva automático. Vende cada caja inmediatamente para financiar tus primeras mejoras.
+  </Step>
+  <Step num="2" title="Compra primero las balas por ciclo">
+    Mejora a dos balas por ciclo y después a tres viajes por ciclo. Produce lotes siempre que puedas — incluso las pequeñas producciones al por mayor superan a las entregas individuales.
+  </Step>
+  <Step num="3" title="Invierte pronto en pólvora">
+    Adquiere cada nivel de pólvora en cuanto puedas permitírtelo. El salto de 1.5x se nota de inmediato en el pago por entrega.
+  </Step>
+  <Step num="4" title="Sube de calibre agresivamente">
+    Pasa a 9 mm, .45 ACP y después .357 en cuanto desbloquees cada uno. Los calibres antiguos dejan de merecer el tiempo de prensa rápidamente.
+  </Step>
+  <Step num="5" title="Automatiza y escala">
+    Compra la pólvora automática, la prensa automática, la mesa de embalaje y un ayudante. Mejora el almacenamiento hasta 1,500 materiales y sella lotes enormes de 7.62 y calibres superiores.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Venta al por mayor">
+Los lotes sellados se entregan en una sola transacción. Un inventario sellado de 12,000 cartuchos de 20 mm produjo aproximadamente $16 millones en una sola venta — llena siempre tu caja de salida antes de dirigirte al mostrador.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="El ciclo de las 4:17 y los hábitos de dinero">
+
+BRASS HELL oculta una extraña narrativa bajo la rutina de la fábrica: cada registro de radio, recibo y documento de relevo lleva la marca de **las 4:17 a. m.**, y ningún equipo de reemplazo llega a registrarse. Los acontecimientos de la historia te llevan entre los almacenes de pólvora y la zona de despachos, pero el trabajo nunca se detiene — y los pagos tampoco. Acéptalo: aunque estés atrapado para siempre a las 4:17, al menos puedes aprovechar para ganar dinero.
+
+También hay un campo de tiro donde puedes usar tu propia munición para ganar dinero, pero ten en cuenta que alimentar las armas consume balas que podrías vender — dos cargadores llenos pueden acabar rápidamente con un lote grande.
+
+<Callout type="warning" title="La munición es dinero">
+Cada bala que disparas en el campo de tiro es una bala que no vendiste. Prueba las armas por diversión, pero mantén la mayor parte de tu producción sellada para entregarla.
+</Callout>
+
+<Checklist
+  id="crafting-milestones"
+  title="Hitos de la fábrica:"
+  items={[
+    "Desbloquear y producir cartuchos .357 en masa",
+    "Comprar el multiplicador de pólvora de 4x",
+    "Automatizar la gestión de la pólvora y la prensa",
+    "Sellar un lote valorado en $100,000 o más",
+    "Alcanzar la producción de 20 mm con 100 balas por ciclo",
+    "Entregar un lote de 30 mm antes del reinicio de la línea de cartuchos de escopeta"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor primera mejora para fabricar balas en BRASS HELL?",
+    answer: "Las balas por ciclo son la mejor compra inicial — pasar de una a dos balas por prensado duplica la producción al instante. Después, prioriza las mejoras de pólvora, ya que multiplican el valor de cada bala que fabricas."
+  },
+  {
+    question: "¿Qué calibre genera más dinero?",
+    answer: "El 20 mm y el 30 mm son los que más dinero generan en la línea de fusiles, con lotes sellados que entregan hasta $16 millones. Ten en cuenta que el 30 mm es el último cartucho de clase fusil antes de que la máquina se reinicie para producir cartuchos de escopeta."
+  },
+  {
+    question: "¿Las mejoras se transfieren a los cartuchos de escopeta?",
+    answer: "No. Cuando pasas del 30 mm a los cartuchos de escopeta, la dirección reinicia tu máquina porque la mayoría de las piezas no se transfieren. Planifica tus gastos en consecuencia."
+  },
+  {
+    question: "¿Vale la pena usar el campo de tiro?",
+    answer: "El campo de tiro te permite disparar la munición que fabricas para ganar dinero, pero consume balas que podrías vender selladas. Considéralo entretenimiento o una bonificación, no tu fuente principal de ingresos."
+  }
+]} />
+
+</Section>

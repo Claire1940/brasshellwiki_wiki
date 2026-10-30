@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "BRASS HELL Ammo Maker: Progression Guide & Best Upgrades",
+  description: "Learn how the BRASS HELL ammo maker works: caliber unlocks, machine upgrades, powder multipliers, and the fastest route from .22 rounds to 30 mm.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Ammo+Maker+Guide",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL ammo maker**: Run a bullet factory, press rounds by hand, and deliver boxes for cash
+- **Caliber ladder**: Start with .22, unlock 9 mm, .45 ACP, .357, 5.56, 7.62, .50 cal, up to 30 mm
+- **Priority upgrades**: Powder multiplier first, then rounds-per-cycle, then automation
+- **Key tip**: Bigger batches beat faster pressing — bulk storage pays for itself quickly
+- **Endgame**: Full automation reaches 100 rounds per cycle and multimillion-dollar deliveries
+</Callout>
+
+<Section icon={Map} title="Ammo Maker Basics: How the Factory Works">
+
+In BRASS HELL, you play as a factory worker on the ammunition production line. The core loop is simple but demands precision: take brass, press the casing, drag the powder, seat the projectile, and seal the finished round. Each completed batch goes into an output box, and delivering boxes to the counter converts your labor into cash.
+
+**Video Highlights:**
+- Manual production loop shown from the very first .22 round
+- Powder and press upgrades demonstrated step by step
+- Caliber unlocks from .22 all the way to 20 mm and 30 mm
+- The factory's mysterious 4:17 a.m. time-loop story beats
+
+<YouTubeEmbed videoId="sOucCOzK52Q" title="Running A Bullet Factory Kind Of... Sucks (Brass Hell - Roblox)" />
+
+Your early income is tiny — single rounds sell for cents. The whole progression arc of the game is about reinvesting those small profits into machines and powder so that one press cycle eventually spits out an entire box of rifle ammunition.
+
+<Callout type="tip" title="Precision Matters">
+The powder step cannot be rushed. You need to measure the correct amount into each casing — a sloppy scoop will not register as a completed round. Slow down on powder, speed up everywhere else.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Caliber Progression Ladder">
+
+Every caliber in BRASS HELL unlocks with cash and typically requires better supplies than the previous one. Higher calibers mean higher sale value per box, which is where your real income growth comes from.
+
+| Caliber | Notes | Value Potential |
+| --- | --- | --- |
+| .22 LR | Starting caliber, cheap supplies, hunting demand | Very low per round |
+| 9 mm | First popular upgrade, most common pistol round | Low |
+| .45 ACP | Fun mid-tier round, 5 rounds per cycle unlocked here | Low-medium |
+| .357 | Big jump in batch value after powder upgrade | Medium |
+| 5.56 | Rifle tier begins, expensive supplies, 25 rounds per cycle | High |
+| 7.62 / .308 | Battle-rifle rounds, strong margins | High |
+| .50 BMG | Massive brass, huge per-box payouts | Very high |
+| 20 mm / 30 mm | Top-tier production, aircraft/anti-air themed | Highest |
+| Shotgun shells | Separate production line up to 10 gauge | Varies |
+
+<Callout type="warning" title="Machine Reset Warning">
+When you finish 30 mm production and pivot to shotgun shells, management requires you to start over with your machine — some parts do not transfer to shell production. Plan your spending accordingly.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Best Upgrade Order: Step-by-Step">
+
+Not all upgrades are equal. Prioritizing powder multipliers and batch capacity over cosmetic buys keeps your income curve steep.
+
+<Steps>
+  <Step num="1" title="Early Game: Double Output">
+    Buy the two-rounds-per-cycle upgrade immediately after your first .22 sales. Doubling manual output halves your time per box more than anything else at this price range.
+  </Step>
+  <Step num="2" title="Powder Multipliers First">
+    Upgrade powder at every opportunity. Early multipliers scale round value by 1.5x, then 2.5x, then 4x, and eventually 7x — this compounds with every caliber you unlock.
+  </Step>
+  <Step num="3" title="Bulk Storage and Batches">
+    Invest in bigger shell storage, a larger output box, and brass dispensers. Bigger batches mean fewer trips to the delivery counter per dollar earned.
+  </Step>
+  <Step num="4" title="Hire and Automate">
+    Unlock the helper, auto powder, auto press, and auto packing. Each automation removes one manual step until you are only pressing the lever.
+  </Step>
+  <Step num="5" title="Endgame: Auto Bench">
+    The lever bench automatically finishes rounds — at this point production runs itself between deliveries, and sealed inventories reach 12,000+ rounds worth millions.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Powder Upgrades">
+    - **Best value per dollar**
+    - Multiplies every round made
+    - Buy before new calibers
+  </Card>
+  <Card title="Rounds Per Cycle">
+    - Scales from 1 to 100 rounds
+    - Reduces clicks dramatically
+    - Pairs well with bulk storage
+  </Card>
+  <Card title="Automation Chain">
+    - Helper, auto powder, auto press
+    - Frees you for deliveries
+    - Required for 30 mm income
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Income Milestones">
+Typical progression checkpoints: roughly $20 from early .22 batches, around $900 after a bulk .357 run, tens of thousands at 7.62, half a million on .50 cal, and multimillion-dollar deliveries once 20 mm and 30 mm lines are automated.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Upgrade Value Comparison">
+
+| Upgrade | Cost Tier | Impact | Priority |
+| --- | --- | --- | --- |
+| 2 rounds per cycle | Very cheap | Doubles early output | ★★★★★ |
+| Powder (1.5x to 2.5x) | Cheap | Multiplies all round value | ★★★★★ |
+| Powder (4x to 7x) | Mid | Largest income multiplier | ★★★★★ |
+| Bigger output box | Cheap | Fewer delivery trips | ★★★★ |
+| Brass dispenser | Mid | Fresh casings auto-drop | ★★★★ |
+| Auto powder | Mid | Removes tedious measuring | ★★★★ |
+| Helper | Mid | Feeds rounds per cycle | ★★★ |
+| Auto press + packing | High | Near-full automation | ★★★★★ |
+| Bigger shell storage | Mid | Enables 50-100 round batches | ★★★★ |
+
+<Callout type="info" title="Supply Consumption">
+Bigger batches still consume the same materials per round — 5 brass or copper per cycle does not become 1-into-5 duplication. Always budget supplies before committing to a large run.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist and the 4:17 Story">
+
+BRASS HELL weaves a quiet horror thread through the factory grind. Every log, call, and handover record is stamped **4:17** — the relief crew never signs in, and the shift never ends. Story beats trigger as you complete major production milestones, so keep progressing calibers to see the narrative unfold.
+
+<Checklist
+  id="ammo-maker-goals"
+  title="Ammo Maker Milestones:"
+  items={[
+    "Press your first .22 round and deliver the first box",
+    "Unlock 9 mm and double rounds per cycle",
+    "Reach .357 and buy the 2.5x powder upgrade",
+    "Automate powder and press on the 5.56 line",
+    "Deliver a half-million-dollar .50 cal batch",
+    "Automate 20 mm/30 mm and seal 12,000 rounds"
+  ]}
+/>
+
+<Callout type="tip" title="Story Trigger Tip">
+If progression feels stuck, check dispatch and the powder stores — talking to NPCs like Ilya at the powder stores advances the 4:17 storyline and can unlock your next work orders.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What does the ammo maker do in BRASS HELL?",
+    answer: "The ammo maker is the core gameplay loop: you assemble brass, powder, and projectiles into finished rounds by hand, box them, and deliver them for cash. Upgrades progressively automate each step until the machine runs nearly by itself."
+  },
+  {
+    question: "Which upgrade should I buy first in the BRASS HELL ammo maker?",
+    answer: "Buy the rounds-per-cycle upgrade first, then pour money into powder multipliers. Powder scales the value of every round you produce, so it compounds with each new caliber you unlock."
+  },
+  {
+    question: "What is the best caliber to farm for money?",
+    answer: "Mid-game, .357 and 5.56 offer the best income-per-effort balance. In the endgame, automated 20 mm and 30 mm lines deliver boxes worth millions, making them the top earners."
+  },
+  {
+    question: "Why is everything stuck at 4:17 in BRASS HELL?",
+    answer: "The 4:17 timestamp is part of the game's story — the factory appears to be caught in a time loop where the shift never ends and no relief crew arrives. Following the radio logs and speaking with NPCs like Ilya advances this mystery."
+  }
+]} />
+
+</Section>

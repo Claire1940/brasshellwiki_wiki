@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Criação de BRASS HELL: Materiais, Receitas e Melhores Builds",
+  description: "Domine a criação em BRASS HELL: rotas para coletar materiais, prioridades de receitas, melhorias de estações de trabalho e as melhores builds de equipamento para o início e o fim do jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Crafting+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A criação em BRASS HELL** gira em torno de latão recuperado, sucata de aço e ligas raras
+- **Priorize as estações de trabalho**: os níveis de receita só são desbloqueados em bancadas aprimoradas
+- **Melhor build inicial**: placas de latão reforçado para obter resistência a dano com baixo custo
+- **Objetivo do fim do jogo**: armas forjadas com ligas e modificadores elementais
+- **Nunca desperdice ligas raras** em receitas de baixo nível que serão rapidamente substituídas
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Sistema de Criação">
+
+O sistema de criação de BRASS HELL é o seu principal caminho para alcançar o poder do fim do jogo. Os inimigos evoluem mais rápido do que os espólios do mundo, então jogadores que investem em estações de trabalho e estoques de materiais superam consistentemente aqueles que dependem de itens aleatórios. Todo item criado pode receber modificações adicionais em bancadas aprimoradas, tornando a criação um processo de duas etapas: forjar o item-base e depois refiná-lo.
+
+**Pilares principais da criação:**
+
+- **Materiais**: obtidos de jazidas, espólios de inimigos e desmontagem
+- **Receitas**: desbloqueadas por progressão e exploração
+- **Estações de trabalho**: bancadas que limitam os níveis de receita
+- **Refinamento**: melhorias pós-criação que adicionam modificadores
+
+<CardGrid cols={3}>
+  <Card title="Bancada de Forja">
+    - **Criação de armas**
+    - Receitas dos níveis 1 a 3
+    - Primeira melhoria prioritária
+  </Card>
+  <Card title="Estação de Desmontagem">
+    - **Desmonta equipamentos**
+    - Devolve parte dos materiais
+    - Financia receitas raras
+  </Card>
+  <Card title="Forno de Ligas">
+    - **Receitas do fim do jogo**
+    - Combina ligas raras
+    - Desbloqueia modificadores elementais
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica do Editor">
+Desmonte todo item obtido que você não pretende equipar. A sucata devolvida se acumula rapidamente e se torna a base do seu estoque de receitas do meio do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prioridade para Coleta de Materiais">
+
+Nem todos os materiais têm o mesmo valor. Seu tempo de coleta deve acompanhar a raridade e a taxa de consumo de cada nível de recurso. A tabela abaixo classifica os materiais mais valiosos pela relação entre esforço e recompensa.
+
+| Material | Raridade | Fonte principal | Usado para | Prioridade |
+|---|---|---|---|---|
+| Sucatas de Latão | Comum | Pilhas de lixo, inimigos básicos | Placas, armas de baixo nível | ★★★ |
+| Fragmentos de Aço | Incomum | Jazidas de minério, espólios de elite | Armas e armaduras de nível intermediário | ★★★★ |
+| Liga Forjada no Inferno | Rara | Espólios de chefes, jazidas de zonas profundas | Equipamentos do fim do jogo | ★★★★★ |
+| Pó de Brasa | Incomum | Desmontagem de itens encantados | Modificadores elementais | ★★★★ |
+| Resina de Ligação | Incomum | Plantas coletáveis, comerciantes | Fixação de modificadores | ★★★ |
+
+<Callout type="warning" title="Erro Comum">
+Não venda Fragmentos de Aço excedentes no início da jornada. As receitas de nível intermediário os consomem em grandes quantidades, e recomprá-los dos comerciantes custa significativamente mais do que o preço de venda.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progressão da Criação Passo a Passo">
+
+Siga esta sequência para construir uma economia de criação que levará você das zonas iniciais até o fim do jogo sem desperdiçar recursos.
+
+<Steps>
+  <Step num="1" title="Estabeleça a Bancada de Forja">
+    Complete a missão inicial da oficina para desbloquear sua primeira bancada. Crie imediatamente uma arma básica de latão para acelerar a coleta em combate.
+  </Step>
+  <Step num="2" title="Construa a Estação de Desmontagem">
+    Monte a estação de desmontagem antes que seu inventário fique cheio de itens inutilizáveis. Envie todo item sobressalente para ela e acumule Sucatas de Latão e Fragmentos de Aço.
+  </Step>
+  <Step num="3" title="Crie Placas de Latão Reforçado">
+    Esta peça de peito oferece a melhor proporção entre defesa e materiais no início do jogo e continua viável durante as duas primeiras zonas.
+  </Step>
+  <Step num="4" title="Melhore para as Receitas de Nível 2">
+    Invista Fragmentos de Aço em uma arma de nível intermediário. Quando a vida dos inimigos aumenta, a progressão do dano é mais importante do que a armadura.
+  </Step>
+  <Step num="5" title="Desbloqueie o Forno de Ligas">
+    Concentre suas incursões em busca de Liga Forjada no Inferno nas zonas profundas; depois, crie sua primeira arma do fim do jogo e adicione um modificador elemental com Pó de Brasa.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ponto de Verificação">
+Ao final do Passo 5, você deverá ter uma arma de Nível 3, um conjunto completo de armadura de nível intermediário e um estoque crescente de modificadores — o padrão de referência para estar pronto para o fim do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Builds de Equipamentos Criados">
+
+Três builds dominam os conjuntos de equipamentos criados, cada uma adequada a um estilo de jogo diferente. Compare seus pontos fortes antes de investir ligas raras.
+
+| Build | Itens criados principais | Pontos fortes | Pontos fracos |
+|---|---|---|---|
+| Baluarte | Conjunto completo de placas de latão/aço | **Alta sobrevivência**, materiais baratos | Baixa mobilidade, eliminações lentas |
+| Escaramuçador | Armadura leve de aço, lâmina veloz | **Alta velocidade**, forte contra alvos únicos | Frágil contra chefes |
+| Artífice | Arma de liga + modificadores de Brasa | **Dano elemental**, versátil | Consome muitos materiais, início lento |
+
+<CardGrid cols={3}>
+  <Card title="Baluarte">
+    - Melhor para jogadores iniciantes
+    - Menor custo de materiais
+    - Excelente em combates longos
+  </Card>
+  <Card title="Escaramuçador">
+    - Maior velocidade de coleta
+    - Forte contra inimigos de elite
+    - Exige bom timing para esquivas
+  </Card>
+  <Card title="Artífice">
+    - Maior potencial de dano
+    - Cobertura elemental
+    - Build com grande retorno no fim do jogo
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conselho de Refinamento">
+Aplique modificadores de Pó de Brasa apenas a itens de Nível 3. Os custos dos modificadores não são transferidos entre itens, então refinar equipamentos de baixo nível desperdiça o recurso permanentemente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checklist de Objetivos de Criação">
+
+Acompanhe seu progresso com esta lista de marcos antes de avançar para as zonas finais.
+
+<Checklist
+  id="crafting-goals"
+  title="Marcos Essenciais da Criação:"
+  items={[
+    "Desbloquear a Bancada de Forja e criar a primeira arma",
+    "Construir a Estação de Desmontagem e acumular mais de 100 Sucatas de Latão",
+    "Criar um conjunto completo de armadura de latão reforçado",
+    "Melhorar as estações de trabalho para o Nível 2",
+    "Desbloquear o Forno de Ligas e criar uma arma de Nível 3",
+    "Aplicar o primeiro modificador elemental com Pó de Brasa"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A criação é melhor do que coletar espólios em BRASS HELL?",
+    answer: "Para uma progressão consistente, sim. Os equipamentos criados evoluem de forma previsível de acordo com o nível da sua estação de trabalho, enquanto os espólios do mundo são aleatórios. As incursões mais eficientes combinam os dois métodos: colete materiais dos inimigos e depois crie exatamente o equipamento de que sua build precisa."
+  },
+  {
+    question: "Qual é o material mais importante neste guia de criação?",
+    answer: "Fragmentos de Aço. Eles fazem a ligação entre o início e o meio do jogo, aparecem em quase todas as receitas de Nível 2 e são consumidos em grandes quantidades. Acumulá-los desde cedo evita compras caras com comerciantes mais tarde."
+  },
+  {
+    question: "Posso recuperar materiais de um item criado?",
+    answer: "Parcialmente. Desmontar um item criado devolve uma fração dos materiais, mas as ligas raras e os custos de modificadores, como o Pó de Brasa, são perdidos. Por isso, você só deve aplicar modificadores a equipamentos de Nível 3."
+  },
+  {
+    question: "Qual build um jogador iniciante deve criar primeiro?",
+    answer: "A build Baluarte. As placas de latão reforçado são baratas, tolerantes a erros e mantêm você vivo enquanto aprende os padrões dos inimigos. Mude para Escaramuçador ou Artífice quando tiver uma fonte estável de Fragmentos de Aço."
+  }
+]} />
+
+</Section>

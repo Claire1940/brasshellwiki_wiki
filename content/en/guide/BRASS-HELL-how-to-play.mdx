@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "BRASS HELL How to Play: Step-by-Step Bullet Factory Guide",
+  description: "Learn how to play BRASS HELL: master the ammo loading cycle, unlock calibers like 7.62, automate your bullet factory, and maximize cash flow.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=How+to+Play+Guide",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL how to play basics**: Load powder, brass, and bullets into casings, then sell finished rounds for cash.
+- **Core loop**: Manual loading earns early money; reinvest into presses and automation upgrades.
+- **Caliber unlocks**: Progression centers on unlocking new calibers like 7.62 with higher payouts.
+- **Endgame goal**: Build a fully automated production line, then AFK while income rolls in.
+- **Key tip**: Perfect loading cycles boost output — watch the counter and time your presses.
+</Callout>
+
+<Section icon={Map} title="How to Play BRASS HELL: Core Gameplay Loop">
+
+BRASS HELL is a bullet-manufacturing simulator built around one satisfying loop: gather components, load ammunition, sell finished rounds, and upgrade your operation until the entire factory runs itself. Every session starts with manual work at the loading bench and ends — if you progress far enough — with an automated assembly line producing boxes of ammo while you collect the profits.
+
+The core resources you handle every cycle are straightforward, and understanding how they interact is the first step to playing efficiently.
+
+| Resource | Role in Production | Notes |
+|---|---|---|
+| Brass | Empty casing base for every round | Stock up in bulk, consumed fast |
+| Black Seal | Functions like gunpowder | Core propellant ingredient |
+| Bullets/Projectiles | Seated on top of each loaded round | Paired 1:1 with casings |
+| Finished Rounds | Final sellable product | Boxed in batches of 50-60 |
+| Cash | Earned from selling ammo boxes | Funds presses, automation, upgrades |
+
+**Video Highlights:**
+- Manual 7.62 loading produces boxes of 50-60 rounds per cycle
+- Bullet multipliers and bulk orders can push single payouts past $23,000
+- Order Masters, Auto Press, and auto-packing unlock full automation
+- Late game shifts to AFK income once the line is fully automated
+
+<YouTubeEmbed videoId="RbnOoyPL__A" title="Making BULLETS in BRASS HELL" />
+
+<Callout type="tip" title="Start Smart">
+Focus on one caliber at a time. Splitting cash across multiple caliber upgrades early slows down your progress toward the automation tier, which is where real income begins.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: From First Round to Full Automation">
+
+Follow this progression path to move from hand-loading newbie to automated factory owner as efficiently as possible.
+
+<Steps>
+  <Step num="1" title="Learn the Manual Loading Cycle">
+    Place brass, pour powder (Black Seal), seat the bullet, and complete each round. Repeat until you can perform the cycle quickly and consistently. Early cash comes entirely from this manual work.
+  </Step>
+  <Step num="2" title="Sell in Bulk and Track Payouts">
+    Box your finished rounds and sell them in batches. Watch your per-cycle earnings — bulk orders and multipliers can multiply a single sale's value dramatically.
+  </Step>
+  <Step num="3" title="Unlock Your Next Caliber">
+    Save cash toward the next caliber unlock, such as 7.62. Higher calibers yield more rounds per cycle and significantly larger payouts per box.
+  </Step>
+  <Step num="4" title="Buy Presses and Loaders">
+    Invest in a hand loader, then automated presses. Each machine removes a manual step from the cycle, letting you produce more rounds with less clicking.
+  </Step>
+  <Step num="5" title="Fully Automate and AFK">
+    Purchase Order Masters, Auto Press, and auto-packing so powder pours, rounds assemble, and boxes pack without input. Clean up leftover manual machines and let the line run.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Watch Your Supplies">
+Automated lines drain supplies fast. A fully running factory can empty your material stock quickly — keep resource purchases ahead of production or the line stalls.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Upgrades That Matter Most">
+
+Not every upgrade is worth its price tag. These are the purchases that most directly accelerate your path to automation.
+
+<CardGrid cols={3}>
+  <Card title="Hand Loader">
+    - **First major purchase**
+    - Speeds up the manual cycle
+    - Scales well with early calibers
+  </Card>
+  <Card title="Bullet Multiplier">
+    - **Boosts per-sale value**
+    - Multiplies payout on bulk boxes
+    - Best ROI before automation
+  </Card>
+  <Card title="Auto Press + Packing">
+    - **Removes all manual steps**
+    - Enables true AFK income
+    - Final tier of the production line
+  </Card>
+</CardGrid>
+
+| Upgrade | Priority | Cost Tier | Impact |
+|---|---|---|---|
+| Hand Loader | ★★★★★ | Mid | Faster manual loading |
+| Bullet Multiplier | ★★★★☆ | Mid | Higher sale payouts |
+| New Caliber Unlocks | ★★★★☆ | High | More rounds per cycle |
+| Auto Press | ★★★★★ | High | Removes assembly labor |
+| Auto Packing | ★★★★☆ | High | Fully automated boxing |
+| Order Masters | ★★★☆☆ | Low-Mid | Useful once automated |
+
+<Callout type="success" title="Milestone Payouts">
+Players who stack multipliers with bulk box sales report single sales in the $23,000-$50,000 range, with fully automated setups pushing total earnings well past $100,000 per session.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Goals Checklist">
+
+Use this checklist to track your journey from first round to idle factory tycoon.
+
+<Checklist
+  id="brass-hell-goals"
+  title="BRASS HELL Progression Milestones:"
+  items={[
+    "Complete first full manual loading cycle",
+    "Save for and buy a hand loader",
+    "Unlock a second caliber (7.62)",
+    "Hit a single sale worth $23,000 or more",
+    "Purchase Auto Press and auto-packing",
+    "Build a fully automated, AFK-ready production line"
+  ]}
+/>
+
+<Callout type="info" title="Endgame Reality">
+Once your line is fully automated, active gameplay options thin out — most of the remaining loop is AFK income collection. Many players treat full automation as a natural stopping point or start optimizing a fresh caliber run.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Common Mistakes and How to Avoid Them">
+
+New players consistently lose money and time to the same handful of errors. Avoid these and your progression speed will roughly double.
+
+| Mistake | Consequence | Fix |
+|---|---|---|
+| Skipping bulk sales | Slow cash accumulation | Always sell full boxes of 50-60 |
+| Ignoring multipliers | Undervalued rounds | Buy multipliers before new caliber |
+| Under-stocking supplies | Stalled automated line | Buy materials in large batches |
+| Keeping manual machines | Cluttered, slower factory | Delete outdated stations after upgrading |
+| Perfect-cycle obsession | Wasted time late game | Time perfect loads early, automate later |
+
+<Callout type="tip" title="Efficiency Habit">
+Nailing a "perfect" load cycle (hitting exact round counts like 10 out of 60) rewards bonus output early on. Once automation handles production, redirect that attention to supply management instead.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do you play BRASS HELL as a beginner?",
+    answer: "Start by manually loading rounds — brass, powder (Black Seal), and bullet — then box and sell them in batches of 50-60. Reinvest every payout into loaders and multipliers until you can afford automation."
+  },
+  {
+    question: "What is Black Seal in BRASS HELL?",
+    answer: "Black Seal functions as the gunpowder component of each round. It is poured into brass casings during the loading cycle and is consumed continuously once your production line is automated."
+  },
+  {
+    question: "How do you unlock new calibers like 7.62?",
+    answer: "New calibers are unlocked by accumulating cash from selling finished ammunition. Focus on bulk box sales and bullet multipliers to reach caliber unlock thresholds faster."
+  },
+  {
+    question: "Is there an endgame after full automation in BRASS HELL?",
+    answer: "After purchasing Auto Press, auto-packing, and Order Masters, the factory runs without input and most remaining gameplay is AFK income collection. Players typically optimize supplies or start fresh progression runs at that point."
+  }
+]} />
+
+</Section>

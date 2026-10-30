@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fabricante de munición de BRASS HELL: guía de progresión y mejores mejoras",
+  description: "Aprende cómo funciona el fabricante de munición de BRASS HELL: desbloqueo de calibres, mejoras de máquinas, multiplicadores de pólvora y la ruta más rápida desde las balas .22 hasta los 30 mm.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Ammo+Maker+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Fabricante de munición de BRASS HELL**: dirige una fábrica de balas, prensa los cartuchos a mano y entrega cajas a cambio de dinero
+- **Progresión de calibres**: empieza con .22 y desbloquea 9 mm, .45 ACP, .357, 5.56, 7.62, .50 cal, hasta llegar a 30 mm
+- **Mejoras prioritarias**: primero el multiplicador de pólvora, después las rondas por ciclo y, por último, la automatización
+- **Consejo clave**: los lotes grandes superan a un prensado más rápido; el almacenamiento a granel se amortiza rápidamente
+- **Tramo final**: la automatización completa alcanza 100 rondas por ciclo y entregas de varios millones de dólares
+</Callout>
+
+<Section icon={Map} title="Conceptos básicos del fabricante de munición: cómo funciona la fábrica">
+
+En BRASS HELL, juegas como un trabajador de fábrica en la línea de producción de munición. El ciclo principal es sencillo, pero exige precisión: toma el latón, prensa la vaina, añade la pólvora, coloca el proyectil y sella el cartucho terminado. Cada lote completado se coloca en una caja de salida, y entregar las cajas en el mostrador convierte tu trabajo en dinero.
+
+**Aspectos destacados del vídeo:**
+- El ciclo de producción manual desde la primera ronda .22
+- Mejoras de pólvora y prensa demostradas paso a paso
+- Desbloqueo de calibres desde .22 hasta 20 mm y 30 mm
+- Los acontecimientos de la misteriosa historia del bucle temporal de las 4:17 a. m. de la fábrica
+
+<YouTubeEmbed videoId="sOucCOzK52Q" title="Dirigir una fábrica de balas es algo así como... un desastre (Brass Hell - Roblox)" />
+
+Tus ingresos iniciales son diminutos: las rondas individuales se venden por unos pocos centavos. Toda la progresión del juego consiste en reinvertir esas pequeñas ganancias en máquinas y pólvora, hasta que un ciclo de prensado produzca finalmente una caja completa de munición para fusil.
+
+<Callout type="tip" title="La precisión importa">
+El paso de la pólvora no se puede hacer con prisas. Debes medir la cantidad correcta en cada vaina; una cucharada imprecisa no se registrará como una ronda completada. Tómate tu tiempo con la pólvora y acelera en todo lo demás.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progresión de calibres">
+
+Cada calibre de BRASS HELL se desbloquea con dinero y normalmente requiere mejores suministros que el anterior. Los calibres superiores tienen un mayor valor de venta por caja, y ahí es donde se produce el verdadero crecimiento de tus ingresos.
+
+| Calibre | Notas | Potencial de valor |
+| --- | --- | --- |
+| .22 LR | Calibre inicial, suministros baratos y demanda para caza | Muy bajo por ronda |
+| 9 mm | Primera mejora popular, el cartucho de pistola más común | Bajo |
+| .45 ACP | Cartucho intermedio divertido; aquí se desbloquean 5 rondas por ciclo | Bajo-medio |
+| .357 | Gran salto en el valor del lote tras mejorar la pólvora | Medio |
+| 5.56 | Comienza el nivel de fusil, suministros caros y 25 rondas por ciclo | Alto |
+| 7.62 / .308 | Cartuchos de fusil de batalla, con buenos márgenes | Alto |
+| .50 BMG | Gran cantidad de latón y enormes pagos por caja | Muy alto |
+| 20 mm / 30 mm | Producción de nivel superior, con temática aeronáutica y antiaérea | Máximo |
+| Cartuchos de escopeta | Línea de producción independiente hasta el calibre 10 | Variable |
+
+<Callout type="warning" title="Advertencia sobre el reinicio de la máquina">
+Cuando termines la producción de 30 mm y pases a los cartuchos de escopeta, la gerencia te obliga a empezar de nuevo con la máquina; algunas piezas no se transfieren a la producción de cartuchos. Planifica tus gastos en consecuencia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejor orden de mejoras: paso a paso">
+
+No todas las mejoras son iguales. Dar prioridad a los multiplicadores de pólvora y a la capacidad de los lotes por encima de las compras cosméticas mantiene empinada tu curva de ingresos.
+
+<Steps>
+  <Step num="1" title="Inicio: duplica la producción">
+    Compra la mejora de dos rondas por ciclo justo después de vender tus primeras rondas .22. Duplicar la producción manual reduce a la mitad el tiempo por caja más que cualquier otra mejora de este rango de precio.
+  </Step>
+  <Step num="2" title="Primero los multiplicadores de pólvora">
+    Mejora la pólvora siempre que tengas la oportunidad. Los primeros multiplicadores aumentan el valor de las rondas en 1.5x, luego 2.5x, después 4x y finalmente 7x; esto se acumula con cada calibre que desbloqueas.
+  </Step>
+  <Step num="3" title="Almacenamiento y lotes grandes">
+    Invierte en un almacenamiento de cartuchos más grande, una caja de salida mayor y dispensadores de latón. Los lotes grandes implican menos viajes al mostrador de entregas por cada dólar ganado.
+  </Step>
+  <Step num="4" title="Contrata y automatiza">
+    Desbloquea al ayudante, la pólvora automática, la prensa automática y el embalaje automático. Cada automatización elimina un paso manual hasta que solo tengas que accionar la palanca.
+  </Step>
+  <Step num="5" title="Tramo final: banco automático">
+    El banco con palanca termina las rondas automáticamente; en este punto, la producción funciona por sí sola entre entregas y los inventarios sellados alcanzan más de 12.000 rondas con un valor de millones.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Mejoras de pólvora">
+    - **La mejor relación calidad-precio**
+    - Multiplican cada ronda fabricada
+    - Cómpralas antes de desbloquear nuevos calibres
+  </Card>
+  <Card title="Rondas por ciclo">
+    - Aumentan de 1 a 100 rondas
+    - Reducen drásticamente los clics
+    - Combinan bien con el almacenamiento a granel
+  </Card>
+  <Card title="Cadena de automatización">
+    - Ayudante, pólvora automática y prensa automática
+    - Te deja libre para hacer entregas
+    - Es necesaria para obtener ingresos con los 30 mm
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Hitos de ingresos">
+Puntos de progreso habituales: unos 20 $ con los primeros lotes de .22, alrededor de 900 $ después de un lote grande de .357, decenas de miles con 7.62, medio millón con .50 cal y entregas de varios millones una vez automatizadas las líneas de 20 mm y 30 mm.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparación del valor de las mejoras">
+
+| Mejora | Nivel de coste | Impacto | Prioridad |
+| --- | --- | --- | --- |
+| 2 rondas por ciclo | Muy barato | Duplica la producción inicial | ★★★★★ |
+| Pólvora (1.5x a 2.5x) | Barato | Multiplica el valor de todas las rondas | ★★★★★ |
+| Pólvora (4x a 7x) | Medio | Mayor multiplicador de ingresos | ★★★★★ |
+| Caja de salida más grande | Barato | Menos viajes para hacer entregas | ★★★★ |
+| Dispensador de latón | Medio | Las vainas nuevas caen automáticamente | ★★★★ |
+| Pólvora automática | Medio | Elimina la tediosa medición | ★★★★ |
+| Ayudante | Medio | Alimenta las rondas por ciclo | ★★★ |
+| Prensa y embalaje automáticos | Alto | Automatización casi completa | ★★★★★ |
+| Almacenamiento de cartuchos más grande | Medio | Permite lotes de 50 a 100 rondas | ★★★★ |
+
+<Callout type="info" title="Consumo de suministros">
+Los lotes grandes siguen consumiendo los mismos materiales por ronda: usar 5 unidades de latón o cobre por ciclo no se convierte en una duplicación de 1 por 5. Calcula siempre tus suministros antes de comprometerte con una producción grande.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de progreso y la historia de las 4:17">
+
+BRASS HELL entrelaza una discreta trama de terror con la rutina de la fábrica. Cada registro, llamada y documento de relevo lleva estampada la hora **4:17**: el equipo de relevo nunca registra su entrada y el turno nunca termina. Los acontecimientos de la historia se activan al completar hitos importantes de producción, así que sigue avanzando por los calibres para descubrir cómo se desarrolla la narrativa.
+
+<Checklist
+  id="ammo-maker-goals"
+  title="Hitos del fabricante de munición:"
+  items={[
+    "Prensa tu primera ronda .22 y entrega la primera caja",
+    "Desbloquea 9 mm y duplica las rondas por ciclo",
+    "Alcanza .357 y compra la mejora de pólvora de 2.5x",
+    "Automatiza la pólvora y la prensa en la línea de 5.56",
+    "Entrega un lote de .50 cal valorado en medio millón de dólares",
+    "Automatiza los 20 mm/30 mm y sella 12.000 rondas"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo para activar la historia">
+Si sientes que la progresión se ha quedado atascada, revisa los envíos y los almacenes de pólvora. Hablar con NPC como Ilya en los almacenes de pólvora hace avanzar la historia de las 4:17 y puede desbloquear tus siguientes órdenes de trabajo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué hace el fabricante de munición en BRASS HELL?",
+    answer: "El fabricante de munición es el ciclo de juego principal: ensamblas latón, pólvora y proyectiles para crear rondas terminadas a mano, las empaquetas y las entregas a cambio de dinero. Las mejoras automatizan progresivamente cada paso hasta que la máquina funciona casi por sí sola."
+  },
+  {
+    question: "¿Qué mejora debería comprar primero en el fabricante de munición de BRASS HELL?",
+    answer: "Compra primero la mejora de rondas por ciclo y después invierte tu dinero en multiplicadores de pólvora. La pólvora aumenta el valor de cada ronda que produces, por lo que el efecto se acumula con cada nuevo calibre que desbloqueas."
+  },
+  {
+    question: "¿Cuál es el mejor calibre para conseguir dinero?",
+    answer: "Durante la mitad del juego, .357 y 5.56 ofrecen el mejor equilibrio entre ingresos y esfuerzo. En el tramo final, las líneas automatizadas de 20 mm y 30 mm entregan cajas valoradas en millones, lo que las convierte en las opciones más rentables."
+  },
+  {
+    question: "¿Por qué todo está atascado a las 4:17 en BRASS HELL?",
+    answer: "La hora 4:17 forma parte de la historia del juego: parece que la fábrica está atrapada en un bucle temporal en el que el turno nunca termina y no llega ningún equipo de relevo. Seguir los registros de radio y hablar con NPC como Ilya hace avanzar este misterio."
+  }
+]} />
+
+</Section>

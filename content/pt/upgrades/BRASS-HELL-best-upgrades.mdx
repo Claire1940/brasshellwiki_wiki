@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Melhores Melhorias de BRASS HELL: Ranking de Prioridades e Dicas de Build",
+  description: "Descubra quais melhorias de BRASS HELL comprar primeiro, como priorizar atributos e quais estratégias de build ajudam você a superar os encontros mais difíceis.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Best+Upgrades+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As **melhores melhorias de BRASS HELL** começam com sobrevivência, depois dano e, por fim, utilidade.
+- **Prioridade no início do jogo**: melhorias de vida e defesa mantêm as runs vivas por mais tempo.
+- **Mudança no meio do jogo**: o aumento de dano transforma eliminações lentas em ciclos rápidos de farm.
+- **Evite escolhas armadilhosas**: melhorias de utilidade chamativas costumam ter desempenho inferior aos atributos puros.
+- **Redistribua com cuidado**: sempre teste uma melhoria por vez antes de investir ainda mais.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral do Sistema de Melhorias">
+
+BRASS HELL recompensa os jogadores que entendem sua economia de melhorias. Cada run apresenta escolhas ramificadas de melhorias, e a diferença entre uma build forte e uma run fracassada geralmente depende das melhorias escolhidas nos primeiros minutos. As melhorias de BRASS HELL geralmente se dividem em quatro categorias: **ofensiva**, **defensiva**, **mobilidade** e **economia**.
+
+<Callout type="tip" title="Princípio Fundamental">
+As melhorias de sobrevivência têm o maior valor no início, pois morrer reinicia seu progresso. Quando você conseguir sobreviver aos encontros de forma consistente, as melhorias de dano se tornam o melhor investimento.
+</Callout>
+
+| Categoria | O que Abrange | Melhor Momento | Nível de Risco |
+| --- | --- | --- | --- |
+| **Ofensiva** | Dano, velocidade de ataque, crítico | Meio ao fim do jogo | Médio |
+| **Defensiva** | Vida, armadura, redução de dano | Início do jogo | Baixo |
+| **Mobilidade** | Velocidade de movimento, recarga do dash | Qualquer momento | Baixo |
+| **Economia** | Ganho de moeda, re-rolagens de melhorias | Início do jogo | Médio |
+
+</Section>
+
+<Section icon={Swords} title="Melhores Melhorias por Ordem de Prioridade">
+
+Use este ranking como modelo padrão. Ajuste-o de acordo com sua build, mas essas escolhas apresentam um desempenho consistente na maioria das runs de BRASS HELL.
+
+<CardGrid cols={3}>
+  <Card title="Tier 1 - Essenciais">
+    - **Aumentos de vida máxima**
+    - Redução de dano
+    - Dano da arma principal
+    - Velocidade de ataque no início
+  </Card>
+  <Card title="Tier 2 - Ótimas Escolhas">
+    - Acúmulo de chance de crítico
+    - Redução da recarga do dash
+    - Expansão de área de efeito
+    - Multiplicadores de moeda
+  </Card>
+  <Card title="Tier 3 - Situacionais">
+    - Efeitos elementais
+    - Roubo de vida com pouca vida
+    - Cargas de re-rolagem
+    - Escolhas de sinergia específicas
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Melhorias Armadilhosas">
+Evite acumular várias melhorias de utilidade com pouco impacto no início. Uma única melhoria forte de atributo geralmente supera duas escolhas de sinergia fracas até sua build começar a funcionar.
+</Callout>
+
+| Melhoria | Valor Inicial | Valor Tardio | Observações de Sinergia |
+| --- | --- | --- | --- |
+| Vida Máxima | ★★★★★ | ★★★☆☆ | Combina com roubo de vida mais tarde |
+| Redução de Dano | ★★★★★ | ★★★★☆ | Melhor escolha de defesa plana |
+| Dano da Arma | ★★★★☆ | ★★★★★ | Escala todo o conjunto |
+| Velocidade de Ataque | ★★★★☆ | ★★★★☆ | Multiplica efeitos ao acertar |
+| Chance de Crítico | ★★☆☆☆ | ★★★★★ | Precisa de investimento para compensar |
+| Velocidade de Movimento | ★★★☆☆ | ★★★☆☆ | Sempre útil, nunca excepcional |
+| Ganho de Moeda | ★★★★☆ | ★★☆☆☆ | Priorize no início para obter mais re-rolagens |
+
+</Section>
+
+<Section icon={Target} title="Caminho de Melhorias Passo a Passo">
+
+Siga esta sequência ao começar uma run nova. Ela equilibra segurança e poder de dano para que você nunca fique para trás em nenhuma das duas progressões.
+
+<Steps>
+  <Step num="1" title="Garanta a Defesa Primeiro">
+    Escolha a primeira melhoria de vida ou redução de dano oferecida. Isso protege você contra o dano explosivo inicial e permite jogar de forma agressiva em busca de recursos.
+  </Step>
+  <Step num="2" title="Invista Cedo na Economia">
+    Se uma melhoria de moeda ou re-rolagem aparecer entre as primeiras escolhas, selecione-a. Uma economia extra se acumula ao longo de toda a run.
+  </Step>
+  <Step num="3" title="Defina um Núcleo de Dano">
+    Escolha um tipo de dano e acumule melhorias nele. Dividir-se entre escalamento físico e elemental enfraquece ambos e atrasa seu pico de poder.
+  </Step>
+  <Step num="4" title="Adicione Velocidade de Ataque">
+    Quando o dano básico estiver sólido, a velocidade de ataque multiplicará cada efeito de acerto acumulado até então.
+  </Step>
+  <Step num="5" title="Complete com Sinergias">
+    As escolhas finais devem completar sinergias: crítico depois de acumular dano, roubo de vida depois de Vida Máxima e área de efeito depois de velocidade de ataque.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Regra de Verificação">
+Depois de cada melhoria importante, faça uma luta de teste. Se seu tempo de eliminação piorar ou você sofrer dano inesperado, observe qual escolha causou isso e evite escolhas semelhantes na próxima run.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Arquétipos de Build e Combinações de Melhorias">
+
+Diferentes estilos de jogo exigem ordens diferentes de melhorias. Escolha seu arquétipo antes de comprometer seus recursos.
+
+| Arquétipo | Melhorias Principais | Escolhas de Suporte | Fraqueza |
+| --- | --- | --- | --- |
+| **Bruiser** | Vida máxima, redução de dano, dano da arma | Roubo de vida, armadura | Eliminações lentas |
+| **Canhão de Vidro** | Dano da arma, crítico, velocidade de ataque | Velocidade de movimento, dash | Frágil contra dano explosivo |
+| **Speedrunner** | Velocidade de movimento, recarga do dash, velocidade de ataque | Melhorias leves de dano | Baixo potencial de dano explosivo |
+| **Farmer** | Ganho de moeda, re-rolagens, área de efeito | Atributos equilibrados | Dificuldade para matar chefes rapidamente |
+
+<Callout type="info" title="Conselho para Builds Híbridas">
+Se você não tiver certeza de qual arquétipo combina com você, comece pelo modelo de **Bruiser**. Ele perdoa erros e faz uma transição suave para escolhas de dano assim que você aprender os padrões dos encontros.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Objetivos da Run">
+
+Acompanhe estes marcos em cada run para medir se seu caminho de melhorias está funcionando.
+
+<Checklist
+  id="upgrade-goals"
+  title="Marcos por Run:"
+  items={[
+    "Garantir uma melhoria defensiva antes do primeiro chefe",
+    "Definir um núcleo de dano até a metade da run",
+    "Alcançar um fluxo positivo de moedas antes do fim do jogo",
+    "Completar pelo menos uma sinergia completa (crítico ou roubo de vida)",
+    "Derrotar o encontro final sem ficar abaixo de 30% de vida"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais são as melhores melhorias de BRASS HELL para iniciantes?",
+    answer: "Iniciantes devem priorizar Vida Máxima e redução de dano, depois dano da arma. As melhorias de sobrevivência mantêm as runs vivas por tempo suficiente para aprender os padrões dos inimigos, algo mais importante do que o dano bruto enquanto você ainda está dominando o jogo."
+  },
+  {
+    question: "Devo escolher melhorias de dano ou de defesa primeiro?",
+    answer: "Escolha defesa primeiro em quase todos os casos. Morrer encerra a run completamente, enquanto eliminações um pouco mais lentas custam apenas tempo. Assim que você sobreviver com tranquilidade, concentre-se totalmente no escalamento de dano."
+  },
+  {
+    question: "As melhorias de economia valem a pena?",
+    answer: "Sim, se aparecerem cedo. As melhorias de moeda e re-rolagem se acumulam ao longo de toda a run, permitindo ver mais opções e escolher sinergias mais fortes. As escolhas de economia no fim do jogo são muito mais fracas, pois resta menos tempo para aproveitar seus benefícios."
+  },
+  {
+    question: "Posso redistribuir ou mudar as melhorias durante a run?",
+    answer: "As escolhas de melhoria dentro de uma run geralmente ficam bloqueadas depois de selecionadas, por isso é importante testar uma escolha por vez. Trate cada run como uma etapa de aprendizado e ajuste suas escolhas iniciais na próxima tentativa."
+  }
+]} />
+
+</Section>

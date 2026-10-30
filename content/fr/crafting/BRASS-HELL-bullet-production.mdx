@@ -1,0 +1,174 @@
+import { Map, Target, Trophy, Factory, Package, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Production de munitions dans BRASS HELL : guide d'usine étape par étape",
+  description: "Découvrez la boucle complète de production de munitions dans BRASS HELL : fonctionnement de la presse, réapprovisionnement des matériaux, remplissage des caisses et livraison des expéditions pour une efficacité maximale.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/D78A32/15191D?text=Bullet+Production+Guide",
+  date: "2026-10-31",
+  author: "Équipe du wiki BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **La production de munitions dans BRASS HELL** repose sur une boucle répétable : presser, réapprovisionner, emballer, livrer.
+- **Gardez la presse active** : chaque minute d'inactivité représente un manque à gagner dans ce simulateur incrémental.
+- **Préparez les matériaux de la prochaine commande** avant d'expédier la cargaison actuelle.
+- **Réinvestissez vos premiers paiements** en priorité dans la vitesse de production et le débit de remplissage des caisses.
+- **Des bonus de production en masse** existent, mais ne supposez jamais que les multiplicateurs se cumulent, sauf si le jeu l'indique.
+</Callout>
+
+<Section icon={Factory} title="Fonctionnement de la production de munitions dans BRASS HELL">
+
+La production de munitions est la boucle principale de BRASS HELL, un simulateur d'usine incrémental Roblox situé dans une usine de munitions isolée et enneigée. Vous pointez, utilisez la presse à munitions, fabriquez des cartouches, remplissez des caisses et expédiez les cargaisons contre paiement. Plus vous répétez ce cycle rapidement et régulièrement, plus vous gagnez d'argent et débloquez vite les améliorations de l'atelier.
+
+Chaque partie de la boucle alimente l'étape suivante :
+
+| Étape de production | Entrée | Sortie | Impact direct |
+| --- | --- | --- | --- |
+| Collecte des matériaux | Exigences de la commande | Matériaux préparés | Évite les temps d'arrêt de la presse |
+| Fonctionnement de la presse | Matériaux préparés | Cartouches terminées | Source principale de revenus |
+| Remplissage des caisses | Cartouches terminées | Caisses remplies | Nécessaire pour la livraison |
+| Expédition de la cargaison | Caisses remplies | Paiement | Finance les améliorations |
+| Réapprovisionnement | Paiement/réserve | Prochaine série | Maintient la boucle en mouvement |
+
+<Callout type="tip" title="Note de la rédaction">
+Considérez l'expédition comme la fin d'un cycle et le point de départ du suivant, pas comme un arrêt. Les joueurs qui maintiennent la boucle en continu gagnent davantage que ceux qui s'arrêtent après chaque paiement.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Production de munitions étape par étape">
+
+Suivez cette route pour chaque cycle de production. Elle fonctionne dès votre tout premier service jusqu'aux séries en masse de fin de partie.
+
+| Étape | Action | Conseils d'efficacité |
+| --- | --- | --- |
+| 1 | Vérifier la commande active | Contrôler les quantités avant de lancer la presse |
+| 2 | Préparer les matériaux près de la presse | Les pièces manquantes interrompent le cycle |
+| 3 | Lancer les séries de production | Revenez immédiatement après avoir récupéré la production |
+| 4 | Réapprovisionner les composants consommés | Garder une petite réserve de travail à proximité |
+| 5 | Remplir la caisse d'expédition | Vérifier le contenu par rapport à la commande |
+| 6 | Expédier et recommencer | Commencer immédiatement la préparation de la commande suivante |
+
+<Steps>
+  <Step num="1" title="Collecter et organiser les matériaux">
+    Rassemblez tout ce qui est nécessaire à la commande active et gardez-le près de la zone de la presse. Identifiez ce qui doit être réapprovisionné avant de commencer afin que les pénuries n'interrompent jamais la production en cours de série.
+  </Step>
+  <Step num="2" title="Utiliser la presse à munitions">
+    Chargez les matériaux, lancez l'interaction de production et récupérez les cartouches terminées. Gardez la machine active dès que les composants sont disponibles : une presse inactive représente la plus grande perte d'efficacité de l'usine.
+  </Step>
+  <Step num="3" title="Réapprovisionner la ligne de production">
+    Remplacez les composants consommés après chaque série. Utilisez un itinéraire répétable entre la zone d'approvisionnement et la presse afin de réduire le temps de déplacement au fil des dizaines de cycles.
+  </Step>
+  <Step num="4" title="Terminer la commande d'expédition">
+    Comparez les produits finis aux exigences de la commande et déplacez-les vers la zone d'emballage. Les objets manquants ou incorrects empêchent la boucle entière de se terminer.
+  </Step>
+  <Step num="5" title="Emballer et expédier la caisse">
+    Chargez les produits, finalisez la caisse, expédiez la commande, puis consultez immédiatement la suivante. Terminez la série complète avant de partir en livraison afin qu'un seul trajet suffise.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Évitez cette erreur">
+Ne livrez pas des séries incomplètes. Effectuer plusieurs trajets jusqu'au point d'expédition pour une seule commande fait perdre plus de temps que toute autre erreur courante lors des premières productions.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression des calibres et valeur">
+
+Les munitions de BRASS HELL suivent la voie d'amélioration de l'usine. À tout moment, le meilleur calibre est la cartouche de niveau le plus élevé que votre atelier peut produire régulièrement sans ralentir l'ensemble du cycle d'expédition.
+
+| Étape de déblocage | Niveau de calibre | Valeur de production | Utilisation optimale |
+| --- | --- | --- | --- |
+| Début de la production | Cartouche de départ | Niveau d'entrée | Apprendre à utiliser la presse, remplir les premières caisses et établir la première source de revenus |
+| Progression initiale | Cartouche intermédiaire | Améliorée | Augmenter la qualité des expéditions une fois les bases maîtrisées |
+| Progression avancée | Cartouche avancée | Niveau le plus élevé | Les usines développées maximisent les revenus des expéditions |
+
+<CardGrid cols={3}>
+  <Card title="Début de partie">
+    - **Utilisez immédiatement les cartouches de départ**
+    - Économisez les paiements pour améliorer la vitesse de la presse
+    - Concentrez-vous sur l'apprentissage des itinéraires
+  </Card>
+  <Card title="Milieu de partie">
+    - **Adoptez les cartouches intermédiaires**
+    - Équilibrez vitesse et valeur
+    - Améliorez la gestion des caisses
+  </Card>
+  <Card title="Fin de partie">
+    - **Utilisez les cartouches avancées**
+    - Privilégiez la production en masse
+    - Maximisez la valeur de chaque expédition
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Règle générale concernant les calibres">
+Un calibre inférieur produit à pleine vitesse est souvent plus rentable qu'un calibre supérieur que votre usine ne peut pas maintenir. Dans une boucle incrémentale, la régularité l'emporte sur la valeur maximale.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Améliorations qui augmentent la production">
+
+Les améliorations de l'atelier déterminent la vitesse à laquelle l'activité de l'usine se transforme en revenus d'expédition. Donnez la priorité aux améliorations qui raccourcissent le cycle de production avant d'acheter des fonctionnalités de confort.
+
+| Priorité | Type d'amélioration | Effet | Recommandé pour |
+| --- | --- | --- | --- |
+| S | Vitesse de production | Cycles de presse plus rapides | Première source de revenus fiable |
+| S | Débit des caisses | Remplissage et manipulation des caisses plus rapides | Lorsque l'expédition prend du retard sur la production |
+| A | Revenus d'expédition | Valeur de livraison plus élevée | Production stable de milieu de partie |
+| A | Déblocage des munitions | Accès aux cartouches avancées | Progression à long terme |
+| B | Confort | Déplacements et manipulation | Une fois les priorités principales couvertes |
+
+<Callout type="success" title="Conseils pour l'ordre des améliorations">
+Investissez d'abord dans les améliorations qui réduisent la durée des cycles de presse et les délais de manipulation des caisses. Elles augmentent directement le nombre d'expéditions terminées par session, ce qui accélère toutes les améliorations suivantes.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Checklist d'efficacité et multiplicateurs">
+
+Les systèmes de progression récompensent un travail régulier à l'usine. La progression de rang, l'XP de maîtrise et les multiplicateurs de production en masse sont des avantages distincts : utilisez chacun comme décrit dans le jeu et ne supposez pas qu'ils se cumulent.
+
+<Checklist
+  id="production-goals"
+  title="Objectifs de production par session :"
+  items={[
+    "Garder la presse active sans aucun temps mort",
+    "Terminer au moins une caisse complète par trajet de livraison",
+    "Préparer les matériaux de la prochaine commande avant l'expédition",
+    "Réinvestir chaque paiement dans des améliorations de production ou de débit",
+    "Suivre les améliorations qui raccourcissent réellement la durée du cycle"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ sur la production de munitions">
+
+<FAQ items={[
+  {
+    question: "Comment commencer la production de munitions dans BRASS HELL ?",
+    answer: "Pointez à l'usine, rassemblez les matériaux nécessaires à la commande active et utilisez la presse à munitions pour fabriquer des cartouches. Une fois que vous avez suffisamment de munitions terminées, remplissez une caisse d'expédition et livrez-la au point d'expédition pour recevoir votre paiement."
+  },
+  {
+    question: "Quelle est la manière la plus rapide d'améliorer l'efficacité de la production de munitions ?",
+    answer: "Réduisez le temps d'inactivité de la presse et éliminez les livraisons partielles. Gardez les matériaux préparés près de la presse, utilisez un itinéraire fixe pour le réapprovisionnement et terminez toujours une série complète avant d'effectuer un trajet de livraison."
+  },
+  {
+    question: "Quel calibre dois-je produire ?",
+    answer: "Utilisez le calibre le plus élevé que votre usine peut produire régulièrement sans interrompre le cycle d'expédition. Au début, des cartouches de départ produites à pleine vitesse sont plus rentables que des cartouches avancées que vous ne pouvez pas produire durablement."
+  },
+  {
+    question: "Les multiplicateurs d'XP de maîtrise, de progression de rang et de production en masse se cumulent-ils ?",
+    answer: "Considérez-les comme des avantages distincts. Ne supposez pas que les multiplicateurs se combinent, sauf si une description en jeu l'indique explicitement : utilisez l'effet indiqué pour chaque avantage tel qu'il est écrit."
+  }
+]} />
+
+</Section>

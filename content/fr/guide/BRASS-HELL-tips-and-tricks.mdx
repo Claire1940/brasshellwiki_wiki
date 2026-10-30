@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL : astuces et conseils pour optimiser l'usine",
+  description: "Les astuces et conseils essentiels de BRASS HELL : maîtrisez la presse, accélérez le remplissage des caisses, donnez la priorité aux améliorations, progressez plus vite dans les rangs et trouvez les documents cachés.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/D78A32/fff?text=BRASS+HELL+Tips+and+Tricks",
+  date: "2026-10-31",
+  author: "Équipe du Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **astuces et conseils de BRASS HELL** commencent par une règle : gardez la presse en fonctionnement et ne la laissez jamais inactive entre deux cycles.
+- **Priorité des améliorations** : la vitesse de production et le débit des caisses passent avant les améliorations de confort.
+- **Boucle d'efficacité** : préparez les matériaux de la prochaine commande pendant que la caisse actuelle est emballée.
+- **Progression** : considérez l'XP de maîtrise, la progression de rang et les multiplicateurs de production en gros comme des systèmes distincts.
+- **Exploration** : les documents cachés récompensent les joueurs qui fouillent les bureaux, les réserves et les couloirs latéraux.
+</Callout>
+
+<Section icon={Map} title="Astuces essentielles de BRASS HELL pour les nouveaux ouvriers">
+
+BRASS HELL vous plonge dans une usine de munitions isolée et enneigée, où l'ensemble de vos revenus dépend de la façon dont vous enchaînez les étapes de production. Les joueurs qui gagnent le plus ne sont pas ceux qui se déplacent le plus vite, mais ceux qui perdent le moins de temps entre la presse, la zone des caisses et le point de livraison.
+
+L'usine accueille jusqu'à **4 joueurs par serveur** : la coordination compte donc autant que la vitesse individuelle. En équipe, répartissez les rôles entre l'utilisation de la presse, le transport des matériaux et la livraison des caisses.
+
+| Astuce | Pourquoi c'est important | Difficulté |
+|---|---|---|
+| Gardez la presse active | Le temps d'inactivité de la machine représente une perte de revenus à chaque cycle | Facile |
+| Mémorisez les itinéraires des matériaux | Des trajets plus courts permettent de produire davantage de lots par service | Facile |
+| Regroupez les caisses avant de livrer | Un seul trajet par commande réduit fortement le temps de déplacement | Facile |
+| Répartissez les rôles en coopération | Le travail en parallèle est plus efficace que de tout faire seul | Moyenne |
+| Réinvestissez chaque paiement | Les améliorations précoces se répercutent sur toutes les livraisons suivantes | Facile |
+
+<Callout type="tip" title="La règle d'or">
+Considérez l'expédition comme le début du cycle suivant, et non comme la fin du service. Commencez immédiatement à préparer les matériaux de la prochaine commande dès qu'une caisse quitte la zone de production.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Astuces pour prioriser les améliorations">
+
+Les améliorations de l'atelier déterminent la vitesse à laquelle l'activité de l'usine se transforme en revenus d'expédition. Les débutants les plus performants améliorent leurs installations dans un ordre strict au lieu d'acheter simplement ce qu'ils peuvent se permettre.
+
+<CardGrid cols={3}>
+  <Card title="Rang S : vitesse de production">
+  - **Première priorité** pour tout nouvel ouvrier
+  - Davantage de cycles par session
+  - Meilleur retour sur les premiers paiements
+  </Card>
+  <Card title="Rang S : débit des caisses">
+  - Remplissez et déplacez les caisses plus rapidement
+  - Évite les goulots d'étranglement lors des livraisons
+  - Idéal une fois la vitesse de la presse améliorée
+  </Card>
+  <Card title="Rang A : revenus et déblocages">
+  - Augmente la valeur des expéditions
+  - Donne accès aux munitions avancées
+  - À privilégier une fois la boucle stabilisée
+  </Card>
+</CardGrid>
+
+Les améliorations axées sur le confort, comme la vitesse de déplacement et la manutention, appartiennent au **rang B** : elles sont utiles, mais seulement lorsque la boucle de production est déjà efficace. Les acheter trop tôt ralentit vos revenus à long terme.
+
+| Rang | Type d'amélioration | Quand l'acheter | Avantage |
+|---|---|---|---|
+| S | Vitesse de production | Immédiatement | **Davantage de cycles par session** |
+| S | Débit des caisses | Après la première amélioration de vitesse | Moins de temps mort entre les lots |
+| A | Revenus d'expédition | Milieu de partie, une fois la production stable | Paiement plus élevé par livraison |
+| A | Déblocage de munitions | Préparation de la fin de partie | Accès aux munitions avancées |
+| B | Confort | Une fois la boucle principale optimisée | Routine quotidienne plus fluide |
+
+<Callout type="warning" title="Évitez cette erreur">
+Ne dépensez pas vos premiers paiements dans des améliorations de confort. Une vitesse de déplacement accrue ne sert à rien si la presse est toujours lente et si les caisses prennent encore trop de temps à remplir.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Guide d'un cycle de production efficace">
+
+La boucle principale est facile à apprendre, mais difficile à optimiser. Ces astuces de BRASS HELL transforment un premier service maladroit en une routine répétable avec très peu de temps mort.
+
+<Steps>
+  <Step num="1" title="Récupérez et organisez les matériaux">
+    Vérifiez les exigences de la commande active avant de toucher à la presse. Déplacez tous les matériaux nécessaires près de la zone de production afin que rien n'interrompe le cycle en cours.
+  </Step>
+  <Step num="2" title="Faites fonctionner la presse en continu">
+    Chargez les matériaux, lancez l'interaction de production et récupérez les munitions terminées. Retournez immédiatement à la presse après chaque collecte : une machine inutilisée représente des revenus perdus.
+  </Step>
+  <Step num="3" title="Réapprovisionnez pendant le travail">
+    Remplacez les ressources consommées dans le cadre de la boucle, et non en urgence. Utilisez un itinéraire fixe et répétable entre la zone d'approvisionnement et la presse afin de réduire les distances parcourues.
+  </Step>
+  <Step num="4" title="Vérifiez et terminez la commande">
+    Comparez les produits finis à la commande avant de déplacer quoi que ce soit. Terminez d'abord le lot complet afin qu'un seul trajet suffise pour effectuer toute la livraison.
+  </Step>
+  <Step num="5" title="Emballez, expédiez et recommencez">
+    Chargez la caisse, finalisez l'expédition, envoyez-la, puis commencez immédiatement à préparer les matériaux de la commande suivante. L'expédition marque le début du cycle suivant.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Indicateur d'efficacité">
+Si votre presse reste parfois inutilisée pendant que vous vous déplacez, réorganisez votre itinéraire. Les ouvriers les plus efficaces préparent les matériaux en parallèle de l'emballage et de la livraison.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Astuces pour les rangs, la maîtrise et la progression des munitions">
+
+BRASS HELL sépare la **progression de rang** de l'**XP de maîtrise**, et les passes de jeu proposées (XP de maîtrise, progression de rang, multiplicateurs de production en gros) soutiennent chacune un système différent. Ne supposez pas qu'elles se cumulent en un seul multiplicateur à moins qu'une description en jeu ne le précise.
+
+| Système | Comment il progresse | Astuce de progression |
+|---|---|---|
+| XP de maîtrise | Gagnée grâce à une activité continue dans l'usine | Continuez à effectuer régulièrement les tâches de production |
+| Progression de rang | Gagnée grâce aux productions et aux expéditions éligibles | Privilégiez les commandes complètes aux productions partielles |
+| Multiplicateurs de production en gros | Permettent d'augmenter la quantité produite | Utilisez la production en gros lorsqu'elle est disponible |
+| Travail en usine | Boucle principale : presser, réapprovisionner, emballer, expédier | Les passes complètent la boucle, mais ne la remplacent jamais |
+
+Pour les munitions, le meilleur calibre est généralement la **munition de plus haut niveau débloquée que votre usine peut produire régulièrement** sans ralentir l'ensemble du cycle d'expédition. Passer à une munition avancée avant que la vitesse de la presse et l'approvisionnement en matériaux ne puissent la soutenir réduit souvent les revenus totaux.
+
+| Étape | Type de munition | Utilisation recommandée |
+|---|---|---|
+| Début de la production | Munition de départ | Apprendre à utiliser la presse et établir la première boucle de revenus |
+| Progression initiale | Munition intermédiaire | L'adopter lorsque la progression de l'atelier le permet |
+| Progression avancée | Munition avancée | Option principale une fois que la vitesse et les matériaux peuvent la soutenir |
+
+<Callout type="info" title="Achat des passes">
+Évaluez chaque passe de progression selon l'effet qui lui est propre. Considérez la description en jeu comme la référence, plutôt que de supposer que les multiplicateurs se cumulent.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Chasse aux documents et secrets cachés">
+
+L'usine ne se résume pas à son espace de production. Les documents dispersés récompensent l'exploration minutieuse et permettent de reconstituer l'histoire de cette installation isolée. Cherchez pendant les moments creux plutôt que d'interrompre les cycles de production actifs.
+
+- **Zones de production** : inspectez les coins, les tables latérales et les étagères autour de la presse, pas uniquement la machine principale.
+- **Bureaux et réserves** : vérifiez les bureaux, les caisses et les pièces isolées que les itinéraires de livraison habituels ne desservent pas.
+- **Passages cachés** : suivez les ouvertures inhabituelles qui s'éloignent de la boucle standard.
+- **Suivez votre progression** : utilisez les repères de l'usine pour noter les sections déjà fouillées.
+
+<Callout type="tip" title="Astuce sur l'histoire">
+Comparez les noms et les lieux récurrents dans les différents documents. Distinguez les déclarations directes des indices environnementaux et considérez les questions sans réponse comme des pistes ouvertes plutôt que comme des éléments confirmés de l'histoire.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Liste de contrôle du service">
+
+<Checklist
+  id="shift-goals"
+  title="À chaque service, essayez de :"
+  items={[
+    "Garder la presse active pendant toute la session",
+    "Effectuer au moins un cycle complet d'expédition",
+    "Préparer les matériaux de la commande suivante avant l'expédition",
+    "Réinvestir les paiements dans la vitesse de production ou les améliorations des caisses",
+    "Fouiller une pièce encore inexplorée à la recherche de documents cachés"
+  ]}
+/>
+
+<Callout type="success" title="Habitude à long terme">
+Les joueurs qui réinvestissent chaque paiement et réduisent presque totalement les temps morts progressent nettement plus vite dans les rangs que ceux qui épargnent leurs revenus sans améliorer leur usine.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quelle est la plus importante de toutes les astuces et conseils de BRASS HELL ?",
+    answer: "Gardez la boucle de production en mouvement, sans interruption. Une presse inactive, une file de caisses vide ou une commande suivante non préparée se traduisent directement par une perte de revenus. Préparez les matériaux en parallèle de l'emballage et de la livraison afin de réduire les temps morts."
+  },
+  {
+    question: "Quelle amélioration dois-je acheter en premier ?",
+    answer: "Donnez d'abord la priorité aux améliorations de la vitesse de production, puis au débit des caisses. Ces deux améliorations raccourcissent directement le cycle de production principal. Les revenus d'expédition et les déblocages de munitions deviennent plus intéressants une fois la boucle de base stabilisée, tandis que les améliorations de confort doivent être achetées en dernier."
+  },
+  {
+    question: "Les passes d'XP de maîtrise, de progression de rang et de production en gros se cumulent-elles ?",
+    answer: "Considérez-les comme des avantages distincts. Chaque passe soutient un système de progression différent et aucune règle confirmée n'indique que leurs multiplicateurs se combinent. Fiez-vous à la description en jeu de chaque passe."
+  },
+  {
+    question: "Quel calibre dois-je produire ?",
+    answer: "Utilisez la munition de plus haut niveau débloquée que votre usine peut produire régulièrement sans ralentir le cycle complet d'expédition. Passer à une munition avancée avant que la vitesse de la presse et l'approvisionnement en matériaux ne puissent la soutenir réduit souvent les revenus totaux."
+  },
+  {
+    question: "Quand dois-je chercher les documents cachés ?",
+    answer: "Cherchez pendant les moments creux naturels, par exemple pendant la finalisation d'une caisse ou entre deux commandes. Concentrez-vous sur les bureaux, les réserves, les couloirs latéraux et les abords des zones de production que les itinéraires de livraison habituels ne couvrent pas."
+  }
+]} />
+
+</Section>

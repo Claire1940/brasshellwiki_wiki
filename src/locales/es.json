@@ -1,1 +1,638 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "BRASS HELL Wiki - Codes, mejoras y guía para principiantes",
+      "description": "Explora la BRASS HELL Wiki para encontrar guías para principiantes, fabricación de munición, mejoras de fábrica, consejos de envíos, documentos ocultos, game passes, codes y nuevas actualizaciones de Roblox.",
+      "keywords": "BRASS HELL, BRASS HELL wiki, Roblox, codes, mejoras, munición, guía, documentos, game passes",
+      "ogTitle": "BRASS HELL Wiki - Codes, mejoras y guía para principiantes",
+      "ogDescription": "Explora la BRASS HELL Wiki para encontrar guías para principiantes, fabricación de munición, mejoras de fábrica, consejos de envíos, documentos ocultos, game passes, codes y nuevas actualizaciones de Roblox.",
+      "twitterTitle": "BRASS HELL Wiki - Codes, mejoras y guía para principiantes",
+      "twitterDescription": "Explora la BRASS HELL Wiki para encontrar guías para principiantes, fabricación de munición, mejoras de fábrica, consejos de envíos, documentos ocultos, game passes, codes y nuevas actualizaciones de Roblox."
+    }
+  },
+  "nav": {
+    "guide": "Guía",
+    "crafting": "Fabricación",
+    "upgrades": "Mejoras",
+    "money": "Dinero",
+    "boxes": "Cajas",
+    "events": "Eventos",
+    "codes": "Codes"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Simulador incremental de fábrica en Roblox",
+    "title": "BRASS HELL Wiki",
+    "description": "Trabaja turnos en una misteriosa fábrica de munición cubierta de nieve. Fabrica cartuchos, llena cajas, entrega envíos, desbloquea mejoras de fábrica, gana maestría y descubre documentos ocultos junto a hasta cuatro jugadores.",
+    "keywords": "BRASS HELL, Roblox, simulador incremental, fábrica de munición, mejoras, fabricación, envíos, documentos, maestría",
+    "getFreeCodesCTA": "Ver codes",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "532K+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "93.5%",
+        "label": "Valoraciones positivas"
+      },
+      "stat3": {
+        "value": "4",
+        "label": "Jugadores por servidor"
+      },
+      "stat4": {
+        "value": "32K+",
+        "label": "Favoritos"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de BRASS HELL",
+    "description": "Opera la prensa de munición, empaca cajas y entrega envíos dentro de una fábrica de munición nevada en este simulador incremental de Roblox."
+  },
+  "tools": {
+    "title": "BRASS HELL ",
+    "titleHighlight": "Centro de recursos",
+    "subtitle": "Ocho secciones que cubren todo el ciclo de la fábrica: elige por dónde empezar",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de BRASS HELL",
+        "description": "Tutorial del primer turno: trabajo en la prensa, cajas y tu primer pago"
+      },
+      {
+        "icon": "Ticket",
+        "title": "Codes de BRASS HELL",
+        "description": "Estado de canje y cada code nuevo el mismo día en que sale"
+      },
+      {
+        "icon": "Factory",
+        "title": "Mejores mejoras de BRASS HELL",
+        "description": "Prioridades de tier S, A y B para el taller"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Calibres y balas de BRASS HELL",
+        "description": "Cada tipo de cartucho, etapa de desbloqueo y valor de envío"
+      },
+      {
+        "icon": "Package",
+        "title": "Fabricación y envíos en BRASS HELL",
+        "description": "El ciclo completo de producción, de la prensa al despacho"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Rango y maestría en BRASS HELL",
+        "description": "XP de maestría, progreso de rango y pases de multiplicador"
+      },
+      {
+        "icon": "FileSearch",
+        "title": "Documentos y secretos de BRASS HELL",
+        "description": "Archivos ocultos, ubicaciones y la historia de la fábrica"
+      },
+      {
+        "icon": "Megaphone",
+        "title": "Actualizaciones y eventos de BRASS HELL",
+        "description": "Notas de parche, eventos de temporada y lo que viene después"
+      }
+    ]
+  },
+  "modules": {
+    "brassHellBeginnerGuide": {
+      "title": "Guía para principiantes de BRASS HELL",
+      "displayType": "steps",
+      "intro": "BRASS HELL se basa en un flujo de trabajo de fábrica repetible. Ficha tu entrada, opera la prensa de munición, fabrica tus primeros cartuchos, llena las cajas de envío y entrega los pedidos completados; luego reinvierte cada pago en mejoras del taller que aceleren el siguiente ciclo.",
+      "steps": [
+        {
+          "title": "Ficha tu entrada en la fábrica",
+          "description": "Entra en la remota fábrica de munición y ficha antes de empezar la producción. Usa tus primeros minutos en el sitio para localizar la prensa, las estaciones de fabricación, la zona de cajas y la ruta de envío."
+        },
+        {
+          "title": "Opera la prensa",
+          "description": "Usa la prensa para empezar a fabricar munición. Sigue las indicaciones de la estación y repite la acción de producción hasta tener suficientes cartuchos para tu primer envío."
+        },
+        {
+          "title": "Fabrica cartuchos de munición",
+          "description": "Convierte los materiales de la fábrica en cartuchos terminados. Mantén despejada la zona de producción y sigue fabricando hasta tener lista la cantidad de una caja completa."
+        },
+        {
+          "title": "Llena las cajas de envío",
+          "description": "Lleva los cartuchos terminados a la zona de cajas y empácalos en los contenedores de envío correctos. Comprueba el progreso de la caja antes de salir de la planta de producción."
+        },
+        {
+          "title": "Entrega el envío",
+          "description": "Mueve la caja llena al punto de entrega y completa la entrega. Tu primer envío establece el ciclo de ganancias principal que financia todas las mejoras futuras."
+        },
+        {
+          "title": "Reinvierte en mejoras del taller",
+          "description": "Destina los primeros pagos al taller en lugar de parar tras una entrega. Prioriza las mejoras que acorten el ciclo o aumenten el valor de los envíos futuros."
+        }
+      ],
+      "quickTips": [
+        "Aprende primero el ciclo completo: prensa, cartuchos, caja, entrega; genera dinero cada vez.",
+        "Vigila el progreso de las cajas antes de salir de la planta para evitar viajes a medias.",
+        "Las primeras mejoras que aceleran la prensa se pagan solas en pocos envíos.",
+        "Con hasta cuatro jugadores por servidor, dividir las tareas mantiene toda la línea de fábrica en movimiento."
+      ]
+    },
+    "brassHellCodes": {
+      "title": "Codes de BRASS HELL",
+      "displayType": "cards",
+      "intro": "BRASS HELL se lanzó sin sistema de canje de codes, así que todavía no hay codes para canjear. En cuanto el desarrollador añada codes o anuncie recompensas, esta página reunirá todos los codes activos y caducados en un solo lugar.",
+      "items": [
+        {
+          "status": "Aún no añadido",
+          "title": "Sistema de canje",
+          "description": "BRASS HELL todavía no tiene una función de canje de codes en el juego; el estado cambiará aquí en cuanto llegue una."
+        },
+        {
+          "status": "Ninguno activo aún",
+          "title": "Codes activos",
+          "description": "Ahora mismo no hay codes canjeables. Cada code nuevo aparecerá en esta página el día en que se anuncie."
+        },
+        {
+          "status": "Ninguno registrado",
+          "title": "Codes caducados",
+          "description": "Todavía no ha caducado ningún code. Cuando empiecen a caducar, los retirados se archivarán aquí para que nunca pierdas el tiempo con codes muertos."
+        }
+      ],
+      "tip": "Los codes suelen llegar con anuncios de actualizaciones; vuelve a comprobar después de cada parche."
+    },
+    "brassHellBestUpgrades": {
+      "title": "Mejores mejoras de BRASS HELL",
+      "displayType": "tiers",
+      "intro": "Las mejoras del taller determinan la rapidez con la que la actividad de la fábrica se convierte en ganancias por envíos. Los jugadores nuevos deberían comprar primero cualquier cosa que acorte el ciclo de producción, mientras que las fábricas más desarrolladas pueden equilibrar rendimiento, valor de envío y acceso a tiers de munición superiores.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Primera prioridad",
+          "icon": "Zap",
+          "name": "Velocidad de producción",
+          "description": "Compra primero las mejoras que reducen el tiempo de prensa y aceleran la producción de munición; los ciclos más rápidos se acumulan con cada envío repetido.",
+          "recommendedFor": "Jugadores nuevos que construyen su primer ciclo de ingresos fiable",
+          "benefit": "Más ciclos de producción en la misma sesión"
+        },
+        {
+          "tier": "S",
+          "label": "Primera prioridad",
+          "icon": "PackageCheck",
+          "name": "Rendimiento de cajas",
+          "description": "Invierte en cualquier cosa que te ayude a llenar, mover y preparar cajas más rápido para que los cartuchos terminados nunca esperen un envío.",
+          "recommendedFor": "Jugadores que producen cartuchos más rápido de lo que pueden enviarlos",
+          "benefit": "Menos tiempo muerto entre lotes y entregas"
+        },
+        {
+          "tier": "A",
+          "label": "Mejora potente",
+          "icon": "Coins",
+          "name": "Ganancias por envíos",
+          "description": "Cuando tu línea de producción sea constante, compra mejoras que aumenten el valor de cada entrega completada.",
+          "recommendedFor": "Jugadores de mitad de partida con un suministro de munición estable",
+          "benefit": "Pagos mayores por cada envío completado"
+        },
+        {
+          "tier": "A",
+          "label": "Mejora potente",
+          "icon": "Unlock",
+          "name": "Desbloqueos de munición",
+          "description": "Progresa hacia mejoras que abran cartuchos avanzados; son más valiosas cuando el ciclo básico ya funciona con eficiencia.",
+          "recommendedFor": "Jugadores avanzados que planifican el crecimiento a largo plazo de la fábrica",
+          "benefit": "Acceso a cartuchos de mayor valor y objetivos de progresión"
+        },
+        {
+          "tier": "B",
+          "label": "Situacional",
+          "icon": "MousePointerClick",
+          "name": "Mejoras de comodidad",
+          "description": "Las mejoras de movimiento, manejo y confort del flujo de trabajo conviene comprarlas después de cubrir las prioridades centrales de producción y envío.",
+          "recommendedFor": "Jugadores que buscan una rutina diaria de fábrica más fluida",
+          "benefit": "Menos fricción durante las tandas de producción repetidas"
+        }
+      ]
+    },
+    "brassHellCalibersBullets": {
+      "title": "Calibres y balas de BRASS HELL",
+      "displayType": "table",
+      "intro": "La progresión de la munición sigue la ruta de mejoras de la fábrica. Empieza con el cartuco inicial y avanza hacia calibres avanzados a medida que se desarrolla el taller. El mejor calibre es el cartucho más alto que tu fábrica puede producir de forma constante sin ralentizar el ciclo completo de envío.",
+      "tableHeaders": {
+        "stage": "Etapa de desbloqueo",
+        "caliber": "Calibre",
+        "value": "Valor de producción",
+        "bestFor": "Mejor para",
+        "tip": "Cómo usarlo"
+      },
+      "rows": [
+        {
+          "icon": "Play",
+          "stage": "Producción inicial",
+          "caliber": "Cartucho inicial",
+          "value": "Nivel básico",
+          "bestFor": "Aprender a usar la prensa, completar las primeras cajas y crear un ciclo de ingresos fiable",
+          "tip": "Úsalo de inmediato mientras ahorras para mejoras del taller"
+        },
+        {
+          "icon": "FastForward",
+          "stage": "Progresión temprana de fábrica",
+          "caliber": "Cartucho intermedio",
+          "value": "Mejorado",
+          "bestFor": "Elevar la calidad de los envíos cuando el proceso de producción básico ya es constante",
+          "tip": "Adóptalo en cuanto esté disponible la mejora de taller requerida"
+        },
+        {
+          "icon": "Rocket",
+          "stage": "Progresión avanzada de fábrica",
+          "caliber": "Cartucho avanzado",
+          "value": "Tier de progresión más alto",
+          "bestFor": "Fábricas desarrolladas que maximizan el retorno de los envíos y la progresión a largo plazo",
+          "tip": "Hazlo tu cartucho principal cuando la velocidad de producción y el flujo de materiales puedan sostenerlo"
+        }
+      ]
+    },
+    "brassHellCraftingShipment": {
+      "title": "Guía de fabricación y envíos de BRASS HELL",
+      "displayType": "steps",
+      "intro": "Un ciclo de producción completo va desde la recogida de materiales hasta la prensa de munición, pasando por el embalaje y el despacho de la caja terminada. Los turnos eficientes preparan los materiales del siguiente pedido antes de que se envíe el actual, para que la fábrica nunca se quede parada.",
+      "steps": [
+        {
+          "title": "Recoge y organiza los materiales",
+          "description": "Reúne los materiales que exige el pedido activo y tenlos cerca de la zona de producción. Revisa los requisitos del pedido antes de empezar para que ningún componente faltante interrumpa la prensa.",
+          "tip": "Prepara los materiales del siguiente pedido mientras se embala el envío actual."
+        },
+        {
+          "title": "Opera la prensa de munición",
+          "description": "Carga los materiales necesarios, ejecuta la interacción de producción y recoge la munición terminada lote a lote. Mantén la máquina activa siempre que haya materiales disponibles.",
+          "tip": "Vuelve a la prensa justo después de recoger un lote terminado."
+        },
+        {
+          "title": "Reabastece la línea de producción",
+          "description": "Reemplaza los materiales consumidos por el último lote antes de que detengan el siguiente ciclo. Reabastecer es parte del bucle habitual de la fábrica, no una tarea puntual.",
+          "tip": "Usa una ruta fija entre el suministro de materiales y la prensa para reducir el tiempo de desplazamiento."
+        },
+        {
+          "title": "Completa el pedido de envío",
+          "description": "Compara los productos terminados con el pedido activo, llévalo todo a la zona de embalaje y confirma que incluye cada artículo solicitado antes de dejar la línea.",
+          "tip": "Termina el lote completo antes de un solo viaje de entrega para cerrar el pedido en un único trayecto."
+        },
+        {
+          "title": "Embala la caja y despacha",
+          "description": "Carga los productos terminados en la caja de envío, finaliza el paquete y envíalo por el despacho; luego revisa de inmediato el siguiente pedido.",
+          "tip": "Considera el despacho como el final de un ciclo y el inicio del siguiente."
+        }
+      ]
+    },
+    "brassHellRankMastery": {
+      "title": "Progresión de rangos y maestría en BRASS HELL",
+      "displayType": "table",
+      "intro": "BRASS HELL divide la progresión en Progreso de Rango y XP de Maestría, ambos obtenidos con el trabajo habitual de la fábrica, junto con pases de juego que apoyan cada sistema. Así se comparan los sistemas y dónde encaja cada pase.",
+      "tableHeaders": {
+        "system": "Sistema",
+        "purpose": "Qué hace",
+        "how": "Cómo progresar",
+        "pass": "Pase de juego relacionado"
+      },
+      "systems": [
+        {
+          "icon": "Medal",
+          "name": "XP de Maestría",
+          "purpose": "Avanza la progresión de maestría mientras trabajas en las actividades de la fábrica",
+          "how": "Sigue completando trabajo de producción y otras actividades que otorgan XP de Maestría",
+          "pass": "El pase de XP de Maestría es la opción de progresión ligada a las ganancias de XP de Maestría"
+        },
+        {
+          "icon": "ArrowUpRight",
+          "name": "Progreso de Rango",
+          "purpose": "Registra el avance por la escalera de rangos del juego mientras completas trabajo de fábrica",
+          "how": "Gana Progreso de Rango mediante actividades de producción y envío elegibles",
+          "pass": "El pase de Progreso de Rango es la opción de progresión ligada al avance de rango"
+        },
+        {
+          "icon": "Layers",
+          "name": "Multiplicadores a granel",
+          "purpose": "Impulsa una producción mayor y más eficiente mediante el beneficio a granel",
+          "how": "Realiza producción orientada al granel cuando la fábrica lo permita y completa el trabajo correspondiente",
+          "pass": "El pase a granel se centra en la producción masiva y no sustituye las ganancias de Rango o Maestría"
+        },
+        {
+          "icon": "Hammer",
+          "name": "Trabajo habitual de fábrica",
+          "purpose": "El bucle central que produce munición, completa pedidos y envía mercancías",
+          "how": "Opera la prensa, reabastece materiales, termina pedidos, embala cajas y despacha envíos",
+          "pass": "Los pases complementan el bucle: el trabajo de producción y envío sigue impulsando toda la progresión"
+        }
+      ]
+    },
+    "brassHellDocumentsSecrets": {
+      "title": "Documentos y secretos de BRASS HELL",
+      "displayType": "cards",
+      "intro": "La fábrica esconde más que pedidos de producción. Los documentos repartidos por la instalación nevada premian la exploración cuidadosa y van armando la historia detrás de la planta. Registra oficinas, zonas de almacenamiento, espacios de producción y las rutas que nadie recorre en un turno normal.",
+      "cards": [
+        {
+          "icon": "Cog",
+          "title": "Documentos de la zona de producción",
+          "zone": "Planta de producción",
+          "location": "Busca alrededor de la prensa de munición, las zonas de trabajo y las rutas industriales cercanas",
+          "clues": [
+            "Inspecciona los bordes de las salas de producción en lugar de solo la máquina principal",
+            "Revisa esquinas, mesas auxiliares, estanterías y espacios detrás del flujo de trabajo principal",
+            "Vuelve a las zonas de producción después de aprender nuevas rutas por la fábrica"
+          ],
+          "storyRole": "Estos documentos conectan el trabajo diario con la munición y las circunstancias más amplias que rodean la instalación"
+        },
+        {
+          "icon": "FolderOpen",
+          "title": "Documentos administrativos y de almacenamiento",
+          "zone": "Oficinas y almacén",
+          "location": "Revisa oficinas, salas de almacenamiento, espacios de suministro y zonas alejadas de la línea de producción principal",
+          "clues": [
+            "Explora salas fáciles de saltarse durante los ciclos normales de envío",
+            "Revisa escritorios, cajas, estanterías y esquinas aisladas",
+            "Usa la disposición de la fábrica como una cuadrícula de búsqueda y vuelve a las zonas pasadas por alto"
+          ],
+          "storyRole": "Estos documentos amplían la historia de la fábrica, sus suministros y las personas vinculadas al sitio"
+        },
+        {
+          "icon": "Compass",
+          "title": "Documentos de rutas ocultas",
+          "zone": "Rutas ocultas",
+          "location": "Investiga pasillos periféricos, salas apartadas y rutas que ninguna sesión de fabricación normal requiere",
+          "clues": [
+            "Sigue aperturas y caminos inusuales que se salen del bucle de producción estándar",
+            "Busca en zonas de poco tránsito después de completar el pedido actual",
+            "Usa referencias visuales para llevar la cuenta de qué secciones ya has examinado"
+          ],
+          "storyRole": "Estos descubrimientos profundizan la atmósfera de aislamiento y vinculan la exploración del entorno con la narrativa oculta"
+        },
+        {
+          "icon": "CircleHelp",
+          "title": "Misterios sin resolver de la fábrica",
+          "zone": "Hilos narrativos",
+          "location": "Encaja cómo se relacionan los documentos descubiertos, las salas aisladas y el equipamiento a lo largo de la instalación",
+          "clues": [
+            "Compara nombres, lugares y referencias repetidas entre los documentos",
+            "Separa las afirmaciones directas de las preguntas que plantea el entorno",
+            "Sigue cada hilo abierto: las futuras actualizaciones siguen ampliando la historia"
+          ],
+          "storyRole": "Los misterios restantes premian la exploración continua mientras la historia de la fábrica sigue creciendo"
+        }
+      ]
+    },
+    "brassHellUpdatesEvents": {
+      "title": "Actualizaciones y eventos de BRASS HELL",
+      "displayType": "timeline",
+      "intro": "La historia de desarrollo de BRASS HELL ya incluye un lanzamiento anticipado, un evento de Halloween y funciones de producción en expansión, con más contenido anunciado a medida que avanza el desarrollo. Sigue cada hito aquí.",
+      "entries": [
+        {
+          "label": "Lanzamiento anticipado",
+          "title": "Fábrica inicial de acceso temprano",
+          "status": "Lanzado",
+          "summary": "El lanzamiento anticipado estableció el escenario de fábrica aislada y el bucle de producción central.",
+          "details": [
+            "Opera la prensa de munición para fabricar cartuchos",
+            "Gestiona y reabastece materiales durante la producción",
+            "Embala los pedidos completados en cajas y despáchalos"
+          ]
+        },
+        {
+          "label": "Actualización de Halloween",
+          "title": "Contenido de fábrica con temática de Halloween",
+          "status": "Temporada",
+          "summary": "Una actualización de Halloween añadió atmósfera estacional y contenido de evento a la fábrica de BRASS HELL.",
+          "details": [
+            "Presentación estacional en todo el entorno de la fábrica",
+            "Contenido de evento junto al bucle de producción permanente",
+            "Disponibilidad ligada a la ventana activa del evento"
+          ]
+        },
+        {
+          "label": "Expansión de producción",
+          "title": "Funciones de producción nuevas y ampliadas",
+          "status": "Lanzado",
+          "summary": "Las actualizaciones centradas en producción ampliaron el flujo de trabajo de la fábrica con más formas de fabricar, completar pedidos y preparar envíos.",
+          "details": [
+            "La producción sigue centrada en operar el equipamiento de la fábrica",
+            "La gestión de materiales y la finalización de pedidos siguen definiendo el bucle",
+            "Las nuevas funciones se suman al proceso existente de reabastecimiento y despacho"
+          ]
+        },
+        {
+          "label": "Próximamente",
+          "title": "Anuncios futuros",
+          "status": "Próximamente",
+          "summary": "Se anuncia más contenido de BRASS HELL a través de los canales oficiales a medida que continúa el desarrollo.",
+          "details": [
+            "Nuevas funciones de producción y contenido de fábrica en desarrollo",
+            "Los eventos de temporada podrían volver con nuevas recompensas",
+            "Consulta la página oficial de Roblox para las últimas notas de versión"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que los jugadores preguntan sobre BRASS HELL, respondido",
+    "questions": [
+      {
+        "question": "¿Qué es BRASS HELL?",
+        "answer": "BRASS HELL es un simulador incremental de fábrica en Roblox ambientado en una planta de munición remota y nevada. Fichas tu entrada, operas la prensa, fabricas cartuchos, embalas cajas y entregas envíos mientras mejoras el taller y descubres documentos ocultos."
+      },
+      {
+        "question": "¿BRASS HELL es gratis?",
+        "answer": "Sí. BRASS HELL es gratis en Roblox, con pases de juego opcionales como XP de Maestría, Progreso de Rango y multiplicadores a granel para quienes buscan una progresión más rápida."
+      },
+      {
+        "question": "¿Cuántos jugadores pueden jugar juntos a BRASS HELL?",
+        "answer": "Los servidores de BRASS HELL admiten hasta cuatro jugadores, así que puedes manejar la línea de fábrica con amigos o en solitario."
+      },
+      {
+        "question": "¿BRASS HELL tiene codes?",
+        "answer": "BRASS HELL todavía no ha añadido un sistema de canje de codes. Cuando el desarrollador publique codes, nuestra página de BRASS HELL Codes reunirá todos los codes activos y expirados en un solo lugar."
+      },
+      {
+        "question": "¿Cómo se gana dinero en BRASS HELL?",
+        "answer": "El dinero proviene del bucle de envíos: fabrica cartuchos en la prensa de munición, embálalos en cajas y despacha los pedidos completados. Las mejoras del taller aumentan la velocidad de producción y el valor de los envíos."
+      },
+      {
+        "question": "¿Qué son los documentos ocultos en BRASS HELL?",
+        "answer": "Los documentos ocultos son archivos coleccionables repartidos por la fábrica. Encontrarlos revela fragmentos de la historia detrás de la planta: revisa oficinas, salas de almacenamiento, zonas de producción y rutas ocultas."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar a BRASS HELL?",
+    "description": "Entra en la fábrica de munición nevada en Roblox: fabrica cartuchos, llena cajas, entrega envíos y descubre los secretos de la fábrica con hasta cuatro jugadores.",
+    "joinCommunity": "Juega a BRASS HELL en Roblox",
+    "joinGame": "Mira gameplay de BRASS HELL"
+  },
+  "footer": {
+    "title": "BRASS HELL Wiki",
+    "description": "Tu centro de recursos completo para la fabricación de munición, mejoras de fábrica, maestría, documentos ocultos y guías de BRASS HELL en Roblox.",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "robloxGame": "Página del juego en Roblox",
+    "youtubeGameplay": "Gameplay en YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 BRASS HELL Wiki. No está afiliado a Roblox Corporation ni a los desarrolladores de BRASS HELL.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guía de BRASS HELL",
+      "description": "Guías completas de BRASS HELL desde tu primera bala hasta fábricas de endgame. Aprende el bucle central, la ruta de progresión y estrategias de expertos.",
+      "metaTitle": "Guía de BRASS HELL - Estrategias de Principiante a Endgame",
+      "metaDescription": "Guías completas de BRASS HELL que cubren el bucle central de fabricación de balas, la ruta de progresión, las mejoras y estrategias expertas para cada etapa del juego.",
+      "categoryLabel": "GUÍA DEL JUEGO",
+      "whatIs": "¿Qué es la Guía de BRASS HELL?",
+      "whatIsDescription": "Guías paso a paso de BRASS HELL que cubren el bucle incremental de la fábrica: fabrica balas, véndelas por dinero, compra mejoras y desbloquea nuevos niveles de producción. Cada guía te lleva desde tu primer spawn hasta un imperio de balas totalmente automatizado.",
+      "why": "¿Por qué leer la guía?",
+      "whySteps": {
+        "step1Title": "Domina el Bucle Central",
+        "step1Description": "Entiende cómo se conectan la fabricación, la venta y las mejoras para que cada minuto en la fábrica te haga avanzar",
+        "step2Title": "Evita Errores Costosos",
+        "step2Description": "Evita gastar dinero en mejoras equivocadas con órdenes de progresión probadas por jugadores experimentados",
+        "step3Title": "Llega al Endgame Más Rápido",
+        "step3Description": "Sigue una ruta clara desde balas hechas a mano hasta líneas de producción automatizadas y contenido de fase final"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías"
+    },
+    "crafting": {
+      "title": "Fabricación en BRASS HELL",
+      "description": "Aprende a fabricar balas más rápido en BRASS HELL. Recetas de munición, líneas de producción y consejos de eficiencia para maximizar tu producción.",
+      "metaTitle": "Fabricación en BRASS HELL - Recetas de Balas y Producción",
+      "metaDescription": "Guía de fabricación de BRASS HELL: recetas de balas, líneas de producción de munición y consejos de eficiencia para fabricar balas más rápido y mantener tu fábrica al máximo rendimiento.",
+      "categoryLabel": "FABRICACIÓN",
+      "whatIs": "¿Qué es la Fabricación?",
+      "whatIsDescription": "La fabricación es el corazón de BRASS HELL: convierte materias primas en balas, escala tu fabricante de munición y automatiza la producción. Estas guías cubren cada tipo de bala, estación de trabajo y truco de eficiencia de producción.",
+      "why": "¿Por qué optimizar la fabricación?",
+      "whySteps": {
+        "step1Title": "Fabrica Balas Más Rápido",
+        "step1Description": "Aprende los pasos y diseños exactos que reducen el tiempo de fabricación y aumentan las balas por minuto",
+        "step2Title": "Desbloquea Mejor Munición",
+        "step2Description": "Progresa desde rondas básicas hasta munición de alto valor con mayores pagos por venta",
+        "step3Title": "Automatiza la Producción",
+        "step3Description": "Configura líneas de producción que sigan fabricando mientras expandes el resto de tu fábrica"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de Fabricación"
+    },
+    "upgrades": {
+      "title": "Mejoras de BRASS HELL",
+      "description": "El mejor orden de mejoras de BRASS HELL, costos y prioridades. Sabe exactamente qué comprar después para acelerar tu fábrica de balas.",
+      "metaTitle": "Mejoras de BRASS HELL - Mejor Orden y Costos",
+      "metaDescription": "El mejor orden de mejoras de BRASS HELL con costos y prioridades. Sabe exactamente qué comprar después para fabricar balas más rápido y aumentar los ingresos de tu fábrica.",
+      "categoryLabel": "MEJORAS",
+      "whatIs": "¿Qué son las Mejoras?",
+      "whatIsDescription": "Las mejoras convierten tu dinero en poder permanente de fábrica: fabricación más rápida, mayor producción y nuevos niveles de producción. Estas guías clasifican cada mejora para que siempre compres la correcta.",
+      "why": "¿Por qué planificar las mejoras?",
+      "whySteps": {
+        "step1Title": "Gasta el Dinero con Cabeza",
+        "step1Description": "Cada mejora compite por el mismo dinero, así que compra en el orden que se recupere más rápido",
+        "step2Title": "Multiplica la Producción",
+        "step2Description": "Prioriza mejoras que aumenten las balas por minuto antes de compras cosméticas o únicas",
+        "step3Title": "Desbloquea Nuevos Niveles",
+        "step3Description": "Alcanza hitos de mejora que abren nuevos tipos de balas, salas y sistemas de endgame"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de Mejoras"
+    },
+    "money": {
+      "title": "Dinero en BRASS HELL",
+      "description": "Las formas más rápidas de ganar dinero en BRASS HELL. Vende balas en el momento adecuado, pon precio a tu munición y aumenta tu dinero por hora.",
+      "metaTitle": "Dinero en BRASS HELL - Formas Más Rápidas de Ganar Efectivo",
+      "metaDescription": "Las formas más rápidas de ganar dinero en BRASS HELL: vende balas en el momento adecuado, fija bien los precios de tu munición y aumenta tu dinero por hora con métodos probados.",
+      "categoryLabel": "DINERO",
+      "whatIs": "¿Cómo funciona el Dinero?",
+      "whatIsDescription": "El dinero en BRASS HELL proviene de vender las balas que fabricas. Estas guías cubren cuándo vender, cómo funcionan los precios y qué mejoras de producción aumentan más tu dinero por hora.",
+      "why": "¿Por qué optimizar el dinero?",
+      "whySteps": {
+        "step1Title": "Vende en el Momento Correcto",
+        "step1Description": "Aprende cuándo vender balas paga más en lugar de deshacerte del stock a precios bajos",
+        "step2Title": "Gana Más Por Bala",
+        "step2Description": "Combina la venta con decisiones de fabricación y mejoras que aumenten el valor de cada ronda",
+        "step3Title": "Aumenta el Dinero Por Hora",
+        "step3Description": "Convierte un goteo de ventas en un ingreso constante que financie cada mejora futura"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de Dinero"
+    },
+    "boxes": {
+      "title": "Cajas de BRASS HELL",
+      "description": "Cómo conseguir cajas en BRASS HELL y qué contienen. Recompensas de cajas, probabilidades de obtención y si cada caja vale la pena comprarla.",
+      "metaTitle": "Cajas de BRASS HELL - Recompensas y Cómo Conseguirlas",
+      "metaDescription": "Cajas de BRASS HELL explicadas: cómo conseguir cada caja, qué recompensas contienen, probabilidades de obtención y qué cajas valen tu dinero.",
+      "categoryLabel": "CAJAS",
+      "whatIs": "¿Qué son las Cajas?",
+      "whatIsDescription": "Las cajas son los cofres de recompensa de BRASS HELL: cómpralas o gánalas, ábrelas para obtener mejoras de dinero, materiales y objetos adicionales. Estas guías listan cada tipo de caja y qué puedes esperar de cada una.",
+      "why": "¿Por qué informarte sobre las cajas?",
+      "whySteps": {
+        "step1Title": "Conoce Cada Caja",
+        "step1Description": "Compara todos los tipos de cajas, costos y grupos de recompensas antes de gastar tu dinero",
+        "step2Title": "Consigue Cajas Gratis",
+        "step2Description": "Encuentra los eventos, hitos y métodos que entregan cajas sin pagar",
+        "step3Title": "Abre por Valor",
+        "step3Description": "Conoce las probabilidades reales de recompensa para abrir cajas cuando superan la venta simple"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de Cajas"
+    },
+    "events": {
+      "title": "Eventos de BRASS HELL",
+      "description": "Eventos actuales de BRASS HELL y contenido por tiempo limitado. Recompensas de Halloween, guías de eventos y qué cambió en la última actualización.",
+      "metaTitle": "Eventos de BRASS HELL - Halloween y Últimas Actualizaciones",
+      "metaDescription": "Eventos actuales de BRASS HELL y contenido por tiempo limitado: recompensas del evento de Halloween, guías de eventos y todo lo que la última actualización añadió al juego.",
+      "categoryLabel": "EVENTOS",
+      "whatIs": "¿Qué son los Eventos?",
+      "whatIsDescription": "Los eventos son contenido de tiempo limitado de BRASS HELL, como la actualización de Halloween: recompensas exclusivas, mecánicas especiales y cambios de balance. Estas guías cubren cada evento activo y qué cambió en la última actualización.",
+      "why": "¿Por qué seguir los eventos?",
+      "whySteps": {
+        "step1Title": "Atrapa Recompensas Limitadas",
+        "step1Description": "Los objetos y mejoras de evento desaparecen cuando termina, así que aprovecha mientras duren",
+        "step2Title": "Adapta tu Fábrica",
+        "step2Description": "Las mecánicas de evento cambian la fabricación y los pagos, y las guías muestran las adaptaciones más rápidas",
+        "step3Title": "Sigue Cada Actualización",
+        "step3Description": "Sabe exactamente qué añadió o reequilibró cada actualización antes de planificar tu próxima sesión"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de Eventos"
+    },
+    "codes": {
+      "title": "Codes de BRASS HELL",
+      "description": "Últimos codes activos de BRASS HELL para dinero gratis, boosts y cajas. Actualizado a diario con cada code activo y lista de expirados.",
+      "metaTitle": "Codes de BRASS HELL - Dinero y Boosts Gratis (Actualizado)",
+      "metaDescription": "Todos los codes activos de BRASS HELL para dinero gratis, boosts y cajas. Actualizado a diario con cada code activo y la lista completa de expirados.",
+      "categoryLabel": "CANJEAR CODES",
+      "whatIs": "¿Qué son los Codes?",
+      "whatIsDescription": "Los codes de BRASS HELL son códigos de canje gratuitos del desarrollador que otorgan dinero, boosts y cajas. Introdúcelos en el juego para obtener recompensas instantáneas. Esta página sigue cada code activo y expirado.",
+      "why": "¿Por qué canjear codes?",
+      "whySteps": {
+        "step1Title": "Dinero Instantáneo Gratis",
+        "step1Description": "Los codes te dan dinero y boosts sin esfuerzo, perfectos para un inicio rápido",
+        "step2Title": "Salta la Molienda Inicial",
+        "step2Description": "Canjea cada code activo para pasar directo a las mejoras y la producción",
+        "step3Title": "Nunca Te Pierdas un Lanzamiento",
+        "step3Description": "Los nuevos codes se lanzan con actualizaciones y eventos, y esta lista se actualiza a diario"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Codes"
+    }
+  }
+}

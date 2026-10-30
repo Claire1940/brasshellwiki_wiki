@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Factory, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL Production Efficiency: Factory Layout & Output Tips",
+  description: "Boost BRASS HELL production efficiency with layout blueprints, machine priority order, resource ratios, and bottleneck fixes in this practical guide.",
+  category: "guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Production+Efficiency",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL production efficiency** depends on layout density, machine uptime, and balanced ratios
+- **Bottlenecks** cause most output losses — fix the slowest production stage first
+- **Compact modular layouts** outperform long single-line conveyor designs
+- **Power allocation** should prioritize smelting and assembly before refineries
+- **Early automation** of brass ingots doubles mid-game throughput
+</Callout>
+
+<Section icon={Factory} title="Understanding BRASS HELL Production Efficiency">
+
+Production efficiency in BRASS HELL measures how effectively your factory converts raw ore into finished brass components per cycle. Every machine in your production chain consumes power, space, and time, and any weak link drags down total output. A well-run facility keeps every machine busy, minimizes transit distance, and matches supply rates to demand.
+
+The three pillars of efficiency are:
+
+- **Uptime** — machines should never sit idle waiting for inputs
+- **Balance** — upstream stages should slightly outproduce downstream stages
+- **Density** — shorter conveyor runs mean fewer delays and fewer resource losses
+
+| Metric | What It Measures | Target Value |
+|---|---|---|
+| Machine Uptime | % of cycle time actively working | **90%+** |
+| Input Buffer | Raw stock held at each stage | 1-2 cycles of demand |
+| Transit Ratio | Conveyor length vs. machine count | Under 6 tiles per machine |
+| Power Surplus | Unused grid capacity | 10-15% headroom |
+| Defect Rate | Scrapped output per batch | Below 2% |
+
+<Callout type="warning" title="Watch Your First Bottleneck">
+Most efficiency losses in BRASS HELL trace back to a single underfed machine. Audit your chain from ore input to final assembly before adding new production lines — expanding a bottlenecked factory only wastes resources.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Best Layout Designs for High Output">
+
+Layout choice matters more than raw machine count. Three proven designs cover most situations in BRASS HELL.
+
+<CardGrid cols={3}>
+  <Card title="Compact Cell">
+  - **Best for:** Early to mid-game
+  - 4-6 machines per cell
+  - Shortest conveyor runs
+  - Easy to duplicate and expand
+  - Moderate power draw
+  </Card>
+  <Card title="Spine Layout">
+  - **Best for:** Mid-game scaling
+  - Central conveyor spine feeds branches
+  - Simple to audit for bottlenecks
+  - Balanced throughput across lines
+  </Card>
+  <Card title="Layered Stack">
+  - **Best for:** Late-game megafactories
+  - Vertical stacking multiplies density
+  - Requires strong power infrastructure
+  - Demands careful buffer planning
+  </Card>
+</CardGrid>
+
+When comparing layouts, weigh expansion cost against current output needs. The compact cell wins on flexibility, while the layered stack wins on ceiling — but only if your power grid supports it.
+
+| Layout | Space Needed | Power Load | Expansion Ease | Output Ceiling |
+|---|---|---|---|---|
+| Compact Cell | Low | Low | ★★★★★ | Medium |
+| Spine | Medium | Medium | ★★★★ | High |
+| Layered Stack | Low footprint, tall | **High** | ★★★ | Very High |
+
+<Callout type="tip" title="Spacing Rule">
+Leave one tile of walkable space between production cells. It costs almost nothing in efficiency but makes repairs, upgrades, and rerouting far faster during expansion phases.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Efficiency Overhaul">
+
+<Steps>
+  <Step num="1" title="Audit Your Current Chain">
+    Trace your production from ore intake to finished goods. Note every machine that sits idle or runs backed-up. Idle machines signal oversupply downstream; backed-up buffers signal a bottleneck ahead.
+  </Step>
+  <Step num="2" title="Identify the Bottleneck Stage">
+    The stage with the longest queue of unprocessed inputs is your true output limit. No upgrade anywhere else will increase final output until this stage is expanded or sped up.
+  </Step>
+  <Step num="3" title="Rebalance Machine Ratios">
+    Add machines to the bottleneck stage until its queue stabilizes, then re-check the next stage downstream. Repeat until every queue moves steadily.
+  </Step>
+  <Step num="4" title="Upgrade Power and Transit">
+    With ratios balanced, confirm your grid has 10-15% headroom and shorten the longest conveyor runs. Power brownouts silently throttle machine speed.
+  </Step>
+  <Step num="5" title="Buffer and Monitor">
+    Place small input buffers at each stage so brief interruptions upstream don't cascade. Recheck your metrics table after every expansion.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verify the Fix">
+After rebalancing, your final assembly machines should run near-continuous output. If finished goods still arrive in bursts, a hidden bottleneck remains — repeat the audit from Step 1.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Common Mistakes That Kill Efficiency">
+
+- **Expanding before auditing** — new lines fed by a bottlenecked supply chain just add idle machines
+- **Over-prioritizing refineries** — refineries are power-hungry; brass smelting and core assembly should draw power first
+- **Single long conveyor lines** — long runs add transit delay and single points of failure
+- **Ignoring power headroom** — running the grid at 100% invites brownouts that throttle every machine
+- **Skipping buffers** — without input buffers, one hiccup stalls the entire chain
+
+| Mistake | Symptom | Fix |
+|---|---|---|
+| Unbalanced ratios | Queues pile at one stage | Add machines to bottleneck |
+| Power shortage | Random slow cycles | Build 10-15% grid headroom |
+| Long transit runs | Bursty output | Compact layout or buffers |
+| No buffers | Chain-wide stalls | Small input stock per stage |
+| Overbuilt refineries | Power drain, low gain | Prioritize smelting and assembly |
+
+<Callout type="warning" title="Don't Chase Raw Speed">
+Faster machines fed by an under-supplied line produce nothing. Balance supply first, then invest in speed upgrades where queues are consistently full.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Efficiency Milestones Checklist">
+
+<Checklist
+  id="efficiency-milestones"
+  title="Production Efficiency Goals:"
+  items={[
+    "Audit full production chain and locate the bottleneck",
+    "Achieve 90%+ uptime on all assembly machines",
+    "Maintain 10-15% power grid headroom",
+    "Automate brass ingot feed for all assembly lines",
+    "Add input buffers at every production stage",
+    "Duplicate a proven compact cell to scale output"
+  ]}
+/>
+
+<Callout type="tip" title="Expand by Duplication">
+Once one production cell hits your uptime targets, copy it rather than designing new layouts. Proven modules scale faster and are easier to troubleshoot than bespoke additions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the single biggest factor in BRASS HELL production efficiency?",
+    answer: "Bottleneck management. Your factory's output equals the throughput of its slowest stage. Locating and expanding that stage — whether it's ore intake, smelting, or assembly — delivers more gains than any other change."
+  },
+  {
+    question: "How much power headroom should I keep?",
+    answer: "Aim for 10-15% surplus capacity on your grid. Power systems running at full load risk brownouts that throttle machine cycle speed across the entire factory, silently cutting production."
+  },
+  {
+    question: "Which layout should a new player use?",
+    answer: "Start with the compact cell design. It uses 4-6 machines with short conveyor runs, is easy to audit for problems, and can be duplicated as your resource supply grows before committing to larger spine or layered layouts."
+  },
+  {
+    question: "Is it better to upgrade existing machines or build more of them?",
+    answer: "Upgrade machines only at stages where input queues stay consistently full — that signals the machines themselves are the limit. If queues are empty, the supply side is the problem and more or faster machines will just sit idle."
+  }
+]} />
+
+</Section>

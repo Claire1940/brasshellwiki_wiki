@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de fabricación de BRASS HELL: materiales, recetas y mejores builds",
+  description: "Domina la fabricación en BRASS HELL: rutas para conseguir materiales, prioridades de recetas, mejoras de estaciones de trabajo y los mejores builds de equipo para el inicio y el final del juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Crafting+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **fabricación en BRASS HELL** gira en torno al latón recuperado, la chatarra de acero y las aleaciones raras
+- **Prioriza las estaciones de trabajo**: los niveles de recetas solo se desbloquean en bancos mejorados
+- **Mejor build inicial**: placas de latón reforzado para obtener resistencia al daño a bajo coste
+- **Objetivo para el final del juego**: armas forjadas con aleaciones y modificadores elementales
+- **Nunca desperdicies aleaciones raras** en recetas de nivel bajo que superarás rápidamente
+</Callout>
+
+<Section icon={Map} title="Descripción general del sistema de fabricación">
+
+El sistema de fabricación de BRASS HELL es tu principal camino hacia el poder del final del juego. Los enemigos escalan más rápido que el botín del mundo, así que los jugadores que invierten en estaciones de trabajo y reservas de materiales superan constantemente a quienes dependen del botín aleatorio. Todos los objetos fabricados pueden modificarse posteriormente en bancos mejorados, lo que convierte la fabricación en un proceso de dos etapas: forjar el objeto base y después perfeccionarlo.
+
+**Pilares fundamentales de la fabricación:**
+
+- **Materiales**: se obtienen de nodos, enemigos y el desguace
+- **Recetas**: se desbloquean mediante la progresión y la exploración
+- **Estaciones de trabajo**: bancos que limitan los niveles de las recetas
+- **Perfeccionamiento**: mejoras posteriores a la fabricación que añaden modificadores
+
+<CardGrid cols={3}>
+  <Card title="Banco de forja">
+    - **Fabricación de armas**
+    - Recetas de niveles 1-3
+    - Primera mejora prioritaria
+  </Card>
+  <Card title="Estación de desguace">
+    - **Desmonta equipo**
+    - Devuelve parte de los materiales
+    - Financia recetas raras
+  </Card>
+  <Card title="Horno de aleaciones">
+    - **Recetas del final del juego**
+    - Combina aleaciones raras
+    - Desbloquea modificadores elementales
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo del editor">
+Desguaza todos los objetos obtenidos que no vayas a equipar. La chatarra recuperada se acumula rápidamente y se convierte en la base de tu reserva de recetas de la mitad del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prioridad para conseguir materiales">
+
+No todos los materiales tienen el mismo valor. Tu tiempo de recolección debería seguir la rareza y el ritmo de consumo de cada nivel de recursos. La siguiente tabla clasifica los materiales más valiosos según su relación entre esfuerzo y recompensa.
+
+| Material | Rareza | Fuente principal | Se usa para | Prioridad |
+|---|---|---|---|---|
+| Chatarra de latón | Común | Montones de basura, enemigos básicos | Placas, armas de nivel bajo | ★★★ |
+| Trozos de acero | Poco común | Nodos de mina, botín de élites | Armas y armaduras de nivel medio | ★★★★ |
+| Aleación infernal | Rara | Botín de jefes, nodos de zonas profundas | Equipo del final del juego | ★★★★★ |
+| Polvo de brasas | Poco común | Desguace de objetos encantados | Modificadores elementales | ★★★★ |
+| Resina aglutinante | Poco común | Nodos de plantas, comerciantes | Adherir modificadores | ★★★ |
+
+<Callout type="warning" title="Error común">
+No vendas los Trozos de acero sobrantes al principio de una partida. Las recetas de nivel medio los consumen en grandes cantidades, y volver a comprarlos a los comerciantes cuesta mucho más que el precio de venta.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progresión de fabricación paso a paso">
+
+Sigue esta secuencia para construir una economía de fabricación que te lleve desde las primeras zonas hasta el final del juego sin desperdiciar recursos.
+
+<Steps>
+  <Step num="1" title="Establece el Banco de forja">
+    Completa la misión inicial del taller para desbloquear tu primer banco. Fabrica inmediatamente un arma básica de latón para que la recolección mediante combate sea más rápida.
+  </Step>
+  <Step num="2" title="Construye la Estación de desguace">
+    Instala el desguace antes de que tu inventario se llene de objetos inutilizables. Introduce en ella todos los objetos sobrantes y acumula Chatarra de latón y Trozos de acero.
+  </Step>
+  <Step num="3" title="Fabrica Placas de latón reforzado">
+    Esta pieza para el pecho ofrece la mejor relación entre defensa y materiales durante el inicio del juego, y sigue siendo útil durante las dos primeras zonas.
+  </Step>
+  <Step num="4" title="Mejora a las recetas de nivel 2">
+    Invierte Trozos de acero en un arma de nivel medio. El escalado del daño importa más que la armadura cuando aumentan las reservas de salud de los enemigos.
+  </Step>
+  <Step num="5" title="Desbloquea el Horno de aleaciones">
+    Concéntrate en conseguir Aleación infernal en las zonas profundas; después, fabrica tu primera arma del final del juego y añade un modificador elemental con Polvo de brasas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Punto de control">
+Al terminar el Paso 5 deberías tener un arma de nivel 3, un conjunto completo de armadura de nivel medio y una reserva creciente de modificadores: el estándar para estar preparado para el final del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mejores builds de equipo fabricado">
+
+Tres builds dominan los equipamientos fabricados, cada uno adaptado a un estilo de juego diferente. Compara sus puntos fuertes antes de invertir aleaciones raras.
+
+| Build | Objetos fabricados principales | Fortalezas | Debilidades |
+|---|---|---|---|
+| Bastión | Conjunto completo de placas de latón/acero | **Alta supervivencia**, materiales baratos | Baja movilidad, despeje lento |
+| Hostigador | Armadura ligera de acero, hoja rápida | **Alta velocidad**, gran daño a un solo objetivo | Vulnerable contra jefes |
+| Artífice | Arma de aleación + modificadores de brasas | **Daño elemental**, versatilidad | Consume muchos materiales, inicio lento |
+
+<CardGrid cols={3}>
+  <Card title="Bastión">
+    - Ideal para jugadores nuevos
+    - Costes de materiales más bajos
+    - Excelente en combates prolongados
+  </Card>
+  <Card title="Hostigador">
+    - Mayor velocidad de recolección
+    - Fuerte contra enemigos de élite
+    - Requiere dominar el momento de esquivar
+  </Card>
+  <Card title="Artífice">
+    - Mayor techo de daño
+    - Cobertura elemental
+    - Build con gran rendimiento en el final del juego
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejos de perfeccionamiento">
+Aplica modificadores de Polvo de brasas solo a objetos de nivel 3. El coste de los modificadores no se transfiere entre objetos, así que perfeccionar equipo de nivel bajo desperdicia el recurso permanentemente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de objetivos de fabricación">
+
+Controla tu progreso con esta lista de hitos antes de avanzar hacia las zonas finales.
+
+<Checklist
+  id="crafting-goals"
+  title="Hitos esenciales de fabricación:"
+  items={[
+    "Desbloquear el Banco de forja y fabricar la primera arma",
+    "Construir la Estación de desguace y acumular más de 100 unidades de Chatarra de latón",
+    "Fabricar un conjunto completo de armadura de latón reforzado",
+    "Mejorar las estaciones de trabajo al nivel 2",
+    "Desbloquear el Horno de aleaciones y fabricar un arma de nivel 3",
+    "Aplicar el primer modificador elemental con Polvo de brasas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es mejor fabricar que conseguir botín en BRASS HELL?",
+    answer: "Para una progresión constante, sí. El equipo fabricado escala de forma predecible con el nivel de tu estación de trabajo, mientras que el botín del mundo es aleatorio. Las partidas más eficientes combinan ambos métodos: consigue materiales de los enemigos y después fabrica exactamente el equipo que necesita tu build."
+  },
+  {
+    question: "¿Cuál es el material más importante de esta guía de fabricación?",
+    answer: "Los Trozos de acero. Conectan el inicio y la mitad del juego, aparecen en casi todas las recetas de nivel 2 y se consumen en grandes cantidades. Acumularlos desde el principio evita compras costosas a los comerciantes más adelante."
+  },
+  {
+    question: "¿Puedo recuperar los materiales de un objeto fabricado?",
+    answer: "Parcialmente. Desguazar un objeto fabricado devuelve una fracción de sus materiales, pero las aleaciones raras y los costes de los modificadores, como el Polvo de brasas, se pierden. Por eso solo deberías aplicar modificadores al equipo de nivel 3."
+  },
+  {
+    question: "¿Qué build debería fabricar primero un jugador nuevo?",
+    answer: "La build de Bastión. Las placas de latón reforzado son baratas, indulgentes y te mantienen con vida mientras aprendes los patrones de los enemigos. Cambia a Hostigador o Artífice cuando tengas un suministro estable de Trozos de acero."
+  }
+]} />
+
+</Section>

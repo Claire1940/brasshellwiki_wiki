@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fabricação de Munição em BRASS HELL: Progressão de Calibres e Guia de Melhorias",
+  description: "Domine a fabricação de munição em BRASS HELL: ordem de desbloqueio dos calibres, melhorias da prensa, multiplicadores de pólvora, automação e a melhor estratégia para ganhar dinheiro.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b45309/fff?text=Bullet+Crafting+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A fabricação de munição em BRASS HELL** funciona em um ciclo de prensa manual: colocar o estojo, adicionar pólvora e assentar o projétil.
+- **A progressão de calibres** vai do .22 até 30 mm e cartuchos de espingarda, cada um com valor maior.
+- **As melhorias de pólvora** são o melhor investimento inicial, aumentando o valor de cada munição em até **sete vezes**.
+- **A automação** (pólvora automática, prensa automática e bancada de embalagem) eventualmente reduz todo o processo a um único apertar de botão.
+- **Produza em grandes lotes e venda em grandes lotes**: mais armazenamento de cartuchos e caixas de saída fazem a renda do fim do jogo disparar.
+</Callout>
+
+<Section icon={Wrench} title="Como Funciona a Fabricação de Munição">
+
+A fabricação de munição em BRASS HELL é o centro do ciclo da fábrica. Cada munição segue a mesma sequência física: acionar a máquina, colocar um cartucho na bandeja, deslizar até a pólvora, arrastar a quantidade correta e então assentar o projétil. No início, você fabrica uma munição por ciclo, o que parece lento — e isso é intencional. Toda a curva de progressão consiste em transformar esse ciclo manual trabalhoso em uma linha de produção automatizada que cospe caixas lacradas valendo milhões.
+
+**Destaques do vídeo:**
+- Demonstração completa do ciclo de fabricação manual: colocar, deslizar, arrastar a pólvora e assentar o projétil
+- Produção inicial de .22 aprimorada para duas munições por ciclo
+- Multiplicadores de pólvora elevam o valor da munição de ganhos modestos para quatro vezes ou mais
+- A automação do fim do jogo reduz a participação do jogador a apenas acionar a alavanca
+- Uma visão em primeira mão do estranho ciclo de história da fábrica às 4h17 da manhã
+
+<YouTubeEmbed videoId="sOucCOzK52Q" title="Administrar uma Fábrica de Munição é Meio... Ruim (Brass Hell - Roblox)" />
+
+<Callout type="tip" title="Precisão Dá Lucro">
+Você não pode calcular a quantidade de pólvora no olho. O jogo exige uma dosagem precisa para cada munição, então aprenda a distância de arraste do seu calibre atual — pegar a pólvora de forma imprecisa desperdiça tempo em dosagens malsucedidas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ordem de Progressão dos Calibres">
+
+Os calibres são desbloqueados em sequência, e cada um aumenta tanto o custo dos materiais quanto o pagamento por caixa. Passar para um novo calibre assim que ele é desbloqueado quase sempre é a decisão certa, pois as munições antigas passam a ter um valor trivial em comparação.
+
+| Calibre | Munições por Ciclo | Observações |
+|---|---|---|
+| .22 LR | 1 → 2 | Munição inicial, boa para atender à demanda, margens mínimas |
+| 9 mm | 3 | Calibre popular, renda intermediária sólida |
+| .45 ACP | 5 | Munição divertida, valor por lote significativamente melhor |
+| .357 | ~10+ | Começa a era dos grandes lotes, ~$890 por entrega |
+| 5.56 | 25 | Grande salto de valor, caixas vendidas por ~$1.000 |
+| 7.62 | ~50 | Base do fim do jogo, milhares por lote |
+| .308 | 50+ | Calibre de transição antes das munições pesadas |
+| .50 BMG | 100 | Estojo gigantesco, ~$500.000 por entrega |
+| 20 mm | 100 | Munição final da classe de fuzis, até $16 milhões por lote |
+| 30 mm | 100 | Classe de aeronaves/antiaérea, produção de fuzis de alto nível |
+| Cartuchos de espingarda | — | Linha separada a partir do calibre 10; exige reiniciar a máquina |
+
+<Callout type="warning" title="Custo de Reinicialização da Máquina">
+Quando você termina o 30 mm e passa para os cartuchos de espingarda, a administração reinicia sua máquina — a maioria das peças não é transferida para a produção de cartuchos. Considere o 30 mm o ponto final natural da sua linha de fuzis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prioridade das Melhorias: O Que Comprar Primeiro">
+
+Nem todas as melhorias são iguais. A qualidade da pólvora multiplica o valor de cada munição produzida, tornando-a a melhor compra inicial, enquanto as melhorias de armazenamento permitem os enormes lotes que definem a renda do fim do jogo.
+
+<CardGrid cols={3}>
+  <Card title="Melhorias de Pólvora">
+    - **Melhor valor por dólar**
+    - Multiplicadores: ~1,5x → 2,5x → 4x → 7x
+    - Compre assim que puder
+  </Card>
+  <Card title="Automação">
+    - Pólvora automática, prensa automática e bancada de embalagem
+    - Remove quase todas as etapas manuais
+    - Você só precisa acionar a alavanca
+  </Card>
+  <Card title="Armazenamento e Lotes">
+    - Maior armazenamento de cartuchos e caixa de saída maior
+    - Permite armazenar mais de 1.500 materiais
+    - Essencial para lotes de milhões de dólares
+  </Card>
+</CardGrid>
+
+| Nível da Melhoria | Faixa de Custo Aproximada | Multiplicador de Valor | Prioridade |
+|---|---|---|---|
+| Pólvora básica | ~$4 | ~1,5x | ★★★★★ |
+| Pólvora intermediária | ~$22 | ~2,5x | ★★★★★ |
+| Pólvora avançada | Fim do jogo | 4x | ★★★★★ |
+| Pólvora premium | Cara | **7x** | ★★★★★ |
+| Pólvora automática | Meio do jogo | Economia de tempo | ★★★★ |
+| Prensa automática + embalagem | Final | Economia de tempo | ★★★★★ |
+| Dispensador/bandeja de estojos | Meio do jogo | Comodidade | ★★★ |
+
+<Callout type="success" title="O Efeito Composto">
+Um jogador que ganha cinco centavos por munição .22 no início pode chegar a **$16 milhões por lote lacrado** no 20 mm. Os multiplicadores de pólvora se acumulam com o tamanho do lote — nunca fique guardando dinheiro quando houver um nível de pólvora disponível.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Passo a Passo: Suas Primeiras 1.000 Munições">
+
+<Steps>
+  <Step num="1" title="Domine o Ciclo Manual">
+    Fabrique munições .22 uma por vez até que o ritmo de colocar, deslizar, arrastar e prensar se torne automático. Venda cada caixa imediatamente para financiar suas primeiras melhorias.
+  </Step>
+  <Step num="2" title="Compre Primeiro as Munições por Ciclo">
+    Melhore para duas munições por ciclo e depois para três viagens por ciclo. Produza em lotes sempre que puder — até mesmo pequenas produções em massa são melhores que entregas individuais.
+  </Step>
+  <Step num="3" title="Invista Cedo em Pólvora">
+    Compre cada nível de pólvora assim que puder. O salto de 1,5x é imediatamente perceptível no pagamento por entrega.
+  </Step>
+  <Step num="4" title="Avance pelos Calibres Agressivamente">
+    Passe para 9 mm, .45 ACP e depois .357 assim que cada um for desbloqueado. Os calibres antigos rapidamente deixam de valer o tempo gasto na prensa.
+  </Step>
+  <Step num="5" title="Automatize e Expanda">
+    Compre a pólvora automática, a prensa automática, a bancada de embalagem e um ajudante. Aumente o armazenamento para 1.500 materiais e lacre lotes enormes de 7.62 em diante.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Venda em Grandes Lotes">
+Lotes lacrados são entregues em uma única transação. Um estoque lacrado de 12.000 munições de 20 mm rendeu aproximadamente $16 milhões em uma única venda — sempre encha sua caixa de saída antes de ir ao balcão.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="O Ciclo das 4h17 e Hábitos para Ganhar Dinheiro">
+
+BRASS HELL esconde uma narrativa estranha sob a rotina da fábrica: cada registro de rádio, recibo e documento de entrega está marcado com **4h17 da manhã**, e nenhuma equipe de substituição jamais registra sua entrada. Os momentos da história levam você entre os depósitos de pólvora e a expedição, mas o trabalho nunca para — e os pagamentos também não. Aceite isso: mesmo que você esteja preso para sempre às 4h17, é melhor aproveitar para ganhar dinheiro.
+
+Também existe um estande de tiro onde você pode usar sua própria munição para ganhar dinheiro, mas lembre-se de que alimentar as armas consome munições que você poderia vender — dois carregadores completos podem acabar rapidamente com um lote pesado.
+
+<Callout type="warning" title="Munição é Dinheiro">
+Cada munição disparada no estande é uma munição que você deixou de vender. Teste as armas por diversão, mas mantenha a maior parte da sua produção lacrada para entrega.
+</Callout>
+
+<Checklist
+  id="crafting-milestones"
+  title="Marcos da Fábrica:"
+  items={[
+    "Desbloquear e produzir munições .357 em massa",
+    "Comprar o multiplicador de pólvora de 4x",
+    "Automatizar o manuseio da pólvora e da prensa",
+    "Lacrar um lote valendo $100.000+",
+    "Alcançar a produção de 20 mm com 100 munições por ciclo",
+    "Entregar um lote de 30 mm antes da reinicialização da linha de cartuchos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor primeira melhoria na fabricação de munição de BRASS HELL?",
+    answer: "Munições por ciclo é a melhor compra inicial — passar de uma para duas munições por prensa dobra instantaneamente a produção. Depois disso, priorize as melhorias de pólvora, pois elas multiplicam o valor de cada munição fabricada."
+  },
+  {
+    question: "Qual calibre dá mais dinheiro?",
+    answer: "20 mm e 30 mm são os maiores geradores de renda da linha de fuzis, com lotes lacrados rendendo até $16 milhões. Observe que o 30 mm é a munição final da classe de fuzis antes de a máquina ser reiniciada para a produção de cartuchos de espingarda."
+  },
+  {
+    question: "As melhorias são mantidas nos cartuchos de espingarda?",
+    answer: "Não. Quando você passa do 30 mm para os cartuchos de espingarda, a administração superior reinicia sua máquina porque a maioria das peças não é transferida. Planeje seus gastos de acordo."
+  },
+  {
+    question: "Vale a pena usar o estande de tiro?",
+    answer: "O estande permite disparar as munições que você fabrica para ganhar dinheiro, mas consome munições que você poderia vender lacradas. Considere-o uma forma de entretenimento ou um bônus, não sua principal fonte de renda."
+  }
+]} />
+
+</Section>

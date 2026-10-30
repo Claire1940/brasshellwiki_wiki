@@ -1,0 +1,174 @@
+import { Map, Target, Trophy, Factory, Package, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL Bullet Production: Step-by-Step Factory Guide",
+  description: "Learn the full BRASS HELL bullet production loop: press operation, material restocking, crate packing, and shipment delivery for maximum efficiency.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/D78A32/15191D?text=Bullet+Production+Guide",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL bullet production** runs on a repeatable loop: press, restock, pack, deliver.
+- **Keep the press active** — every idle minute is lost income in this incremental simulator.
+- **Prepare the next order's materials** before dispatching the current shipment.
+- **Reinvest early payouts** into production speed and crate throughput upgrades first.
+- **Bulk production bonuses** exist, but never assume multipliers stack unless stated in-game.
+</Callout>
+
+<Section icon={Factory} title="How BRASS HELL Bullet Production Works">
+
+Bullet production is the core loop of BRASS HELL, a Roblox incremental factory simulator set in a remote, snowbound ammunition plant. You clock in, operate the ammunition press, craft rounds, fill crates, and dispatch shipments for payment. The faster and more consistently you repeat this cycle, the more you earn and the quicker you unlock workshop upgrades.
+
+Every part of the loop feeds the next stage:
+
+| Production Stage | Input | Output | Direct Impact |
+| --- | --- | --- | --- |
+| Material collection | Order requirements | Staged materials | Prevents press downtime |
+| Press operation | Staged materials | Finished rounds | Core income source |
+| Crate packing | Finished rounds | Filled crates | Required for delivery |
+| Shipment dispatch | Filled crates | Payout | Funds upgrades |
+| Restocking | Payout/stockroom | Next batch | Keeps the cycle moving |
+
+<Callout type="tip" title="Editor's Note">
+Treat dispatch as the end of one cycle and the starting point of the next — not a stopping point. Players who keep the loop moving continuously out-earn those who pause after each payout.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Bullet Production Step-by-Step">
+
+Follow this route for every production cycle. It works from your very first shift through late-game bulk runs.
+
+| Step | Action | Efficiency Notes |
+| --- | --- | --- |
+| 1 | Review the active order | Check quantities before pressing |
+| 2 | Stage materials at the press | Missing parts interrupt the cycle |
+| 3 | Run press batches | Return immediately after collecting output |
+| 4 | Restock consumed inputs | Keep a small working supply nearby |
+| 5 | Fill the shipment crate | Verify contents against the order |
+| 6 | Dispatch and restart | Begin next-order prep instantly |
+
+<Steps>
+  <Step num="1" title="Collect and Organize Materials">
+    Gather everything the active order requires and keep it close to the press area. Identify anything that needs restocking before you start so shortages never interrupt production mid-batch.
+  </Step>
+  <Step num="2" title="Operate the Ammunition Press">
+    Load materials, run the production interaction, and collect finished rounds. Keep the machine active whenever inputs are available — an idle press is the biggest efficiency loss in the factory.
+  </Step>
+  <Step num="3" title="Restock the Production Line">
+    Replace consumed inputs after each batch. Use a repeatable walking route between the supply area and press to cut travel time across dozens of cycles.
+  </Step>
+  <Step num="4" title="Complete the Shipment Order">
+    Match finished products against the order requirements and move them to the packing area. Missing or incorrect items block the entire loop from completing.
+  </Step>
+  <Step num="5" title="Pack and Dispatch the Crate">
+    Load products, finalize the crate, dispatch the order, and immediately review the next order. Finish the full batch before making a delivery trip so one journey completes everything.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avoid This Mistake">
+Do not deliver partially completed batches. Multiple trips to the dispatch point for one order waste more time than any other common error in early production runs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Caliber Progression and Value">
+
+Ammunition in BRASS HELL follows the factory upgrade path. The best caliber at any moment is the highest unlocked round your workshop can produce consistently without slowing the full shipment cycle.
+
+| Unlock Stage | Caliber Tier | Production Value | Best Use |
+| --- | --- | --- | --- |
+| Starting production | Starter round | Entry-level | Learning the press, first crates, first income loop |
+| Early progression | Intermediate round | Improved | Raising shipment quality once basics are consistent |
+| Advanced progression | Advanced round | Highest tier | Developed factories maximizing shipment returns |
+
+<CardGrid cols={3}>
+  <Card title="Early Game">
+    - **Use starter rounds** immediately
+    - Save payouts for press speed
+    - Focus on learning routes
+  </Card>
+  <Card title="Mid Game">
+    - **Adopt intermediate rounds**
+    - Balance speed vs. value
+    - Upgrade crate handling
+  </Card>
+  <Card title="Late Game">
+    - **Run advanced rounds**
+    - Bulk-focused production
+    - Maximize per-shipment value
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Caliber Rule of Thumb">
+A lower caliber produced at full speed often outperforms a higher caliber your factory cannot sustain. Consistency beats peak value in an incremental loop.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Upgrades That Improve Production">
+
+Workshop upgrades determine how quickly factory activity becomes shipment earnings. Prioritize upgrades that shorten the production cycle before buying convenience features.
+
+| Priority | Upgrade Type | Effect | Recommended For |
+| --- | --- | --- | --- |
+| S | Production Speed | Faster press cycles | First reliable income loop |
+| S | Crate Throughput | Faster crate fill/handling | When shipping lags behind pressing |
+| A | Shipment Earnings | Higher delivery value | Stable mid-game production |
+| A | Ammo Unlocks | Access to advanced rounds | Long-term progression |
+| B | Convenience | Movement and handling | After core priorities are covered |
+
+<Callout type="success" title="Upgrade Path Advice">
+Invest first in upgrades that reduce press cycle time and crate handling delays. These directly increase completed shipments per session, which compounds into every later upgrade.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Efficiency Checklist and Multipliers">
+
+Progression systems reward consistent factory work. Rank Progress, Mastery XP, and Bulk multipliers are separate benefits — use each as described in-game and do not assume they stack.
+
+<Checklist
+  id="production-goals"
+  title="Per-Session Production Goals:"
+  items={[
+    "Keep the press active with zero idle gaps",
+    "Complete at least one full crate per delivery trip",
+    "Pre-stage materials for the next order before dispatch",
+    "Reinvest each payout into production or throughput upgrades",
+    "Track which upgrades actually shorten your cycle time"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Bullet Production FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I start bullet production in BRASS HELL?",
+    answer: "Clock in at the factory, gather materials for the active order, and operate the ammunition press to craft rounds. Once you have enough finished ammunition, fill a shipment crate and deliver it to the dispatch point to earn your payout."
+  },
+  {
+    question: "What is the fastest way to improve bullet production efficiency?",
+    answer: "Reduce press idle time and eliminate partial deliveries. Keep materials staged near the press, use a fixed walking route for restocking, and always complete a full batch before making a delivery trip."
+  },
+  {
+    question: "Which caliber should I produce?",
+    answer: "Use the highest caliber your factory can produce consistently without interrupting the shipment cycle. Early on, starter rounds at full speed beat advanced rounds you cannot sustain."
+  },
+  {
+    question: "Do Mastery XP, Rank Progress, and Bulk multipliers stack?",
+    answer: "Treat them as separate benefits. Do not assume the multipliers combine unless an in-game description explicitly states otherwise — use each pass's listed effect as written."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide des caisses de BRASS HELL : types de loot boxes, probabilités et meilleures ouvertures",
+  description: "Un guide pratique des caisses de BRASS HELL couvrant les types de caisses, les conditions de déblocage, la stratégie d’ouverture et la façon de dépenser efficacement votre monnaie.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=BRASS+HELL+Box+Guide",
+  date: "2026-10-31",
+  author: "Équipe du wiki BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Guide des caisses de BRASS HELL** : découvrez chaque type de caisse et ce que vous pouvez attendre de chaque niveau d’ouverture.
+- **La monnaie d’abord** : accumulez toujours de la monnaie avant d’ouvrir des caisses de niveau supérieur.
+- **Meilleur rapport qualité-prix** : les caisses intermédiaires offrent généralement le meilleur rapport récompenses/coût en début de progression.
+- **Évitez les pièges** : ne dépensez pas votre monnaie premium dans des caisses bas niveau une fois le début de partie dépassé.
+- **Suivez vos résultats** : notez vos ouvertures afin de mieux comprendre votre chance personnelle au fil du temps.
+</Callout>
+
+<Section icon={Map} title="Comprendre le système de caisses dans BRASS HELL">
+
+Les caisses constituent le principal système de distribution de butin dans BRASS HELL. Chaque caisse contient un ensemble aléatoire de récompenses — généralement des armes, de l’équipement esthétique, des boosters et des variantes rares de coups-de-poing américains ainsi que d’autres équipements de combat rapproché. Comme les récompenses proviennent de réserves classées par niveau, savoir quelle caisse ouvrir à chaque étape de votre progression est l’une des décisions les plus importantes pour optimiser vos ressources dans le jeu.
+
+Le système repose sur un principe simple : les caisses de niveau supérieur coûtent davantage de monnaie, mais puisent dans une réserve de récompenses offrant de meilleurs gains minimums. Une caisse bas niveau peut toujours vous surprendre avec un objet puissant, mais sur un grand nombre d’ouvertures, la valeur attendue des caisses premium est nettement supérieure.
+
+| Niveau de caisse | Coût habituel | Réserve de récompenses | Idéal pour |
+| --- | --- | --- | --- |
+| Caisse basique | Faible | Équipement courant, petits boosters | Nouveaux joueurs, équipement de départ |
+| Caisse standard | Moyen | Équipement peu commun, boosters moyens | Farm de milieu de partie |
+| Caisse premium | Élevé | Équipement rare, variantes esthétiques | Optimisation de fin de partie |
+| Caisse événementielle | Monnaie d’événement | Objets disponibles pour une durée limitée | Collectionneurs, changements de méta |
+
+<Callout type="tip" title="Commencez petit">
+Les nouveaux joueurs devraient commencer par ouvrir plusieurs caisses basiques. Construire rapidement un équipement de base fonctionnel est plus avantageux que de poursuivre des objets rares avant de pouvoir réellement les utiliser.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparaison des types de caisses : laquelle convient à votre build ?">
+
+Votre style de jeu doit guider le choix de vos caisses. Un build de bagarreur reposant sur les dégâts bruts tirera davantage profit des réserves axées sur les armes, tandis qu’un build défensif bénéficiera de caisses privilégiant l’armure et les boosters. Comparez les points forts de chaque approche avant d’engager votre monnaie.
+
+<CardGrid cols={3}>
+  <Card title="Ouvertures offensives">
+    - **Priorité aux réserves de dégâts**
+    - Privilégiez les caisses orientées armes
+    - Idéal pour les affrontements rapides
+    - Acceptez un risque accru pour gagner en vitesse
+  </Card>
+  <Card title="Ouvertures équilibrées">
+    - **Réserves de récompenses variées**
+    - Progression régulière de l’équipement
+    - Flexibles contre tous les adversaires
+    - Recommandées pour la plupart des joueurs
+  </Card>
+  <Card title="Ouvertures défensives">
+    - **Priorité à l’armure et à la survie**
+    - Plus lentes, mais régulières
+    - Excellentes pour les combats prolongés
+    - Se combinent bien avec l’accumulation de boosters
+  </Card>
+</CardGrid>
+
+| Stratégie | Caisses à ouvrir | Résultat attendu | Niveau de risque |
+| --- | --- | --- | --- |
+| Ruée sur les dégâts | Niveaux axés sur les armes | Fort potentiel d’élimination, faible défense | Élevé |
+| Hybride | Caisses intermédiaires variées | Équipement polyvalent fiable | Moyen |
+| Résistance et survie | Niveaux axés sur la défense | Survie prolongée, victoires plus lentes | Faible |
+
+<Callout type="warning" title="Surveillez votre réserve de monnaie">
+Ne dépensez jamais toute votre monnaie. Conservez une réserve afin de pouvoir répondre aux événements proposant des caisses à durée limitée, qui contiennent souvent des récompenses exclusives ne réintégrant pas les réserves standard.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Étape par étape : une routine d’ouverture efficace">
+
+Suivez cette routine pour maximiser la valeur de chaque session d’ouvertures. L’ordre compte : vous préparer avant de dépenser vous évitera de gaspiller de la monnaie dans des caisses qui ne correspondent plus à votre progression.
+
+<Steps>
+  <Step num="1" title="Évaluez votre équipement">
+    Identifiez votre emplacement d’équipement le plus faible. Ouvrez des caisses ciblant la réserve de récompenses de cet emplacement plutôt que de tirer au hasard.
+  </Step>
+  <Step num="2" title="Fixez un budget">
+    Décidez du montant de monnaie que vous dépenserez pendant cette session et respectez-le. Cela évite les dépenses impulsives après une série de tirages malchanceux.
+  </Step>
+  <Step num="3" title="Ouvrez par lots">
+    Ouvrez les caisses par petits lots de 3 à 5. Vous disposerez ainsi de points de contrôle naturels pour évaluer vos résultats et vous arrêter si vous obtenez l’objet recherché.
+  </Step>
+  <Step num="4" title="Évaluez et ajustez">
+    Après chaque lot, vérifiez si votre emplacement le plus faible s’est amélioré. Si ce n’est pas le cas, changez de type de caisse au lieu de continuer à investir dans la même option.
+  </Step>
+  <Step num="5" title="Mettez le reste de côté">
+    Placez la monnaie restante dans votre réserve pour les caisses événementielles et les futurs déblocages de niveaux.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Discipline des lots">
+Les joueurs qui ouvrent leurs caisses par lots contrôlés déclarent régulièrement une meilleure satisfaction à long terme que ceux qui dépensent tout en une seule session : cette condition d’arrêt protège vos ressources.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objectifs et checklist d’ouverture des caisses">
+
+Suivez votre progression à l’aide d’étapes claires. Chaque objectif ci-dessous vous rapproche d’un équipement entièrement optimisé sans vous faire dépenser excessivement dans des tirages redondants.
+
+<Checklist
+  id="box-goals"
+  title="Étapes de progression des caisses :"
+  items={[
+    "Construire un équipement de base complet à partir de caisses basiques",
+    "Améliorer votre emplacement le plus faible jusqu’à une qualité au moins peu commune",
+    "Mettre de côté un budget complet pour les caisses premium avant la fin de partie",
+    "Terminer un ensemble de caisses événementielles tant qu’il est disponible",
+    "Remplacer tout l’équipement courant par du matériel adapté à votre niveau"
+  ]}
+/>
+
+| Étape | Monnaie nécessaire (approx.) | Priorité |
+| --- | --- | --- |
+| Équipement de base | Faible | ★★★★★ |
+| Amélioration de l’emplacement le plus faible | Faible à moyenne | ★★★★ |
+| Budget pour une caisse premium | Élevé | ★★★ |
+| Ensemble de caisses événementielles | Spécifique à l’événement | ★★★★★ pendant l’événement |
+
+<Callout type="info" title="Priorité aux événements">
+Les caisses à durée limitée doivent passer en tête de votre liste de priorités dès leur apparition. Les caisses standard sont toujours disponibles ; les récompenses événementielles, elles, ne le sont souvent pas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Erreurs courantes avec les caisses et comment les éviter">
+
+La majeure partie de la monnaie gaspillée dans BRASS HELL provient d’un petit nombre d’erreurs récurrentes. Apprenez à les reconnaître dès maintenant pour éviter une coûteuse courbe d’apprentissage.
+
+| Erreur | Pourquoi c’est problématique | Approche correcte |
+| --- | --- | --- |
+| Ouvrir des caisses bas niveau trop tard | Les récompenses deviennent obsolètes | Augmentez votre budget à mesure que vous progressez |
+| Ignorer les emplacements insuffisamment équipés | Les améliorations vont dans des emplacements déjà solides | Ciblez d’abord votre équipement le plus faible |
+| Ne garder aucune réserve avant les événements | Vous ratez les récompenses exclusives | Conservez une réserve de monnaie permanente |
+| Poursuivre une récompense précise | La variance gaspille votre monnaie | Acceptez la moyenne de la réserve et arrêtez-vous lorsque vous êtes satisfait |
+
+<Callout type="warning" title="Le piège de la poursuite">
+Déterminez votre condition d’arrêt avant toute ouverture. Si l’objet recherché tombe, arrêtez-vous. Si votre budget est épuisé, arrêtez-vous. Poursuivre un seul objet rare au-delà de votre budget est le moyen le plus rapide d’épuiser vos ressources.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quelle est la meilleure caisse à ouvrir dans BRASS HELL pour les nouveaux joueurs ?",
+    answer: "Les caisses basiques constituent le meilleur point de départ dans ce guide des caisses. Elles permettent de construire à moindre coût un équipement de base fonctionnel, afin d’apprendre le système de combat avant d’investir des montants plus importants dans les réserves premium."
+  },
+  {
+    question: "Devrais-je économiser ma monnaie pour les caisses événementielles ?",
+    answer: "Oui, si vous souhaitez obtenir des objets exclusifs ou disponibles pour une durée limitée. Les caisses standard restent disponibles indéfiniment, tandis que les récompenses des caisses événementielles peuvent ne pas réintégrer la réserve de récompenses. Gardez une réserve dédiée à ces objets."
+  },
+  {
+    question: "Combien de caisses devrais-je ouvrir par session ?",
+    answer: "Ouvrez de petits lots de 3 à 5 caisses et évaluez les résultats après chaque lot. Vous disposerez ainsi de points d’arrêt naturels et éviterez de trop dépenser après des tirages malchanceux."
+  },
+  {
+    question: "Les caisses bas niveau peuvent-elles quand même offrir de bonnes récompenses ?",
+    answer: "Les réserves bas niveau peuvent contenir des objets surprenants, mais sur un grand nombre d’ouvertures, leur valeur attendue est inférieure à celle des caisses premium. Considérez les récompenses rares de bas niveau comme des bonus, et non comme une stratégie."
+  }
+]} />
+
+</Section>

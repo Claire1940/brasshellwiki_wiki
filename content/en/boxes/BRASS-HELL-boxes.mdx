@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL Boxes: Types, Drops & How to Use Them",
+  description: "Learn how BRASS HELL boxes work, where to find each box type, what they drop, and the best strategies for opening and farming them efficiently.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=BRASS+HELL+Boxes",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL boxes** are reward containers that drop gear, currency, and upgrade materials throughout the game.
+- **Box tiers matter**: higher-tier boxes yield noticeably better loot pools and rare drop rates.
+- **Open strategically**: stockpiling boxes for milestone levels can improve long-term progression.
+- **Farm efficiently**: repeatable encounters and daily objectives are the most reliable box sources.
+- **Check the pool**: always review what a box type can drop before spending keys or currency on it.
+</Callout>
+
+<Section icon={Package} title="What Are BRASS HELL Boxes?">
+
+BRASS HELL boxes are the game's primary loot container system. They are awarded for completing encounters, clearing challenge tiers, finishing daily and weekly objectives, and purchasing them from in-game vendors with earned currency. Each box belongs to a tier, and that tier determines the quality range of the rewards inside.
+
+Because progression in BRASS HELL leans heavily on gear and upgrade materials, understanding the box system is one of the fastest ways to accelerate a character's growth. New players often open every box immediately, but experienced players treat boxes as a resource to manage.
+
+<Callout type="tip" title="Core Principle">
+Boxes are not just rewards — they are a progression currency. Deciding **when** and **which** boxes to open is nearly as important as earning them in the first place.
+</Callout>
+
+The main characteristics of the box system:
+
+- **Tier-based loot pools**: each tier has a fixed table of possible drops with weighted rarity.
+- **Guaranteed minimums**: higher tiers include floor rewards so you never walk away empty-handed on key items.
+- **Multiple sources**: encounters, objectives, vendors, and limited-time events all distribute boxes.
+- **Inventory storage**: most boxes stack in inventory, letting you choose your opening timing.
+
+</Section>
+
+<Section icon={Map} title="Box Types and Drop Comparison">
+
+The box lineup in BRASS HELL covers a spectrum from common containers earned in routine play to rare event boxes with exclusive pools. The table below summarizes how the main categories compare in practice.
+
+| Box Type | Main Source | Typical Drops | Drop Quality | Farm Difficulty |
+| --- | --- | --- | --- | --- |
+| Standard Box | Regular encounters | Gear, basic currency, materials | ★★☆☆☆ | Easy |
+| Reinforced Box | Challenge tiers | Better gear, upgrade mats, currency | ★★★☆☆ | Moderate |
+| Elite Box | Weekly objectives | Rare gear, large material bundles | ★★★★☆ | Moderate-Hard |
+| Event Box | Limited-time events | Exclusive cosmetics, themed gear | ★★★★☆ | Varies |
+| Vendor Box | In-game shop currency | Curated gear, materials | ★★★☆☆ | Currency-gated |
+
+**Key differences to keep in mind:**
+
+- **Standard boxes** are abundant and should generally be opened on arrival for a steady drip of materials.
+- **Elite and event boxes** are where rare gear chances concentrate, so they deserve deliberate timing.
+- **Vendor boxes** are worth it mainly when you have surplus currency and a specific gear gap to fill.
+
+<CardGrid cols={3}>
+  <Card title="Frequent Opener">
+    - Opens Standard boxes immediately
+    - **Steady material income**
+    - Best for active daily players
+  </Card>
+  <Card title="Stockpiler">
+    - Saves boxes for level milestones
+    - **Better gear relevance**
+    - Requires patience and inventory space
+  </Card>
+  <Card title="Event Focus">
+    - Prioritizes event boxes only
+    - **Exclusive rewards**
+    - Best for collectors and completionists
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Watch the Gear Curve">
+Gear rewards from boxes generally scale with your current progression. Opening a large stockpile right after hitting a new milestone tier tends to produce more usable drops than opening everything early.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step: Farming and Opening Boxes">
+
+Follow this workflow to turn box farming into a repeatable routine that supports steady character growth.
+
+<Steps>
+  <Step num="1" title="Establish Daily Encounters">
+    Clear the repeatable encounters that reliably drop Standard boxes each day. Consistency here forms the baseline of your box income.
+  </Step>
+  <Step num="2" title="Stack Weekly Objectives">
+    Work through weekly objectives that award Elite boxes. These are the highest-value routine sources and should be planned around your play schedule.
+  </Step>
+  <Step num="3" title="Manage Your Stockpile">
+    Hold higher-tier boxes in inventory while you level. Track your milestone levels so you know when a gear breakpoint is close.
+  </Step>
+  <Step num="4" title="Open at Milestones">
+    When you hit a new progression tier, open your saved Elite and Reinforced boxes so the rewards roll against your improved gear curve.
+  </Step>
+  <Step num="5" title="Recycle and Reinvest">
+    Dismantle duplicate or under-leveled gear from boxes into materials, then reinvest those materials into your best-equipped gear.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Efficiency Loop">
+The cycle of farm, stockpile, open at milestones, and dismantle duplicates creates a self-sustaining loop where every box contributes to progression — even the disappointing drops.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Farming Priorities and Rewards">
+
+Not all box sources are worth equal time investment. Rank your farming activities by reward-per-hour rather than by how flashy the source looks.
+
+| Activity | Box Yield | Time Cost | Priority |
+| --- | --- | --- | --- |
+| Daily repeatable encounters | 2-4 Standard boxes | Low | **High** |
+| Weekly objectives | 1-2 Elite boxes | Spread over week | **High** |
+| Challenge tier pushes | Reinforced boxes | Moderate | Medium-High |
+| Limited-time events | Event boxes | Varies | High when active |
+| Vendor purchases | Vendor boxes | Currency cost | Situational |
+
+<Callout type="info" title="Event Windows">
+Limited-time events frequently offer the best box value in the game because their pools include exclusive items that do not appear elsewhere. When an event is live, temporarily reprioritize it over routine farming.
+</Callout>
+
+<Checklist
+  id="box-farming-goals"
+  title="Weekly Box Routine:"
+  items={[
+    "Clear all daily encounter box drops",
+    "Complete weekly objectives for Elite boxes",
+    "Check active events for exclusive box sources",
+    "Review stockpile before opening at milestones",
+    "Dismantle duplicate gear into upgrade materials"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Common Mistakes to Avoid">
+
+Even experienced players lose value from the box system through avoidable habits. These are the most frequent errors.
+
+| Mistake | Consequence | Fix |
+| --- | --- | --- |
+| Opening Elite boxes early | Rewards roll below current tier | Save for milestones |
+| Ignoring event boxes | Missing exclusive items | Prioritize active events |
+| Hoarding indefinitely | Gear falls behind curve | Set opening triggers |
+| Skipping dismantle | Wasted duplicate gear | Recycle all unusable drops |
+| Overspending at vendor | Currency shortage later | Buy only to fill gaps |
+
+<Callout type="warning" title="Vendor Discipline">
+Vendor currency is finite. Before buying a Vendor box, confirm the drop pool actually covers a gear slot or material type you currently need — otherwise the purchase is better deferred.
+</Callout>
+
+A few extra pointers that compound over time:
+
+- **Track your drop history** mentally or in notes; recognizing which boxes repeatedly deliver useful slots helps you allocate effort.
+- **Coordinate stockpiles with content resets**, since new milestones or tiers shift what counts as a good roll.
+- **Do not neglect Standard boxes** — their aggregate material output over a week is substantial.
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What are BRASS HELL boxes used for?",
+    answer: "BRASS HELL boxes are loot containers that provide gear, currency, and upgrade materials. They are the main way to acquire new equipment outside of direct crafting, and higher-tier boxes offer the best chances at rare gear."
+  },
+  {
+    question: "Should I open boxes immediately or save them?",
+    answer: "Standard boxes can generally be opened right away for steady materials. Higher-tier boxes like Elite and Reinforced boxes are usually better saved until you reach a level or gear milestone, so their rewards roll against your improved progression."
+  },
+  {
+    question: "Where do I get the best boxes in BRASS HELL?",
+    answer: "Weekly objectives and limited-time events are the top sources. Weekly objectives reliably award Elite boxes, while events offer exclusive event boxes with unique item pools that do not appear anywhere else in the game."
+  },
+  {
+    question: "What should I do with duplicate gear from boxes?",
+    answer: "Dismantle duplicates into upgrade materials and reinvest them into your best gear. This keeps even poor box drops contributing to progression instead of sitting unused in inventory."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Factory } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "BRASS HELL Cómo fabricar balas: guía paso a paso de la fábrica",
+  description: "Aprende a fabricar balas en BRASS HELL: prensado manual, desbloqueo de calibres, mejoras de pólvora y consejos de automatización para conseguir el máximo dinero.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/b45309/fff?text=How+to+Make+Bullets",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Cómo fabricar balas en BRASS HELL**: prensa, coloca el latón, añade pólvora, coloca el proyectil y vuelve a prensar para terminar el cartucho.
+- **Progresión de calibres**: comienza con .22 LR y desbloquea cartuchos de hasta 20 mm y 30 mm mientras ganas y reinviertes dinero.
+- Las **mejoras de pólvora** multiplican el valor de los cartuchos; algunas mejoras avanzadas alcanzan un **valor de 7x**.
+- La **automatización** (prensa automática, pólvora automática y embalaje automático) convierte la fábrica en una fuente de ingresos casi pasiva.
+- **Produce lotes desde el principio y con frecuencia**: los lotes grandes y las cajas de salida más grandes aumentan enormemente los ingresos.
+</Callout>
+
+<Section icon={Factory} title="Conceptos básicos de fabricación: cómo fabricar balas en BRASS HELL">
+
+Fabricar balas en BRASS HELL es un proceso de ensamblaje manual. Cada cartucho comienza como latón suelto, recibe pólvora y una punta de proyectil, y se termina en la prensa antes de sellarse en cajas para su entrega. Al principio haces cada paso a mano; más adelante, las mejoras automatizan la mayor parte del proceso.
+
+**Aspectos destacados del video:**
+- Demostración del ciclo completo de fabricación manual desde .22 LR hasta 20 mm
+- Progresión de las mejoras de pólvora con multiplicadores de valor reales
+- Mejoras de automatización: pólvora automática, prensa automática y embalaje automático
+- Escalado de la producción por lotes de 1 cartucho por ciclo a 100
+
+<YouTubeEmbed videoId="sOucCOzK52Q" title="Dirigir una fábrica de balas es un poco... horrible (Brass Hell - Roblox)" />
+
+<Callout type="tip" title="Empieza poco a poco">
+El modesto cartucho **.22 LR** solo genera unos centavos por bala, pero te enseña el ritmo exacto del ensamblaje. Domina el ciclo manual antes de gastar en mejoras: la memoria muscular te acompañará durante todo el juego.
+</Callout>
+
+El ciclo manual básico funciona así: acciona la prensa 10 veces, coloca el latón en la bandeja, deslízate hasta la estación de pólvora, arrastra la cantidad correcta de pólvora, coloca la punta del proyectil y acciona la prensa para terminar. La precisión es importante: no puedes simplemente recoger y volcar la pólvora, así que presta atención al medidor.
+
+</Section>
+
+<Section icon={Target} title="Tabla de progresión de calibres">
+
+Cada calibre de BRASS HELL se desbloquea con dinero y produce más valor por cartucho. A continuación se muestra la ruta general de progresión según los desbloqueos del juego:
+
+| Calibre | Etapa aproximada de desbloqueo | Cartuchos por ciclo | Notas |
+|---|---|---|---|
+| .22 LR | Calibre inicial | 1 (2 tras la mejora) | Ideal para satisfacer la demanda, bajo valor |
+| 9 mm | Inicial | 3 por ciclo | Cartucho de pistola común, ventas constantes |
+| .45 ACP | Inicial-media | 5 por ciclo | Cartucho divertido, beneficios moderados |
+| .357 | Media | ~10 por ciclo | Primer gran salto de producción por lotes (~890 $ por entrega) |
+| 5.56 | Media | 25 por ciclo | Caro por cartucho, buenos ingresos |
+| 7.62 / .308 | Media-avanzada | Lote | Cartuchos de rifle de alto valor |
+| 12 ga - 10 ga | Avanzada | Lote | Cartuchos de escopeta, línea de producción separada |
+| .50 BMG | Avanzada | Lote | Latón enorme, entregas de aproximadamente 500.000 $ |
+| 20 mm / 30 mm | Final del juego | 100 por ciclo | Una caja completa por ciclo, entregas de aproximadamente 16 M$ |
+
+<Callout type="warning" title="Los números de calibre funcionan al revés">
+Los calibres de escopeta **son más grandes cuanto menor es el número**: el calibre 10 es mayor que el calibre 12. No gastes de más pensando que el número más alto representa una mejora.
+</Callout>
+
+<Callout type="info" title="Consumo de materiales">
+Mejorar la cantidad de cartuchos por ciclo **no crea cartuchos de la nada**. Producir cinco cartuchos por ciclo consume hasta cinco unidades de latón o cobre por ciclo, así que mantén lleno el almacenamiento de materiales.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Prioridad de mejoras: qué comprar primero">
+
+No todas las mejoras son iguales. Sigue este orden de prioridad para aumentar tus ingresos lo más rápido posible:
+
+| Mejora | Efecto | Prioridad |
+|---|---|---|
+| Mejoras de pólvora | Multiplican el valor del cartucho (hasta **7x**) | ★★★★★ |
+| Lote grande | Más cartuchos por ciclo de producción | ★★★★★ |
+| Caja de salida más grande / almacenamiento de cartuchos | Permite manejar lotes grandes | ★★★★ |
+| Pólvora automática | Elimina el paso de verter con precisión | ★★★★ |
+| Prensa automática | La prensa termina los cartuchos automáticamente | ★★★★ |
+| Ayudante | Alimenta cartuchos por ciclo | ★★★ |
+| Embalaje automático | Sella los cartuchos terminados sin intervención | ★★★ |
+| Dispensador de latón | Los casquillos nuevos aparecen automáticamente | ★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Primeros compases">
+  - Compra primero **mejoras de pólvora**
+  - Mejora a 2 cartuchos por ciclo
+  - Vende cada caja inmediatamente
+  - Reinvirte todos los beneficios
+  </Card>
+  <Card title="Mitad del juego">
+  - Desbloquea **.357 y 5.56**
+  - Aumenta el almacenamiento y la caja de salida
+  - Contrata un ayudante para alimentar la máquina
+  - Agrupa las entregas para obtener grandes pagos
+  </Card>
+  <Card title="Final del juego">
+  - Cadena completa de **automatización**
+  - Producción de .50 BMG y 20 mm
+  - 100 cartuchos por ciclo
+  - Entregas de millones de dólares
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Regla de reinversión">
+Cada entrega importante debería financiar tu siguiente mejora. Saltarse mejoras para acumular dinero ralentiza el crecimiento compuesto: un aumento del 50 % en el valor de la pólvora se amortiza en unos pocos lotes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Proceso de producción paso a paso">
+
+Sigue este ciclo en cada sesión para mantener la fábrica funcionando con la máxima eficiencia:
+
+<Steps>
+  <Step num="1" title="Abastece los materiales">
+  Compra latón, cobre y pólvora en las tiendas. Habla con Ilya en la tienda de pólvora cuando necesites reabastecerte. Una mayor capacidad de materiales (hasta 1.500) significa hacer menos viajes.
+  </Step>
+  <Step num="2" title="Configura tu lote">
+  Carga la bandeja con casquillos de latón. Elige el calibre desbloqueado de mayor valor para maximizar los ingresos por ciclo.
+  </Step>
+  <Step num="3" title="Añade la pólvora con precisión">
+  Arrastra la pólvora hasta coincidir exactamente con el medidor; verterla malgasta materiales. Cuando compres la pólvora automática, este paso desaparecerá.
+  </Step>
+  <Step num="4" title="Coloca el proyectil y prensa">
+  Deja caer la punta del proyectil en la bandeja y acciona la palanca de la prensa. Con la prensa automática instalada, la palanca terminará los cartuchos por ti.
+  </Step>
+  <Step num="5" title="Sella y entrega">
+  Con el embalaje automático, los cartuchos terminados se cargan automáticamente en las cajas. Sella las cajas llenas, entrégalas al comprador y reinvierte el pago en tu siguiente mejora.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Vende por lotes">
+Espera a tener **grandes lotes sellados** antes de hacer una entrega. Una sola entrega sellada de 1.600 cartuchos puede valer alrededor de 100.000 $, lo que resulta mucho más eficiente que hacer viajes pequeños constantemente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de objetivos de producción">
+
+<Checklist
+  id="bullet-production-goals"
+  title="Hitos de la fábrica:"
+  items={[
+    "Fabricar manualmente tu primer cartucho .22 LR",
+    "Comprar la primera mejora del valor de la pólvora",
+    "Alcanzar 5 cartuchos por ciclo con .45 ACP",
+    "Completar una entrega de un lote de .357 de más de 1.000 $",
+    "Desbloquear 5.56 y alcanzar 25 cartuchos por ciclo",
+    "Instalar la automatización completa (pólvora, prensa y embalaje)",
+    "Producir .50 BMG y completar una entrega de 500.000 $",
+    "Alcanzar la producción final de 20 mm con 100 cartuchos por ciclo"
+  ]}
+/>
+
+<Callout type="warning" title="El turno de las 4:17">
+A medida que avances, ciertos elementos de la historia revelarán que la fábrica podría estar atrapada en un bucle: los registros de radio, los informes de cambio de turno y los recibos muestran **4:17**. Conserva los papeles que encuentres; forman parte de la narrativa, no son un error.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo fabrico balas en BRASS HELL por primera vez?",
+    answer: "Comienza con .22 LR: coloca el latón en la bandeja, arrastra la pólvora hasta el nivel exacto del medidor, coloca la punta del proyectil y acciona la prensa para terminar el cartucho. Entrega las cajas completadas al comprador para obtener dinero y financiar tus primeras mejoras."
+  },
+  {
+    question: "¿Cuál es la mejor mejora para comprar primero?",
+    answer: "Las mejoras de pólvora son la mejor compra inicial porque multiplican el valor de cada cartucho que produces. Un aumento del 50 % en el valor se nota de inmediato y se amortiza en unos pocos lotes."
+  },
+  {
+    question: "¿Las mejoras de cartuchos por ciclo crean materiales gratis?",
+    answer: "No. Producir cinco cartuchos por ciclo consume hasta cinco unidades de latón o cobre por ciclo. Las mejoras de almacenamiento de materiales y el reabastecimiento frecuente son esenciales cuando aumentas el tamaño de los lotes."
+  },
+  {
+    question: "¿Puedo automatizar por completo la producción de balas?",
+    answer: "Sí. Con la pólvora automática, la prensa automática, un ayudante y el embalaje automático instalados, tu función se reduce a abastecer los materiales y pulsar el botón final. Las configuraciones avanzadas producen una caja completa de munición por ciclo con una intervención mínima."
+  },
+  {
+    question: "¿Cuál es el calibre más grande que puedo fabricar?",
+    answer: "La línea de rifles llega hasta los cartuchos de 20 mm y 30 mm, con 100 cartuchos por ciclo. También hay cartuchos de escopeta de hasta calibre 10 en una ruta de producción separada, que requiere reiniciar parcialmente la configuración de la máquina."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Orden de mejoras de BRASS HELL: la mejor guía de prioridades del taller",
+  description: "Descubre el mejor orden de mejoras de BRASS HELL: qué mejoras del taller comprar primero, las prioridades por nivel y cómo aumentar rápidamente la producción y las ganancias de los envíos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/D78A32/fff?text=Upgrade+Order+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **orden de mejoras de BRASS HELL** debe centrarse primero en la velocidad de producción y el flujo de cajas.
+- Las **ganancias iniciales** deben reinvertirse de inmediato en lugar de acumularse después de tus primeros envíos.
+- Las **mejoras del valor de los envíos** empiezan a ser rentables cuando tu ciclo de producción básico funciona de forma constante.
+- Las **mejoras de comodidad** ocupan el último lugar: cómpralas solo después de cubrir las prioridades principales de producción.
+- Los **desbloqueos de munición** permiten fabricar proyectiles de mayor valor una vez que la velocidad de la prensa y el flujo de materiales pueden mantener el ritmo.
+</Callout>
+
+<Section icon={Wrench} title="Por qué importa el orden de mejoras en BRASS HELL">
+
+En BRASS HELL, cada pago que obtienes al entregar cajas representa una decisión: gastarlo en mejoras que se acumulan o guardarlo y quedarte atrás. Como el juego es un simulador incremental de fábrica basado en un ciclo repetible — operar la prensa, fabricar proyectiles, llenar cajas y entregar —, las mejoras que acortan ese ciclo generan más ganancias por sesión que las mejoras que solo aportan comodidad. Una compra inicial equivocada ralentiza todos los ciclos posteriores; una correcta hace que cada mejora siguiente sea relativamente más barata.
+
+El principio básico es sencillo: **compra primero lo que elimine tu cuello de botella actual**. Si la prensa está inactiva mientras reúnes materiales, las mejoras de velocidad importan menos que la gestión de materiales. Si las cajas se llenan más rápido de lo que puedes entregarlas, las mejoras de flujo tienen prioridad.
+
+| Síntoma del cuello de botella | Qué te está ralentizando | Prioridad de mejora |
+|---|---|---|
+| La prensa queda inactiva entre lotes | Recolección y reposición de materiales | Mejoras de gestión / logística |
+| Las cajas se llenan más rápido de lo que las entregas | Entrega y gestión de cajas | Mejoras del flujo de cajas |
+| Ciclos largos de prensa, envíos rápidos | Velocidad de producción | Mejoras de velocidad de la prensa |
+| Ciclo estable, bajo pago por caja | Valor del pedido | Mejoras de ganancias de los envíos |
+
+<Callout type="tip" title="Regla práctica del editor">
+Observa un ciclo completo desde la producción hasta la entrega antes de gastar. El paso en el que pasas más tiempo esperando es la categoría de mejora que deberías comprar a continuación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Orden de mejoras recomendado: clasificación por niveles">
+
+El orden de mejoras siguiente sigue la estructura de prioridades S/A/B utilizada en toda esta wiki. Refleja cómo escala realmente el ciclo de la fábrica: velocidad y flujo primero, valor después y comodidad al final.
+
+| Nivel | Categoría de mejora | Prioridad | Ideal para | Beneficio principal |
+|---|---|---|---|---|
+| S | Velocidad de producción | Primera prioridad | Principiantes que están creando su primer ciclo de ingresos | Más ciclos de producción por sesión |
+| S | Flujo de cajas | Primera prioridad | Jugadores que producen más rápido de lo que envían | Menos tiempo muerto entre lotes |
+| A | Ganancias de los envíos | Mejora importante | Jugadores de mitad de partida con producción estable | Mayores ganancias por cada entrega completada |
+| A | Desbloqueos de munición | Mejora importante | Progresión de fábrica a largo plazo | Acceso a proyectiles y objetivos avanzados |
+| B | Mejoras de comodidad | Situacional | Jugadores que ya tienen una rutina fluida | Menos fricción durante las partidas repetitivas |
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: velocidad primero">
+    - **Velocidad de producción**: reduce la duración de los ciclos de la prensa
+    - Multiplica directamente los envíos por hora
+    - Cómprala antes que cualquier otra mejora al principio
+  </Card>
+  <Card title="Nivel A: escalar el valor">
+    - **Ganancias de los envíos**: aumenta el pago por caja
+    - Es más potente cuando el ciclo es constante
+    - Combina bien con los desbloqueos de munición
+  </Card>
+  <Card title="Nivel B: calidad de vida">
+    - **Mejoras de comodidad**: movimiento y gestión
+    - Son útiles, pero nunca eliminan un cuello de botella
+    - Cómpralas después de cubrir las prioridades principales
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Error común">
+No malgastes tus primeros pagos en mejoras de comodidad o mejoras relacionadas con lo cosmético. Pueden resultar agradables, pero no acortan el ciclo de la fábrica, por lo que tus ingresos se mantienen estancados mientras los costes aumentan.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ruta de mejoras paso a paso">
+
+Sigue esta secuencia para convertir un taller nuevo, desde su primer envío, en una fábrica autosuficiente. Cada fase supone que la anterior ya produce de forma constante.
+
+<Steps>
+  <Step num="1" title="Establece el ciclo">
+    Completa varios ciclos de producción sin mejorar nada. Aprende a usar la prensa, la zona de cajas y la ruta de entrega para identificar tu verdadero cuello de botella en lugar de hacer suposiciones.
+  </Step>
+  <Step num="2" title="Compra tu primera mejora de velocidad">
+    Gasta el primer pago importante en velocidad de producción. Los ciclos más rápidos de la prensa significan más cajas completadas por sesión, lo que acelera cada compra posterior.
+  </Step>
+  <Step num="3" title="Corrige el flujo de cajas y entregas">
+    Cuando la prensa produzca más rápido de lo que puedes empaquetar y entregar, invierte en el flujo de cajas. El objetivo es que no haya tiempo de inactividad entre un lote terminado y un envío despachado.
+  </Step>
+  <Step num="4" title="Aumenta el valor de los envíos">
+    Con un ciclo constante, dirige el gasto hacia las mejoras de ganancias de los envíos. Cada entrega pagará más sin requerir más tiempo por tu parte.
+  </Step>
+  <Step num="5" title="Desbloquea munición avanzada">
+    Utiliza tus ingresos mejorados para avanzar hacia los desbloqueos de munición. Los proyectiles de nivel superior elevan el límite tanto de los pagos como de los objetivos de progresión a largo plazo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Comprobación del hito">
+Si puedes completar un ciclo completo de reunir, prensar, empaquetar y entregar sin esperar en ningún paso, tu orden de mejoras está funcionando: pasa a escalar el valor.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Orden de mejoras según el estilo de juego">
+
+Cada jugador se encuentra con cuellos de botella diferentes. Usa esta comparación para adaptar el orden estándar a tu situación.
+
+| Estilo de juego | Primera compra | Segunda compra | Dejar para el final | Notas |
+|---|---|---|---|---|
+| Principiante en solitario | Velocidad de la prensa | Flujo de cajas | Desbloqueos de munición | Crea un ciclo fiable antes de expandirte |
+| Grupo cooperativo (hasta 4) | Flujo de cajas | Ganancias de los envíos | Comodidad | Los roles se dividen de forma natural; los envíos son el punto de estrangulamiento |
+| Jugador centrado en la eficiencia | Velocidad de la prensa | Ganancias de los envíos | Comodidad | Maximiza el pago por tiempo de ciclo |
+| Explorador / cazador de historia | Comodidad (movimiento) | Velocidad de la prensa | Mejoras de valor | Un movimiento más rápido ayuda a buscar documentos entre pedidos |
+
+<Callout type="info" title="Nota sobre el modo cooperativo">
+Con hasta cuatro jugadores por servidor, que un jugador se encargue de la prensa mientras los demás gestionan el empaquetado y las entregas cambia los cálculos del cuello de botella: el flujo y el valor de las entregas adquieren mayor prioridad que en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de mejoras y relación con la progresión">
+
+Tu orden de mejoras también impulsa los sistemas de progresión. La actividad de producción y de envíos avanza el **Progreso de rango** y la **XP de maestría**, así que un ciclo más rápido también significa una progresión más veloz. Usa la lista para mantener el rumbo.
+
+<Checklist
+  id="upgrade-order-goals"
+  title="Hitos del orden de mejoras:"
+  items={[
+    "Completar 5 ciclos sin mejoras para identificar tu cuello de botella",
+    "Comprar la primera mejora de velocidad de producción",
+    "Eliminar el tiempo de inactividad entre prensar y entregar",
+    "Comprar la primera mejora de ganancias de los envíos",
+    "Desbloquear un proyectil de munición de nivel superior",
+    "Mantener la producción al máximo durante una sesión completa"
+  ]}
+/>
+
+| Sistema de progresión | Cómo ayuda el orden de mejoras | Precaución |
+|---|---|---|
+| XP de maestría | Los ciclos más rápidos significan más actividades que otorgan XP por sesión | Los pases de maestría no sustituyen el trabajo en la fábrica |
+| Progreso de rango | Más envíos completados hacen avanzar el rango más rápido | Evalúa los pases de rango por separado de los pases de maestría |
+| Multiplicadores por volumen | La producción en grandes cantidades combina bien con una alta velocidad de prensa | No des por hecho que los multiplicadores se acumulan sin confirmarlo dentro del juego |
+
+<Callout type="warning" title="La realidad de los pases del juego">
+Los pases de pago complementan el ciclo, pero nunca lo sustituyen. Ningún pase elimina la necesidad de prensar, empaquetar y entregar; un jugador gratuito con un mejor orden de mejoras ganará más que un usuario de pases con una estrategia deficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor orden de mejoras de BRASS HELL para principiantes?",
+    answer: "Empieza con la velocidad de producción, continúa con el flujo de cajas y después mejora las ganancias de los envíos. Este orden acorta primero el ciclo principal de la fábrica, lo que multiplica tus ingresos por sesión y facilita la compra de cada mejora posterior."
+  },
+  {
+    question: "¿Debería comprar mejoras de ganancias de los envíos antes que mejoras de velocidad?",
+    answer: "Por lo general, no. Las mejoras de ganancias aumentan el pago por entrega, pero las mejoras de velocidad aumentan la cantidad de entregas que puedes realizar. Al principio, más ciclos es mejor que ciclos más grandes. Cuando tu ciclo sea constante, cambia el enfoque hacia el valor."
+  },
+  {
+    question: "¿Cuándo debería desbloquear la munición avanzada dentro de mi orden de mejoras?",
+    answer: "Considera los desbloqueos de munición como una compra de nivel A para después de estabilizar tu ciclo de producción. Solo vale la pena fabricar proyectiles avanzados cuando la velocidad de la prensa y el flujo de materiales puedan abastecerlos sin detener el ciclo de envíos."
+  },
+  {
+    question: "¿Las mejoras de comodidad pueden formar parte de las primeras compras del orden de mejoras de BRASS HELL?",
+    answer: "Solo para los exploradores que buscan documentos ocultos entre pedidos, ya que la velocidad de movimiento tiene un valor adicional en ese caso. Para la producción pura, las mejoras de comodidad son de nivel B y deberían esperar hasta cubrir las prioridades principales de velocidad, flujo y valor."
+  }
+]} />
+
+</Section>

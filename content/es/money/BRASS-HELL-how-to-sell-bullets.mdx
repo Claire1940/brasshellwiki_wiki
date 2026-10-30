@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Coins, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL Cómo vender balas: guía de comercio paso a paso",
+  description: "Aprende a vender balas en BRASS HELL: los mejores vendedores, consejos de precios, clasificación de munición y estrategias de ganancias para obtener el máximo de chatarra.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=How+to+Sell+Bullets",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Cómo vender balas en BRASS HELL**: empieza con cualquier vendedor que acepte munición como categoría de venta
+- **Clasifica antes de vender**: separar la munición por calibre y tipo suele proporcionar mejores precios por unidad
+- **Mejor margen**: la munición de excedente y de fábrica sin usar se vende al precio más alto; las vainas disparadas valen mucho menos
+- **Evita venderlo todo**: conserva una reserva del calibre principal que utilizas en combate para sobrevivir
+- **La reputación del vendedor importa**: comerciar repetidamente desbloquea mejores tarifas con el tiempo
+</Callout>
+
+<Section icon={Package} title="Vender balas: conceptos básicos">
+
+Entender **cómo vender balas en BRASS HELL** se reduce a tres pilares: saber qué vendedores compran munición, conocer cómo fija el juego el precio de las distintas categorías de munición y reconocer cuándo es más conveniente conservar las existencias en lugar de liquidarlas. La munición es una de las clases de objetos más fáciles de comerciar del juego, lo que la convierte en una fuente fiable de ingresos al principio y en una herramienta de negociación flexible en las fases avanzadas.
+
+| Categoría de munición | Comprador habitual | Valor relativo | Dificultad de venta |
+| --- | --- | --- | --- |
+| Cartuchos nuevos de fábrica | Armeros, comerciantes generales | Alto | Fácil |
+| Munición militar excedente | Intendentes de facción | Medio-alto | Moderada |
+| Munición recargada a mano | Solo armeros | Medio | Requiere reputación |
+| Vainas de latón disparadas | Comerciantes de chatarra | Bajo | Fácil, solo en grandes cantidades |
+| Munición dañada o degradada | Solo comerciantes de chatarra | Muy bajo | Fácil |
+
+<Callout type="warning" title="No lo vendas todo">
+Los jugadores nuevos suelen vender todo su inventario de munición para conseguir dinero rápido y luego mueren en el siguiente encuentro de combate con el arma vacía. Conserva siempre al menos dos recargas completas de tu calibre principal antes de confirmar cualquier venta al por mayor.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Proceso de venta paso a paso">
+
+Sigue esta secuencia cada vez que planees vender balas. Maximiza los créditos que recibes y reduce al mínimo el riesgo de quedarte sin munición.
+
+<Steps>
+  <Step num="1" title="Audita tu inventario">
+    Abre el inventario y ordénalo por munición. Comprueba el calibre, el estado y la cantidad. Separa primero tu reserva —la munición que necesitas para tu equipamiento actual— antes de hacer cualquier otra cosa.
+  </Step>
+  <Step num="2" title="Clasifica y agrupa">
+    Agrupa los calibres idénticos y los niveles de estado en lotes. Los vendedores de BRASS HELL pagan el precio completo indicado por los lotes limpios y uniformes, y aplican descuentos a los lotes mezclados y sin clasificar.
+  </Step>
+  <Step num="3" title="Comprueba los precios de los vendedores">
+    Visita al menos a dos vendedores antes de vender. Los precios del mismo calibre pueden variar notablemente entre comerciantes y cambiar según las condiciones de oferta del juego. Compara los precios por unidad de lotes idénticos.
+  </Step>
+  <Step num="4" title="Vende a la mejor oferta">
+    Confirma la venta con el vendedor que pague más. Vende primero los lotes limpios y luego decide si los restos mezclados valen la pena con el descuento o si es mejor guardarlos para otro viaje.
+  </Step>
+  <Step num="5" title="Reinvierte con inteligencia">
+    Convierte una parte de tus ganancias en suministros, reparaciones o mejores armas antes de abandonar el centro comercial. El dinero inactivo no genera nada en BRASS HELL.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="La disciplina al agrupar da beneficios">
+Los lotes uniformes y clasificados suelen conseguir mejores precios por unidad que un inventario suelto y mezclado. Dedicar dos minutos a ordenar antes de una venta es una de las acciones con mayor valor por minuto dentro del ciclo económico del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Dónde vender: comparación de vendedores">
+
+No todos los compradores son iguales. Los distintos tipos de vendedores de BRASS HELL valoran la munición de manera diferente, y elegir al comprador adecuado es el factor individual más importante para aumentar tu margen de ganancias.
+
+<CardGrid cols={3}>
+  <Card title="Armeros">
+    - **Mejores precios** para la munición utilizable
+    - Compran cartuchos recargados a mano
+    - Pagan una prima por calibres raros
+    - Inventario y tarifas condicionados por la reputación
+  </Card>
+  <Card title="Comerciantes generales">
+    - Aceptan casi todos los tipos de munición
+    - Precios moderados y gran comodidad
+    - Ideales para descargar grandes cantidades en un solo lugar
+    - Se encuentran en la mayoría de los asentamientos
+  </Card>
+  <Card title="Comerciantes de chatarra">
+    - Únicos compradores de munición dañada
+    - Aceptan vainas disparadas en grandes cantidades
+    - Precios por unidad más bajos
+    - Buenos para deshacerse de peso inútil
+  </Card>
+</CardGrid>
+
+| Tipo de vendedor | Compra munición nueva | Compra vainas | Compra munición dañada | Tendencia de precios |
+| --- | --- | --- | --- | --- |
+| Armero | Sí | A veces | No | Más alta |
+| Comerciante general | Sí | A veces | Rara vez | Media |
+| Intendente de facción | Sí | No | No | Media-alta |
+| Comerciante de chatarra | Sí (bajo) | Sí | Sí | Más baja |
+
+<Callout type="info" title="La reputación desbloquea mejores tarifas">
+Los vendedores con los que comercies repetidamente tienden a ofrecer mejores tarifas y listas de compra más amplias con el tiempo. Concentrar tus ventas en uno o dos vendedores de confianza suele superar con creces la opción de repartir cada transacción por todo el mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Factores de precio: qué cambia el valor de la munición">
+
+Varios atributos determinan cuántos créditos puedes obtener por un lote de balas. Conocerlos te permite prever qué botín merece la pena llevar a casa.
+
+| Factor | Valor alto | Valor bajo |
+| --- | --- | --- |
+| Estado | Nuevo de fábrica, sin usar | Corroído, dañado |
+| Rareza | Calibres raros o avanzados | Cartuchos comunes de pistola o rifle |
+| Cantidad | Lotes grandes y uniformes | Lotes parciales dispersos |
+| Demanda | Calibres usados por armas potentes | Calibres obsoletos |
+| Embalaje | Lotes clasificados y etiquetados | Bolsas mezcladas |
+
+<Callout type="warning" title="Cuidado con la contaminación por cartuchos activos">
+Al igual que los recicladores de latón del mundo real rechazan los cartuchos activos mezclados con vainas disparadas, los vendedores de BRASS HELL aplican grandes descuentos —o rechazan directamente— los lotes en los que se mezclan cartuchos inutilizables o peligrosos. Revisa tus lotes antes de acercarte al mostrador.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategias de ganancias y lista de comprobación del vendedor">
+
+Más allá del ciclo básico de venta, algunos hábitos distinguen a los vendedores ocasionales de los jugadores que convierten la munición en una fuente de ingresos fiable.
+
+<Checklist
+  id="bullet-selling-goals"
+  title="Antes de cada recorrido de venta:"
+  items={[
+    "Separa una reserva de combate equivalente a dos recargas de tu calibre principal",
+    "Clasifica toda la munición en lotes uniformes por calibre y estado",
+    "Compara los precios de dos vendedores antes de comprometerte",
+    "Vende la munición dañada y las vainas a los comerciantes de chatarra por separado",
+    "Reinvierte las ganancias en equipo, reparaciones o suministros"
+  ]}
+/>
+
+<Callout type="success" title="Especialízate para obtener ganancias constantes">
+Los jugadores que se concentran en comerciar con un pequeño número de calibres de gran demanda aumentan más rápido la reputación con los vendedores, aprenden mejor los ritmos de los precios y dedican menos tiempo a la logística que quienes transportan de todo. Elige tu especialidad y aprovéchala.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo vendo balas en BRASS HELL?",
+    answer: "Clasifica tu munición en lotes uniformes, visita a un vendedor que compre munición —los armeros pagan más por los cartuchos utilizables—, compara los precios de dos vendedores y confirma la venta mientras conservas una reserva de combate de tu calibre principal."
+  },
+  {
+    question: "¿Quién paga más por la munición?",
+    answer: "Por lo general, los armeros ofrecen los mejores precios por unidad, especialmente para calibres nuevos de fábrica y calibres raros, y suelen ser los únicos vendedores que compran munición recargada a mano. Los comerciantes de chatarra pagan menos, pero aceptan munición dañada y vainas disparadas."
+  },
+  {
+    question: "¿Vale la pena vender vainas de latón disparadas?",
+    answer: "Sí, pero solo en grandes cantidades. Las vainas individuales casi no valen nada, así que acumula una cantidad considerable y véndela como un único lote limpio a un comerciante de chatarra para que el viaje merezca la pena."
+  },
+  {
+    question: "¿Debería conservar munición en lugar de venderla?",
+    answer: "Siempre. Conserva como mínimo dos recargas completas del calibre de tu arma principal y considera guardar los calibres raros si tienes cerca una mejora de arma que los utilice: su valor para ti puede superar su precio de venta."
+  }
+]} />
+
+</Section>

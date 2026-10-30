@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "BRASS HELL : comment jouer — Guide étape par étape de l'usine de munitions",
+  description: "Apprenez à jouer à BRASS HELL : maîtrisez le cycle de chargement des munitions, débloquez des calibres comme le 7.62, automatisez votre usine de balles et maximisez vos revenus.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=How+to+Play+Guide",
+  date: "2026-10-31",
+  author: "Équipe du Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Les bases pour jouer à BRASS HELL** : chargez la poudre, le laiton et les balles dans les douilles, puis vendez les cartouches terminées contre de l'argent.
+- **Boucle de jeu principale** : le chargement manuel rapporte de l'argent au début ; réinvestissez vos gains dans les presses et les améliorations d'automatisation.
+- **Déblocage des calibres** : la progression repose sur le déblocage de nouveaux calibres comme le 7.62, qui offrent des revenus plus élevés.
+- **Objectif de fin de partie** : construisez une chaîne de production entièrement automatisée, puis laissez-la fonctionner en AFK pendant que les revenus s'accumulent.
+- **Conseil essentiel** : les cycles de chargement parfaits augmentent la production — surveillez le compteur et synchronisez l'utilisation de vos presses.
+</Callout>
+
+<Section icon={Map} title="Comment jouer à BRASS HELL : la boucle de jeu principale">
+
+BRASS HELL est un simulateur de fabrication de munitions construit autour d'une boucle particulièrement satisfaisante : rassembler les composants, charger les munitions, vendre les cartouches terminées, puis améliorer votre installation jusqu'à ce que toute l'usine fonctionne seule. Chaque session commence par du travail manuel sur le banc de chargement et se termine — si vous progressez suffisamment — par une chaîne d'assemblage automatisée qui produit des boîtes de munitions pendant que vous récoltez les bénéfices.
+
+Les ressources principales que vous manipulez à chaque cycle sont simples, et comprendre leurs interactions est la première étape pour jouer efficacement.
+
+| Ressource | Rôle dans la production | Notes |
+|---|---|---|
+| Laiton | Base de la douille vide de chaque cartouche | Faites des stocks importants, car il est rapidement consommé |
+| Black Seal | Fonctionne comme de la poudre à canon | Composant propulsif essentiel |
+| Balles/Projectiles | Placés au sommet de chaque cartouche chargée | Associés aux douilles selon un ratio de 1:1 |
+| Cartouches terminées | Produit final vendable | Conditionnées par lots de 50 à 60 |
+| Argent | Gagné en vendant les boîtes de munitions | Finance les presses, l'automatisation et les améliorations |
+
+**Points forts de la vidéo :**
+- Le chargement manuel du 7.62 produit des boîtes de 50 à 60 cartouches par cycle
+- Les multiplicateurs de balles et les commandes en gros peuvent faire dépasser les 23 000 $ pour une seule vente
+- Order Masters, Auto Press et l'emballage automatique débloquent l'automatisation complète
+- En fin de partie, le jeu se transforme en revenus AFK une fois la chaîne entièrement automatisée
+
+<YouTubeEmbed videoId="RbnOoyPL__A" title="Fabriquer des BALLES dans BRASS HELL" />
+
+<Callout type="tip" title="Commencez intelligemment">
+Concentrez-vous sur un seul calibre à la fois. Répartir votre argent entre plusieurs améliorations de calibre au début ralentit votre progression vers le niveau d'automatisation, là où les véritables revenus commencent.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Étape par étape : de la première cartouche à l'automatisation complète">
+
+Suivez ce parcours de progression pour passer le plus efficacement possible du débutant au chargement manuel au propriétaire d'une usine automatisée.
+
+<Steps>
+  <Step num="1" title="Apprenez le cycle de chargement manuel">
+    Placez le laiton, versez la poudre (Black Seal), insérez la balle et terminez chaque cartouche. Répétez jusqu'à pouvoir effectuer le cycle rapidement et régulièrement. Au début, vos revenus proviennent entièrement de ce travail manuel.
+  </Step>
+  <Step num="2" title="Vendez en gros et suivez vos gains">
+    Conditionnez vos cartouches terminées et vendez-les par lots. Surveillez vos revenus par cycle : les commandes en gros et les multiplicateurs peuvent augmenter considérablement la valeur d'une seule vente.
+  </Step>
+  <Step num="3" title="Débloquez votre prochain calibre">
+    Économisez pour débloquer le calibre suivant, comme le 7.62. Les calibres supérieurs produisent davantage de cartouches par cycle et offrent des revenus nettement plus élevés par boîte.
+  </Step>
+  <Step num="4" title="Achetez des presses et des chargeurs">
+    Investissez d'abord dans un chargeur manuel, puis dans des presses automatisées. Chaque machine supprime une étape manuelle du cycle, ce qui vous permet de produire davantage de cartouches en cliquant moins.
+  </Step>
+  <Step num="5" title="Automatisez entièrement et passez en AFK">
+    Achetez Order Masters, Auto Press et l'emballage automatique afin que la poudre soit versée, que les cartouches soient assemblées et que les boîtes soient conditionnées sans intervention. Retirez les anciennes machines manuelles et laissez la chaîne fonctionner.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Surveillez vos approvisionnements">
+Les chaînes automatisées consomment rapidement les fournitures. Une usine en fonctionnement complet peut épuiser vos stocks de matériaux très vite : achetez les ressources avant qu'elles ne viennent à manquer, sinon la chaîne s'arrêtera.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Les améliorations les plus importantes">
+
+Toutes les améliorations ne valent pas leur prix. Voici les achats qui accélèrent le plus directement votre progression vers l'automatisation.
+
+<CardGrid cols={3}>
+  <Card title="Chargeur manuel">
+    - **Premier achat majeur**
+    - Accélère le cycle manuel
+    - Évolue bien avec les premiers calibres
+  </Card>
+  <Card title="Multiplicateur de balles">
+    - **Augmente la valeur de chaque vente**
+    - Multiplie les gains des boîtes vendues en gros
+    - Meilleur retour sur investissement avant l'automatisation
+  </Card>
+  <Card title="Auto Press + emballage">
+    - **Supprime toutes les étapes manuelles**
+    - Permet de générer de véritables revenus AFK
+    - Niveau final de la chaîne de production
+  </Card>
+</CardGrid>
+
+| Amélioration | Priorité | Niveau de coût | Impact |
+|---|---|---|---|
+| Chargeur manuel | ★★★★★ | Moyen | Chargement manuel plus rapide |
+| Multiplicateur de balles | ★★★★☆ | Moyen | Gains plus élevés à la vente |
+| Déblocage de nouveaux calibres | ★★★★☆ | Élevé | Davantage de cartouches par cycle |
+| Auto Press | ★★★★★ | Élevé | Supprime le travail d'assemblage |
+| Emballage automatique | ★★★★☆ | Élevé | Mise en boîte entièrement automatisée |
+| Order Masters | ★★★☆☆ | Faible à moyen | Utile une fois l'usine automatisée |
+
+<Callout type="success" title="Gains aux étapes clés">
+Les joueurs qui cumulent les multiplicateurs et les ventes de boîtes en gros rapportent des ventes individuelles comprises entre 23 000 $ et 50 000 $, tandis que les installations entièrement automatisées peuvent générer bien plus de 100 000 $ par session.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist des objectifs de progression">
+
+Utilisez cette checklist pour suivre votre parcours, de la première cartouche au magnat d'une usine inactive.
+
+<Checklist
+  id="brass-hell-goals"
+  title="Étapes de progression de BRASS HELL :"
+  items={[
+    "Terminer un premier cycle complet de chargement manuel",
+    "Économiser pour acheter un chargeur manuel",
+    "Débloquer un deuxième calibre (7.62)",
+    "Réaliser une vente unique d'une valeur d'au moins 23 000 $",
+    "Acheter Auto Press et l'emballage automatique",
+    "Construire une chaîne de production entièrement automatisée et prête pour l'AFK"
+  ]}
+/>
+
+<Callout type="info" title="La réalité de la fin de partie">
+Une fois votre chaîne entièrement automatisée, les possibilités de jeu actif se réduisent : la majeure partie de la boucle restante consiste à récolter des revenus AFK. Beaucoup de joueurs considèrent l'automatisation complète comme un point d'arrêt naturel ou commencent à optimiser un nouveau parcours avec un autre calibre.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Erreurs courantes et comment les éviter">
+
+Les nouveaux joueurs perdent régulièrement du temps et de l'argent à cause des mêmes erreurs. Évitez-les et votre vitesse de progression devrait presque doubler.
+
+| Erreur | Conséquence | Solution |
+|---|---|---|
+| Négliger les ventes en gros | Accumulation lente d'argent | Vendez toujours des boîtes complètes de 50 à 60 cartouches |
+| Ignorer les multiplicateurs | Cartouches sous-évaluées | Achetez les multiplicateurs avant de débloquer un nouveau calibre |
+| Sous-stocker les fournitures | Chaîne automatisée à l'arrêt | Achetez les matériaux en grandes quantités |
+| Conserver les machines manuelles | Usine encombrée et plus lente | Supprimez les stations obsolètes après une amélioration |
+| Obsession du cycle parfait | Temps perdu en fin de partie | Optimisez les chargements parfaits au début, puis automatisez |
+
+<Callout type="tip" title="Habitude d'efficacité">
+Réussir un cycle de chargement « parfait » (en atteignant des quantités exactes, comme 10 cartouches sur 60) offre un bonus de production au début. Une fois la production automatisée, consacrez plutôt cette attention à la gestion des approvisionnements.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Comment jouer à BRASS HELL quand on débute ?",
+    answer: "Commencez par charger manuellement les cartouches — laiton, poudre (Black Seal) et balle — puis conditionnez-les et vendez-les par lots de 50 à 60. Réinvestissez chaque gain dans des chargeurs et des multiplicateurs jusqu'à pouvoir vous offrir l'automatisation."
+  },
+  {
+    question: "Qu'est-ce que le Black Seal dans BRASS HELL ?",
+    answer: "Le Black Seal sert de composant de poudre à canon pour chaque cartouche. Il est versé dans les douilles en laiton pendant le cycle de chargement et est consommé en continu une fois votre chaîne de production automatisée."
+  },
+  {
+    question: "Comment débloquer de nouveaux calibres comme le 7.62 ?",
+    answer: "Les nouveaux calibres se débloquent en accumulant de l'argent grâce à la vente de munitions terminées. Concentrez-vous sur les ventes de boîtes en gros et les multiplicateurs de balles pour atteindre plus rapidement les seuils de déblocage des calibres."
+  },
+  {
+    question: "Y a-t-il une fin de partie après l'automatisation complète dans BRASS HELL ?",
+    answer: "Après avoir acheté Auto Press, l'emballage automatique et Order Masters, l'usine fonctionne sans intervention et la majeure partie du gameplay restant consiste à récolter des revenus AFK. Les joueurs optimisent généralement leurs approvisionnements ou recommencent une nouvelle progression à ce stade."
+  }
+]} />
+
+</Section>

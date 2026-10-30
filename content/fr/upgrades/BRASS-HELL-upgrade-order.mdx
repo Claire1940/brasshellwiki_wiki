@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ordre des améliorations de BRASS HELL : guide des priorités de l'atelier",
+  description: "Découvrez le meilleur ordre des améliorations de BRASS HELL : quelles améliorations d'atelier acheter en premier, les priorités par niveau et comment augmenter rapidement la production et les revenus des expéditions.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/D78A32/fff?text=Upgrade+Order+Guide",
+  date: "2026-10-31",
+  author: "Équipe du wiki BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **L'ordre des améliorations de BRASS HELL** doit donner la priorité à la vitesse de production et au débit des caisses avant toute autre chose.
+- Les **revenus du début** doivent être immédiatement réinvestis plutôt qu'épargnés après vos premières expéditions.
+- Les **améliorations de la valeur des expéditions** deviennent intéressantes une fois que votre boucle de production de base fonctionne régulièrement.
+- Les **améliorations de confort** arrivent en dernier : achetez-les uniquement après avoir couvert les priorités fondamentales de production.
+- Les **déblocages de munitions** donnent accès à des projectiles plus rentables lorsque la vitesse de la presse et le flux de matériaux peuvent les soutenir.
+</Callout>
+
+<Section icon={Wrench} title="Pourquoi l'ordre des améliorations est important dans BRASS HELL">
+
+Dans BRASS HELL, chaque paiement obtenu en livrant des caisses représente un choix : le dépenser dans des améliorations qui s'accumulent, ou le conserver et prendre du retard. Comme le jeu est un simulateur d'usine incrémental fondé sur une boucle répétable — utiliser la presse, fabriquer des projectiles, remplir les caisses, livrer — les améliorations qui raccourcissent cette boucle génèrent davantage de revenus par session que celles qui ajoutent seulement du confort. Un mauvais achat au début ralentit tous les cycles suivants ; un bon achat rend chaque amélioration ultérieure moins coûteuse en proportion.
+
+Le principe fondamental est simple : **achetez d'abord ce qui élimine votre goulot d'étranglement actuel**. Si la presse reste inactive pendant que vous récupérez des matériaux, les améliorations de vitesse sont moins importantes que celles liées à la gestion des matériaux. Si les caisses se remplissent plus vite que vous ne pouvez les livrer, les améliorations de débit deviennent prioritaires.
+
+| Symptôme du goulot d'étranglement | Ce qui vous ralentit | Priorité d'amélioration |
+|---|---|---|
+| La presse reste inactive entre deux lots | Collecte des matériaux et réapprovisionnement | Améliorations de gestion / logistique |
+| Les caisses se remplissent plus vite que vous ne les livrez | Livraison et gestion des caisses | Améliorations du débit des caisses |
+| Cycles de presse longs, expédition rapide | Vitesse de production | Améliorations de la vitesse de la presse |
+| Boucle régulière, faible paiement par caisse | Valeur de la commande | Améliorations des revenus d'expédition |
+
+<Callout type="tip" title="La règle générale de la rédaction">
+Observez un cycle complet, de la production à la livraison, avant de dépenser. L'étape pendant laquelle vous passez le plus de temps réel à attendre indique la catégorie d'amélioration à acheter ensuite.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ordre d'amélioration recommandé : classement par niveaux">
+
+L'ordre des améliorations ci-dessous suit la structure de priorité S/A/B utilisée dans tout ce wiki. Il reflète la manière dont la boucle de l'usine évolue réellement : la vitesse et le débit d'abord, la valeur ensuite, puis le confort.
+
+| Niveau | Catégorie d'amélioration | Priorité | Idéal pour | Avantage principal |
+|---|---|---|---|---|
+| S | Vitesse de production | Première priorité | Débutants qui construisent leur première source de revenus | Davantage de cycles de production par session |
+| S | Débit des caisses | Première priorité | Joueurs qui produisent plus vite qu'ils n'expédient | Moins de temps mort entre les lots |
+| A | Revenus des expéditions | Amélioration importante | Joueurs de milieu de partie avec une production stable | Meilleurs gains par livraison terminée |
+| A | Déblocages de munitions | Amélioration importante | Progression de l'usine à long terme | Accès à des projectiles et objectifs avancés |
+| B | Améliorations de confort | Situationnel | Joueurs ayant déjà une routine fluide | Moins de friction pendant les sessions répétées |
+
+<CardGrid cols={3}>
+  <Card title="Niveau S : la vitesse avant tout">
+    - **Vitesse de production** : réduit la durée des cycles de presse
+    - Multiplie directement le nombre d'expéditions par heure
+    - À acheter avant toute autre chose au début
+  </Card>
+  <Card title="Niveau A : faire évoluer la valeur">
+    - **Revenus des expéditions** : augmente le paiement par caisse
+    - Devient particulièrement efficace une fois la boucle régulière
+    - Se combine bien avec les déblocages de munitions
+  </Card>
+  <Card title="Niveau B : qualité de vie">
+    - **Améliorations de confort** : déplacement et manipulation
+    - Agréables, mais n'éliminent jamais un goulot d'étranglement
+    - À acheter après avoir couvert les priorités fondamentales
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Erreur fréquente">
+Ne consacrez pas vos premiers paiements aux améliorations de confort ou aux améliorations proches du cosmétique. Elles sont agréables, mais ne raccourcissent pas la boucle de l'usine : votre courbe de revenus reste donc plate tandis que les coûts augmentent.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Parcours d'amélioration étape par étape">
+
+Suivez cette séquence pour transformer un atelier fraîchement créé, depuis sa première expédition jusqu'à une usine autosuffisante. Chaque phase part du principe que la précédente produit régulièrement.
+
+<Steps>
+  <Step num="1" title="Établir la boucle">
+    Effectuez plusieurs cycles de production sans améliorer quoi que ce soit. Familiarisez-vous avec la presse, la zone des caisses et l'itinéraire de livraison afin d'identifier votre véritable goulot d'étranglement au lieu de deviner.
+  </Step>
+  <Step num="2" title="Acheter votre première amélioration de vitesse">
+    Dépensez votre premier paiement important dans la vitesse de production. Des cycles de presse plus rapides permettent de terminer davantage de caisses par session, ce qui accélère tous vos achats ultérieurs.
+  </Step>
+  <Step num="3" title="Améliorer le débit des caisses et des livraisons">
+    Lorsque la presse devient plus rapide que vos opérations d'emballage et de livraison, investissez dans le débit des caisses. L'objectif est de supprimer tout temps mort entre la fin d'un lot et l'expédition de la livraison.
+  </Step>
+  <Step num="4" title="Augmenter la valeur des expéditions">
+    Une fois la boucle régulière, orientez vos dépenses vers les améliorations des revenus d'expédition. Chaque livraison rapporte alors davantage sans vous demander plus de temps.
+  </Step>
+  <Step num="5" title="Débloquer les munitions avancées">
+    Utilisez vos revenus améliorés pour progresser vers les déblocages de munitions. Les projectiles de niveau supérieur augmentent le plafond des paiements et des objectifs de progression à long terme.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Vérification de l'étape">
+Si vous pouvez effectuer un cycle complet — collecte, presse, emballage et livraison — sans attendre une seule étape, votre ordre d'amélioration fonctionne : passez à l'augmentation de la valeur.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ordre des améliorations selon le style de jeu">
+
+Les joueurs rencontrent des goulots d'étranglement différents. Utilisez cette comparaison pour adapter l'ordre standard à votre situation.
+
+| Style de jeu | Premier achat | Deuxième achat | À repousser jusqu'à la fin | Remarques |
+|---|---|---|---|---|
+| Débutant en solo | Vitesse de la presse | Débit des caisses | Déblocages de munitions | Construisez une boucle fiable avant de vous développer |
+| Groupe en coop (jusqu'à 4) | Débit des caisses | Revenus des expéditions | Confort | Les rôles se répartissent naturellement ; l'expédition est le point de blocage |
+| Joueur axé efficacité | Vitesse de la presse | Revenus des expéditions | Confort | Maximise le paiement par durée de cycle |
+| Explorateur / chasseur de lore | Confort (déplacement) | Vitesse de la presse | Améliorations de valeur | Un déplacement plus rapide facilite la recherche de documents entre les commandes |
+
+<Callout type="info" title="Remarque sur la coop">
+Avec jusqu'à quatre joueurs par serveur, le fait qu'un joueur s'occupe de la presse pendant que les autres gèrent l'emballage et la livraison modifie les calculs du goulot d'étranglement : le débit et la valeur des livraisons deviennent plus prioritaires qu'en solo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist des améliorations et lien avec la progression">
+
+Votre ordre d'amélioration contribue également aux systèmes de progression. Les activités de production et d'expédition font progresser la **Progression de rang** et l'**XP de maîtrise** ; une boucle plus rapide accélère donc aussi votre progression. Utilisez la checklist pour rester sur la bonne voie.
+
+<Checklist
+  id="upgrade-order-goals"
+  title="Étapes clés de l'ordre des améliorations :"
+  items={[
+    "Effectuer 5 cycles sans amélioration pour identifier votre goulot d'étranglement",
+    "Acheter la première amélioration de vitesse de production",
+    "Éliminer le temps mort entre la presse et la livraison",
+    "Acheter la première amélioration des revenus d'expédition",
+    "Débloquer un projectile de munitions de niveau supérieur",
+    "Maintenir une production complète pendant toute une session"
+  ]}
+/>
+
+| Système de progression | Comment l'ordre des améliorations aide | Attention |
+|---|---|---|
+| XP de maîtrise | Des cycles plus rapides signifient davantage d'activités rapportant de l'XP par session | Les passes de maîtrise ne remplacent pas le travail à l'usine |
+| Progression de rang | Un plus grand nombre d'expéditions terminées accélère la progression de rang | Évaluez séparément les passes de rang et les passes de maîtrise |
+| Multiplicateurs de production en masse | Une production en masse s'associe bien à une vitesse de presse élevée | Ne supposez pas que les multiplicateurs se cumulent sans confirmation en jeu |
+
+<Callout type="warning" title="Vérification concernant les passes de jeu">
+Les passes de jeu payantes complètent la boucle, mais ne la remplacent jamais. Aucune passe ne supprime le besoin d'utiliser la presse, d'emballer et de livrer : un joueur gratuit ayant un meilleur ordre d'amélioration gagnera davantage qu'un détenteur de passe qui l'utilise mal.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur ordre des améliorations de BRASS HELL pour les débutants ?",
+    answer: "Commencez par la vitesse de production, puis améliorez le débit des caisses, et enfin les revenus des expéditions. Cet ordre raccourcit d'abord la boucle fondamentale de l'usine, ce qui multiplie vos revenus par session et rend chaque amélioration ultérieure plus facile à financer."
+  },
+  {
+    question: "Dois-je acheter les améliorations des revenus d'expédition avant celles de vitesse ?",
+    answer: "En général, non. Les améliorations de revenus augmentent le paiement de chaque livraison, tandis que les améliorations de vitesse augmentent le nombre de livraisons que vous pouvez effectuer. Au début, davantage de cycles vaut mieux que des cycles plus rentables. Une fois la boucle régulière, orientez-vous vers la valeur."
+  },
+  {
+    question: "Quand dois-je débloquer les munitions avancées dans mon ordre d'amélioration ?",
+    answer: "Considérez les déblocages de munitions comme un achat de niveau A à effectuer après avoir stabilisé votre boucle de production. Les projectiles avancés ne valent la peine d'être produits que lorsque la vitesse de la presse et le flux de matériaux peuvent les alimenter sans bloquer le cycle d'expédition."
+  },
+  {
+    question: "Les améliorations de confort ont-elles parfois leur place au début de l'ordre des améliorations de BRASS HELL ?",
+    answer: "Uniquement pour les explorateurs qui recherchent des documents cachés entre les commandes, car la vitesse de déplacement y apporte une valeur supplémentaire. Pour la production pure, les améliorations de confort sont de niveau B et doivent attendre que les priorités de vitesse, de débit et de valeur soient couvertes."
+  }
+]} />
+
+</Section>

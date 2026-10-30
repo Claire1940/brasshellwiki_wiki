@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL Best Upgrades: Priority Rankings & Build Tips",
+  description: "Learn which BRASS HELL upgrades to buy first, how to prioritize stats, and build strategies that carry you through the toughest encounters.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Best+Upgrades+Guide",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL best upgrades** start with survivability, then damage, then utility.
+- **Early-game priority**: health and defense upgrades keep runs alive longest.
+- **Mid-game shift**: offense scaling turns slow clears into fast farming loops.
+- **Avoid trap picks**: flashy utility upgrades often underperform versus raw stats.
+- **Respec carefully**: always test one upgrade at a time before committing further.
+</Callout>
+
+<Section icon={Sparkles} title="Upgrade System Overview">
+
+BRASS HELL rewards players who understand its upgrade economy. Every run presents branching upgrade choices, and the difference between a strong build and a failed run usually comes down to which upgrades you take in the first few minutes. Upgrades in BRASS HELL generally fall into four categories: **offense**, **defense**, **mobility**, and **economy**.
+
+<Callout type="tip" title="Core Principle">
+Survivability upgrades have the highest value early because dying resets your progress. Once you reliably survive encounters, damage upgrades become the best investment.
+</Callout>
+
+| Category | What It Covers | Best Timing | Risk Level |
+| --- | --- | --- | --- |
+| **Offense** | Damage, attack speed, crit | Mid to late game | Medium |
+| **Defense** | HP, armor, damage reduction | Early game | Low |
+| **Mobility** | Move speed, dash cooldowns | Anytime | Low |
+| **Economy** | Currency gain, upgrade rerolls | Early game | Medium |
+
+</Section>
+
+<Section icon={Swords} title="Best Upgrades Ranked by Priority">
+
+Use this ranking as a default template. Adjust based on your build, but these picks consistently perform well across most BRASS HHELL runs.
+
+<CardGrid cols={3}>
+  <Card title="Tier 1 - Must Take">
+    - **Max HP boosts**
+    - Damage reduction
+    - Core weapon damage
+    - Attack speed early
+  </Card>
+  <Card title="Tier 2 - Strong Picks">
+    - Crit chance stacking
+    - Dash cooldown reduction
+    - AoE expansion
+    - Currency multipliers
+  </Card>
+  <Card title="Tier 3 - Situational">
+    - Elemental effects
+    - Lifesteal at low HP
+    - Reroll charges
+    - Niche synergy picks
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Trap Upgrades">
+Avoid stacking multiple low-impact utility upgrades early. A single strong stat upgrade typically outperforms two weak synergy picks until your build comes online.
+</Callout>
+
+| Upgrade | Value Early | Value Late | Synergy Notes |
+| --- | --- | --- | --- |
+| Max HP | ★★★★★ | ★★★☆☆ | Pairs with lifesteal later |
+| Damage Reduction | ★★★★★ | ★★★★☆ | Best flat defense pick |
+| Weapon Damage | ★★★★☆ | ★★★★★ | Scales entire kit |
+| Attack Speed | ★★★★☆ | ★★★★☆ | Multiplies on-hit effects |
+| Crit Chance | ★★☆☆☆ | ★★★★★ | Needs investment to pay off |
+| Move Speed | ★★★☆☆ | ★★★☆☆ | Always useful, never amazing |
+| Currency Gain | ★★★★☆ | ★★☆☆☆ | Front-load for more rerolls |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Upgrade Path">
+
+Follow this sequence when starting a fresh run. It balances safety with damage output so you never fall behind either curve.
+
+<Steps>
+  <Step num="1" title="Secure Defense First">
+    Take the first health or damage reduction upgrade offered. This covers you against early burst damage and lets you play aggressively for resources.
+  </Step>
+  <Step num="2" title="Grab Economy Early">
+    If a currency or reroll upgrade appears within the first few choices, take it. Extra economy compounds across an entire run.
+  </Step>
+  <Step num="3" title="Commit to a Damage Core">
+    Pick one damage type and stack it. Splitting between physical and elemental scaling dilutes both and delays your power spike.
+  </Step>
+  <Step num="4" title="Add Attack Speed">
+    Once base damage is solid, attack speed multiplies every hit effect you have stacked so far.
+  </Step>
+  <Step num="5" title="Fill With Synergy">
+    Late choices should complete synergies: crit after damage stacks, lifesteal after Max HP, AoE after attack speed.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Checkpoint Rule">
+After every major upgrade, do one test fight. If your clear time dropped or you took unexpected damage, note which pick caused it and skip similar choices next run.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Build Archetypes and Upgrade Pairings">
+
+Different playstyles want different upgrade orders. Match your archetype before committing resources.
+
+| Archetype | Core Upgrades | Support Picks | Weakness |
+| --- | --- | --- | --- |
+| **Bruiser** | Max HP, damage reduction, weapon damage | Lifesteal, armor | Slow clears |
+| **Glass Cannon** | Weapon damage, crit, attack speed | Move speed, dash | Fragile vs bursts |
+| **Speedrunner** | Move speed, dash cooldown, attack speed | Light damage picks | Low burst ceiling |
+| **Farmer** | Currency gain, rerolls, AoE | Balanced stats | Slow boss kills |
+
+<Callout type="info" title="Hybrid Advice">
+If you are unsure which archetype fits you, start with the **Bruiser** template. It forgives mistakes and transitions smoothly into damage picks once you learn encounter patterns.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Run Goals Checklist">
+
+Track these milestones each run to measure whether your upgrade path is working.
+
+<Checklist
+  id="upgrade-goals"
+  title="Per-Run Milestones:"
+  items={[
+    "Secure one defense upgrade before first boss",
+    "Lock in a damage core by mid-run",
+    "Reach positive currency flow before late game",
+    "Complete at least one full synergy (crit or lifesteal)",
+    "Beat final encounter without dropping below 30% HP"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What are the best upgrades in BRASS HELL for beginners?",
+    answer: "Beginners should prioritize Max HP and damage reduction first, then weapon damage. Survivability upgrades keep runs alive long enough to learn enemy patterns, which matters more than raw damage when you are still mastering the game."
+  },
+  {
+    question: "Should I take damage or defense upgrades first?",
+    answer: "Take defense first in almost every case. Dying ends the run entirely, while slightly slower kills only cost time. Once you survive comfortably, shift fully into damage scaling."
+  },
+  {
+    question: "Are economy upgrades worth it?",
+    answer: "Yes, if they appear early. Currency and reroll upgrades compound over a whole run, letting you see more options and pick stronger synergies. Late-game economy picks are much weaker because there is less run left to benefit."
+  },
+  {
+    question: "Can I respec or change upgrades mid-run?",
+    answer: "Upgrade choices within a run are generally locked once taken, which is why testing one pick at a time matters. Treat each run as a learning iteration and adjust your opening picks on the next attempt."
+  }
+]} />
+
+</Section>

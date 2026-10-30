@@ -1,0 +1,174 @@
+import { Map, Target, Trophy, Factory, Package, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Produção de Munição em BRASS HELL: Guia Passo a Passo da Fábrica",
+  description: "Aprenda o ciclo completo de produção de munição em BRASS HELL: operação da prensa, reposição de materiais, embalagem de caixas e entrega de remessas para obter a máxima eficiência.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/D78A32/15191D?text=Bullet+Production+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guia rápido">
+- **A produção de munição em BRASS HELL** segue um ciclo repetível: prensar, reabastecer, embalar e entregar.
+- **Mantenha a prensa ativa** — cada minuto parada representa renda perdida neste simulador incremental.
+- **Prepare os materiais do próximo pedido** antes de despachar a remessa atual.
+- **Reinvista os primeiros pagamentos** principalmente em melhorias de velocidade de produção e fluxo de caixas.
+- **Existem bônus de produção em massa**, mas nunca presuma que os multiplicadores se acumulam, a menos que isso seja indicado no jogo.
+</Callout>
+
+<Section icon={Factory} title="Como funciona a produção de munição em BRASS HELL">
+
+A produção de munição é o ciclo principal de BRASS HELL, um simulador incremental de fábrica no Roblox ambientado em uma remota fábrica de munições coberta de neve. Você registra o início do turno, opera a prensa de munição, fabrica projéteis, enche caixas e despacha remessas em troca de pagamento. Quanto mais rápida e consistentemente você repetir esse ciclo, mais ganhará e mais cedo desbloqueará melhorias para a oficina.
+
+Cada parte do ciclo alimenta a etapa seguinte:
+
+| Etapa de produção | Entrada | Saída | Impacto direto |
+| --- | --- | --- | --- |
+| Coleta de materiais | Requisitos do pedido | Materiais preparados | Evita que a prensa fique parada |
+| Operação da prensa | Materiais preparados | Projéteis acabados | Principal fonte de renda |
+| Embalagem das caixas | Projéteis acabados | Caixas preenchidas | Necessária para a entrega |
+| Despacho da remessa | Caixas preenchidas | Pagamento | Financia melhorias |
+| Reabastecimento | Pagamento/estoque | Próximo lote | Mantém o ciclo em movimento |
+
+<Callout type="tip" title="Nota do editor">
+Trate o despacho como o fim de um ciclo e o ponto de partida do próximo — não como uma pausa. Jogadores que mantêm o ciclo em movimento contínuo ganham mais do que aqueles que param após cada pagamento.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Produção de munição passo a passo">
+
+Siga esta rota em cada ciclo de produção. Ela funciona desde o seu primeiro turno até as operações de produção em massa do fim do jogo.
+
+| Etapa | Ação | Observações de eficiência |
+| --- | --- | --- |
+| 1 | Revise o pedido ativo | Verifique as quantidades antes de usar a prensa |
+| 2 | Prepare os materiais na prensa | Peças faltantes interrompem o ciclo |
+| 3 | Execute os lotes na prensa | Retorne imediatamente após coletar a produção |
+| 4 | Reponha os insumos consumidos | Mantenha um pequeno estoque de trabalho por perto |
+| 5 | Preencha a caixa da remessa | Confira o conteúdo com base no pedido |
+| 6 | Despache e reinicie | Comece a preparação do próximo pedido imediatamente |
+
+<Steps>
+  <Step num="1" title="Colete e organize os materiais">
+    Reúna tudo o que o pedido ativo exige e mantenha os materiais perto da área da prensa. Identifique tudo o que precisa ser reabastecido antes de começar, para que a falta de materiais nunca interrompa a produção no meio do lote.
+  </Step>
+  <Step num="2" title="Opere a prensa de munição">
+    Carregue os materiais, execute a interação de produção e colete os projéteis acabados. Mantenha a máquina ativa sempre que houver insumos disponíveis — uma prensa parada é a maior perda de eficiência da fábrica.
+  </Step>
+  <Step num="3" title="Reabasteça a linha de produção">
+    Substitua os insumos consumidos após cada lote. Use uma rota de caminhada fixa entre a área de suprimentos e a prensa para reduzir o tempo de deslocamento ao longo de dezenas de ciclos.
+  </Step>
+  <Step num="4" title="Conclua o pedido da remessa">
+    Compare os produtos acabados com os requisitos do pedido e leve-os até a área de embalagem. Itens ausentes ou incorretos impedem a conclusão de todo o ciclo.
+  </Step>
+  <Step num="5" title="Embale e despache a caixa">
+    Carregue os produtos, finalize a caixa, despache o pedido e revise imediatamente o próximo pedido. Conclua o lote inteiro antes de fazer uma viagem de entrega, para que uma única viagem resolva tudo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evite este erro">
+Não entregue lotes parcialmente concluídos. Fazer várias viagens até o ponto de despacho para um único pedido desperdiça mais tempo do que qualquer outro erro comum nas primeiras operações de produção.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão e valor dos calibres">
+
+A munição em BRASS HELL segue o caminho de melhorias da fábrica. O melhor calibre em qualquer momento é o projétil desbloqueado de maior nível que sua oficina consegue produzir consistentemente sem desacelerar o ciclo completo de remessas.
+
+| Estágio de desbloqueio | Nível do calibre | Valor de produção | Melhor uso |
+| --- | --- | --- | --- |
+| Produção inicial | Projétil inicial | Básico | Aprender a usar a prensa, montar as primeiras caixas e iniciar o primeiro ciclo de renda |
+| Progressão inicial | Projétil intermediário | Aprimorado | Aumentar a qualidade das remessas quando os fundamentos estiverem consistentes |
+| Progressão avançada | Projétil avançado | Nível mais alto | Fábricas desenvolvidas que maximizam o retorno das remessas |
+
+<CardGrid cols={3}>
+  <Card title="Início do jogo">
+    - **Use projéteis iniciais** imediatamente
+    - Guarde os pagamentos para aumentar a velocidade da prensa
+    - Concentre-se em aprender as rotas
+  </Card>
+  <Card title="Meio do jogo">
+    - **Adote projéteis intermediários**
+    - Equilibre velocidade e valor
+    - Melhore o manuseio das caixas
+  </Card>
+  <Card title="Fim do jogo">
+    - **Use projéteis avançados**
+    - Concentre-se na produção em massa
+    - Maximize o valor por remessa
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Regra prática dos calibres">
+Um calibre inferior produzido em velocidade máxima geralmente supera um calibre superior que sua fábrica não consegue manter. A consistência é mais importante do que o valor máximo em um ciclo incremental.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhorias que aumentam a produção">
+
+As melhorias da oficina determinam a rapidez com que a atividade da fábrica se transforma em ganhos com as remessas. Priorize as melhorias que encurtam o ciclo de produção antes de comprar recursos de conveniência.
+
+| Prioridade | Tipo de melhoria | Efeito | Recomendado para |
+| --- | --- | --- | --- |
+| S | Velocidade de produção | Ciclos mais rápidos da prensa | Primeiro ciclo de renda confiável |
+| S | Fluxo de caixas | Preenchimento e manuseio mais rápidos das caixas | Quando o envio fica atrás da produção na prensa |
+| A | Ganhos com remessas | Maior valor de entrega | Produção estável no meio do jogo |
+| A | Desbloqueios de munição | Acesso a projéteis avançados | Progressão de longo prazo |
+| B | Conveniência | Movimentação e manuseio | Depois de cobrir as prioridades principais |
+
+<Callout type="success" title="Orientação para o caminho de melhorias">
+Invista primeiro em melhorias que reduzam o tempo dos ciclos da prensa e os atrasos no manuseio das caixas. Elas aumentam diretamente o número de remessas concluídas por sessão, o que se acumula e contribui para todas as melhorias posteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Lista de eficiência e multiplicadores">
+
+Os sistemas de progressão recompensam o trabalho consistente na fábrica. Progresso de Rank, XP de Maestria e multiplicadores de produção em massa são benefícios separados — use cada um conforme descrito no jogo e não presuma que eles se acumulam.
+
+<Checklist
+  id="production-goals"
+  title="Metas de produção por sessão:"
+  items={[
+    "Mantenha a prensa ativa sem nenhum intervalo ocioso",
+    "Conclua pelo menos uma caixa completa por viagem de entrega",
+    "Prepare antecipadamente os materiais do próximo pedido antes do despacho",
+    "Reinvista cada pagamento em melhorias de produção ou fluxo",
+    "Acompanhe quais melhorias realmente reduzem o tempo do seu ciclo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas frequentes sobre a produção de munição">
+
+<FAQ items={[
+  {
+    question: "Como começo a produzir munição em BRASS HELL?",
+    answer: "Registre o início do turno na fábrica, reúna os materiais do pedido ativo e opere a prensa de munição para fabricar os projéteis. Quando tiver munição acabada suficiente, preencha uma caixa de remessa e entregue-a no ponto de despacho para receber o pagamento."
+  },
+  {
+    question: "Qual é a maneira mais rápida de melhorar a eficiência da produção de munição?",
+    answer: "Reduza o tempo ocioso da prensa e elimine entregas parciais. Mantenha os materiais preparados perto da prensa, use uma rota fixa de caminhada para o reabastecimento e sempre conclua um lote completo antes de fazer uma viagem de entrega."
+  },
+  {
+    question: "Qual calibre devo produzir?",
+    answer: "Use o calibre mais alto que sua fábrica consiga produzir consistentemente sem interromper o ciclo de remessas. No início, projéteis iniciais produzidos em velocidade máxima são melhores do que projéteis avançados que você não consegue manter."
+  },
+  {
+    question: "Os multiplicadores de XP de Maestria, Progresso de Rank e produção em massa se acumulam?",
+    answer: "Trate-os como benefícios separados. Não presuma que os multiplicadores se combinam, a menos que uma descrição dentro do jogo indique explicitamente o contrário — use o efeito listado de cada passe exatamente como descrito."
+  }
+]} />
+
+</Section>

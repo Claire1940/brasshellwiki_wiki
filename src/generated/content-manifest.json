@@ -1,1 +1,570 @@
-{}
+{
+  "en": {
+    "boxes": [
+      {
+        "slug": "BRASS-HELL-box-guide",
+        "file": "BRASS-HELL-box-guide"
+      },
+      {
+        "slug": "BRASS-HELL-box-rewards",
+        "file": "BRASS-HELL-box-rewards"
+      },
+      {
+        "slug": "BRASS-HELL-boxes",
+        "file": "BRASS-HELL-boxes"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-get-boxes",
+        "file": "BRASS-HELL-how-to-get-boxes"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "BRASS-HELL-codes",
+        "file": "BRASS-HELL-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "BRASS-HELL-ammo-maker",
+        "file": "BRASS-HELL-ammo-maker"
+      },
+      {
+        "slug": "BRASS-HELL-bullet-crafting",
+        "file": "BRASS-HELL-bullet-crafting"
+      },
+      {
+        "slug": "BRASS-HELL-bullet-production",
+        "file": "BRASS-HELL-bullet-production"
+      },
+      {
+        "slug": "BRASS-HELL-crafting-guide",
+        "file": "BRASS-HELL-crafting-guide"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-bullets-faster",
+        "file": "BRASS-HELL-how-to-make-bullets-faster"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-bullets",
+        "file": "BRASS-HELL-how-to-make-bullets"
+      },
+      {
+        "slug": "BRASS-HELL-production-efficiency",
+        "file": "BRASS-HELL-production-efficiency"
+      }
+    ],
+    "events": [
+      {
+        "slug": "BRASS-HELL-event-guide",
+        "file": "BRASS-HELL-event-guide"
+      },
+      {
+        "slug": "BRASS-HELL-event-rewards",
+        "file": "BRASS-HELL-event-rewards"
+      },
+      {
+        "slug": "BRASS-HELL-halloween-event",
+        "file": "BRASS-HELL-halloween-event"
+      },
+      {
+        "slug": "BRASS-HELL-latest-update",
+        "file": "BRASS-HELL-latest-update"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "BRASS-HELL-basic-overview",
+        "file": "BRASS-HELL-basic-overview"
+      },
+      {
+        "slug": "BRASS-HELL-beginner-guide",
+        "file": "BRASS-HELL-beginner-guide"
+      },
+      {
+        "slug": "BRASS-HELL-best-strategy",
+        "file": "BRASS-HELL-best-strategy"
+      },
+      {
+        "slug": "BRASS-HELL-complete-guide",
+        "file": "BRASS-HELL-complete-guide"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-play",
+        "file": "BRASS-HELL-how-to-play"
+      },
+      {
+        "slug": "BRASS-HELL-progression-guide",
+        "file": "BRASS-HELL-progression-guide"
+      },
+      {
+        "slug": "BRASS-HELL-tips-and-tricks",
+        "file": "BRASS-HELL-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "BRASS-HELL-best-way-to-make-money",
+        "file": "BRASS-HELL-best-way-to-make-money"
+      },
+      {
+        "slug": "BRASS-HELL-fastest-way-to-earn-money",
+        "file": "BRASS-HELL-fastest-way-to-earn-money"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-money",
+        "file": "BRASS-HELL-how-to-make-money"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-sell-bullets",
+        "file": "BRASS-HELL-how-to-sell-bullets"
+      },
+      {
+        "slug": "BRASS-HELL-money-guide",
+        "file": "BRASS-HELL-money-guide"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "BRASS-HELL-best-upgrades",
+        "file": "BRASS-HELL-best-upgrades"
+      },
+      {
+        "slug": "BRASS-HELL-production-upgrades",
+        "file": "BRASS-HELL-production-upgrades"
+      },
+      {
+        "slug": "BRASS-HELL-upgrade-costs",
+        "file": "BRASS-HELL-upgrade-costs"
+      },
+      {
+        "slug": "BRASS-HELL-upgrade-guide",
+        "file": "BRASS-HELL-upgrade-guide"
+      },
+      {
+        "slug": "BRASS-HELL-upgrade-order",
+        "file": "BRASS-HELL-upgrade-order"
+      }
+    ]
+  },
+  "es": {
+    "boxes": [
+      {
+        "slug": "BRASS-HELL-box-guide",
+        "file": "BRASS-HELL-box-guide"
+      },
+      {
+        "slug": "BRASS-HELL-box-rewards",
+        "file": "BRASS-HELL-box-rewards"
+      },
+      {
+        "slug": "BRASS-HELL-boxes",
+        "file": "BRASS-HELL-boxes"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-get-boxes",
+        "file": "BRASS-HELL-how-to-get-boxes"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "BRASS-HELL-codes",
+        "file": "BRASS-HELL-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "BRASS-HELL-ammo-maker",
+        "file": "BRASS-HELL-ammo-maker"
+      },
+      {
+        "slug": "BRASS-HELL-bullet-crafting",
+        "file": "BRASS-HELL-bullet-crafting"
+      },
+      {
+        "slug": "BRASS-HELL-bullet-production",
+        "file": "BRASS-HELL-bullet-production"
+      },
+      {
+        "slug": "BRASS-HELL-crafting-guide",
+        "file": "BRASS-HELL-crafting-guide"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-bullets-faster",
+        "file": "BRASS-HELL-how-to-make-bullets-faster"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-bullets",
+        "file": "BRASS-HELL-how-to-make-bullets"
+      },
+      {
+        "slug": "BRASS-HELL-production-efficiency",
+        "file": "BRASS-HELL-production-efficiency"
+      }
+    ],
+    "events": [
+      {
+        "slug": "BRASS-HELL-event-guide",
+        "file": "BRASS-HELL-event-guide"
+      },
+      {
+        "slug": "BRASS-HELL-event-rewards",
+        "file": "BRASS-HELL-event-rewards"
+      },
+      {
+        "slug": "BRASS-HELL-halloween-event",
+        "file": "BRASS-HELL-halloween-event"
+      },
+      {
+        "slug": "BRASS-HELL-latest-update",
+        "file": "BRASS-HELL-latest-update"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "BRASS-HELL-basic-overview",
+        "file": "BRASS-HELL-basic-overview"
+      },
+      {
+        "slug": "BRASS-HELL-beginner-guide",
+        "file": "BRASS-HELL-beginner-guide"
+      },
+      {
+        "slug": "BRASS-HELL-best-strategy",
+        "file": "BRASS-HELL-best-strategy"
+      },
+      {
+        "slug": "BRASS-HELL-complete-guide",
+        "file": "BRASS-HELL-complete-guide"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-play",
+        "file": "BRASS-HELL-how-to-play"
+      },
+      {
+        "slug": "BRASS-HELL-progression-guide",
+        "file": "BRASS-HELL-progression-guide"
+      },
+      {
+        "slug": "BRASS-HELL-tips-and-tricks",
+        "file": "BRASS-HELL-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "BRASS-HELL-best-way-to-make-money",
+        "file": "BRASS-HELL-best-way-to-make-money"
+      },
+      {
+        "slug": "BRASS-HELL-fastest-way-to-earn-money",
+        "file": "BRASS-HELL-fastest-way-to-earn-money"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-money",
+        "file": "BRASS-HELL-how-to-make-money"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-sell-bullets",
+        "file": "BRASS-HELL-how-to-sell-bullets"
+      },
+      {
+        "slug": "BRASS-HELL-money-guide",
+        "file": "BRASS-HELL-money-guide"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "BRASS-HELL-best-upgrades",
+        "file": "BRASS-HELL-best-upgrades"
+      },
+      {
+        "slug": "BRASS-HELL-upgrade-costs",
+        "file": "BRASS-HELL-upgrade-costs"
+      },
+      {
+        "slug": "BRASS-HELL-upgrade-order",
+        "file": "BRASS-HELL-upgrade-order"
+      }
+    ]
+  },
+  "fr": {
+    "boxes": [
+      {
+        "slug": "BRASS-HELL-box-guide",
+        "file": "BRASS-HELL-box-guide"
+      },
+      {
+        "slug": "BRASS-HELL-box-rewards",
+        "file": "BRASS-HELL-box-rewards"
+      },
+      {
+        "slug": "BRASS-HELL-boxes",
+        "file": "BRASS-HELL-boxes"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-get-boxes",
+        "file": "BRASS-HELL-how-to-get-boxes"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "BRASS-HELL-codes",
+        "file": "BRASS-HELL-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "BRASS-HELL-ammo-maker",
+        "file": "BRASS-HELL-ammo-maker"
+      },
+      {
+        "slug": "BRASS-HELL-bullet-crafting",
+        "file": "BRASS-HELL-bullet-crafting"
+      },
+      {
+        "slug": "BRASS-HELL-bullet-production",
+        "file": "BRASS-HELL-bullet-production"
+      },
+      {
+        "slug": "BRASS-HELL-crafting-guide",
+        "file": "BRASS-HELL-crafting-guide"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-bullets-faster",
+        "file": "BRASS-HELL-how-to-make-bullets-faster"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-bullets",
+        "file": "BRASS-HELL-how-to-make-bullets"
+      },
+      {
+        "slug": "BRASS-HELL-production-efficiency",
+        "file": "BRASS-HELL-production-efficiency"
+      }
+    ],
+    "events": [
+      {
+        "slug": "BRASS-HELL-event-guide",
+        "file": "BRASS-HELL-event-guide"
+      },
+      {
+        "slug": "BRASS-HELL-event-rewards",
+        "file": "BRASS-HELL-event-rewards"
+      },
+      {
+        "slug": "BRASS-HELL-halloween-event",
+        "file": "BRASS-HELL-halloween-event"
+      },
+      {
+        "slug": "BRASS-HELL-latest-update",
+        "file": "BRASS-HELL-latest-update"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "BRASS-HELL-basic-overview",
+        "file": "BRASS-HELL-basic-overview"
+      },
+      {
+        "slug": "BRASS-HELL-beginner-guide",
+        "file": "BRASS-HELL-beginner-guide"
+      },
+      {
+        "slug": "BRASS-HELL-best-strategy",
+        "file": "BRASS-HELL-best-strategy"
+      },
+      {
+        "slug": "BRASS-HELL-complete-guide",
+        "file": "BRASS-HELL-complete-guide"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-play",
+        "file": "BRASS-HELL-how-to-play"
+      },
+      {
+        "slug": "BRASS-HELL-progression-guide",
+        "file": "BRASS-HELL-progression-guide"
+      },
+      {
+        "slug": "BRASS-HELL-tips-and-tricks",
+        "file": "BRASS-HELL-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "BRASS-HELL-best-way-to-make-money",
+        "file": "BRASS-HELL-best-way-to-make-money"
+      },
+      {
+        "slug": "BRASS-HELL-fastest-way-to-earn-money",
+        "file": "BRASS-HELL-fastest-way-to-earn-money"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-money",
+        "file": "BRASS-HELL-how-to-make-money"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-sell-bullets",
+        "file": "BRASS-HELL-how-to-sell-bullets"
+      },
+      {
+        "slug": "BRASS-HELL-money-guide",
+        "file": "BRASS-HELL-money-guide"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "BRASS-HELL-best-upgrades",
+        "file": "BRASS-HELL-best-upgrades"
+      },
+      {
+        "slug": "BRASS-HELL-upgrade-costs",
+        "file": "BRASS-HELL-upgrade-costs"
+      },
+      {
+        "slug": "BRASS-HELL-upgrade-order",
+        "file": "BRASS-HELL-upgrade-order"
+      }
+    ]
+  },
+  "pt": {
+    "boxes": [
+      {
+        "slug": "BRASS-HELL-box-guide",
+        "file": "BRASS-HELL-box-guide"
+      },
+      {
+        "slug": "BRASS-HELL-box-rewards",
+        "file": "BRASS-HELL-box-rewards"
+      },
+      {
+        "slug": "BRASS-HELL-boxes",
+        "file": "BRASS-HELL-boxes"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-get-boxes",
+        "file": "BRASS-HELL-how-to-get-boxes"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "BRASS-HELL-codes",
+        "file": "BRASS-HELL-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "BRASS-HELL-ammo-maker",
+        "file": "BRASS-HELL-ammo-maker"
+      },
+      {
+        "slug": "BRASS-HELL-bullet-crafting",
+        "file": "BRASS-HELL-bullet-crafting"
+      },
+      {
+        "slug": "BRASS-HELL-bullet-production",
+        "file": "BRASS-HELL-bullet-production"
+      },
+      {
+        "slug": "BRASS-HELL-crafting-guide",
+        "file": "BRASS-HELL-crafting-guide"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-bullets-faster",
+        "file": "BRASS-HELL-how-to-make-bullets-faster"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-bullets",
+        "file": "BRASS-HELL-how-to-make-bullets"
+      },
+      {
+        "slug": "BRASS-HELL-production-efficiency",
+        "file": "BRASS-HELL-production-efficiency"
+      }
+    ],
+    "events": [
+      {
+        "slug": "BRASS-HELL-event-guide",
+        "file": "BRASS-HELL-event-guide"
+      },
+      {
+        "slug": "BRASS-HELL-event-rewards",
+        "file": "BRASS-HELL-event-rewards"
+      },
+      {
+        "slug": "BRASS-HELL-halloween-event",
+        "file": "BRASS-HELL-halloween-event"
+      },
+      {
+        "slug": "BRASS-HELL-latest-update",
+        "file": "BRASS-HELL-latest-update"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "BRASS-HELL-basic-overview",
+        "file": "BRASS-HELL-basic-overview"
+      },
+      {
+        "slug": "BRASS-HELL-beginner-guide",
+        "file": "BRASS-HELL-beginner-guide"
+      },
+      {
+        "slug": "BRASS-HELL-best-strategy",
+        "file": "BRASS-HELL-best-strategy"
+      },
+      {
+        "slug": "BRASS-HELL-complete-guide",
+        "file": "BRASS-HELL-complete-guide"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-play",
+        "file": "BRASS-HELL-how-to-play"
+      },
+      {
+        "slug": "BRASS-HELL-progression-guide",
+        "file": "BRASS-HELL-progression-guide"
+      },
+      {
+        "slug": "BRASS-HELL-tips-and-tricks",
+        "file": "BRASS-HELL-tips-and-tricks"
+      }
+    ],
+    "money": [
+      {
+        "slug": "BRASS-HELL-best-way-to-make-money",
+        "file": "BRASS-HELL-best-way-to-make-money"
+      },
+      {
+        "slug": "BRASS-HELL-fastest-way-to-earn-money",
+        "file": "BRASS-HELL-fastest-way-to-earn-money"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-make-money",
+        "file": "BRASS-HELL-how-to-make-money"
+      },
+      {
+        "slug": "BRASS-HELL-how-to-sell-bullets",
+        "file": "BRASS-HELL-how-to-sell-bullets"
+      },
+      {
+        "slug": "BRASS-HELL-money-guide",
+        "file": "BRASS-HELL-money-guide"
+      }
+    ],
+    "upgrades": [
+      {
+        "slug": "BRASS-HELL-best-upgrades",
+        "file": "BRASS-HELL-best-upgrades"
+      },
+      {
+        "slug": "BRASS-HELL-upgrade-costs",
+        "file": "BRASS-HELL-upgrade-costs"
+      },
+      {
+        "slug": "BRASS-HELL-upgrade-order",
+        "file": "BRASS-HELL-upgrade-order"
+      }
+    ]
+  }
+}

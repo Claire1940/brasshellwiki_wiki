@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Meilleures améliorations de BRASS HELL : classement des priorités et conseils de build",
+  description: "Découvrez quelles améliorations de BRASS HELL acheter en premier, comment prioriser les statistiques et quelles stratégies de build vous permettront de traverser les affrontements les plus difficiles.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Best+Upgrades+Guide",
+  date: "2026-10-31",
+  author: "Équipe du Wiki BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Les meilleures améliorations de BRASS HELL** commencent par la survie, puis les dégâts et enfin l'utilité.
+- **Priorité en début de partie** : les améliorations de santé et de défense prolongent le plus longtemps les runs.
+- **Évolution en milieu de partie** : l'optimisation offensive transforme les éliminations lentes en boucles de farm rapides.
+- **Évitez les choix pièges** : les améliorations d'utilité impressionnantes sont souvent moins performantes que les statistiques brutes.
+- **Réinitialisez avec prudence** : testez toujours une amélioration à la fois avant de vous engager davantage.
+</Callout>
+
+<Section icon={Sparkles} title="Présentation du système d'améliorations">
+
+BRASS HELL récompense les joueurs qui comprennent son économie d'améliorations. Chaque run propose des choix d'améliorations à embranchements, et la différence entre un build puissant et un échec dépend généralement des améliorations choisies pendant les premières minutes. Les améliorations de BRASS HELL se répartissent généralement en quatre catégories : **offensive**, **défensive**, **mobilité** et **économie**.
+
+<Callout type="tip" title="Principe fondamental">
+Les améliorations de survie ont la plus grande valeur au début, car mourir réinitialise votre progression. Une fois que vous survivez régulièrement aux affrontements, les améliorations de dégâts deviennent le meilleur investissement.
+</Callout>
+
+| Catégorie | Ce qu'elle comprend | Meilleur moment | Niveau de risque |
+| --- | --- | --- | --- |
+| **Offensive** | Dégâts, vitesse d'attaque, coups critiques | Milieu à fin de partie | Moyen |
+| **Défensive** | PV, armure, réduction des dégâts | Début de partie | Faible |
+| **Mobilité** | Vitesse de déplacement, temps de recharge des dashs | N'importe quand | Faible |
+| **Économie** | Gain de monnaie, relances d'améliorations | Début de partie | Moyen |
+
+</Section>
+
+<Section icon={Swords} title="Classement des meilleures améliorations par priorité">
+
+Utilisez ce classement comme modèle par défaut. Adaptez-le à votre build, mais ces choix sont régulièrement efficaces dans la plupart des runs de BRASS HELL.
+
+<CardGrid cols={3}>
+  <Card title="Palier 1 - Indispensables">
+    - **Augmentations des PV max**
+    - Réduction des dégâts
+    - Dégâts de l'arme principale
+    - Vitesse d'attaque en début de partie
+  </Card>
+  <Card title="Palier 2 - Excellents choix">
+    - Accumulation de chances de coup critique
+    - Réduction du temps de recharge du dash
+    - Augmentation de la zone d'effet
+    - Multiplicateurs de monnaie
+  </Card>
+  <Card title="Palier 3 - Situationnels">
+    - Effets élémentaires
+    - Vol de vie avec peu de PV
+    - Charges de relance
+    - Choix de synergie spécialisés
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Améliorations pièges">
+Évitez d'empiler plusieurs améliorations d'utilité à faible impact au début. Une seule amélioration offrant une statistique puissante est généralement plus efficace que deux choix de synergie faibles, jusqu'à ce que votre build soit réellement opérationnel.
+</Callout>
+
+| Amélioration | Valeur en début de partie | Valeur en fin de partie | Notes de synergie |
+| --- | --- | --- | --- |
+| PV max | ★★★★★ | ★★★☆☆ | Se combine ensuite avec le vol de vie |
+| Réduction des dégâts | ★★★★★ | ★★★★☆ | Meilleur choix défensif direct |
+| Dégâts de l'arme | ★★★★☆ | ★★★★★ | Améliore l'ensemble du kit |
+| Vitesse d'attaque | ★★★★☆ | ★★★★☆ | Multiplie les effets à l'impact |
+| Chances de coup critique | ★★☆☆☆ | ★★★★★ | Nécessite un investissement pour devenir rentable |
+| Vitesse de déplacement | ★★★☆☆ | ★★★☆☆ | Toujours utile, jamais exceptionnelle |
+| Gain de monnaie | ★★★★☆ | ★★☆☆☆ | À prendre tôt pour obtenir davantage de relances |
+
+</Section>
+
+<Section icon={Target} title="Parcours d'améliorations étape par étape">
+
+Suivez cette séquence lorsque vous commencez un nouveau run. Elle équilibre la sécurité et les dégâts afin que vous ne preniez de retard sur aucune des deux progressions.
+
+<Steps>
+  <Step num="1" title="Assurez d'abord votre défense">
+    Prenez la première amélioration de santé ou de réduction des dégâts proposée. Elle vous protège contre les dégâts explosifs du début et vous permet de jouer agressivement pour obtenir des ressources.
+  </Step>
+  <Step num="2" title="Investissez tôt dans l'économie">
+    Si une amélioration de monnaie ou de relance apparaît parmi les premiers choix, prenez-la. Une économie supplémentaire produit des bénéfices cumulés sur l'ensemble du run.
+  </Step>
+  <Step num="3" title="Choisissez un noyau de dégâts">
+    Choisissez un type de dégâts et concentrez-vous dessus. Répartir vos investissements entre les dégâts physiques et élémentaires affaiblit les deux voies et retarde votre pic de puissance.
+  </Step>
+  <Step num="4" title="Ajoutez de la vitesse d'attaque">
+    Une fois vos dégâts de base solides, la vitesse d'attaque multiplie chaque effet à l'impact que vous avez accumulé jusque-là.
+  </Step>
+  <Step num="5" title="Complétez avec des synergies">
+    Les choix de fin de partie doivent compléter vos synergies : coups critiques après les améliorations de dégâts, vol de vie après les PV max et zone d'effet après la vitesse d'attaque.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Règle du point de contrôle">
+Après chaque amélioration majeure, faites un combat de test. Si votre temps d'élimination s'est amélioré ou si vous avez subi des dégâts inattendus, notez quel choix en est la cause et évitez les choix similaires lors du prochain run.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Archétypes de build et associations d'améliorations">
+
+Les différents styles de jeu nécessitent des ordres d'amélioration différents. Identifiez votre archétype avant d'engager vos ressources.
+
+| Archétype | Améliorations principales | Choix de soutien | Faiblesse |
+| --- | --- | --- | --- |
+| **Bruiser** | PV max, réduction des dégâts, dégâts de l'arme | Vol de vie, armure | Éliminations lentes |
+| **Glass Cannon** | Dégâts de l'arme, coups critiques, vitesse d'attaque | Vitesse de déplacement, dash | Fragile contre les dégâts explosifs |
+| **Speedrunner** | Vitesse de déplacement, temps de recharge du dash, vitesse d'attaque | Améliorations de dégâts légères | Potentiel de dégâts explosifs limité |
+| **Farmer** | Gain de monnaie, relances, zone d'effet | Statistiques équilibrées | Éliminations de boss lentes |
+
+<Callout type="info" title="Conseil pour les builds hybrides">
+Si vous ne savez pas quel archétype vous convient, commencez avec le modèle **Bruiser**. Il pardonne les erreurs et évolue naturellement vers des choix de dégâts une fois que vous avez appris les schémas des affrontements.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste des objectifs du run">
+
+Suivez ces étapes clés à chaque run pour mesurer l'efficacité de votre parcours d'améliorations.
+
+<Checklist
+  id="upgrade-goals"
+  title="Objectifs de chaque run :"
+  items={[
+    "Obtenir une amélioration défensive avant le premier boss",
+    "Définir un noyau de dégâts avant le milieu du run",
+    "Atteindre un flux de monnaie positif avant la fin de partie",
+    "Compléter au moins une synergie complète (coups critiques ou vol de vie)",
+    "Vaincre l'affrontement final sans descendre sous 30 % de PV"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quelles sont les meilleures améliorations de BRASS HELL pour les débutants ?",
+    answer: "Les débutants doivent d'abord privilégier les PV max et la réduction des dégâts, puis les dégâts de l'arme. Les améliorations de survie permettent de rester en vie assez longtemps pour apprendre les schémas des ennemis, ce qui est plus important que les dégâts bruts lorsque vous maîtrisez encore le jeu."
+  },
+  {
+    question: "Dois-je prendre les améliorations de dégâts ou de défense en premier ?",
+    answer: "Prenez la défense en premier dans presque tous les cas. Mourir met entièrement fin au run, tandis que des éliminations légèrement plus lentes ne coûtent que du temps. Une fois que vous survivez confortablement, concentrez-vous entièrement sur l'optimisation des dégâts."
+  },
+  {
+    question: "Les améliorations économiques en valent-elles la peine ?",
+    answer: "Oui, si elles apparaissent tôt. Les améliorations de monnaie et de relance produisent des bénéfices cumulés sur l'ensemble du run, vous permettant de voir davantage d'options et de choisir des synergies plus puissantes. Les choix économiques de fin de partie sont bien moins efficaces, car il reste moins de temps pour en profiter."
+  },
+  {
+    question: "Puis-je réinitialiser ou modifier mes améliorations en cours de run ?",
+    answer: "Les choix d'améliorations effectués pendant un run sont généralement verrouillés une fois sélectionnés, c'est pourquoi il est important de tester un choix à la fois. Considérez chaque run comme une étape d'apprentissage et ajustez vos choix de départ lors de la tentative suivante."
+  }
+]} />
+
+</Section>

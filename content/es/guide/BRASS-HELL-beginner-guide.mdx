@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía para principiantes de BRASS HELL: guía paso a paso del primer turno",
+  description: "Aprende el ciclo completo para principiantes de BRASS HELL: fichar, operar la prensa, fabricar munición, llenar cajas, entregar envíos y elegir tus primeras mejoras.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/D78A32/fff?text=Beginner+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía para principiantes de BRASS HELL**: Domina el ciclo completo de la fábrica, desde fichar hasta entregar envíos.
+- **Ciclo principal**: Prensa la munición, llena cajas, despacha pedidos y reinvierte en mejoras del taller.
+- **Máxima prioridad**: Las mejoras de velocidad que acortan los ciclos de producción van antes que las mejoras de comodidad.
+- **Consejo para el modo cooperativo**: Los servidores admiten hasta 4 jugadores, así que repartid las tareas de prensa, embalaje y entrega.
+- **Objetivo a largo plazo**: Explora para encontrar documentos ocultos y desbloquear la historia de la fábrica.
+</Callout>
+
+<Section icon={Map} title="Cómo empezar en BRASS HELL">
+
+BRASS HELL es un simulador incremental de fábrica en Roblox desarrollado por earlymoto102. Trabajas por turnos en una fábrica de munición remota y cubierta de nieve: operas la prensa, fabricas proyectiles, embalas cajas y entregas pedidos mientras descubres documentos que revelan la historia del lugar. El juego entró en acceso anticipado en octubre de 2026 y admite hasta 4 jugadores por servidor.
+
+Antes de tu primer turno, comprende los tres pilares de la progresión:
+
+| Pilar | Qué incluye | Enfoque para principiantes |
+|---|---|---|
+| Producción | Operar la prensa, fabricar proyectiles | Aprende la interacción con la prensa y el ritmo de los lotes |
+| Envíos | Cajas, pedidos, pagos por entrega | Completa los lotes enteros antes de realizar entregas |
+| Progresión | Mejoras del taller, XP de Maestría, Rango | Reinvierte primero las ganancias en velocidad |
+
+<Callout type="tip" title="Empieza con inteligencia">
+Completa un ciclo de producción entero antes de comprar nada. Ver primero todo el ciclo te ayudará a elegir con mucha más claridad tu primera mejora.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tu primer ciclo de producción: paso a paso">
+
+La ruta para principiantes consta de seis pasos. Repite este ciclo hasta que las ganancias te permitan financiar tu primera mejora del taller.
+
+<Steps>
+  <Step num="1" title="Fíchate en la fábrica">
+    Entra en la fábrica remota y ficha para activar tu sesión de trabajo. Recorre la zona inicial para localizar la prensa, las estaciones de fabricación, el área de cajas y la ruta de envíos antes de producir nada.
+  </Step>
+  <Step num="2" title="Opera la prensa">
+    Usa la prensa disponible y sigue las indicaciones de la estación. Repite la acción de producción hasta tener suficientes proyectiles para cumplir con los requisitos de tu primer envío.
+  </Step>
+  <Step num="3" title="Fabrica los proyectiles">
+    Convierte los materiales de la fábrica en proyectiles terminados. Mantén despejada el área de producción y continúa hasta completar la cantidad necesaria para una caja.
+  </Step>
+  <Step num="4" title="Llena las cajas de envío">
+    Lleva los proyectiles terminados al área de cajas y carga los contenedores de envío correctos. Comprueba el progreso de la caja antes de abandonar la zona de producción.
+  </Step>
+  <Step num="5" title="Entrega el envío">
+    Lleva la caja llena al punto de entrega y completa la transferencia. Este primer pago establece el ciclo de ganancias que financiará todo lo demás.
+  </Step>
+  <Step num="6" title="Reinvierte en mejoras del taller">
+    Gasta el pago en mejoras que hagan el ciclo más rápido o aumenten el valor de los envíos, en lugar de detenerte después de una sola entrega.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita este error de principiante">
+No hagas un viaje de entrega con un lote incompleto. Termina primero el pedido entero para que un solo viaje complete el envío y ahorre tiempo de desplazamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Materiales, reabastecimiento y eficiencia">
+
+Los jugadores eficientes tratan la fábrica como un ciclo continuo en lugar de una serie de tareas separadas. Las mayores pérdidas de tiempo son los desplazamientos y las máquinas inactivas.
+
+| Tarea | Desperdicio habitual | Hábito eficiente |
+|---|---|---|
+| Recolección de materiales | Recolectar materiales durante la producción | Prepara los materiales del siguiente pedido mientras embalas |
+| Operación de la prensa | Dejar la máquina inactiva entre lotes | Regresa inmediatamente después de recoger la producción |
+| Reabastecimiento | Esperar a que falten materiales | Mantén una pequeña reserva de trabajo cerca de la prensa |
+| Entrega | Hacer varios viajes parciales | Completa los pedidos por lotes y entrega una sola vez |
+
+<Callout type="success" title="Disciplina de ruta">
+Usa una ruta repetible entre el área de suministros, la prensa y la zona de cajas. Reducir el tiempo de desplazamiento es una de las primeras mejoras de eficiencia gratuitas del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Prioridades de mejoras para principiantes">
+
+Cuando las ganancias empiecen a llegar, el orden de las mejoras será importante. Las prioridades recomendadas para principiantes se centran en el rendimiento antes que en la comodidad.
+
+<CardGrid cols={3}>
+  <Card title="Velocidad de producción (Nivel S)">
+    - **Primera prioridad** para los jugadores nuevos
+    - Los ciclos de prensa más cortos permiten realizar más envíos por sesión
+    - Aumenta el valor de todas las mejoras posteriores
+  </Card>
+  <Card title="Rendimiento de las cajas (Nivel S)">
+    - Llena y manipula las cajas más rápido
+    - Evita que los envíos se conviertan en tu cuello de botella
+    - Es mejor cuando la producción supera la velocidad de embalaje
+  </Card>
+  <Card title="Ganancias de los envíos (Nivel A)">
+    - Aumenta el pago de cada entrega
+    - Cómprala cuando la producción sea constante
+    - Escala con la munición avanzada más adelante
+  </Card>
+</CardGrid>
+
+| Nivel de mejora | Enfoque | Cuándo comprar |
+|---|---|---|
+| S | Velocidad de producción, rendimiento de las cajas | Con los primeros pagos, antes que cualquier otra cosa |
+| A | Ganancias de los envíos, desbloqueos de munición | En la mitad de la partida, con un ciclo estable |
+| B | Movimiento y comodidad | Después de cubrir el rendimiento principal |
+
+<Callout type="info" title="Progresión de la munición">
+El mejor calibre es el más alto que tu fábrica pueda producir de forma constante sin ralentizar el ciclo de envíos. Usa el proyectil inicial mientras ahorras para las mejoras; después, adopta proyectiles intermedios y avanzados a medida que el taller se desarrolle.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Juego cooperativo, Maestría y documentos">
+
+Los servidores admiten 4 jugadores, así que coordina los roles para multiplicar la producción.
+
+| Rol | Responsabilidad | Jugador ideal |
+|---|---|---|
+| Operador de la prensa | Mantiene la producción en marcha continuamente | Cualquier jugador constante |
+| Recolector de materiales | Reabastece los insumos y prepara el siguiente pedido | Compañero rápido y atento |
+| Embalador | Llena y finaliza las cajas | Jugador detallista |
+| Repartidor | Entrega los envíos y regresa | Jugador que conoce la ruta |
+
+La progresión se divide en **XP de Maestría** y **Progreso de Rango**, que avanzan al continuar trabajando en la fábrica. Existen pases de juego relacionados con la progresión para cada sistema, pero trata sus efectos por separado a menos que el texto del juego los combine explícitamente, y no asumas que sus multiplicadores se acumulan.
+
+Explora entre ciclos. Hay documentos repartidos por oficinas, almacenes y pasillos periféricos alejados del ciclo principal. Estos documentos reconstruyen la historia oculta de la fábrica.
+
+<Callout type="tip" title="Explora entre pedidos">
+Busca en rincones, escritorios, estanterías y rutas poco transitadas después de completar un pedido. Vuelve a visitar las zonas por las que pasaste deprisa cuando conozcas mejor el diseño del lugar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de objetivos para principiantes">
+
+Completa estos hitos durante tus primeras sesiones.
+
+<Checklist
+  id="beginner-goals"
+  title="Hitos de la primera semana:"
+  items={[
+    "Completar un ciclo de producción entero, desde fichar hasta entregar el envío",
+    "Financiar tu primera mejora de velocidad de producción",
+    "Establecer una ruta de reabastecimiento repetible",
+    "Entregar cinco envíos en una sola sesión",
+    "Encontrar tu primer documento oculto",
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo de la primera sesión en BRASS HELL?",
+    answer: "Completa un ciclo entero: ficha, opera la prensa, fabrica un lote completo de proyectiles, llena una caja, entrégala y reinvierte el pago en una mejora de velocidad de producción."
+  },
+  {
+    question: "¿Debería comprar pronto mejoras de comodidad?",
+    answer: "No. Las mejoras de comodidad dependen de la situación. Prioriza primero la velocidad de producción y el rendimiento de las cajas para que cada sesión produzca más envíos; después añade mejoras de comodidad."
+  },
+  {
+    question: "¿Qué calibre debería usar un principiante?",
+    answer: "Usa el proyectil inicial mientras aprendes a manejar la prensa y ahorras para las mejoras del taller. Después, pasa a proyectiles intermedios y avanzados cuando tu fábrica pueda producirlos de forma constante."
+  },
+  {
+    question: "¿Tiene códigos BRASS HELL?",
+    answer: "Actualmente no hay confirmado ningún sistema oficial de canje de códigos. Evita las listas de códigos no verificadas y consulta la página oficial del juego en Roblox para conocer los anuncios."
+  },
+  {
+    question: "¿Cómo funcionan juntos la XP de Maestría y el Progreso de Rango?",
+    answer: "Son sistemas de progresión independientes que avanzan mediante el trabajo en la fábrica. Existen pases de juego relacionados con cada uno, pero no asumas que sus multiplicadores se acumulan a menos que la descripción del juego lo indique."
+  }
+]} />
+
+</Section>

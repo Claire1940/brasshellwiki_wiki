@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Coins, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "BRASS HELL How to Sell Bullets: Step-by-Step Trading Guide",
+  description: "Learn how to sell bullets in BRASS HELL: best vendors, pricing tips, ammo sorting, and profit strategies for maximum scrap returns.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=How+to+Sell+Bullets",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL how to sell bullets** starts at any trading vendor that accepts ammunition as a sellable category
+- **Sort before selling**: separating ammo by caliber and type consistently yields better unit prices
+- **Best margin**: surplus, unused factory ammo sells highest; spent casings are worth far less
+- **Avoid selling everything**: keep a reserve of your primary combat caliber for survival
+- **Vendor reputation matters**: repeat trading unlocks better rates over time
+</Callout>
+
+<Section icon={Package} title="Selling Bullets: The Basics">
+
+Understanding **how to sell bullets in BRASS HELL** comes down to three pillars: knowing which vendors buy ammunition, knowing how the game prices different ammo categories, and knowing when it is smarter to hold stock instead of liquidating it. Ammunition is one of the most consistently tradable item classes in the game, which makes it a reliable early-game income source and a flexible late-game bargaining chip.
+
+| Ammo Category | Typical Buyer | Relative Value | Sell Difficulty |
+| --- | --- | --- | --- |
+| Factory-new rounds | Gunsmiths, general traders | High | Easy |
+| Surplus military ammo | Faction quartermasters | Medium-High | Moderate |
+| Handloaded ammo | Gunsmiths only | Medium | Requires reputation |
+| Spent brass casings | Scrap dealers | Low | Easy, bulk only |
+| Damaged/degraded ammo | Scrap dealers only | Very Low | Easy |
+
+<Callout type="warning" title="Do Not Dump Everything">
+New players frequently sell their entire ammo inventory for quick cash, then die in the next combat encounter with an empty weapon. Always keep at least two full reloads of your primary caliber before confirming any bulk sale.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Selling Process">
+
+Follow this sequence every time you plan a bullet sale. It maximizes the credits you receive while minimizing the risk of getting stranded without ammo.
+
+<Steps>
+  <Step num="1" title="Inventory Audit">
+    Open your inventory and sort by ammunition. Check caliber, condition, and quantity. Set aside your reserve — the ammo you need for your current loadout — before anything else.
+  </Step>
+  <Step num="2" title="Sort and Stack">
+    Group identical calibers and condition tiers into stacks. Vendors in BRASS HELL pay full listed price for clean, matched stacks and discount mixed, unsorted lots.
+  </Step>
+  <Step num="3" title="Check Vendor Prices">
+    Visit at least two vendors before selling. Prices for the same caliber can vary noticeably between traders and shift with in-game supply conditions. Compare unit prices on identical stacks.
+  </Step>
+  <Step num="4" title="Sell to the Best Offer">
+    Confirm the sale with the highest-paying vendor. Sell clean stacks first, then decide whether mixed leftovers are worth the discount or better saved for a later trip.
+  </Step>
+  <Step num="5" title="Reinvest Smartly">
+    Convert a portion of your earnings into supplies, repairs, or better weapons before leaving the trading hub. Cash sitting idle earns nothing in BRASS HELL.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Stack Discipline Pays">
+Matched, sorted stacks consistently command better unit prices than loose mixed inventory. Spending two minutes sorting before a sale is one of the highest value-per-minute actions in the game's economy loop.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Where to Sell: Vendor Comparison">
+
+Not all buyers are equal. Different vendor types in BRASS HELL value ammunition differently, and picking the right buyer is the single biggest factor in your profit margin.
+
+<CardGrid cols={3}>
+  <Card title="Gunsmiths">
+    - **Best prices** on usable ammo
+    - Buy handloaded rounds
+    - Pay premium for rare calibers
+    - Reputation-gated stock and rates
+  </Card>
+  <Card title="General Traders">
+    - Accept almost all ammo types
+    - Moderate prices, high convenience
+    - Ideal for one-stop bulk unloading
+    - Located in most settlements
+  </Card>
+  <Card title="Scrap Dealers">
+    - Only buyer for damaged ammo
+    - Take spent casings in bulk
+    - Lowest unit prices
+    - Good for clearing dead weight
+  </Card>
+</CardGrid>
+
+| Vendor Type | Buys New Ammo | Buys Casings | Buys Damaged | Price Trend |
+| --- | --- | --- | --- | --- |
+| Gunsmith | Yes | Sometimes | No | Highest |
+| General Trader | Yes | Sometimes | Rarely | Medium |
+| Faction Quartermaster | Yes | No | No | Medium-High |
+| Scrap Dealer | Yes (low) | Yes | Yes | Lowest |
+
+<Callout type="info" title="Reputation Unlocks Better Rates">
+Vendors you trade with repeatedly tend to offer improved rates and expanded buy lists over time. Concentrating your sales with one or two trusted vendors generally outperances spreading every transaction across the map.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Pricing Factors: What Changes Ammo Value">
+
+Several attributes determine how many credits a bullet stack fetches. Knowing them lets you predict which loot is worth carrying home.
+
+| Factor | High Value | Low Value |
+| --- | --- | --- |
+| Condition | Factory-new, unused | Corroded, damaged |
+| Rarity | Rare or advanced calibers | Common pistol/rifle rounds |
+| Quantity | Large matched stacks | Scattered partial stacks |
+| Demand | Calibers used by strong weapons | Obsolete calibers |
+| Packaging | Sorted, labeled lots | Mixed dump bags |
+
+<Callout type="warning" title="Beware of Live-Round Contamination">
+Just as real-world brass recyclers refuse live rounds mixed into spent casings, BRASS HELL vendors heavily discount — or outright reject — lots where unusable or hazardous rounds are mixed in. Screen your stacks before you approach the counter.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Profit Strategies and Seller Checklist">
+
+Beyond the basic sale loop, a handful of habits separate casual sellers from players who turn ammunition into a dependable income stream.
+
+<Checklist
+  id="bullet-selling-goals"
+  title="Before Every Sale Run:"
+  items={[
+    "Set aside a two-reload combat reserve of your primary caliber",
+    "Sort all ammo into matched caliber and condition stacks",
+    "Compare prices at two vendors before committing",
+    "Sell damaged ammo and casings to scrap dealers separately",
+    "Reinvest proceeds into gear, repairs, or supplies"
+  ]}
+/>
+
+<Callout type="success" title="Specialize for Consistent Profits">
+Players who focus on trading a small number of high-demand calibers build vendor reputation faster, learn price rhythms better, and spend less time on logistics than players who haul everything. Pick your niche and work it.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I sell bullets in BRASS HELL?",
+    answer: "Sort your ammunition into matched stacks, visit a vendor that buys ammo — gunsmiths pay the most for usable rounds — compare prices at two vendors, and confirm the sale while keeping a combat reserve of your primary caliber."
+  },
+  {
+    question: "Who pays the most for ammunition?",
+    answer: "Gunsmiths generally offer the best unit prices, especially for factory-new and rare calibers, and they are usually the only vendors buying handloaded ammo. Scrap dealers pay the least but accept damaged ammo and spent casings."
+  },
+  {
+    question: "Is it worth selling spent brass casings?",
+    answer: "Yes, but only in bulk. Individual casings are nearly worthless, so accumulate large quantities and sell them as a single clean lot to a scrap dealer to make the trip worthwhile."
+  },
+  {
+    question: "Should I ever hold ammo instead of selling it?",
+    answer: "Always. Keep at least two full reloads of your primary weapon's caliber at minimum, and consider holding rare calibers if a weapon upgrade that uses them is within reach — their value to you can exceed their sale price."
+  }
+]} />
+
+</Section>

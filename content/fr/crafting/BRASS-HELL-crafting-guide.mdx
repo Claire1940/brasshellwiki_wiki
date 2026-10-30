@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide de fabrication de BRASS HELL : matériaux, recettes et meilleurs builds",
+  description: "Maîtrisez la fabrication dans BRASS HELL : itinéraires de collecte des matériaux, priorités des recettes, améliorations des postes de travail et meilleurs builds d'équipement pour le début et la fin du jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b45309/fff?text=Crafting+Guide",
+  date: "2026-10-31",
+  author: "Équipe du Wiki BRASS HELL"
+}
+
+<Callout type="info" title="Guide rapide">
+- **La fabrication dans BRASS HELL** repose sur le laiton récupéré, la ferraille d'acier et les alliages rares
+- **Donnez la priorité aux postes de travail** : les paliers de recettes ne se débloquent que sur des établis améliorés
+- **Meilleur build de début de jeu** : plaques de laiton renforcées pour une résistance aux dégâts à faible coût
+- **Objectif de fin de jeu** : armes forgées en alliage avec des modificateurs élémentaires
+- **Ne gaspillez jamais les alliages rares** dans des recettes de bas niveau que vous dépasserez rapidement
+</Callout>
+
+<Section icon={Map} title="Présentation du système de fabrication">
+
+Le système de fabrication de BRASS HELL est votre principale voie vers la puissance de fin de jeu. Les ennemis deviennent plus puissants que les objets obtenus dans le monde, si bien que les joueurs qui investissent dans les postes de travail et les réserves de matériaux prennent régulièrement l'avantage sur ceux qui comptent sur le butin aléatoire. Chaque objet fabriqué peut être modifié davantage sur des établis améliorés, ce qui fait de la fabrication un processus en deux étapes : forger l'objet de base, puis le perfectionner.
+
+**Piliers fondamentaux de la fabrication :**
+
+- **Matériaux** : récoltés sur des gisements, obtenus sur les ennemis et issus de la récupération
+- **Recettes** : débloquées grâce à la progression et à l'exploration
+- **Postes de travail** : établis qui conditionnent les paliers de recettes
+- **Perfectionnement** : améliorations après fabrication qui ajoutent des modificateurs
+
+<CardGrid cols={3}>
+  <Card title="Établi de forge">
+    - **Fabrication d'armes**
+    - Recettes des paliers 1 à 3
+    - Première amélioration prioritaire
+  </Card>
+  <Card title="Station de récupération">
+    - **Démonte l'équipement**
+    - Rend une partie des matériaux
+    - Finance les recettes rares
+  </Card>
+  <Card title="Four à alliage">
+    - **Recettes de fin de jeu**
+    - Combine les alliages rares
+    - Débloque les modificateurs élémentaires
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de l'éditeur">
+Récupérez chaque objet abandonné que vous ne comptez pas équiper. La ferraille ainsi obtenue s'accumule rapidement et devient la base de vos réserves de recettes du milieu de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Priorité de collecte des matériaux">
+
+Tous les matériaux ne se valent pas. Votre temps de collecte doit dépendre de la rareté et du rythme de consommation de chaque palier de ressources. Le tableau ci-dessous classe les matériaux les plus précieux selon leur rapport entre effort et récompense.
+
+| Matériau | Rareté | Source principale | Utilisation | Priorité |
+|---|---|---|---|---|
+| Ferraille de laiton | Courante | Tas de débris, ennemis basiques | Plaques, armes de bas niveau | ★★★ |
+| Morceaux d'acier | Peu commune | Gisements miniers, ennemis d'élite | Armes et armures de niveau intermédiaire | ★★★★ |
+| Alliage forgé en enfer | Rare | Butin de boss, gisements des zones profondes | Équipement de fin de jeu | ★★★★★ |
+| Poussière de braise | Peu commune | Récupération d'objets enchantés | Modificateurs élémentaires | ★★★★ |
+| Résine de liaison | Peu commune | Gisements végétaux, marchands | Fixation des modificateurs | ★★★ |
+
+<Callout type="warning" title="Erreur courante">
+Ne vendez pas vos morceaux d'acier en surplus au début d'une partie. Les recettes de niveau intermédiaire en consomment de grandes quantités, et les racheter aux marchands coûte beaucoup plus cher que leur prix de vente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progression de fabrication étape par étape">
+
+Suivez cette séquence pour bâtir une économie de fabrication qui vous accompagnera des premières zones jusqu'à la fin du jeu sans gaspiller vos ressources.
+
+<Steps>
+  <Step num="1" title="Établir l'établi de forge">
+    Terminez la quête initiale de l'atelier pour débloquer votre premier établi. Fabriquez immédiatement une arme basique en laiton afin d'accélérer la collecte en combat.
+  </Step>
+  <Step num="2" title="Construire la station de récupération">
+    Installez la récupération avant que votre inventaire ne se remplisse d'objets inutilisables. Déposez-y chaque objet superflu et constituez une réserve de ferraille de laiton et de morceaux d'acier.
+  </Step>
+  <Step num="3" title="Fabriquer des plaques de laiton renforcées">
+    Cette pièce de torse offre le meilleur rapport défense par matériau en début de jeu et reste efficace pendant les deux premières zones.
+  </Step>
+  <Step num="4" title="Passer aux recettes de palier 2">
+    Investissez vos morceaux d'acier dans une arme de niveau intermédiaire. La progression des dégâts devient plus importante que l'armure lorsque les points de vie des ennemis augmentent.
+  </Step>
+  <Step num="5" title="Débloquer le four à alliage">
+    Concentrez vos expéditions à la recherche d'alliage forgé en enfer dans les zones profondes, puis fabriquez votre première arme de fin de jeu et ajoutez-lui un modificateur élémentaire avec de la poussière de braise.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Point de contrôle">
+À la fin de l'étape 5, vous devriez disposer d'une arme de palier 3, d'un ensemble complet d'armure de niveau intermédiaire et d'une réserve croissante de modificateurs — la référence standard pour être prêt pour la fin du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Meilleurs builds d'équipement fabriqué">
+
+Trois builds dominent les équipements fabriqués, chacun étant adapté à un style de jeu différent. Comparez leurs points forts avant d'utiliser vos alliages rares.
+
+| Build | Objets fabriqués principaux | Points forts | Faiblesses |
+|---|---|---|---|
+| Rempart | Ensemble complet d'armure en laiton et en acier | **Grande survivabilité**, matériaux peu coûteux | Mobilité réduite, éliminations lentes |
+| Escarmoucheur | Armure légère en acier, lame rapide | **Grande vitesse**, puissant contre une seule cible | Fragile face aux boss |
+| Artificier | Arme en alliage + modificateurs de braise | **Dégâts élémentaires**, polyvalence | Très gourmand en matériaux, démarrage lent |
+
+<CardGrid cols={3}>
+  <Card title="Rempart">
+    - Idéal pour les nouveaux joueurs
+    - Coûts en matériaux les plus faibles
+    - Excellent lors des combats prolongés
+  </Card>
+  <Card title="Escarmoucheur">
+    - Vitesse de collecte la plus élevée
+    - Puissant contre les ennemis d'élite
+    - Nécessite un bon timing d'esquive
+  </Card>
+  <Card title="Artificier">
+    - Plafond de dégâts le plus élevé
+    - Grande couverture élémentaire
+    - Build très rentable en fin de jeu
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de perfectionnement">
+Appliquez les modificateurs de poussière de braise uniquement aux objets de palier 3. Le coût des modificateurs ne se transfère pas d'un objet à l'autre : perfectionner un équipement de bas niveau gaspille donc définitivement cette ressource.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Liste des objectifs de fabrication">
+
+Suivez votre progression avec cette liste d'étapes importantes avant de vous aventurer dans les zones finales.
+
+<Checklist
+  id="crafting-goals"
+  title="Étapes essentielles de fabrication :"
+  items={[
+    "Débloquer l'établi de forge et fabriquer la première arme",
+    "Construire la station de récupération et stocker plus de 100 ferrailles de laiton",
+    "Fabriquer un ensemble complet d'armure en laiton renforcé",
+    "Améliorer les postes de travail au palier 2",
+    "Débloquer le four à alliage et fabriquer une arme de palier 3",
+    "Appliquer le premier modificateur élémentaire avec de la poussière de braise"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "La fabrication est-elle plus intéressante que la collecte de butin dans BRASS HELL ?",
+    answer: "Pour une progression régulière, oui. L'équipement fabriqué évolue de manière prévisible avec le palier de votre poste de travail, tandis que le butin du monde est aléatoire. Les expéditions les plus efficaces combinent les deux : récupérez des matériaux sur les ennemis, puis fabriquez l'équipement exact dont votre build a besoin."
+  },
+  {
+    question: "Quel est le matériau le plus important de ce guide de fabrication ?",
+    answer: "Les morceaux d'acier. Ils font le lien entre le début et le milieu du jeu, apparaissent dans presque toutes les recettes de palier 2 et sont consommés en grandes quantités. Les mettre de côté tôt vous évite des achats coûteux auprès des marchands plus tard."
+  },
+  {
+    question: "Puis-je récupérer les matériaux d'un objet fabriqué ?",
+    answer: "Partiellement. La récupération d'un objet fabriqué rend une fraction de ses matériaux, mais les alliages rares et les coûts des modificateurs, comme la poussière de braise, sont perdus. C'est pourquoi vous ne devriez appliquer des modificateurs qu'à l'équipement de palier 3."
+  },
+  {
+    question: "Quel build un nouveau joueur devrait-il fabriquer en premier ?",
+    answer: "Le build Rempart. Les plaques de laiton renforcées sont peu coûteuses, indulgentes et vous maintiennent en vie pendant que vous apprenez les patterns des ennemis. Passez à l'Escarmoucheur ou à l'Artificier une fois que vos revenus de morceaux d'acier sont stables."
+  }
+]} />
+
+</Section>

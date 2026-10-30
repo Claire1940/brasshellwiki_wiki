@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "BRASS HELL Guide: Beginner Walkthrough, Upgrades & Factory Tips",
+  description: "Learn the full BRASS HELL loop: press operations, ammo crafting, crate packing, shipments, upgrades, mastery, and hidden documents.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/D78A32/15191D?text=BRASS+HELL+Guide",
+  date: "2026-10-31",
+  author: "BRASS HELL Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **BRASS HELL** is a Roblox incremental factory simulator set in a snowbound ammunition plant
+- **Core loop**: clock in, operate the press, craft rounds, fill crates, deliver shipments, reinvest in upgrades
+- **Servers hold up to 4 players**, so co-op shifts split the production workload efficiently
+- **Best early strategy**: prioritize production speed and crate throughput before convenience upgrades
+- **Hidden documents** scattered around the factory reveal the story behind the isolated facility
+</Callout>
+
+<Section icon={Map} title="BRASS HELL Overview: The Factory at a Glance">
+
+BRASS HELL drops you into a remote ammunition factory surrounded by a raging blizzard. Created by developer earlymoto102 and released in early access in October 2026, the game builds a repeatable factory loop around pressing rounds, packing crates, and shipping orders. Every payout feeds back into workshop upgrades that make the next cycle faster and more profitable.
+
+| Project | Information |
+| --- | --- |
+| Game name | BRASS HELL |
+| Roblox title | [UPD] BRASS HELL [INCREMENTAL] |
+| Genre | Incremental / Factory Simulator |
+| Developer | earlymoto102 |
+| Platform | Roblox |
+| Created | October 4, 2026 |
+| Server size | 4 players |
+| Current stage | Early Release |
+
+<Callout type="info" title="Early Release Status">
+BRASS HELL is still in early release. Mechanics, upgrade prices, and ammunition lists may change between updates, so treat specific numbers as snapshots of the current build rather than permanent values.
+</Callout>
+
+The game rewards players who keep the production line moving. Idle machines, empty crates, and long walking routes are the three biggest income killers, and nearly every strategy in this guide addresses at least one of them.
+
+</Section>
+
+<Section icon={Package} title="Beginner Walkthrough: Your First Production Cycle">
+
+New workers should focus on completing one full cycle — press to payout — before experimenting with shortcuts. The loop below follows the route the factory is designed around.
+
+<Steps>
+  <Step num="1" title="Clock In at the Factory">
+    Enter the facility and clock in to activate your work session. Walk the starting area to locate the press, crafting stations, crate zone, and delivery route before producing anything.
+  </Step>
+  <Step num="2" title="Operate the Press">
+    Use the available press to begin manufacturing rounds. Follow the station prompts and repeat the production action until you have enough ammunition for a complete crate.
+  </Step>
+  <Step num="3" title="Craft Ammunition Rounds">
+    Convert factory materials into finished rounds. Keep the production floor clear and continue crafting until the required crate quantity is met.
+  </Step>
+  <Step num="4" title="Fill the Shipment Crates">
+    Carry finished rounds to the crate area and load them into the correct shipment containers. Double-check crate progress before leaving the floor.
+  </Step>
+  <Step num="5" title="Deliver the Shipment">
+    Move the filled crate to the delivery point and complete the handoff. This first payout establishes the earnings loop that funds every future upgrade.
+  </Step>
+  <Step num="6" title="Reinvest in Upgrades">
+    Spend early payouts on upgrades that shorten the production cycle or raise shipment value instead of banking cash. Reinvestment compounds across every future run.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Efficiency Habit">
+Prepare materials for the next order while the current shipment is being packed. The press should never sit idle between batches — treat dispatch as the start of the next cycle, not the end of the last one.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Best Upgrades: Priority Order for New and Advanced Workers">
+
+Upgrade priorities should mirror the bottleneck in your factory loop. If you produce faster than you can ship, fix crate throughput first. If the press is the bottleneck, invest in production speed.
+
+<CardGrid cols={3}>
+  <Card title="Tier S: Production Speed">
+    - **Shortest cycle time** per batch
+    - Best first purchase for beginners
+    - More cycles per play session
+  </Card>
+  <Card title="Tier S: Crate Throughput">
+    - **Fills and moves crates faster**
+    - Fixes gaps between batches and delivery
+    - Reduces shipment downtime
+  </Card>
+  <Card title="Tier A: Shipment Earnings">
+    - **Higher payout per delivery**
+    - Best once production is stable
+    - Scales with mid-game consistency
+  </Card>
+</CardGrid>
+
+| Tier | Upgrade Focus | Best For | Main Benefit |
+| --- | --- | --- | --- |
+| S | Production speed | Beginners | Faster press cycles |
+| S | Crate throughput | Players outpacing shipments | Shorter delivery gaps |
+| A | Shipment earnings | Mid-game workers | Greater returns per order |
+| A | Ammunition unlocks | Advanced planners | Access to stronger rounds |
+| B | Convenience upgrades | Comfort-focused players | Smoother daily routine |
+
+<Callout type="warning" title="Avoid This Mistake">
+Do not buy convenience upgrades — movement speed, handling quality-of-life features — before your production and shipment priorities are covered. Convenience does not increase income per hour; throughput does.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ammo Progression: Choosing the Best Caliber">
+
+Ammunition in BRASS HELL follows the workshop upgrade path. The best caliber is the highest round your factory can produce consistently without stalling the full shipment cycle.
+
+| Unlock Stage | Caliber Tier | Production Value | Practical Use |
+| --- | --- | --- | --- |
+| Starting production | Starter round | Entry-level | Learning the press, first crates, building income |
+| Early progression | Intermediate round | Improved | Raising shipment quality once basics are stable |
+| Advanced progression | Advanced round | Highest tier | Maximizing returns in developed factories |
+
+<Callout type="tip" title="Caliber Rule of Thumb">
+A high-value round you cannot supply consistently earns less than a lower-tier round produced without interruptions. Match your caliber choice to your material flow, not just its listed value.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mastery, Ranks, and Making Money Fast">
+
+BRASS HELL separates Rank Progress from Mastery XP, and its paid game passes offer distinct progression boosts. Treat Mastery XP, Rank Progress, and Bulk multipliers as separate benefits — do not assume they stack multiplicatively unless an in-game description says so.
+
+| System | Purpose | How to Progress |
+| --- | --- | --- |
+| Mastery XP | Advances mastery-related progression | Keep completing production activities that award XP |
+| Rank Progress | Tracks rank advancement | Earn progress through eligible production and shipment work |
+| Bulk multipliers | Support larger production output | Use bulk-oriented production when supported |
+| Regular factory work | Core gameplay loop | Press, restock, pack, and dispatch shipments |
+
+<Checklist
+  id="money-goals"
+  title="Fast Money Checklist:"
+  items={[
+    "Complete one full production cycle before exploring",
+    "Buy production speed as your first upgrade",
+    "Keep materials staged near the press",
+    "Finish full batches before making delivery trips",
+    "Start the next order's materials immediately after dispatch"
+  ]}
+/>
+
+<Callout type="success" title="Co-op Advantage">
+With up to four players per server, assign roles: one worker on the press, one on restocking, one on packing, and one on delivery routes. Splitting the loop across a full team dramatically shortens cycle time.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Hidden Documents and Factory Secrets">
+
+The factory hides scattered documents that reward exploration and piece together the story of the isolated facility. Search offices, storage rooms, and side corridors that the normal shipment route never requires.
+
+<CardGrid cols={3}>
+  <Card title="Production-Area Finds">
+    - Check corners and shelves near the press
+    - Inspect edges of work rooms
+    - Revisit after learning new routes
+  </Card>
+  <Card title="Office and Storage Finds">
+    - Desks, crates, and shelves
+    - Rooms easy to skip mid-shift
+    - Search away from the main line
+  </Card>
+  <Card title="Hidden-Route Finds">
+    - Follow unusual openings
+    - Explore low-traffic corridors
+    - Track searched sections with landmarks
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Codes and Redemption Status">
+As of October 2026, BRASS HELL has no officially confirmed code redemption system. There are no verified active or expired codes. Avoid unofficial code lists, and check the official Roblox game page for any future redemption announcements.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is BRASS HELL on Roblox?",
+    answer: "BRASS HELL is an incremental factory simulator by earlymoto102. Players work shifts in a snowbound ammunition factory, operating presses, crafting rounds, packing crates, delivering shipments, and upgrading the workshop while hunting hidden documents."
+  },
+  {
+    question: "Can you play BRASS HELL with friends?",
+    answer: "Yes. Servers support up to four players, making it well suited to co-op shifts where teammates split press work, restocking, packing, and delivery routes."
+  },
+  {
+    question: "What should I upgrade first in BRASS HELL?",
+    answer: "Prioritize production speed and crate throughput first. These shorten the core cycle and compound earnings across every session. Move to shipment value and ammunition unlocks once your loop is consistent."
+  },
+  {
+    question: "Does BRASS HELL have codes?",
+    answer: "No official code redemption system has been confirmed as of October 2026. Any site listing active BRASS HELL codes is publishing unverified information. Watch the official Roblox game page for announcements."
+  }
+]} />
+
+</Section>

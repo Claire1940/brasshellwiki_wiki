@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía del dinero en BRASS HELL: mejores métodos de farmeo y consejos",
+  description: "Aprende las formas más eficientes de ganar y administrar dinero en BRASS HELL, desde el farmeo inicial y las mejoras de mitad de partida hasta las estrategias de riqueza a largo plazo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b45309/fff?text=Money+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL"
+}
+
+<Callout type="info" title="Guía rápida">
+- Principio central de la **guía del dinero de BRASS HELL**: reinvierte las ganancias iniciales en la eficiencia de las mejoras, no en artículos cosméticos.
+- **Inicio del juego**: céntrate en partidas repetibles y objetivos diarios antes de buscar recompensas raras.
+- **Mitad del juego**: da prioridad a las mejoras que aumenten las ganancias por partida.
+- **Final del juego**: diversifica tus fuentes de ingresos para no depender de un único ciclo de farmeo.
+- **Regla de oro**: registra tus ganancias por hora para comparar los métodos de forma objetiva.
+</Callout>
+
+<Section icon={Coins} title="Cómo funciona el sistema de dinero en BRASS HELL">
+
+El dinero en BRASS HELL funciona como la principal moneda de progresión. Ya sea que lo obtengas mediante partidas, eventos o intercambios, el ciclo básico es sencillo: juega, gana y reinvierte. Los jugadores que se quedan atrás suelen ser quienes gastan su moneda en compras de poco impacto al principio, en lugar de hacer crecer sus ingresos de forma acumulativa.
+
+<Callout type="warning" title="Error común">
+Los jugadores nuevos suelen gastar su primera gran recompensa en artículos cosméticos o de prestigio. La moneda inicial debería destinarse a cualquier elemento que aumente las ganancias futuras por partida.
+</Callout>
+
+La tabla siguiente desglosa las categorías generales de ingresos y el momento de la progresión en que resulta más útil cada una:
+
+| Fuente de ingresos | Disponibilidad | Potencial de ganancias | Mejor para |
+|---|---|---|---|
+| Recompensas de partidas | Desde el principio | Bajas pero constantes | Inicio del juego |
+| Objetivos diarios | Desde el principio | Moderadas | Todas las etapas |
+| Bonificaciones de eventos | Ventanas limitadas | Altas | Mitad y final del juego |
+| Recompensas de partidas mejoradas | Tras obtener mejoras | Altas | Mitad y final del juego |
+| Intercambios / trueques | Dependen de los jugadores | Variable | Jugadores experimentados |
+
+</Section>
+
+<Section icon={Target} title="Ruta paso a paso para conseguir dinero">
+
+Sigue esta ruta para crear unos ingresos sólidos sin desperdiciar la moneda inicial.
+
+<Steps>
+  <Step num="1" title="Completa lo básico">
+    Termina todas las partidas y objetivos para principiantes. Estos proporcionan capital inicial garantizado sin ningún riesgo y desbloquean los sistemas principales del juego que utilizarás para farmear más adelante.
+  </Step>
+  <Step num="2" title="Reclama las recompensas diarias con constancia">
+    Inicia sesión todos los días y completa los objetivos diarios. La constancia suele superar a las largas sesiones de farmeo, porque muchas recompensas se reinician mediante un temporizador.
+  </Step>
+  <Step num="3" title="Reinvierte en tu capacidad de generar ingresos">
+    Gasta tu primera suma importante en mejoras que aumenten las ganancias por partida o reduzcan el tiempo de espera entre partidas. Evita las compras secundarias hasta haber hecho esto.
+  </Step>
+  <Step num="4" title="Aprovecha las ventanas de eventos">
+    Estate atento a los eventos de tiempo limitado con recompensas adicionales. Programa sesiones de juego más largas durante estas ventanas para obtener el mejor rendimiento de moneda por hora.
+  </Step>
+  <Step num="5" title="Diversifica tus ingresos">
+    Cuando hayas optimizado un ciclo de farmeo, añade una segunda fuente, como los intercambios u otros tipos de partida, para que ningún debilitamiento o cambio detenga tu progresión.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Registra tus tasas">
+Toma una nota sencilla de las ganancias obtenidas durante 30 minutos con cada método. Los números son más fiables que la intuición, y el mejor método de farmeo actual puede dejar de serlo después de una actualización.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Prioridades de gasto: qué comprar primero">
+
+No todas las compras tienen el mismo valor. Clasifica cada gasto potencial según la cantidad de moneda futura que genere en relación con su coste.
+
+| Prioridad | Tipo de compra | Impacto | Notas |
+|---|---|---|---|
+| 1 | Multiplicadores de recompensas | ★★★★★ | Se acumulan con cada partida futura |
+| 2 | Reductores del tiempo de espera | ★★★★ | Más partidas por hora equivalen a más ingresos |
+| 3 | Desbloqueo de nuevos modos | ★★★★ | Abre contenido con mejores recompensas |
+| 4 | Mejoras de comodidad | ★★★ | Mejoran la calidad de vida y ofrecen ganancias indirectas |
+| 5 | Artículos cosméticos | ★ | No tienen impacto en los ingresos; cómpralos al final |
+
+<CardGrid cols={3}>
+  <Card title="Gastador agresivo">
+    - **Todo a los multiplicadores**
+    - Crecimiento a largo plazo más rápido
+    - Menor poder a corto plazo
+  </Card>
+  <Card title="Gastador equilibrado">
+    - **Multiplicadores más desbloqueos**
+    - Crecimiento constante de los ingresos
+    - Flexibilidad ante los cambios del metajuego
+  </Card>
+  <Card title="Primero los cosméticos">
+    - **Estilo por encima de los ingresos**
+    - Divertido, pero ralentiza la progresión
+    - Solo viable con mucho farmeo
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ruta recomendada">
+Para la mayoría de los jugadores, el enfoque equilibrado ofrece la mejor experiencia: una mejora de multiplicador, después un desbloqueo, y repetir el proceso según lo permitan tus fondos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rutina semanal de farmeo y lista de comprobación">
+
+Una estructura semanal sencilla mantiene tus ingresos constantes sin agotarte. Ajusta la duración de las sesiones a tu horario, pero conserva el orden de prioridades.
+
+| Día | Enfoque | Objetivo |
+|---|---|---|
+| Diario | Objetivos y recompensas de inicio de sesión | No perder ningún reinicio |
+| 2-3 sesiones | Ciclo de farmeo optimizado | Establecer una referencia de ganancias por hora |
+| Días de evento | Solo ventanas de bonificación | Maximizar los multiplicadores |
+| Revisión semanal | Comparar métodos y ajustar | Actualizar tus notas de farmeo |
+
+<Checklist
+  id="money-goals"
+  title="Hitos de dinero:"
+  items={[
+    "Crear capital inicial con partidas para principiantes",
+    "Comprar la primera mejora de multiplicador de recompensas",
+    "Establecer una rutina de objetivos diarios",
+    "Completar al menos una ventana de evento de tiempo limitado",
+    "Alcanzar una referencia estable de ganancias por hora"
+  ]}
+/>
+
+<Callout type="info" title="Controla el ritmo">
+Farmear durante horas en una sola sesión produce rendimientos decrecientes tanto en la eficiencia de los ingresos como en la diversión. Las sesiones cortas y concentradas, alineadas con los reinicios de recompensas, suelen ser más productivas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estrategias avanzadas para acumular riqueza">
+
+Una vez que tu ciclo básico esté funcionando, estas estrategias distinguen a los jugadores ricos del resto:
+
+- **Atención al arbitraje**: controla los valores de los intercambios o trueques si el modo está disponible. Las diferencias entre los precios que los jugadores piden y pagan pueden aprovecharse con paciencia.
+- **Momento de las actualizaciones**: los parches de equilibrio suelen cambiar cuál es el mejor método de farmeo. Vuelve a probar tus métodos después de cada actualización antes de comprometerte con sesiones largas.
+- **Piensa en el coste de oportunidad**: antes de cualquier compra, pregúntate qué otra cosa podrías adquirir con esa moneda. Si la alternativa aumenta más tus ingresos, retrasa la compra.
+- **Información de la comunidad**: los canales oficiales y los grupos de la comunidad suelen anunciar las ventanas de bonificación con antelación. Mantenerte informado es dinero gratis.
+
+<Callout type="warning" title="Evita las estafas">
+No comercies basándote únicamente en la confianza y desconfía de las ofertas que parezcan demasiado buenas. Si un intercambio requiere que envíes la moneda primero sin ninguna garantía, aléjate.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de ganar dinero en BRASS HELL al principio?",
+    answer: "Al principio, los ingresos fiables más rápidos proceden de completar partidas para principiantes y objetivos diarios. Estos ofrecen recompensas garantizadas sin riesgo y te permiten reunir el capital necesario para tu primera mejora de multiplicador de recompensas."
+  },
+  {
+    question: "¿Debería ahorrar dinero o gastarlo de inmediato?",
+    answer: "Gasta en mejoras que aumenten tus ganancias futuras en cuanto puedas permitírtelas, especialmente multiplicadores de recompensas y reductores del tiempo de espera. Ahorrar grandes cantidades sin un propósito solo ralentiza el crecimiento acumulativo."
+  },
+  {
+    question: "¿Vale la pena programar mis sesiones en torno a los eventos de tiempo limitado?",
+    answer: "Por lo general, sí. Las ventanas de eventos suelen ofrecer las tasas más altas de moneda por hora del juego. Incluso una sesión corta durante una ventana de bonificación puede superar a horas de farmeo normal."
+  },
+  {
+    question: "¿Cómo sé cuál es el mejor método de farmeo después de una actualización?",
+    answer: "Vuelve a ejecutar tus métodos favoritos durante 30 minutos cada uno y registra las ganancias por sesión. Compara directamente los números en lugar de confiar en las sensaciones, ya que los cambios de equilibrio modifican con frecuencia qué método ocupa el primer puesto."
+  }
+]} />
+
+</Section>
