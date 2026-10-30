@@ -1,0 +1,226 @@
+import { Factory, Target, Package, TrendingUp, ClipboardCheck } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de melhorias de BRASS HELL: melhores prioridades e dicas para a fábrica",
+  description: "Use este guia de melhorias de BRASS HELL para aumentar a velocidade de produção, o fluxo de caixas, os ganhos com remessas, a progressão de munição e a eficiência da fábrica a longo prazo.",
+  category: "guia",
+  image: "https://placehold.co/800x400/15191D/fff?text=BRASS+HELL+Upgrade+Guide",
+  date: "2026-10-31",
+  author: "Equipe da Wiki de BRASS HELL",
+  slug: "/brass-hell-upgrade-guide"
+}
+
+<Callout type="info" title="Guia rápido">
+- **Guia de melhorias de BRASS HELL**: Priorize melhorias que fortaleçam o ciclo completo, da produção ao envio.
+- **Primeira prioridade**: Melhore a velocidade de produção antes de investir pesado em melhorias focadas em conveniência.
+- **Foco no meio do jogo**: Reduza os atrasos das caixas e aumente o valor das remessas concluídas.
+- **Rota avançada**: Desbloqueie munições mais poderosas somente quando sua fábrica puder manter uma produção consistente.
+- **Observação importante**: Os custos exatos e os efeitos de melhorias não documentados devem ser conferidos nos menus atuais do jogo em 2026.
+</Callout>
+
+<Section icon={Factory} title="Guia de melhorias de BRASS HELL: prioridades principais">
+
+O melhor caminho de melhorias em BRASS HELL começa pelo ciclo da fábrica, e não por uma estatística isolada. Seu objetivo é transformar materiais em munição, preencher uma caixa de remessa, enviar o pedido e reinvestir o pagamento com o mínimo de tempo ocioso possível. Este **guia de melhorias de BRASS HELL** recomenda avaliar cada melhoria da oficina com base no impacto que ela causa nesse ciclo repetido.
+
+O material de referência disponível confirma a importância das melhorias da oficina, da eficiência de produção, dos ganhos com remessas, da progressão de munição, do Rank Progress e do Mastery XP. Ele não estabelece uma lista completa de nomes exatos de melhorias, preços ou efeitos numéricos. Portanto, as prioridades abaixo são recomendações práticas, e não uma tabela de custos inventada.
+
+<CardGrid cols={3}>
+  <Card title="Velocidade de produção">
+    - Encurta o ciclo da prensa
+    - Aumenta a quantidade de lotes concluídos durante uma sessão
+    - É a prioridade inicial mais forte para a maioria dos iniciantes
+  </Card>
+  <Card title="Fluxo de caixas">
+    - Reduz os atrasos após a fabricação
+    - Ajuda a colocar as munições prontas nas remessas
+    - É valioso quando a produção supera a velocidade de empacotamento
+  </Card>
+  <Card title="Ganhos com remessas">
+    - Melhora o retorno dos pedidos concluídos
+    - Torna-se mais valioso depois que a produção está consistente
+    - Permite reinvestir mais rapidamente na oficina
+  </Card>
+</CardGrid>
+
+| Foco da melhoria | Prioridade recomendada | Melhor momento | Principal motivo |
+| --- | --- | --- | --- |
+| Velocidade de produção | **Mais alta** | Primeiras melhorias | Mais lotes concluídos por sessão |
+| Fluxo de caixas | **Alta** | Quando o empacotamento causar atrasos | Mantém as munições prontas avançando para o envio |
+| Ganhos com remessas | Alta | Depois de estabelecer um ciclo de produção estável | Aumenta o retorno de cada pedido concluído |
+| Desbloqueios de munição | Média a alta | Durante a progressão avançada | Libera munições mais poderosas e objetivos de longo prazo |
+| Melhorias de conveniência | Situacional | Depois das melhorias principais | Reduz o atrito sem substituir os ganhos de fluxo |
+
+<Callout type="tip" title="Regra para melhorias">
+Escolha a melhoria que elimina o maior atraso do seu ciclo atual. Uma prensa mais rápida tem valor limitado se as caixas continuarem vazias ou as remessas atrasadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhor ordem de melhorias para fábricas novas">
+
+Um jogador novo deve evitar distribuir recursos entre todas as opções disponíveis. A fábrica inicial fica mais fácil de administrar quando as melhorias seguem uma sequência simples: estabelecer a produção, remover o maior gargalo e, então, melhorar o valor do trabalho concluído.
+
+Use a rota a seguir como uma estrutura flexível. A ordem exata pode mudar se a sua sessão atual revelar uma limitação diferente. Por exemplo, um jogador em grupo pode produzir munição rapidamente, mas gastar tempo demais carregando, empacotando ou organizando as caixas de remessa.
+
+<Steps>
+  <Step num="1" title="Estabeleça o primeiro ciclo de produção">
+    Registre o ponto, localize a prensa de munição, identifique a área de suprimentos e conclua o primeiro ciclo de produção disponível. Não se apresse em fazer investimentos avançados antes de entender como a fábrica conecta produção, caixas e entrega.
+  </Step>
+  <Step num="2" title="Compre a primeira melhoria de fluxo">
+    Use o primeiro pagamento significativo em uma melhoria da oficina que reduza o tempo de produção ou ajude você a concluir lotes com mais consistência. A velocidade de produção geralmente é o alvo inicial mais claro.
+  </Step>
+  <Step num="3" title="Corrija o gargalo atual">
+    Observe o ciclo completo de um ou mais pedidos. Se a prensa estiver parada, melhore a produção. Se as munições prontas ficarem esperando perto da área das caixas, melhore o manuseio ou o fluxo de caixas. Se os pedidos forem concluídos sem problemas, mas os retornos parecerem baixos, considere o valor das remessas.
+  </Step>
+  <Step num="4" title="Dê suporte à progressão de munição">
+    Avance para os desbloqueios de munição depois que o fluxo básico estiver confiável. Uma munição mais poderosa é mais útil quando seus materiais, a atividade da prensa e o processo de remessa conseguem sustentar uma produção regular.
+  </Step>
+  <Step num="5" title="Reinvista por meio de remessas repetidas">
+    Continue financiando a oficina em vez de tratar a primeira entrega como o fim da progressão. Compare cada compra com sua próxima meta de produção e mantenha a fábrica ativa durante a sessão.
+  </Step>
+</Steps>
+
+| Estágio da progressão | Objetivo principal | Abordagem para melhorias | Evite |
+| --- | --- | --- | --- |
+| Primeiro ciclo | Aprender a rota da fábrica | Use a configuração inicial e observe os atrasos | Gastar antes de entender o fluxo de trabalho |
+| Progressão inicial | Produzir com consistência | Dê preferência à velocidade da prensa e ao fluxo básico | Comprar melhorias de conveniência cedo demais |
+| Fábrica em desenvolvimento | Completar caixas mais rapidamente | Equilibre a eficiência da produção e do empacotamento | Ignorar a parte mais lenta do ciclo |
+| Progressão avançada | Aumentar os retornos de longo prazo | Adicione valor às remessas e desbloqueios de munição | Presumir que todos os multiplicadores se acumulam automaticamente |
+
+<Callout type="warning" title="Não busque desbloqueios às cegas">
+Um nível de munição mais alto não é automaticamente a melhor compra se ele criar falta de materiais ou deixar as remessas completas mais lentas. Avalie o ciclo completo do pedido antes de mudar o foco.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Eficiência de produção e remessas">
+
+As melhorias só importam quando aprimoram as ações realizadas entre um pedido e o seguinte. O fluxo principal de BRASS HELL inclui coletar materiais, operar a prensa, reabastecer os insumos, verificar o pedido, preencher a caixa e enviar a remessa.
+
+Jogadores eficientes preparam a próxima ação antes que a tarefa atual termine. Enquanto uma caixa está sendo finalizada, verifique o próximo pedido. Enquanto houver materiais disponíveis, mantenha a prensa ativa. Após o envio, volte diretamente à preparação em vez de esperar na área de entrega.
+
+| Etapa da fábrica | O que fazer | Meta de eficiência |
+| --- | --- | --- |
+| Materiais | Verifique o pedido ativo e reúna os insumos necessários | Mantenha os materiais necessários perto da rota de produção |
+| Prensa | Carregue os insumos e conclua a interação de produção | Minimize o tempo ocioso da prensa |
+| Reabastecimento | Substitua os materiais consumidos antes do próximo lote | Evite interrupções desnecessárias |
+| Preparação da caixa | Coloque a munição pronta no recipiente correto | Conclua o lote inteiro antes de viajar |
+| Envio | Finalize e entregue a remessa | Comece a preparar o próximo pedido imediatamente |
+
+### Como identificar seu gargalo
+
+Acompanhe a parte do ciclo que causa a maior pausa:
+
+- Se a prensa esperar pelos materiais, melhore a organização e o reabastecimento antes de mudar suas metas de munição.
+- Se a produção terminar antes de a caixa estar pronta, priorize o manuseio ou o fluxo de caixas.
+- Se a caixa for concluída rapidamente, mas os pagamentos forem modestos, os ganhos com remessas podem oferecer um valor melhor.
+- Se a fábrica estiver eficiente, mas a progressão parecer lenta, compare separadamente as atividades de Rank Progress e Mastery XP.
+- Se os companheiros de equipe no modo multiplayer dividirem as tarefas, atribua um jogador aos materiais, um à produção e um ao empacotamento quando for viável.
+
+<Callout type="info" title="Eficiência da equipe">
+BRASS HELL permite até quatro jogadores em um servidor. A cooperação pode reduzir o tempo de deslocamento e de inatividade, mas cada jogador deve entender o ciclo completo antes de se especializar.
+</Callout>
+
+</Section>
+
+<Section icon={TrendingUp} title="Comparando objetivos de melhorias e sistemas de progressão">
+
+As melhorias da oficina dão suporte ao ciclo da fábrica, enquanto Rank Progress e Mastery XP representam objetivos de progressão separados. Tratar esses elementos como sistemas diferentes facilita avaliar se uma melhoria aumenta os ganhos imediatos, os desbloqueios de longo prazo ou ambos.
+
+Os passes de jogo relacionados à progressão estão associados a Mastery XP, Rank Progress e benefícios de produção em massa. Suas descrições devem ser avaliadas individualmente. Não presuma que esses efeitos se combinam automaticamente em um único multiplicador universal, a menos que o texto atual do jogo diga explicitamente isso.
+
+| Objetivo | O que melhora | Como dar suporte | Implicação para melhorias |
+| --- | --- | --- | --- |
+| Produção | A quantidade de lotes concluídos | Mantenha a prensa abastecida e ativa | Dê preferência à velocidade quando a prensa for o gargalo |
+| Renda das remessas | O retorno dos pedidos concluídos | Complete e envie caixas cheias | Dê preferência ao valor depois que a produção estiver estável |
+| Mastery XP | O avanço focado em maestria | Continue realizando atividades elegíveis da fábrica | Considere o benefício separado focado em Mastery |
+| Rank Progress | O avanço de patente | Conclua atividades de produção e remessa | Avalie separadamente o suporte focado em Rank |
+| Produção em massa | Uma produção maior ou mais eficiente | Use atividades de produção em massa compatíveis | Não presuma que ela substitui os outros sistemas de progressão |
+
+### Progressão gratuita antes de suporte pago
+
+O ciclo principal da fábrica continua sendo a base da progressão. Os passes de jogo podem complementar um benefício específico, mas não eliminam a necessidade de operar equipamentos, administrar materiais, concluir pedidos e enviar caixas.
+
+Antes de considerar qualquer opção paga, estabeleça estes hábitos gratuitos:
+
+- Mantenha a área de produção abastecida.
+- Conclua lotes inteiros em vez de fazer várias viagens parciais.
+- Compare o pedido ativo com a munição pronta antes de empacotar.
+- Reinvista os ganhos das remessas na melhoria que corrige seu atraso atual.
+- Consulte a descrição atual do produto no Roblox antes de fazer uma compra.
+
+<Callout type="success" title="Verificação de valor">
+É mais fácil avaliar um multiplicador pago depois que você conhece seu ciclo normal de produção. Primeiro estabeleça sua referência, depois compare se o efeito listado resolve o seu gargalo real.
+</Callout>
+
+</Section>
+
+<Section icon={ClipboardCheck} title="Checklist de melhorias e decisões práticas">
+
+Use este checklist ao iniciar uma nova sessão, mudar de nível de munição ou decidir entre duas melhorias da oficina. Ele mantém o caminho de melhorias ligado ao comportamento mensurável da fábrica, em vez de suposições vagas.
+
+<Checklist
+  id="brass-hell-upgrade-route"
+  title="Verificação de melhorias da fábrica:"
+  items={[
+    "Concluir um ciclo completo, da produção ao envio",
+    "Identificar se a prensa, os materiais, as caixas ou a rota de entrega causam o maior atraso",
+    "Priorizar a velocidade de produção antes da conveniência quando a produção for o principal gargalo",
+    "Comparar o valor das remessas somente depois que a fábrica conseguir concluir pedidos de forma consistente",
+    "Verificar as descrições atuais das melhorias no jogo antes de gastar recursos"
+  ]}
+/>
+
+| Ponto de decisão | Escolha esta direção | Por que funciona |
+| --- | --- | --- |
+| A prensa está parada | Velocidade de produção ou organização dos materiais | Mais tempo de atividade da prensa melhora a produção repetida |
+| Os materiais acabam | Reabastecimento e eficiência da rota | Evita interrupções na produção |
+| As munições esperam antes do empacotamento | Fluxo de caixas ou manuseio | Remove o atraso após a produção |
+| Os pedidos são concluídos sem problemas | Ganhos com remessas | Melhora os retornos de um ciclo estável |
+| A progressão parece lenta | Revise as atividades de Rank Progress e Mastery XP | Separa os objetivos de longo prazo dos ganhos imediatos |
+| Há munição nova disponível | Teste-a no ciclo completo | A produção de nível mais alto pode exigir um suporte melhor |
+
+### Princípios práticos para melhorias
+
+A regra geral mais importante é melhorar a etapa mais lenta, e não necessariamente a opção de aparência mais impressionante. Uma fábrica com excelente velocidade de produção ainda pode ter um desempenho inferior se o jogador passar tempo demais reunindo suprimentos ou concluindo remessas.
+
+Use estes princípios durante o jogo normal:
+
+1. **Meça antes de mudar de direção.** Observe pelo menos um ciclo completo de pedido.
+2. **Prefira ganhos repetíveis.** Uma melhoria que ajuda em todas as remessas geralmente é mais fácil de avaliar do que um efeito estreito de conveniência.
+3. **Proteja o fluxo de materiais.** A munição avançada só é útil quando a fábrica consegue produzi-la com consistência.
+4. **Separe os sistemas.** Mastery XP, Rank Progress, efeitos de produção em massa e renda comum das remessas não devem ser tratados como elementos idênticos.
+5. **Verifique novamente após as atualizações.** BRASS HELL está em Early Release durante 2026, então os nomes das melhorias da oficina, seus efeitos e os detalhes da progressão podem mudar.
+
+<Callout type="tip" title="Dica para reiniciar a sessão">
+Ao testar uma nova melhoria, execute a mesma rota de produção antes e depois da compra. Compare o tempo ocioso, as caixas concluídas e o fluxo das remessas, em vez de julgar a melhoria por uma única interação.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor primeira melhoria em BRASS HELL?",
+    answer: "A velocidade de produção é a prioridade inicial mais segura quando a prensa é o principal gargalo. Se os materiais ou o manuseio das caixas causarem atrasos maiores, corrija esse gargalo em vez disso."
+  },
+  {
+    question: "Devo priorizar os ganhos com remessas ou os desbloqueios de munição?",
+    answer: "Priorize os ganhos com remessas quando suas munições atuais forem produzidas e entregues de forma consistente. Escolha os desbloqueios de munição quando sua fábrica estiver pronta para dar suporte à etapa adicional de progressão."
+  },
+  {
+    question: "Mastery XP e Rank Progress usam o mesmo efeito de melhoria?",
+    answer: "Eles devem ser tratados como sistemas de progressão separados. Consulte as descrições atuais no jogo em vez de presumir que Mastery XP, Rank Progress e os benefícios de produção em massa se acumulam automaticamente."
+  },
+  {
+    question: "Os preços exatos das melhorias estão confirmados neste guia?",
+    answer: "Não. Os custos exatos e os efeitos numéricos devem ser conferidos na interface atual da oficina em 2026, pois as informações disponíveis não estabelecem uma lista de preços completa e verificada."
+  }
+]} />
+
+Para consultar a página atual do jogo e quaisquer descrições ativas da oficina, use a [página oficial de BRASS HELL no Roblox](https://www.roblox.com/games/104347694974983) antes de tomar decisões com base em capturas de tela antigas ou recomendações da comunidade.
+
+</Section>

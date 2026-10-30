@@ -1,0 +1,243 @@
+import { Factory, Hammer, Target, Shield, Wrench, ClipboardCheck } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Améliorations de production de BRASS HELL : guide étape par étape",
+  description: "Planifiez les améliorations de production de BRASS HELL grâce à un système de priorités clair, une routine de test, une checklist d'amélioration et des conseils pratiques de dépannage.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Production+Upgrades",
+  date: "2026-10-31",
+  author: "Équipe du wiki BRASS HELL",
+  slug: "/brass-hell-production-upgrades"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **améliorations de production de BRASS HELL** sont plus efficaces lorsque chaque changement a un objectif clair.
+- **Commencez par les goulots d’étranglement** avant d’investir dans des améliorations secondaires.
+- **Testez une amélioration** à la fois afin de pouvoir évaluer facilement les changements de performance.
+- **Préservez la fiabilité** en vérifiant la chaleur, l’ajustement, les dégagements et les exigences de maintenance.
+- **Notez les résultats** après chaque ajustement afin de créer une progression d’améliorations reproductible.
+</Callout>
+
+<Section icon={Factory} title="Améliorations de production de BRASS HELL : priorités essentielles">
+
+Un plan solide d’**améliorations de production de BRASS HELL** doit augmenter la production sans créer de nouveaux goulots d’étranglement. Que le système de production concerne la fabrication, la gestion de base, le traitement des ressources ou la préparation de l’équipement, la même règle s’applique : améliorez la partie du flux de travail qui limite l’ensemble de la chaîne.
+
+Ne commencez pas par l’option la plus coûteuse simplement parce qu’elle semble plus puissante. Identifiez d’abord où sont perdus le temps, les matériaux, l’espace de stockage, l’énergie, la main-d’œuvre ou la capacité de transport. Une amélioration qui augmente la production mais laisse le stockage final plein peut avoir moins de valeur qu’une amélioration logistique plus modeste.
+
+<CardGrid cols={4}>
+  <Card title="Débit">
+    - Augmenter la quantité produite par le système
+    - Réduire le temps de production à l’arrêt
+    - Donner la priorité à l’étape la plus lente
+  </Card>
+  <Card title="Efficacité">
+    - Réduire le gaspillage de matériaux
+    - Améliorer l’utilisation du carburant ou de l’énergie
+    - Éviter les étapes de traitement inutiles
+  </Card>
+  <Card title="Fiabilité">
+    - Réduire les arrêts et les défaillances
+    - Maintenir une maintenance gérable
+    - Vérifier la compatibilité avant l’installation
+  </Card>
+  <Card title="Flexibilité">
+    - Prendre en charge plusieurs recettes ou utilisations
+    - Préserver de l’espace pour les améliorations futures
+    - Éviter les améliorations qui figent l’agencement
+  </Card>
+</CardGrid>
+
+| Priorité | Question principale | Action recommandée | Valeur de l’amélioration |
+| --- | --- | --- | --- |
+| 1 | Qu’est-ce qui limite actuellement la production ? | Corriger l’étape la plus lente ou la plus restrictive | Maximale |
+| 2 | Où les ressources sont-elles perdues ? | Améliorer la qualité des entrées, le stockage ou l’acheminement | Élevée |
+| 3 | Qu’est-ce qui provoque les temps d’arrêt ? | Ajouter des améliorations de fiabilité ou de maintenance | Moyenne à élevée |
+| 4 | Qu’est-ce qui créera des contraintes à l’avenir ? | Préserver l’espace, la capacité et la compatibilité | Moyenne |
+| 5 | Qu’est-ce qui améliore uniquement le confort ? | Ajouter plus tard les améliorations esthétiques ou pratiques | Selon la situation |
+
+<Callout type="tip" title="Conseil de rédaction">
+Considérez chaque amélioration de production comme un élément d’une chaîne. Une machine plus rapide n’est utile que lorsque les entrées, les sorties, le stockage et le transport peuvent soutenir son nouveau rythme.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Choisir la bonne voie d’amélioration">
+
+Les systèmes de production offrent généralement plusieurs voies possibles. L’une peut maximiser la production brute, une autre réduire la consommation de ressources et une troisième créer une installation plus stable. Le meilleur choix dépend de votre objectif actuel, et non d’un classement universel.
+
+Utilisez la comparaison suivante avant de dépenser des matériaux rares ou de modifier durablement l’agencement.
+
+| Voie d’amélioration | Idéale pour | Atout | Compromis |
+| --- | --- | --- | --- |
+| Axée sur la production | Atteindre un objectif de production important | Davantage d’objets ou de matériaux au fil du temps | Peut augmenter la pression sur les entrées et le stockage |
+| Axée sur l’efficacité | Des ressources limitées ou des entrées coûteuses | Meilleure valeur tirée de chaque matériau | Peut ne pas résoudre un goulot d’étranglement temporel |
+| Axée sur la fiabilité | Des interruptions ou défaillances fréquentes | Fonctionnement plus fluide à long terme | La production immédiate peut augmenter lentement |
+| Axée sur l’expansion | La progression à long terme | Plus d’espace pour les systèmes futurs | Nécessite de la planification et de l’espace disponible |
+
+### Améliorations axées sur la production
+
+Choisissez une voie axée sur la production lorsque le système est régulièrement approvisionné mais ne produit pas assez rapidement. Vérifiez que l’étape suivante peut accepter le volume accru. Sinon, la capacité supplémentaire risque simplement de déplacer le goulot d’étranglement vers le stockage, le transport ou le traitement.
+
+### Améliorations axées sur l’efficacité
+
+L’efficacité devient plus importante lorsque les entrées sont difficiles à remplacer ou lorsque la production nécessite plusieurs matériaux intermédiaires. Ces améliorations peuvent également rendre une installation plus petite viable plus longtemps, réduisant ainsi le besoin d’une reconstruction précoce.
+
+### Améliorations axées sur la fiabilité
+
+Les améliorations de fiabilité sont souvent sous-estimées, car elles n’augmentent pas toujours visiblement la vitesse de production. Cependant, un système qui fonctionne de manière constante peut dépasser un système plus rapide nécessitant fréquemment des réparations, des réinitialisations ou une intervention manuelle.
+
+### Améliorations axées sur l’expansion
+
+L’expansion est appropriée lorsque l’agencement actuel ne dispose d’aucun espace sûr pour accueillir de nouveaux équipements. Planifiez l’énergie, les voies d’accès, le stockage et l’espace de maintenance avant d’installer des structures permanentes.
+
+<Callout type="warning" title="Évitez l’expansion prématurée">
+Augmenter la capacité avant d’avoir confirmé la demande peut consommer des ressources précieuses et créer un système surdimensionné difficile à entretenir. Agrandissez l’installation après avoir testé le flux de travail actuel dans des conditions normales d’utilisation.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Mise en place d’une amélioration de production étape par étape">
+
+Suivez ce processus chaque fois que vous évaluez une nouvelle amélioration de production. Cette séquence est conçue pour réduire le gaspillage de matériaux et faciliter la comparaison des résultats.
+
+<Steps>
+  <Step num="1" title="Cartographier le flux de travail actuel">
+    Notez chaque étape, de l’entrée au produit fini. Incluez le stockage, le transport, l’énergie, le temps de fabrication, la maintenance et toutes les actions manuelles. Marquez l’étape qui attend le plus souvent une autre partie du système.
+  </Step>
+  <Step num="2" title="Identifier le goulot d’étranglement actif">
+    Observez le flux de travail pendant son fonctionnement normal plutôt que lors d’une session exceptionnellement favorable. Le goulot d’étranglement actif peut changer lorsque le stockage est plein, que les entrées se raréfient ou qu’une station en aval atteint sa limite.
+  </Step>
+  <Step num="3" title="Sélectionner une seule amélioration">
+    Choisissez la plus petite amélioration qui s’attaque directement au goulot d’étranglement. Évitez de modifier plusieurs systèmes à la fois, car il sera alors difficile d’attribuer le résultat final à une seule amélioration.
+  </Step>
+  <Step num="4" title="Tester dans des conditions normales">
+    Faites fonctionner le système mis à jour avec des entrées ordinaires et une demande attendue. Vérifiez la production, les temps d’arrêt, la consommation de ressources, la pression sur le stockage et les exigences de maintenance.
+  </Step>
+  <Step num="5" title="Consigner le résultat">
+    Gardez une courte note comparative avant et après. Si le goulot d’étranglement s’est déplacé vers une autre étape, mettez à jour la carte du flux de travail et choisissez l’amélioration suivante au lieu de remplacer toute l’installation.
+  </Step>
+</Steps>
+
+| Domaine testé | Avant l’amélioration | Après l’amélioration | Points à surveiller |
+| --- | --- | --- | --- |
+| Approvisionnement en entrées | Stable, limité ou irrégulier | Identique ou modifié | Pénuries et capacité inutilisée |
+| Temps de production | Étape la plus lente identifiée | Nouvelle étape limitante | Périodes d’inactivité et accumulation des files |
+| Stockage | Suffisant ou presque plein | Pression accrue ou réduite | Débordements et sorties bloquées |
+| Maintenance | Occasionnelle ou fréquente | Plus facile ou plus difficile | Temps de réparation et accès |
+| Production finale | Référence actuelle | Nouveau résultat | Production utile, et non simple activité |
+
+<Callout type="info" title="Règle de test">
+Une amélioration de production n’est pas validée par un seul cycle réussi. Testez suffisamment de cycles normaux pour révéler les problèmes d’approvisionnement, les limites de stockage et les exigences de maintenance.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Compatibilité, agencement et maintenance">
+
+Une amélioration de production peut échouer même lorsque son avantage principal semble intéressant. Les problèmes de compatibilité apparaissent souvent au niveau des points de connexion, des espaces partagés, des voies d’entrée, des voies de sortie ou de l’accès pour la maintenance. Avant de finaliser une modification, inspectez tout l’agencement environnant plutôt que le seul composant amélioré.
+
+Gardez les voies d’accès dégagées. Un système qui produit davantage mais qui ne peut pas être réparé sans démonter l’équipement voisin peut demander plus de travail qu’il n’en économise. De même, un nouveau dispositif de sortie peut devenir un handicap si les conteneurs, les convoyeurs, les emplacements d’inventaire ou les itinéraires de transport ne peuvent pas gérer le volume supplémentaire.
+
+### Règles pratiques d’agencement
+
+- Laissez suffisamment d’espace pour la maintenance et les inspections courantes.
+- Séparez les voies d’entrée et de sortie lorsqu’une congestion est probable.
+- Placez le stockage suffisamment près afin de réduire les manipulations inutiles.
+- Évitez de bloquer les points d’expansion futurs.
+- Regroupez les systèmes qui partagent les mêmes matériaux ou besoins de soutien.
+- Étiquetez ou documentez les connexions afin que les modifications ultérieures restent compréhensibles.
+
+| Problème d’agencement | Signe d’alerte | Réponse plus sûre |
+| --- | --- | --- |
+| Accès aux entrées | Les matériaux s’épuisent fréquemment | Améliorer l’approvisionnement ou ajouter un stockage tampon |
+| Accès aux sorties | Les produits finis restent en attente | Augmenter le stockage ou la capacité en aval |
+| Accès pour la maintenance | Les réparations nécessitent un démontage | Repositionner l’unité ou préserver une voie de maintenance |
+| Ressources partagées | Plusieurs systèmes sont constamment en concurrence | Augmenter la capacité de soutien ou échelonner la production |
+| Espace d’expansion | Le nouvel équipement n’a pas d’emplacement clair | Réserver une zone dédiée à la croissance |
+
+### La maintenance comme élément de l’amélioration
+
+La maintenance doit être incluse dans le coût total d’une amélioration. Un système qui fait gagner du temps de production mais ajoute des réparations répétées n’est pas forcément une amélioration pour une utilisation régulière. Comparez le temps gagné à l’attention nécessaire pour maintenir le système actif.
+
+Un calendrier de maintenance simple peut inclure des vérifications des entrées, des sorties et des connexions, ainsi qu’une inspection complète après les changements importants d’agencement. Faites en sorte que ces vérifications restent brèves et répétables.
+
+<Checklist
+  id="production-upgrade-review"
+  title="Vérification de l’amélioration de production :"
+  items={[
+    "Confirmer que l’amélioration s’attaque au goulot d’étranglement actif",
+    "Vérifier la capacité des entrées, des sorties, du stockage et du transport",
+    "Préserver l’accès pour l’inspection et la maintenance",
+    "Tester le système dans des conditions normales d’utilisation",
+    "Consigner le résultat avant d’effectuer une nouvelle modification majeure"
+  ]}
+/>
+
+<Callout type="success" title="Une progression fiable">
+La meilleure installation de production n’est pas toujours la plus grande. Un système plus petit, avec un accès clair, des entrées stables et une maintenance prévisible, peut soutenir la progression plus efficacement.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dépannage des problèmes de production">
+
+Lorsqu’une amélioration ne produit pas le résultat attendu, évitez de tout retirer immédiatement. Identifiez d’abord si le problème concerne l’approvisionnement, le traitement, le stockage, l’acheminement, la compatibilité ou la maintenance. Un diagnostic correct est généralement plus rapide qu’une reconstruction répétée.
+
+| Symptôme | Cause probable | Première vérification | Solution pratique |
+| --- | --- | --- | --- |
+| L’équipement reste inactif | Les entrées sont insuffisantes | Inspecter le flux de ressources | Améliorer l’approvisionnement ou ajouter un tampon |
+| Les entrées s’accumulent | Le traitement est trop lent | Comparer les durées des étapes | Améliorer l’étape lente |
+| Les sorties bloquent le système | Le stockage est trop petit | Vérifier les conteneurs finaux | Agrandir le stockage ou développer l’utilisation en aval |
+| La production s’arrête souvent | Problème de fiabilité ou de maintenance | Examiner les points de défaillance | Améliorer l’accès et la maintenance |
+| La nouvelle amélioration change peu de choses | Le goulot d’étranglement s’est déplacé | Refaire la carte du flux de travail | Corriger la nouvelle étape limitante |
+| L’agencement devient difficile à utiliser | L’expansion a été précipitée | Inspecter les voies d’accès | Repositionner l’équipement ou simplifier les connexions |
+
+### Un ordre de diagnostic simple
+
+1. Vérifiez si le système dispose de suffisamment d’entrées.
+2. Confirmez que l’étape de production est active.
+3. Inspectez la capacité de sortie et le stockage.
+4. Recherchez les voies bloquées ou les connexions incompatibles.
+5. Examinez les exigences de maintenance et d’accès.
+6. Comparez le résultat avec la référence initiale.
+
+Ne jugez pas une amélioration uniquement selon sa production théorique maximale. Une installation pratique doit également être compréhensible, entretenable et stable lors d’une utilisation normale. Si l’amélioration exige une surveillance constante, sa valeur réelle peut être inférieure à ce que ses capacités affichées laissent penser.
+
+<Callout type="warning" title="N’empilez pas les changements inconnus">
+Ajouter plusieurs améliorations non testées à la fois rend le dépannage beaucoup plus difficile. Lorsque cela est possible, revenez à la dernière version stable connue, puis testez chaque changement séparément.
+</Callout>
+
+</Section>
+
+<Section icon={ClipboardCheck} title="FAQ sur les améliorations de production de BRASS HELL">
+
+<FAQ items={[
+  {
+    question: "Quelle amélioration dois-je effectuer en premier dans la production de BRASS HELL ?",
+    answer: "Commencez par le goulot d’étranglement actif. Vérifiez si la production est limitée par les entrées, la vitesse de traitement, le stockage, le transport ou la maintenance avant de choisir une amélioration précise."
+  },
+  {
+    question: "Une production plus élevée est-elle toujours la meilleure amélioration ?",
+    answer: "Non. Une production plus élevée peut créer des pénuries d’entrées, une congestion du stockage ou davantage de maintenance. Les améliorations d’efficacité, de fiabilité ou d’agencement peuvent offrir une meilleure valeur pratique."
+  },
+  {
+    question: "Combien de changements de production dois-je tester à la fois ?",
+    answer: "Testez si possible un changement majeur à la fois. Il sera ainsi plus facile d’identifier ce qui a amélioré le flux de travail et ce qui a introduit un nouveau problème."
+  },
+  {
+    question: "Comment savoir si une amélioration a été réussie ?",
+    answer: "Comparez des cycles de fonctionnement normaux avant et après la modification. Évaluez la production utile, les temps d’arrêt, la consommation de ressources, la pression sur le stockage et les efforts de maintenance plutôt que la seule production."
+  }
+]} />
+
+<Callout type="tip" title="Recommandation finale">
+Construisez vos systèmes de production autour de problèmes mesurables, et non de descriptions d’améliorations attrayantes. Une référence claire, un changement contrôlé et un court relevé des performances donneront de meilleurs résultats qu’une expansion précipitée.
+</Callout>
+
+</Section>

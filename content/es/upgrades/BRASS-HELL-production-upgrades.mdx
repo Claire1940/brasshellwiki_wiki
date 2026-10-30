@@ -1,0 +1,243 @@
+import { Factory, Hammer, Target, Shield, Wrench, ClipboardCheck } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mejoras de producción de BRASS HELL: guía paso a paso",
+  description: "Planifica las mejoras de producción de BRASS HELL con un sistema claro de prioridades, una rutina de pruebas, una lista de comprobación y consejos prácticos para resolver problemas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Production+Upgrades",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL",
+  slug: "/brass-hell-production-upgrades"
+}
+
+<Callout type="info" title="Guía rápida">
+- Las **mejoras de producción de BRASS HELL** funcionan mejor cuando cada cambio tiene un propósito claro.
+- **Empieza por los cuellos de botella** antes de invertir en mejoras secundarias.
+- **Prueba una mejora** a la vez para que los cambios de rendimiento sean fáciles de evaluar.
+- **Protege la fiabilidad** comprobando el calor, el ajuste, el espacio libre y las necesidades de mantenimiento.
+- **Registra los resultados** después de cada ajuste para crear una ruta de mejoras repetible.
+</Callout>
+
+<Section icon={Factory} title="Mejoras de producción de BRASS HELL: prioridades principales">
+
+Un plan sólido de **mejoras de producción de BRASS HELL** debe aumentar la producción sin crear nuevos cuellos de botella. Tanto si el sistema de producción incluye fabricación, gestión de la base, procesamiento de recursos o preparación de equipo, se aplica la misma regla: mejora la parte del flujo de trabajo que limita toda la cadena.
+
+No empieces con la opción más cara simplemente porque parezca más potente. Primero identifica dónde se pierden tiempo, materiales, almacenamiento, energía, mano de obra o capacidad de transporte. Una mejora que aumente la producción, pero deje lleno el almacenamiento final, puede aportar menos valor que una mejora menor en la logística.
+
+<CardGrid cols={4}>
+  <Card title="Rendimiento">
+    - Aumentar la cantidad que produce el sistema
+    - Reducir el tiempo de producción inactiva
+    - Dar prioridad a la etapa más lenta
+  </Card>
+  <Card title="Eficiencia">
+    - Reducir el desperdicio de materiales
+    - Mejorar el uso de combustible o energía
+    - Evitar pasos de procesamiento innecesarios
+  </Card>
+  <Card title="Fiabilidad">
+    - Reducir las paradas y los fallos
+    - Mantener el mantenimiento bajo control
+    - Comprobar la compatibilidad antes de la instalación
+  </Card>
+  <Card title="Flexibilidad">
+    - Admitir más de una receta o uso
+    - Reservar espacio para futuras mejoras
+    - Evitar mejoras que bloqueen el diseño
+  </Card>
+</CardGrid>
+
+| Prioridad | Pregunta principal | Acción recomendada | Valor de la mejora |
+| --- | --- | --- | --- |
+| 1 | ¿Qué limita la producción ahora? | Solucionar la etapa más lenta o restrictiva | Máximo |
+| 2 | ¿Dónde se pierden recursos? | Mejorar la calidad de los insumos, el almacenamiento o las rutas | Alto |
+| 3 | ¿Qué causa los tiempos de inactividad? | Añadir mejoras de fiabilidad o mantenimiento | Medio a alto |
+| 4 | ¿Qué crea limitaciones futuras? | Reservar espacio, capacidad y compatibilidad | Medio |
+| 5 | ¿Qué solo mejora la comodidad? | Añadir mejoras cosméticas o de confort más adelante | Situacional |
+
+<Callout type="tip" title="Consejo del editor">
+Considera cada mejora de producción como parte de una cadena. Una máquina más rápida solo es valiosa cuando los insumos, los productos, el almacenamiento y el transporte pueden mantener su nuevo ritmo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Elige la ruta de mejora adecuada">
+
+Los sistemas de producción suelen tener varias rutas posibles. Una puede maximizar la producción bruta, otra puede reducir el consumo de recursos y una tercera puede crear una configuración más estable. La mejor elección depende de tu objetivo actual, no de una clasificación universal.
+
+Utiliza la siguiente comparación antes de gastar materiales poco comunes o comprometerte con un cambio de diseño.
+
+| Ruta de mejora | Más adecuada para | Ventaja | Desventaja |
+| --- | --- | --- | --- |
+| Centrada en la producción | Alcanzar un objetivo de producción elevado | Más objetos o materiales con el tiempo | Puede aumentar la presión sobre los insumos y el almacenamiento |
+| Centrada en la eficiencia | Recursos limitados o insumos costosos | Mejor valor de cada material | Puede no resolver un cuello de botella temporal |
+| Centrada en la fiabilidad | Interrupciones o fallos frecuentes | Funcionamiento más estable a largo plazo | La producción inmediata puede aumentar lentamente |
+| Centrada en la expansión | Progresión a largo plazo | Más espacio para sistemas futuros | Requiere planificación y espacio disponible |
+
+### Mejoras centradas en la producción
+
+Elige una ruta centrada en la producción cuando el sistema recibe suministros de forma constante, pero no puede producir con suficiente rapidez. Confirma que la siguiente etapa pueda aceptar el volumen aumentado. De lo contrario, la capacidad adicional podría trasladar simplemente el cuello de botella al almacenamiento, el transporte o el procesamiento.
+
+### Mejoras centradas en la eficiencia
+
+La eficiencia es más importante cuando los insumos son difíciles de reemplazar o cuando la producción requiere varios materiales intermedios. Estas mejoras también pueden hacer que una configuración más pequeña siga siendo viable durante más tiempo, reduciendo la necesidad de reconstruirla demasiado pronto.
+
+### Mejoras centradas en la fiabilidad
+
+Las mejoras de fiabilidad suelen estar infravaloradas porque no siempre producen un aumento visible de la velocidad de producción. Sin embargo, un sistema que funciona de manera constante puede superar a otro más rápido que requiere reparaciones, reinicios o intervención manual con frecuencia.
+
+### Mejoras centradas en la expansión
+
+La expansión es adecuada cuando el diseño actual no tiene espacio seguro para equipos adicionales. Planifica la energía, las rutas de acceso, el almacenamiento y el espacio de mantenimiento antes de colocar estructuras permanentes.
+
+<Callout type="warning" title="Evita escalar demasiado pronto">
+Aumentar la capacidad antes de confirmar la demanda puede consumir recursos valiosos y crear un sistema sobredimensionado difícil de mantener. Expándete después de probar el flujo de trabajo actual en condiciones normales de funcionamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Hammer} title="Configuración paso a paso de una mejora de producción">
+
+Sigue este proceso cada vez que evalúes una nueva mejora de producción. La secuencia está diseñada para reducir el desperdicio de materiales y facilitar la comparación de resultados.
+
+<Steps>
+  <Step num="1" title="Mapea el flujo de trabajo actual">
+    Anota cada etapa desde los insumos hasta el producto final. Incluye el almacenamiento, el transporte, la energía, el tiempo de fabricación, el mantenimiento y cualquier acción manual. Marca la etapa que más a menudo espera a otra parte del sistema.
+  </Step>
+  <Step num="2" title="Identifica el cuello de botella activo">
+    Observa el flujo de trabajo durante el funcionamiento normal, no durante una ejecución especialmente favorable. El cuello de botella activo puede cambiar cuando el almacenamiento se llena, los insumos escasean o una estación posterior alcanza su límite.
+  </Step>
+  <Step num="3" title="Selecciona una mejora">
+    Elige la mejora más pequeña que aborde directamente el cuello de botella. Evita cambiar varios sistemas a la vez, ya que será difícil atribuir el resultado final a una sola mejora.
+  </Step>
+  <Step num="4" title="Prueba en condiciones normales">
+    Haz funcionar el sistema actualizado con insumos habituales y la demanda esperada. Comprueba la producción, el tiempo de inactividad, el uso de recursos, la presión sobre el almacenamiento y las necesidades de mantenimiento.
+  </Step>
+  <Step num="5" title="Registra el resultado">
+    Conserva una breve nota del antes y el después. Si el cuello de botella se trasladó a otra etapa, actualiza el mapa del flujo de trabajo y elige la siguiente mejora en lugar de sustituir toda la configuración.
+  </Step>
+</Steps>
+
+| Área de prueba | Antes de la mejora | Después de la mejora | Qué observar |
+| --- | --- | --- | --- |
+| Suministro de insumos | Estable, limitado o irregular | Igual o diferente | Escasez y capacidad sin utilizar |
+| Tiempo de producción | Etapa más lenta identificada | Nueva etapa limitante | Periodos inactivos y acumulación de colas |
+| Almacenamiento | Cómodo o cerca del límite | Más o menos presión | Desbordamientos y productos bloqueados |
+| Mantenimiento | Ocasional o frecuente | Más fácil o más difícil | Tiempo de reparación y acceso |
+| Producción final | Línea base actual | Nuevo resultado | Producción útil, no solo actividad |
+
+<Callout type="info" title="Regla de las pruebas">
+Una mejora de producción no queda demostrada con un solo ciclo exitoso. Prueba suficientes ciclos normales para revelar problemas de suministro, límites de almacenamiento y necesidades de mantenimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Compatibilidad, diseño y mantenimiento">
+
+Una mejora de producción puede fallar incluso cuando su beneficio principal parece atractivo. Los problemas de compatibilidad suelen aparecer en los puntos de conexión, los espacios compartidos, las rutas de entrada, las rutas de salida o el acceso para el mantenimiento. Antes de finalizar un cambio, inspecciona todo el diseño circundante, no solo el componente mejorado.
+
+Mantén despejadas las rutas de acceso. Un sistema que produce más, pero que no puede repararse sin desmontar los equipos cercanos, puede generar más trabajo del que ahorra. Del mismo modo, un nuevo dispositivo de salida puede convertirse en un problema si los contenedores, las cintas transportadoras, los espacios del inventario o las rutas de transporte no pueden manejar el volumen adicional.
+
+### Reglas prácticas de diseño
+
+- Deja suficiente acceso para el mantenimiento y la inspección rutinarios.
+- Mantén separadas las rutas de entrada y salida cuando sea probable que haya congestión.
+- Coloca el almacenamiento lo bastante cerca para reducir la manipulación innecesaria.
+- Evita bloquear los puntos de expansión futuros.
+- Agrupa los sistemas que compartan los mismos materiales o requisitos de apoyo.
+- Etiqueta o documenta las conexiones para que los cambios posteriores sigan siendo comprensibles.
+
+| Aspecto del diseño | Señal de advertencia | Respuesta más segura |
+| --- | --- | --- |
+| Acceso de entrada | Los materiales se agotan con frecuencia | Mejora el suministro o añade almacenamiento intermedio |
+| Acceso de salida | Los productos terminados permanecen en cola | Aumenta el almacenamiento o la capacidad posterior |
+| Acceso de mantenimiento | Las reparaciones requieren desmontar equipos | Reubica la unidad o conserva una ruta de servicio |
+| Recursos compartidos | Varios sistemas compiten constantemente | Aumenta la capacidad de apoyo o escalona la producción |
+| Espacio de expansión | El nuevo equipo no tiene una ubicación clara | Reserva una zona de crecimiento específica |
+
+### El mantenimiento como parte de la mejora
+
+El mantenimiento debe incluirse en el coste total de una mejora. Un sistema que ahorra tiempo de producción, pero añade reparaciones repetidas, quizá no sea una mejora para el uso habitual. Compara el tiempo ahorrado con la atención necesaria para mantener el sistema activo.
+
+Un programa de mantenimiento sencillo puede incluir comprobaciones de entrada, comprobaciones de salida, comprobaciones de conexiones y una inspección completa después de cambios importantes en el diseño. Mantén estas comprobaciones breves y fáciles de repetir.
+
+<Checklist
+  id="production-upgrade-review"
+  title="Revisión de la mejora de producción:"
+  items={[
+    "Confirma que la mejora aborda el cuello de botella activo",
+    "Comprueba la capacidad de entrada, salida, almacenamiento y transporte",
+    "Conserva el acceso para la inspección y el mantenimiento",
+    "Prueba el sistema en condiciones normales de funcionamiento",
+    "Registra el resultado antes de realizar otro cambio importante"
+  ]}
+/>
+
+<Callout type="success" title="Progreso fiable">
+La mejor configuración de producción no siempre es la más grande. Un sistema más pequeño, con acceso claro, insumos estables y un mantenimiento predecible, puede apoyar la progresión de manera más eficaz.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de problemas de producción">
+
+Cuando una mejora no ofrece el resultado esperado, evita desmontarlo todo de inmediato. Primero identifica si el problema está relacionado con el suministro, el procesamiento, el almacenamiento, las rutas, la compatibilidad o el mantenimiento. Un diagnóstico correcto suele ser más rápido que reconstruir el sistema repetidamente.
+
+| Síntoma | Causa probable | Primera comprobación | Solución práctica |
+| --- | --- | --- | --- |
+| El equipo permanece inactivo | Los insumos son insuficientes | Inspecciona el flujo de recursos | Mejora el suministro o añade un almacenamiento intermedio |
+| Los insumos se acumulan | El procesamiento es demasiado lento | Compara los tiempos de las etapas | Mejora la etapa lenta |
+| Los productos bloquean el sistema | El almacenamiento es demasiado pequeño | Comprueba los contenedores finales | Amplía el almacenamiento o el uso posterior |
+| La producción se detiene a menudo | Problema de fiabilidad o mantenimiento | Revisa los puntos de fallo | Mejora el acceso y el mantenimiento |
+| La nueva mejora cambia poco | El cuello de botella se trasladó a otro lugar | Vuelve a mapear el flujo de trabajo | Aborda la nueva etapa limitante |
+| El diseño se vuelve difícil de usar | La expansión se realizó demasiado pronto | Inspecciona las rutas de acceso | Reubica los equipos o simplifica las conexiones |
+
+### Un orden de diagnóstico sencillo
+
+1. Comprueba si el sistema tiene suficientes insumos.
+2. Confirma que la etapa de producción esté activa.
+3. Inspecciona la capacidad de salida y el almacenamiento.
+4. Busca rutas bloqueadas o conexiones incompatibles.
+5. Revisa las necesidades de mantenimiento y acceso.
+6. Compara el resultado con la línea base original.
+
+No evalúes una mejora únicamente por su producción teórica máxima. Una configuración práctica también debe ser comprensible, fácil de mantener y estable durante el uso habitual. Si la mejora requiere supervisión constante, su valor real puede ser inferior al que su capacidad indicada parece sugerir.
+
+<Callout type="warning" title="No acumules cambios desconocidos">
+Añadir varias mejoras sin probar al mismo tiempo hace que la resolución de problemas sea mucho más difícil. Cuando sea posible, restaura la última versión estable conocida y después prueba cada cambio por separado.
+</Callout>
+
+</Section>
+
+<Section icon={ClipboardCheck} title="Preguntas frecuentes sobre las mejoras de producción de BRASS HELL">
+
+<FAQ items={[
+  {
+    question: "¿Qué debería mejorar primero en las mejoras de producción de BRASS HELL?",
+    answer: "Empieza por el cuello de botella activo. Comprueba si la producción está limitada por los insumos, la velocidad de procesamiento, el almacenamiento, el transporte o el mantenimiento antes de elegir una mejora específica."
+  },
+  {
+    question: "¿Una mayor producción siempre es la mejor mejora de producción?",
+    answer: "No. Una mayor producción puede crear escasez de insumos, congestión en el almacenamiento o mantenimiento adicional. Las mejoras de eficiencia, fiabilidad o diseño pueden ofrecer un valor práctico superior."
+  },
+  {
+    question: "¿Cuántos cambios de producción debería probar a la vez?",
+    answer: "Siempre que sea posible, prueba un cambio importante cada vez. Esto facilita identificar qué mejoró el flujo de trabajo y qué introdujo un nuevo problema."
+  },
+  {
+    question: "¿Cómo puedo saber si una mejora tuvo éxito?",
+    answer: "Compara los ciclos normales de funcionamiento antes y después del cambio. Revisa la producción útil, el tiempo de inactividad, el consumo de recursos, la presión sobre el almacenamiento y el esfuerzo de mantenimiento, en lugar de fijarte solo en la producción."
+  }
+]} />
+
+<Callout type="tip" title="Recomendación final">
+Construye los sistemas de producción en torno a problemas medibles, no a descripciones de mejoras atractivas. Una línea base clara, un cambio controlado y un registro breve del rendimiento producirán mejores resultados que una expansión apresurada.
+</Callout>
+
+</Section>

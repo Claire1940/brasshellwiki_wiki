@@ -1,0 +1,226 @@
+import { Factory, Target, Package, TrendingUp, ClipboardCheck } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de mejoras de BRASS HELL: mejores prioridades y consejos para la fábrica",
+  description: "Usa esta guía de mejoras de BRASS HELL para aumentar la velocidad de producción, el flujo de cajas, las ganancias de los envíos, la progresión de munición y la eficiencia de la fábrica a largo plazo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/15191D/fff?text=BRASS+HELL+Upgrade+Guide",
+  date: "2026-10-31",
+  author: "Equipo de Wiki de BRASS HELL",
+  slug: "/brass-hell-upgrade-guide"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de mejoras de BRASS HELL**: Prioriza las mejoras que refuercen todo el ciclo, desde la producción hasta el envío.
+- **Primera prioridad**: Mejora la velocidad de producción antes de invertir mucho en mejoras centradas en la comodidad.
+- **En la fase intermedia**: Reduce las esperas de las cajas y aumenta el valor de los envíos completados.
+- **Ruta avanzada**: Desbloquea munición más potente solo cuando tu fábrica pueda mantener una producción constante.
+- **Nota importante**: Comprueba los costes exactos y los efectos de las mejoras no documentados en los menús actuales del juego de 2026.
+</Callout>
+
+<Section icon={Factory} title="Guía de mejoras de BRASS HELL: prioridades principales">
+
+La mejor ruta de mejoras en BRASS HELL comienza con el ciclo de la fábrica, no con una estadística aislada. Tu objetivo es convertir los materiales en munición, llenar una caja de envío, despachar el pedido y reinvertir las ganancias con el menor tiempo de inactividad posible. Esta **guía de mejoras de BRASS HELL** recomienda evaluar cada mejora del taller según cómo afecta a ese ciclo repetitivo.
+
+El material de referencia disponible confirma la importancia de las mejoras del taller, la eficiencia de producción, las ganancias de los envíos, la progresión de munición, el progreso de rango y la EXP de maestría. No establece una lista completa de nombres exactos de mejoras, precios o efectos numéricos, por lo que las prioridades siguientes son recomendaciones prácticas y no una tabla de costes inventada.
+
+<CardGrid cols={3}>
+  <Card title="Velocidad de producción">
+    - Acorta el ciclo de la prensa
+    - Aumenta los lotes completados durante una sesión
+    - Es la prioridad inicial más importante para la mayoría de los principiantes
+  </Card>
+  <Card title="Flujo de cajas">
+    - Reduce las esperas después de la fabricación
+    - Ayuda a trasladar las municiones terminadas a los envíos
+    - Es valioso cuando la producción supera la velocidad de embalaje
+  </Card>
+  <Card title="Ganancias de los envíos">
+    - Mejora las ganancias de los pedidos completados
+    - Adquiere más valor después de estabilizar la producción
+    - Permite reinvertir más rápido en el taller
+  </Card>
+</CardGrid>
+
+| Prioridad de mejora | Prioridad recomendada | Mejor momento | Motivo principal |
+| --- | --- | --- | --- |
+| Velocidad de producción | **Máxima** | Primeras mejoras | Más lotes terminados por sesión |
+| Flujo de cajas | **Alta** | Cuando el embalaje provoca esperas | Mantiene las municiones terminadas avanzando hacia el despacho |
+| Ganancias de los envíos | Alta | Después de estabilizar el ciclo de producción | Aumenta el rendimiento de cada pedido completado |
+| Desbloqueos de munición | Media a alta | Durante la progresión avanzada | Abre municiones más potentes y objetivos a largo plazo |
+| Mejoras de comodidad | Situacional | Después de las mejoras principales | Reduce las molestias sin sustituir las mejoras de flujo |
+
+<Callout type="tip" title="Regla de mejora">
+Elige la mejora que elimine la mayor espera de tu ciclo actual. Una prensa más rápida tiene un valor limitado si las cajas siguen sin llenarse o los envíos se retrasan.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejor orden de mejoras para las fábricas nuevas">
+
+Un jugador nuevo debería evitar repartir sus recursos entre todas las opciones disponibles. La fábrica inicial es más fácil de gestionar cuando las mejoras siguen una secuencia sencilla: establecer la producción, eliminar el mayor cuello de botella y después mejorar el valor del trabajo completado.
+
+Usa la siguiente ruta como una guía flexible. El orden exacto puede cambiar si tu sesión actual revela una limitación diferente. Por ejemplo, un jugador en un grupo puede producir munición rápidamente, pero pasar demasiado tiempo transportando, embalando u organizando las cajas de envío.
+
+<Steps>
+  <Step num="1" title="Establece el primer ciclo de producción">
+    Registra tu entrada, localiza la prensa de munición, identifica el área de suministro de materiales y completa el primer ciclo de producción disponible. No te apresures a realizar inversiones avanzadas antes de entender cómo conecta la fábrica la producción, las cajas y la entrega.
+  </Step>
+  <Step num="2" title="Compra la primera mejora de flujo">
+    Invierte las primeras ganancias importantes en una mejora del taller que acorte la producción o te ayude a completar lotes de forma más constante. La velocidad de producción suele ser el objetivo inicial más claro.
+  </Step>
+  <Step num="3" title="Corrige el cuello de botella actual">
+    Observa el ciclo completo de uno o más pedidos. Si la prensa está inactiva, mejora la producción. Si las municiones terminadas esperan cerca del área de cajas, mejora la manipulación o el flujo de cajas. Si los pedidos se completan sin problemas, pero las ganancias parecen bajas, considera aumentar el valor de los envíos.
+  </Step>
+  <Step num="4" title="Apoya la progresión de munición">
+    Avanza hacia los desbloqueos de munición después de que el flujo de trabajo básico sea fiable. Una munición más potente resulta más útil cuando tus materiales, la actividad de la prensa y el proceso de envío pueden mantener una producción regular.
+  </Step>
+  <Step num="5" title="Reinvierte mediante envíos repetidos">
+    Continúa financiando el taller en lugar de considerar la primera entrega como el final de la progresión. Compara cada compra con tu próximo objetivo de producción y mantén la fábrica activa durante la sesión.
+  </Step>
+</Steps>
+
+| Etapa de progresión | Objetivo principal | Enfoque de mejora | Evita |
+| --- | --- | --- | --- |
+| Primer ciclo | Aprender la ruta de la fábrica | Usa la configuración inicial y observa las esperas | Gastar recursos antes de entender el flujo de trabajo |
+| Progresión inicial | Producir de forma constante | Prioriza la velocidad de la prensa y el flujo básico | Comprar mejoras de comodidad demasiado pronto |
+| Fábrica en desarrollo | Completar las cajas más rápido | Equilibra la eficiencia de producción y embalaje | Ignorar la parte más lenta del ciclo |
+| Progresión avanzada | Aumentar las ganancias a largo plazo | Añade valor a los envíos y desbloqueos de munición | Suponer que todos los multiplicadores se acumulan automáticamente |
+
+<Callout type="warning" title="No persigas desbloqueos a ciegas">
+Un nivel de munición superior no es automáticamente la mejor compra si provoca escasez de materiales o ralentiza los envíos completos. Mide el ciclo completo del pedido antes de cambiar de prioridad.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Eficiencia de producción y envíos">
+
+Las mejoras solo importan cuando mejoran las acciones realizadas entre un pedido y el siguiente. El flujo de trabajo principal de BRASS HELL incluye reunir materiales, operar la prensa, reponer los suministros, revisar el pedido, llenar la caja y despachar el envío.
+
+Los jugadores eficientes preparan la siguiente acción antes de que termine la tarea actual. Mientras se finaliza una caja, revisa el siguiente pedido. Mientras haya materiales disponibles, mantén la prensa activa. Después del despacho, vuelve directamente a la preparación en lugar de esperar en el área de entrega.
+
+| Paso de la fábrica | Qué hacer | Objetivo de eficiencia |
+| --- | --- | --- |
+| Materiales | Revisa el pedido activo y reúne los suministros necesarios | Mantén los materiales necesarios cerca de la ruta de producción |
+| Prensa | Carga los suministros y completa la interacción de producción | Minimiza el tiempo inutilizado de la prensa |
+| Reabastecimiento | Sustituye los materiales consumidos antes del siguiente lote | Evita interrupciones innecesarias |
+| Preparación de la caja | Coloca la munición terminada en el contenedor correcto | Completa el lote entero antes de desplazarte |
+| Despacho | Finaliza y entrega el envío | Empieza a preparar el siguiente pedido inmediatamente |
+
+### Cómo identificar tu cuello de botella
+
+Observa la parte del ciclo que provoca la espera más larga:
+
+- Si la prensa espera materiales, mejora la organización y el reabastecimiento antes de cambiar tus objetivos de munición.
+- Si la producción termina antes de que la caja esté lista, prioriza la manipulación o el flujo de cajas.
+- Si la caja se completa rápidamente, pero las ganancias son modestas, las ganancias de los envíos pueden ofrecer un valor mayor.
+- Si la fábrica es eficiente, pero la progresión parece lenta, compara por separado las actividades de progreso de rango y EXP de maestría.
+- Si los compañeros de equipo dividen las tareas en multijugador, asigna a un jugador los materiales, a otro la producción y a otro el embalaje cuando sea práctico.
+
+<Callout type="info" title="Eficiencia del equipo">
+BRASS HELL admite hasta cuatro jugadores en un servidor. La cooperación puede reducir los desplazamientos y el tiempo de inactividad, pero cada jugador debería entender el ciclo completo antes de especializarse.
+</Callout>
+
+</Section>
+
+<Section icon={TrendingUp} title="Comparación de objetivos de mejora y sistemas de progresión">
+
+Las mejoras del taller apoyan el ciclo de la fábrica, mientras que el progreso de rango y la EXP de maestría representan objetivos de progresión independientes. Tratarlos como sistemas diferentes facilita determinar si una mejora aumenta las ganancias inmediatas, los desbloqueos a largo plazo o ambas cosas.
+
+Los pases de juego relacionados con la progresión que aparecen en la información están asociados a la EXP de maestría, el progreso de rango y los beneficios de producción en masa. Sus descripciones deben evaluarse individualmente. No supongas que estos efectos se combinan automáticamente en un multiplicador universal a menos que el texto actual del juego lo indique explícitamente.
+
+| Objetivo | Qué mejora | Cómo apoyarlo | Implicación para las mejoras |
+| --- | --- | --- | --- |
+| Producción | El número de lotes completados | Mantén la prensa abastecida y activa | Prioriza la velocidad cuando la prensa sea el cuello de botella |
+| Ingresos de los envíos | El rendimiento de los pedidos terminados | Completa y despacha cajas llenas | Prioriza el valor después de estabilizar la producción |
+| EXP de maestría | El avance centrado en la maestría | Continúa con las actividades de fábrica que otorguen progreso | Considera por separado el beneficio centrado en la maestría |
+| Progreso de rango | El avance de rango | Completa tareas de producción y envío | Evalúa por separado el apoyo centrado en el rango |
+| Producción en masa | Una producción mayor o más eficiente | Usa las actividades de producción en masa compatibles | No supongas que sustituye a los demás sistemas de progresión |
+
+### Progresión gratuita antes del apoyo de pago
+
+El ciclo principal de la fábrica sigue siendo la base de la progresión. Los pases de juego pueden complementar un beneficio concreto, pero no eliminan la necesidad de operar el equipo, gestionar los materiales, completar los pedidos y despachar las cajas.
+
+Antes de considerar cualquier opción de pago, establece estos hábitos gratuitos:
+
+- Mantén abastecida el área de producción.
+- Completa lotes enteros en lugar de hacer varios viajes parciales.
+- Compara el pedido activo con la munición terminada antes de embalarla.
+- Reinvierte las ganancias de los envíos en la mejora que corrija tu espera actual.
+- Consulta la descripción actual del producto de Roblox antes de realizar una compra.
+
+<Callout type="success" title="Comprobación del valor">
+Un multiplicador de pago es más fácil de evaluar después de conocer tu ciclo normal de producción. Primero establece tu referencia y luego compara si el efecto indicado resuelve tu cuello de botella real.
+</Callout>
+
+</Section>
+
+<Section icon={ClipboardCheck} title="Lista de comprobación de mejoras y decisiones prácticas">
+
+Usa esta lista al comenzar una nueva sesión, cambiar de nivel de munición o decidir entre dos mejoras del taller. Mantiene la ruta de mejoras vinculada al comportamiento medible de la fábrica en lugar de basarse en suposiciones vagas.
+
+<Checklist
+  id="brass-hell-upgrade-route"
+  title="Comprobación de mejoras de la fábrica:"
+  items={[
+    "Completa un ciclo completo desde la producción hasta el envío",
+    "Identifica si la prensa, los materiales, las cajas o la ruta de entrega provocan la mayor espera",
+    "Prioriza la velocidad de producción antes que la comodidad cuando la producción sea el principal cuello de botella",
+    "Compara el valor de los envíos solo después de que la fábrica pueda completar pedidos de forma constante",
+    "Revisa las descripciones actuales de las mejoras del juego antes de gastar recursos"
+  ]}
+/>
+
+| Punto de decisión | Elige esta dirección | Por qué funciona |
+| --- | --- | --- |
+| La prensa está inactiva | Velocidad de producción u organización de materiales | Más tiempo activo de la prensa mejora la producción repetida |
+| Se agotan los materiales | Reabastecimiento y eficiencia de la ruta | Evita interrupciones en la producción |
+| Las municiones esperan antes del embalaje | Flujo de cajas o manipulación | Elimina la espera posterior a la producción |
+| Los pedidos terminan sin problemas | Ganancias de los envíos | Mejora el rendimiento de un ciclo estable |
+| La progresión parece lenta | Revisa las actividades de progreso de rango y EXP de maestría | Separa los objetivos a largo plazo de los ingresos inmediatos |
+| Hay nueva munición disponible | Pruébala en el ciclo completo | La producción de nivel superior puede requerir un mejor apoyo |
+
+### Principios prácticos de mejora
+
+La regla general más importante es mejorar el paso más lento, no necesariamente la opción de apariencia más impresionante. Una fábrica con una excelente velocidad de producción puede seguir rindiendo por debajo de lo esperado si el jugador tarda demasiado en reunir suministros o completar los envíos.
+
+Aplica estos principios durante el juego habitual:
+
+1. **Mide antes de cambiar de dirección.** Observa al menos un ciclo completo de pedido.
+2. **Prefiere las ganancias repetibles.** Una mejora que ayude en cada envío suele ser más fácil de evaluar que un efecto de comodidad limitado.
+3. **Protege el flujo de materiales.** La munición avanzada solo es útil cuando la fábrica puede producirla de forma constante.
+4. **Separa los sistemas.** La EXP de maestría, el progreso de rango, los efectos de producción en masa y los ingresos normales de los envíos no deben tratarse como elementos idénticos.
+5. **Vuelve a comprobarlo después de las actualizaciones.** BRASS HELL se encuentra en acceso anticipado durante 2026, por lo que los nombres, efectos y detalles de progresión del taller pueden cambiar.
+
+<Callout type="tip" title="Consejo para reiniciar la sesión">
+Al probar una nueva mejora, realiza la misma ruta de producción antes y después de comprarla. Compara el tiempo de inactividad, las cajas completadas y el flujo de envíos en lugar de juzgar la mejora por una sola interacción.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor primera mejora en BRASS HELL?",
+    answer: "La velocidad de producción es la primera prioridad más segura cuando la prensa es el principal cuello de botella. Si los materiales o la manipulación de las cajas provocan esperas más largas, corrige ese cuello de botella en su lugar."
+  },
+  {
+    question: "¿Debo priorizar las ganancias de los envíos o los desbloqueos de munición?",
+    answer: "Prioriza las ganancias de los envíos cuando tus municiones actuales se produzcan y entreguen de forma constante. Elige los desbloqueos de munición cuando tu fábrica esté preparada para mantener el paso adicional de progresión."
+  },
+  {
+    question: "¿La EXP de maestría y el progreso de rango utilizan el mismo efecto de mejora?",
+    answer: "Deben tratarse como sistemas de progresión independientes. Revisa las descripciones actuales del juego en lugar de suponer que la EXP de maestría, el progreso de rango y los beneficios de producción en masa se acumulan automáticamente."
+  },
+  {
+    question: "¿Están confirmados en esta guía los precios exactos de las mejoras?",
+    answer: "No. Los costes exactos y los efectos numéricos deben comprobarse en la interfaz actual del taller de 2026, ya que la información disponible no establece una lista de precios completa y verificada."
+  }
+]} />
+
+Para consultar la entrada actual del juego y cualquier descripción activa del taller, utiliza la [página oficial de BRASS HELL en Roblox](https://www.roblox.com/games/104347694974983) antes de tomar decisiones basadas en capturas antiguas o recomendaciones de la comunidad.
+
+</Section>

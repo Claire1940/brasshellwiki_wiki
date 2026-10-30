@@ -1,0 +1,226 @@
+import { Factory, Target, Package, TrendingUp, ClipboardCheck } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide des améliorations de BRASS HELL : priorités et conseils pour l'usine",
+  description: "Utilisez ce guide des améliorations de BRASS HELL pour augmenter la vitesse de production, le débit des caisses, les revenus des expéditions, la progression des munitions et l'efficacité de l'usine sur le long terme.",
+  category: "guide",
+  image: "https://placehold.co/800x400/15191D/fff?text=BRASS+HELL+Upgrade+Guide",
+  date: "2026-10-31",
+  author: "Équipe du wiki BRASS HELL",
+  slug: "/brass-hell-upgrade-guide"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Guide des améliorations de BRASS HELL** : donnez la priorité aux améliorations qui renforcent l'ensemble de la boucle, de la production à l'expédition.
+- **Première priorité** : améliorez la vitesse de production avant d'investir massivement dans les améliorations axées sur le confort.
+- **Objectif de milieu de partie** : réduisez les délais liés aux caisses et augmentez la valeur des expéditions terminées.
+- **Approche avancée** : débloquez des munitions plus puissantes uniquement lorsque votre usine peut assurer une production régulière.
+- **Remarque importante** : vérifiez les coûts exacts et les effets non documentés des améliorations dans les menus actuels du jeu en 2026.
+</Callout>
+
+<Section icon={Factory} title="Guide des améliorations de BRASS HELL : priorités principales">
+
+Le meilleur parcours d'amélioration dans BRASS HELL commence par la boucle de l'usine plutôt que par une statistique isolée. Votre objectif est de transformer les matériaux en munitions, de remplir une caisse d'expédition, d'envoyer la commande, puis de réinvestir les gains avec le moins de temps mort possible. Ce **guide des améliorations de BRASS HELL** recommande d'évaluer chaque amélioration de l'atelier selon son impact sur ce cycle répété.
+
+Les informations de référence disponibles confirment l'importance des améliorations de l'atelier, de l'efficacité de production, des revenus d'expédition, de la progression des munitions, de la progression de rang et de l'XP de maîtrise. Elles ne fournissent pas une liste complète des noms exacts des améliorations, de leurs prix ou de leurs effets numériques ; les priorités ci-dessous sont donc des recommandations pratiques et non un tableau de coûts inventé.
+
+<CardGrid cols={3}>
+  <Card title="Vitesse de production">
+    - Raccourcit le cycle de la presse
+    - Augmente le nombre de lots terminés au cours d'une session
+    - Priorité de départ la plus efficace pour la plupart des débutants
+  </Card>
+  <Card title="Débit des caisses">
+    - Réduit les délais après la fabrication
+    - Facilite le transfert des munitions terminées vers les expéditions
+    - Devient précieux lorsque la production dépasse la mise en caisse
+  </Card>
+  <Card title="Revenus d'expédition">
+    - Améliore les gains des commandes terminées
+    - Devient plus rentable une fois la production régulière
+    - Permet de réinvestir plus rapidement dans l'atelier
+  </Card>
+</CardGrid>
+
+| Priorité d'amélioration | Priorité recommandée | Meilleur moment | Raison principale |
+| --- | --- | --- | --- |
+| Vitesse de production | **La plus élevée** | Premières améliorations | Davantage de lots terminés par session |
+| Débit des caisses | **Élevée** | Lorsque la mise en caisse provoque des délais | Maintient les munitions terminées en mouvement vers l'expédition |
+| Revenus d'expédition | Élevée | Après avoir stabilisé la boucle de production | Augmente le rendement de chaque commande terminée |
+| Déblocage de munitions | Moyenne à élevée | Au cours de la progression avancée | Ouvre l'accès à des munitions plus puissantes et à des objectifs à long terme |
+| Améliorations de confort | Situationnelle | Après les améliorations principales | Réduit les frictions sans remplacer les gains de débit |
+
+<Callout type="tip" title="Règle d'amélioration">
+Choisissez l'amélioration qui supprime le plus grand délai de votre cycle actuel. Une presse plus rapide a une valeur limitée si les caisses restent incomplètes ou si les expéditions sont retardées.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meilleur ordre d'amélioration pour les nouvelles usines">
+
+Un nouveau joueur devrait éviter de répartir ses ressources entre toutes les options disponibles. La gestion de l'usine en début de partie est plus simple lorsque les améliorations suivent une séquence claire : établir la production, supprimer le principal goulot d'étranglement, puis améliorer la valeur du travail terminé.
+
+Utilisez le parcours suivant comme cadre flexible. L'ordre exact peut changer si votre session actuelle révèle une autre limitation. Par exemple, un joueur en groupe peut produire rapidement des munitions, mais passer trop de temps à les transporter, les mettre en caisse ou organiser les caisses d'expédition.
+
+<Steps>
+  <Step num="1" title="Établir la première boucle de production">
+    Pointez, localisez la presse à munitions, repérez la zone d'approvisionnement en matériaux et terminez le premier cycle de production disponible. Ne vous précipitez pas vers les investissements avancés avant d'avoir compris comment l'usine relie la production, les caisses et la livraison.
+  </Step>
+  <Step num="2" title="Acheter la première amélioration de débit">
+    Dépensez votre premier gain significatif dans une amélioration de l'atelier qui raccourcit la production ou vous aide à terminer les lots plus régulièrement. La vitesse de production est généralement la cible de départ la plus évidente.
+  </Step>
+  <Step num="3" title="Corriger le goulot d'étranglement actuel">
+    Observez le cycle complet d'une ou plusieurs commandes. Si la presse est inactive, améliorez la production. Si les munitions terminées attendent près de la zone des caisses, améliorez la manutention ou le débit des caisses. Si les commandes se terminent sans difficulté mais que les gains semblent faibles, envisagez la valeur des expéditions.
+  </Step>
+  <Step num="4" title="Soutenir la progression des munitions">
+    Orientez-vous vers les déblocages de munitions une fois le fonctionnement de base fiable. Une munition plus puissante est surtout utile lorsque vos matériaux, l'activité de la presse et le processus d'expédition permettent une production régulière.
+  </Step>
+  <Step num="5" title="Réinvestir grâce aux expéditions répétées">
+    Continuez à financer l'atelier au lieu de considérer la première livraison comme la fin de la progression. Comparez chaque achat à votre prochain objectif de production et maintenez l'usine active pendant la session.
+  </Step>
+</Steps>
+
+| Étape de progression | Objectif principal | Approche d'amélioration | À éviter |
+| --- | --- | --- | --- |
+| Premier cycle | Apprendre le parcours de l'usine | Utiliser la configuration de départ et observer les délais | Dépenser avant de comprendre le fonctionnement |
+| Début de progression | Produire régulièrement | Privilégier la vitesse de la presse et le débit de base | Acheter trop tôt des améliorations de confort |
+| Usine en développement | Remplir les caisses plus rapidement | Équilibrer l'efficacité de production et de mise en caisse | Ignorer la partie la plus lente de la boucle |
+| Progression avancée | Augmenter les gains à long terme | Ajouter de la valeur d'expédition et des déblocages de munitions | Supposer que tous les multiplicateurs se cumulent automatiquement |
+
+<Callout type="warning" title="Ne poursuivez pas les déblocages à l'aveugle">
+Un niveau de munitions supérieur n'est pas automatiquement le meilleur achat s'il provoque des pénuries de matériaux ou ralentit les expéditions complètes. Mesurez le cycle complet d'une commande avant de changer de priorité.
+</Callout>
+
+</Section>
+
+<Section icon={Package} title="Efficacité de la production et des expéditions">
+
+Les améliorations ne sont utiles que lorsqu'elles améliorent les actions effectuées entre deux commandes. Le fonctionnement principal de BRASS HELL comprend la collecte des matériaux, l'utilisation de la presse, le réapprovisionnement des composants, la vérification de la commande, le remplissage de la caisse et l'envoi de l'expédition.
+
+Les joueurs efficaces préparent l'action suivante avant la fin de la tâche actuelle. Pendant la finalisation d'une caisse, vérifiez la prochaine commande. Tant que les matériaux sont disponibles, maintenez la presse en activité. Après l'envoi, revenez directement à la préparation au lieu d'attendre dans la zone de livraison.
+
+| Étape de l'usine | Ce qu'il faut faire | Objectif d'efficacité |
+| --- | --- | --- |
+| Matériaux | Vérifier la commande active et rassembler les composants nécessaires | Garder les matériaux nécessaires près du parcours de production |
+| Presse | Charger les composants et terminer l'interaction de production | Réduire au minimum le temps d'inactivité de la presse |
+| Réapprovisionnement | Remplacer les matériaux consommés avant le prochain lot | Éviter les interruptions prévisibles |
+| Préparation de la caisse | Placer les munitions terminées dans le conteneur approprié | Terminer le lot complet avant de se déplacer |
+| Expédition | Finaliser et livrer l'expédition | Commencer immédiatement à préparer la commande suivante |
+
+### Comment identifier votre goulot d'étranglement
+
+Suivez la partie du cycle qui provoque la plus longue attente :
+
+- Si la presse attend les matériaux, améliorez l'organisation et le réapprovisionnement avant de modifier vos objectifs de munitions.
+- Si la production se termine avant que la caisse soit prête, donnez la priorité à la manutention ou au débit des caisses.
+- Si la caisse est rapidement terminée mais que les gains restent modestes, les revenus d'expédition peuvent offrir une meilleure valeur.
+- Si l'usine est efficace mais que la progression semble lente, comparez séparément les activités de progression de rang et d'XP de maîtrise.
+- Si les coéquipiers en multijoueur se répartissent les tâches, attribuez si possible les matériaux à un joueur, la production à un autre et la mise en caisse à un troisième.
+
+<Callout type="info" title="Efficacité de l'équipe">
+BRASS HELL prend en charge jusqu'à quatre joueurs sur un serveur. La coopération peut réduire les déplacements et les temps morts, mais chaque joueur devrait comprendre la boucle complète avant de se spécialiser.
+</Callout>
+
+</Section>
+
+<Section icon={TrendingUp} title="Comparer les objectifs d'amélioration et les systèmes de progression">
+
+Les améliorations de l'atelier soutiennent la boucle de l'usine, tandis que la progression de rang et l'XP de maîtrise représentent des objectifs de progression distincts. Les traiter comme des systèmes différents permet de mieux déterminer si une amélioration augmente les gains immédiats, les déblocages à long terme, ou les deux.
+
+Les passes de jeu liées à la progression mentionnées sont associées à l'XP de maîtrise, à la progression de rang et aux avantages de production en masse. Leurs descriptions doivent être évaluées séparément. Ne supposez pas que ces effets se combinent automatiquement en un multiplicateur universel, sauf si le texte actuel du jeu l'indique explicitement.
+
+| Objectif | Ce que cela améliore | Comment le soutenir | Conséquence pour les améliorations |
+| --- | --- | --- | --- |
+| Production | Le nombre de lots terminés | Maintenir la presse approvisionnée et active | Privilégier la vitesse lorsque la presse est le goulot d'étranglement |
+| Revenus d'expédition | Le rendement des commandes terminées | Remplir et envoyer des caisses complètes | Privilégier la valeur une fois la production stabilisée |
+| XP de maîtrise | La progression orientée vers la maîtrise | Continuer les activités d'usine éligibles | Envisager séparément l'avantage axé sur la maîtrise |
+| Progression de rang | L'avancement du rang | Terminer les activités de production et d'expédition | Évaluer séparément le soutien axé sur le rang |
+| Production en masse | Un rendement plus important ou plus efficace | Utiliser les activités de production en masse prises en charge | Ne pas supposer qu'elle remplace les autres systèmes de progression |
+
+### Progression gratuite avant les avantages payants
+
+La boucle principale de l'usine reste la base de la progression. Les passes de jeu peuvent compléter un avantage particulier, mais elles ne suppriment pas la nécessité d'utiliser l'équipement, de gérer les matériaux, de terminer les commandes et d'envoyer les caisses.
+
+Avant d'envisager une option payante, adoptez ces habitudes gratuites :
+
+- Gardez la zone de production approvisionnée.
+- Terminez des lots complets au lieu d'effectuer plusieurs trajets partiels.
+- Comparez la commande active aux munitions terminées avant la mise en caisse.
+- Réinvestissez les revenus d'expédition dans l'amélioration qui corrige votre délai actuel.
+- Consultez la description actuelle du produit Roblox avant tout achat.
+
+<Callout type="success" title="Vérification de la valeur">
+Il est plus facile d'évaluer un multiplicateur payant lorsque vous connaissez votre cycle de production normal. Commencez par établir votre référence, puis vérifiez si l'effet indiqué répond à votre véritable goulot d'étranglement.
+</Callout>
+
+</Section>
+
+<Section icon={ClipboardCheck} title="Checklist des améliorations et décisions pratiques">
+
+Utilisez cette checklist lorsque vous commencez une nouvelle session, changez de niveau de munitions ou hésitez entre deux améliorations de l'atelier. Elle relie le parcours d'amélioration au comportement mesurable de l'usine plutôt qu'à des suppositions vagues.
+
+<Checklist
+  id="brass-hell-upgrade-route"
+  title="Vérification des améliorations de l'usine :"
+  items={[
+    "Terminer un cycle complet, de la production à l'expédition",
+    "Identifier si la presse, les matériaux, les caisses ou le parcours de livraison provoquent le plus long délai",
+    "Privilégier la vitesse de production avant le confort lorsque le rendement est le principal goulot d'étranglement",
+    "Comparer la valeur des expéditions uniquement lorsque l'usine peut terminer régulièrement les commandes",
+    "Consulter les descriptions actuelles des améliorations en jeu avant de dépenser des ressources"
+  ]}
+/>
+
+| Situation | Orientation à choisir | Pourquoi cela fonctionne |
+| --- | --- | --- |
+| La presse est inactive | Vitesse de production ou organisation des matériaux | Un temps d'activité accru de la presse améliore le rendement répété |
+| Les matériaux s'épuisent | Réapprovisionnement et efficacité du parcours | Évite les interruptions de production |
+| Les munitions attendent avant la mise en caisse | Débit des caisses ou manutention | Supprime le délai suivant la production |
+| Les commandes se terminent sans difficulté | Revenus d'expédition | Améliore les gains d'un cycle stable |
+| La progression semble lente | Examiner les activités de progression de rang et d'XP de maîtrise | Sépare les objectifs à long terme des revenus immédiats |
+| De nouvelles munitions sont disponibles | Les tester sur le cycle complet | Une production de niveau supérieur peut nécessiter un meilleur soutien |
+
+### Principes pratiques d'amélioration
+
+La règle générale la plus importante consiste à améliorer l'étape la plus lente, et pas forcément l'option qui semble la plus impressionnante. Une usine dotée d'une excellente vitesse de production peut tout de même être peu performante si le joueur passe trop de temps à rassembler les fournitures ou à terminer les expéditions.
+
+Appliquez ces principes pendant vos parties régulières :
+
+1. **Mesurez avant de changer de direction.** Observez au moins un cycle complet de commande.
+2. **Privilégiez les gains répétables.** Une amélioration qui aide chaque expédition est généralement plus facile à évaluer qu'un effet de confort limité.
+3. **Protégez le flux de matériaux.** Les munitions avancées ne sont utiles que lorsque l'usine peut les produire régulièrement.
+4. **Séparez les systèmes.** L'XP de maîtrise, la progression de rang, les effets de production en masse et les revenus ordinaires d'expédition ne doivent pas être considérés comme identiques.
+5. **Vérifiez après les mises à jour.** BRASS HELL est en sortie anticipée en 2026 ; les noms des améliorations, leurs effets et les détails de progression peuvent donc changer.
+
+<Callout type="tip" title="Conseil pour réinitialiser une session">
+Lorsque vous testez une nouvelle amélioration, effectuez le même parcours de production avant et après l'achat. Comparez le temps mort, le nombre de caisses terminées et le flux des expéditions plutôt que de juger l'amélioration sur une seule interaction.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quelle est la meilleure première amélioration dans BRASS HELL ?",
+    answer: "La vitesse de production est la priorité de départ la plus sûre lorsque la presse est le principal goulot d'étranglement. Si les matériaux ou la manutention des caisses provoquent des délais plus longs, corrigez plutôt ce goulot d'étranglement."
+  },
+  {
+    question: "Dois-je privilégier les revenus d'expédition ou les déblocages de munitions ?",
+    answer: "Privilégiez les revenus d'expédition lorsque vos munitions actuelles sont produites et livrées régulièrement. Choisissez les déblocages de munitions lorsque votre usine est prête à soutenir cette étape supplémentaire de progression."
+  },
+  {
+    question: "L'XP de maîtrise et la progression de rang utilisent-elles le même effet d'amélioration ?",
+    answer: "Elles doivent être considérées comme des systèmes de progression distincts. Consultez les descriptions actuelles en jeu au lieu de supposer que l'XP de maîtrise, la progression de rang et les avantages de production en masse se cumulent automatiquement."
+  },
+  {
+    question: "Les prix exacts des améliorations sont-ils confirmés dans ce guide ?",
+    answer: "Non. Les coûts exacts et les effets numériques doivent être vérifiés dans l'interface actuelle de l'atelier en 2026, car les informations disponibles ne fournissent pas une liste de prix complète et vérifiée."
+  }
+]} />
+
+Pour consulter la fiche actuelle du jeu et les descriptions disponibles des améliorations de l'atelier, utilisez la [page Roblox officielle de BRASS HELL](https://www.roblox.com/games/104347694974983) avant de prendre des décisions fondées sur d'anciennes captures d'écran ou des recommandations de la communauté.
+
+</Section>
