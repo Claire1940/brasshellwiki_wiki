@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "BRASS HELL Wiki - Codes, Upgrades & Beginner Guide",
+      "description": "Explore the BRASS HELL Wiki for beginner guides, ammo crafting, factory upgrades, shipment tips, hidden documents, game passes, codes and new Roblox updates.",
+      "keywords": "BRASS HELL, BRASS HELL wiki, Roblox, codes, upgrades, ammo, guide, documents, game passes",
+      "ogTitle": "BRASS HELL Wiki - Codes, Upgrades & Beginner Guide",
+      "ogDescription": "Explore the BRASS HELL Wiki for beginner guides, ammo crafting, factory upgrades, shipment tips, hidden documents, game passes, codes and new Roblox updates.",
+      "twitterTitle": "BRASS HELL Wiki - Codes, Upgrades & Beginner Guide",
+      "twitterDescription": "Explore the BRASS HELL Wiki for beginner guides, ammo crafting, factory upgrades, shipment tips, hidden documents, game passes, codes and new Roblox updates."
     }
   },
   "nav": {},
@@ -27,27 +27,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Incremental Factory Simulator",
+    "title": "BRASS HELL Wiki",
+    "description": "Work shifts in a mysterious snowbound ammunition factory. Craft rounds, fill crates, deliver shipments, unlock factory upgrades, earn mastery and discover hidden documents with up to four players.",
+    "keywords": "BRASS HELL, Roblox, incremental simulator, ammunition factory, upgrades, crafting, shipments, documents, mastery",
+    "getFreeCodesCTA": "Check Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "532K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "93.5%",
+        "label": "Positive Ratings"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "4",
+        "label": "Players Per Server"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "32K+",
+        "label": "Favorites"
       }
     }
   },
@@ -778,26 +779,23 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Play BRASS HELL?",
+    "description": "Jump into the snowbound ammunition factory on Roblox — craft rounds, fill crates, deliver shipments and uncover factory secrets with up to four players.",
+    "joinCommunity": "Play BRASS HELL on Roblox",
+    "joinGame": "Watch BRASS HELL Gameplay"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
-    "resources": "Resources",
+    "title": "BRASS HELL Wiki",
+    "description": "Your complete resource hub for BRASS HELL ammo crafting, factory upgrades, mastery, hidden documents, and Roblox guides.",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGame": "Roblox Game Page",
+    "youtubeGameplay": "YouTube Gameplay",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 BRASS HELL Wiki. Not affiliated with Roblox Corporation or the developers of BRASS HELL.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
